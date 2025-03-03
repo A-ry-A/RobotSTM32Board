@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BNO085")(type "KiCad")(uri "${KIPRJMOD}/BNO085")(options "")(descr ""))
+  (lib (name "Kicad-STM32")(type "KiCad")(uri "${KIPRJMOD}/Kicad-STM32")(options "")(descr "")(disabled))
+  (lib (name "Footprints")(type "KiCad")(uri "${KIPRJMOD}/Kicad-STM32/Footprints")(options "")(descr ""))
+  (lib (name "NUCLEO-F410RB")(type "KiCad")(uri "${KIPRJMOD}/NUCLEO-F410RB")(options "")(descr ""))
+  (lib (name "TB6612FNG")(type "KiCad")(uri "${KIPRJMOD}/TB6612FNG")(options "")(descr ""))
+)

@@ -1533,6 +1533,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Thermistor_NTC"
 			(pin_numbers hide)
 			(pin_names
@@ -2352,6 +2473,252 @@
 				)
 			)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 68.58 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e05753a-688d-45be-a776-48b42bb64ec2")
+	)
+	(junction
+		(at 24.13 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66f1c89b-1e73-4972-9141-41d68958b2d8")
+	)
+	(junction
+		(at 46.99 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6996caf0-0198-48f9-ac36-abf542b89fcc")
+	)
+	(junction
+		(at 46.99 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "941e2d31-c178-48ba-82aa-32c5f3cfea07")
+	)
+	(junction
+		(at 46.99 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e07a3943-9e62-4611-ba31-9465a6990116")
 	)
 	(polyline
 		(pts
@@ -2362,6 +2729,26 @@
 			(type default)
 		)
 		(uuid "058bb70a-bd82-468a-95ed-35bdfe9a3211")
+	)
+	(wire
+		(pts
+			(xy 46.99 144.78) (xy 46.99 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b9a872f-57a5-4860-9e7c-a687fff10864")
+	)
+	(wire
+		(pts
+			(xy 46.99 148.59) (xy 68.58 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2bbde3-f4c5-4c0a-ac6f-5cd011f4cc3e")
 	)
 	(polyline
 		(pts
@@ -2395,6 +2782,36 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 133.35) (xy 24.13 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc23091-8b0c-4a7e-8687-8519877f9135")
+	)
+	(wire
+		(pts
+			(xy 46.99 133.35) (xy 46.99 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d90413d-3ae8-4675-98a1-93308612dd0c")
+	)
+	(wire
+		(pts
+			(xy 24.13 120.65) (xy 46.99 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ee880cc-e533-4d87-9f9d-6288c12535cf")
+	)
+	(wire
+		(pts
 			(xy 105.41 102.87) (xy 105.41 134.62)
 		)
 		(stroke
@@ -2413,6 +2830,16 @@
 		)
 		(uuid "25fc3505-1ede-48b0-bb1b-c426cb932853")
 	)
+	(wire
+		(pts
+			(xy 46.99 113.03) (xy 46.99 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b240ce-75aa-468c-bbbf-3162e307d092")
+	)
 	(polyline
 		(pts
 			(xy 212.09 75.565) (xy 212.09 201.93)
@@ -2425,7 +2852,7 @@
 	)
 	(polyline
 		(pts
-			(xy 29.845 130.175) (xy 29.845 191.77)
+			(xy 13.335 132.715) (xy 13.335 188.595)
 		)
 		(stroke
 			(width 0)
@@ -2455,7 +2882,7 @@
 	)
 	(polyline
 		(pts
-			(xy 78.74 92.71) (xy 78.74 191.77)
+			(xy 78.105 100.965) (xy 78.105 188.595)
 		)
 		(stroke
 			(width 0)
@@ -2523,6 +2950,16 @@
 		)
 		(uuid "5210a025-dfa7-40bb-9b30-523413439797")
 	)
+	(wire
+		(pts
+			(xy 46.99 148.59) (xy 46.99 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5366bb11-7a04-4b10-8cd3-06719591dd9b")
+	)
 	(polyline
 		(pts
 			(xy 160.02 201.93) (xy 161.925 201.93)
@@ -2565,6 +3002,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 133.35) (xy 68.58 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bead59c-3b2f-4db2-8def-aaf77973ac29")
+	)
+	(wire
+		(pts
 			(xy 105.41 186.69) (xy 105.41 209.55)
 		)
 		(stroke
@@ -2582,6 +3029,26 @@
 			(type default)
 		)
 		(uuid "6cbc0156-65f5-4576-854b-09e153d814a2")
+	)
+	(wire
+		(pts
+			(xy 46.99 128.27) (xy 46.99 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76985c3c-0ae4-45ed-8187-67bd2f13309c")
+	)
+	(wire
+		(pts
+			(xy 60.96 133.35) (xy 68.58 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a918e79-287a-486a-86a8-8988cd13294e")
 	)
 	(polyline
 		(pts
@@ -2613,9 +3080,29 @@
 		)
 		(uuid "82002f62-6f3e-4e7f-8e2e-0de4c01fca92")
 	)
+	(wire
+		(pts
+			(xy 24.13 144.78) (xy 24.13 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83bf4299-7a09-4917-82d1-8e39163fc4ed")
+	)
+	(wire
+		(pts
+			(xy 24.13 128.27) (xy 24.13 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d07240a-a6b0-4598-9a61-2d9e39eab693")
+	)
 	(polyline
 		(pts
-			(xy 29.845 131.445) (xy 29.845 92.71)
+			(xy 13.335 133.985) (xy 13.335 100.965)
 		)
 		(stroke
 			(width 0)
@@ -2623,15 +3110,35 @@
 		)
 		(uuid "8ef358df-6b79-44e0-bbe3-c16fdf19bd66")
 	)
+	(wire
+		(pts
+			(xy 68.58 128.27) (xy 68.58 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9114e819-a3bb-4c18-8385-8548745ad715")
+	)
 	(polyline
 		(pts
-			(xy 29.845 92.71) (xy 78.74 92.71)
+			(xy 13.335 100.965) (xy 78.105 100.965)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "99ec454f-228a-4aae-9130-87bbbc1d8b75")
+	)
+	(wire
+		(pts
+			(xy 39.37 133.35) (xy 46.99 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0836f32-c1f1-41c1-b721-cdc4d6b170a5")
 	)
 	(wire
 		(pts
@@ -2673,6 +3180,16 @@
 		)
 		(uuid "c25e27ae-766a-4821-b719-8f4152904b35")
 	)
+	(wire
+		(pts
+			(xy 24.13 133.35) (xy 24.13 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c83f8014-8c2d-4a14-a41f-fda15fdf40f3")
+	)
 	(polyline
 		(pts
 			(xy 348.615 170.18) (xy 348.615 117.475)
@@ -2682,6 +3199,16 @@
 			(type default)
 		)
 		(uuid "cab11c73-8a67-484c-9a0e-56ad23d1e6d0")
+	)
+	(wire
+		(pts
+			(xy 46.99 120.65) (xy 68.58 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5ca16e-29b3-4109-9290-07b69fdd91ae")
 	)
 	(polyline
 		(pts
@@ -2713,9 +3240,29 @@
 		)
 		(uuid "d4f173d6-d729-4360-9b2a-f32bf01464f2")
 	)
+	(wire
+		(pts
+			(xy 24.13 148.59) (xy 46.99 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da1c6b98-8511-4b87-a63d-416a7f8d8370")
+	)
+	(wire
+		(pts
+			(xy 68.58 148.59) (xy 68.58 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df997ff1-ca90-4b2f-9a5b-f4f351af7ba3")
+	)
 	(polyline
 		(pts
-			(xy 78.74 191.77) (xy 29.845 191.77)
+			(xy 78.105 188.595) (xy 13.335 188.595)
 		)
 		(stroke
 			(width 0)
@@ -2755,7 +3302,7 @@
 	)
 	(text "Batteries"
 		(exclude_from_sim no)
-		(at 95.25 141.478 90)
+		(at 112.268 158.242 90)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -2773,12 +3320,12 @@
 		)
 		(uuid "2786b462-ecb5-474a-9789-9cfc5a20835c")
 	)
-	(text "Thermistors"
+	(text "Thermistors - Potential Divider\nWill be physically placed next\nto the cell\n0*C 32.5k Ohm -- 3V\n25*C 10k Ohm  -- 2.5V\n60*C 2.49k Ohm -- 1.45V"
 		(exclude_from_sim no)
-		(at 52.578 181.61 0)
+		(at 46.228 172.974 0)
 		(effects
 			(font
-				(size 3.81 3.81)
+				(size 2.54 2.54)
 			)
 		)
 		(uuid "48aec361-1d38-4cfc-8414-2973c90b4344")
@@ -2822,6 +3369,36 @@
 			)
 		)
 		(uuid "f212e5fb-4ecf-4a9c-94c5-9ac2e42270fc")
+	)
+	(label "ADC3_MCU"
+		(at 60.96 133.35 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left bottom)
+		)
+		(uuid "80ca6a81-7902-4738-ba1d-400d4d2b781f")
+	)
+	(label "ADC2_MCU"
+		(at 39.37 133.35 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left bottom)
+		)
+		(uuid "8651c9a1-9c30-4b53-88b9-9211c2e7e395")
+	)
+	(label "ADC1_MCU"
+		(at 16.51 133.35 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7fe71ff-1185-4a06-a2b8-373b4e3bd301")
 	)
 	(symbol
 		(lib_id "Battery_Management:MCP73833-xxx-MF")
@@ -3063,6 +3640,72 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 46.99 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54999ca7-52f9-4a55-b9fc-7cf1650b6e92")
+		(property "Reference" "#PWR01"
+			(at 46.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 46.99 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 46.99 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "876ee6fa-0ae8-4e3a-acfb-2445382e016e")
+		)
+		(instances
+			(project ""
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3320,6 +3963,282 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 68.58 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f70b7bd-2cf4-4ab2-8d6c-4d212a3ac5b3")
+		(property "Reference" "R1"
+			(at 71.12 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3k2"
+			(at 71.12 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.802 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 68.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67106000-84ef-4069-b179-4169e4dadd05")
+		)
+		(pin "2"
+			(uuid "7ba9731b-96cb-46f5-9a97-12071f7fc25e")
+		)
+		(instances
+			(project ""
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor_NTC")
+		(at 46.99 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8193dd68-b625-4d04-a261-57772cbc4cd2")
+		(property "Reference" "TH1"
+			(at 49.53 140.0174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K NTC"
+			(at 49.53 142.5574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+			(at 46.99 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a4f4982-64d3-44bc-a9ef-ee7a876263e7")
+		)
+		(pin "2"
+			(uuid "09819efe-e664-47d0-872c-a4b1f2df8f86")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
+					(reference "TH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cc2612c-cb3f-4c68-9764-bb1173c9d375")
+		(property "Reference" "#PWR02"
+			(at 46.99 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e01a89ba-c80a-4645-b185-4ad0030b3abb")
+		)
+		(instances
+			(project ""
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.99 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e83d70a-212a-43c1-a0b5-ccad43009183")
+		(property "Reference" "R2"
+			(at 49.53 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3k2"
+			(at 49.53 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.212 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5c26c48-2e94-4809-9711-7774567e83e8")
+		)
+		(pin "2"
+			(uuid "0e9ce388-c8b8-417e-bc37-2259d0006bd9")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Battery_Cell")
 		(at 105.41 184.15 0)
 		(unit 1)
@@ -3384,76 +4303,6 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
 					(reference "BT3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Thermistor_NTC")
-		(at 49.53 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95ef843a-15cb-4b4b-a163-83ffbcdb8d10")
-		(property "Reference" "TH2"
-			(at 52.07 132.3974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Thermistor_NTC"
-			(at 52.07 134.9374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 49.53 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f896e8d4-e0f6-4f8d-a6a7-e06dae12009e")
-		)
-		(pin "2"
-			(uuid "975d2978-62c4-4170-b819-9d218684a463")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
-					(reference "TH2")
 					(unit 1)
 				)
 			)
@@ -3699,6 +4548,76 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor_NTC")
+		(at 68.58 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d158cd08-0477-46c1-aad4-fc2ba9dea0b4")
+		(property "Reference" "TH2"
+			(at 71.12 140.0174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K NTC"
+			(at 71.12 142.5574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+			(at 68.58 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c93b4d7e-dfeb-43b5-ae4f-40d59598c84b")
+		)
+		(pin "2"
+			(uuid "eae8dbd5-b2e4-4a83-875f-8e21c50c8063")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
+					(reference "TH2")
 					(unit 1)
 				)
 			)
@@ -4070,7 +4989,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 49.53 104.14 0)
+		(at 24.13 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4079,7 +4998,7 @@
 		(fields_autoplaced yes)
 		(uuid "f252dfef-9a57-4d82-8e56-da2f9325b7cc")
 		(property "Reference" "TH3"
-			(at 52.07 103.1874 0)
+			(at 26.67 140.0174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4087,8 +5006,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Thermistor_NTC"
-			(at 52.07 105.7274 0)
+		(property "Value" "10K NTC"
+			(at 26.67 142.5574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4097,7 +5016,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 102.87 0)
+			(at 24.13 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4106,7 +5025,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 102.87 0)
+			(at 24.13 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,7 +5034,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 49.53 104.14 0)
+			(at 24.13 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4139,17 +5058,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Thermistor_NTC")
-		(at 49.53 165.1 0)
+		(lib_id "Device:R")
+		(at 24.13 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fe335f9e-8a8f-4324-ab20-ff8871b83a68")
-		(property "Reference" "TH1"
-			(at 52.07 164.1474 0)
+		(uuid "f7da52dc-4391-484a-bed7-3a83992d342d")
+		(property "Reference" "R3"
+			(at 26.67 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,8 +5076,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Thermistor_NTC"
-			(at 52.07 166.6874 0)
+		(property "Value" "3k2"
+			(at 26.67 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4167,7 +5086,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 163.83 0)
+			(at 22.352 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,7 +5095,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 163.83 0)
+			(at 24.13 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,8 +5103,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 49.53 165.1 0)
+		(property "Description" "Resistor"
+			(at 24.13 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,15 +5113,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8b4ab599-29d8-4314-b803-d87303624940")
+			(uuid "acd6e2a0-4040-40c7-b2ed-d1c86292dbd9")
 		)
 		(pin "2"
-			(uuid "e0c20d17-be35-4df5-aa68-9615d4265360")
+			(uuid "9609fb4a-eaf1-4288-8c3b-a39d447c77d8")
 		)
 		(instances
-			(project ""
+			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
-					(reference "TH1")
+					(reference "R3")
 					(unit 1)
 				)
 			)

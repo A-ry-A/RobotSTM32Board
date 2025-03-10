@@ -1,0 +1,16 @@
+.BQ34Z100PWR-R2 :1 ;Battery Management Multi-chemistry Impedance Track stand-alone fuel gauge
+SOP65P640X120-14N
+*STM IC
+*NGS
+*PLB 1="P2" 2="VEN" 3="P1" 4="BAT" 5="CE" 6="REGIN" 7="REG25" 8="VSS" 9="SRP" 10="SRN" 11="P6/TS" 12="P5/HDQ" 13="P4/SCL" 14="P3/SDA"
+*MXP 14
+*DFN BQ34Z100PWR-R2
+~!Mouser Part Number (595-BQ34Z100PWR-R2)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ34Z100PWR-R2?qs=rQFj71Wb1eWspkgmxcmVcA%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (BQ34Z100PWR-R2)
+~!Link Datasheet (https://www.arrow.com/en/products/bq34z100pwr-r2/texas-instruments?region=nac)
+~!Height (1.2mm)
+~!3D_Model (BQ34Z100PWR-R2)
+BQ34Z100PWR-R2
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 8.1!U 

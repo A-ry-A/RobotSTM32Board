@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STUSB4710AQTR
+D Super Speed PD Controller 5V/9V/12V/15V/18V/24V T/R 24-Pin QFN EP
+K
+F https://componentsearchengine.com/Datasheets/2/STUSB4710AQTR.pdf
+$ENDCMP
+#
+#End Doc Library

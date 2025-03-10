@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SIS413DN-T1-GE3
+D P-Ch PowerPAK1212 Cu 30V 9.4mohm@10V
+K
+F https://www.mouser.com/datasheet/2/427/sis413dn-254110.pdf
+$ENDCMP
+#
+#End Doc Library

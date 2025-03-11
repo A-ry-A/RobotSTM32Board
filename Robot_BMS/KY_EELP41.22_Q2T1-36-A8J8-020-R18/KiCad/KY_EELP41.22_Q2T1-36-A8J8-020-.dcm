@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP KY_EELP41.22_Q2T1-36-A8J8-020-R18
+D LED, InGaAlP, Yellow, SMD, 0603 [1608 Metric], 20 mA, 2 V, 589 nm
+K
+F https://look.ams-osram.com/m/5a0070c0ca8e7419/original/KY-EELP41-22.pdf
+$ENDCMP
+#
+#End Doc Library

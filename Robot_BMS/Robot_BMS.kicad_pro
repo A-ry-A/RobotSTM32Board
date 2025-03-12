@@ -615,6 +615,22 @@
     [
       "c0de399f-bcaa-40ff-9d4f-05779018e40a",
       "Charging Circuit"
+    ],
+    [
+      "ddc79d9c-dbaa-4c26-8116-aed3dbdb681b",
+      "Fuel Gauge"
+    ],
+    [
+      "c1bdabe1-a4b5-470d-80f8-90d5658c2a45",
+      "USB-C"
+    ],
+    [
+      "e8cba041-cae9-4c3d-bb1a-67e8763cb5b9",
+      "Battery"
+    ],
+    [
+      "f21d0d80-f932-4fe7-82f0-3490cb74f2de",
+      "To MCU"
     ]
   ],
   "text_variables": {}

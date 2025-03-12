@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "9cc83434-b728-4a7b-a019-6d8910bb0a14")
+	(uuid "2a2ac853-71ab-4f03-a43b-d803fad12eb0")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:R"
@@ -598,48 +598,38 @@
 		)
 	)
 	(junction
-		(at 151.13 111.76)
+		(at 166.37 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "32f0bc16-401c-4356-8e85-f2680f905fe2")
+		(uuid "09897965-5d60-4efa-96b8-6e27c342c1e2")
 	)
 	(junction
-		(at 106.68 111.76)
+		(at 132.08 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79393e86-cc6a-4f93-b94b-1db394331cc5")
+	)
+	(junction
+		(at 93.98 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88ade0d7-77b5-4ce0-bf0d-0153378a96fe")
 	)
 	(junction
-		(at 129.54 127)
+		(at 132.08 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b971896d-d507-4cbd-b785-d7aabd2da92f")
+		(uuid "be141023-bd71-4db7-8169-da2866bc04c6")
 	)
 	(junction
-		(at 129.54 111.76)
+		(at 132.08 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c7cf9c69-c505-40d1-a0d9-379822f2b3d7")
-	)
-	(junction
-		(at 129.54 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4d77267-36fc-430f-ac55-22f865956bad")
+		(uuid "beb4bf11-2e6b-45ac-ac51-a186e74e7786")
 	)
 	(wire
 		(pts
-			(xy 129.54 127) (xy 151.13 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05296340-d549-48a6-8b14-076ad1844f4b")
-	)
-	(wire
-		(pts
-			(xy 129.54 106.68) (xy 129.54 111.76)
+			(xy 132.08 106.68) (xy 132.08 111.76)
 		)
 		(stroke
 			(width 0)
@@ -649,7 +639,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 106.68) (xy 151.13 111.76)
+			(xy 166.37 106.68) (xy 166.37 111.76)
 		)
 		(stroke
 			(width 0)
@@ -659,7 +649,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 111.76) (xy 129.54 111.76)
+			(xy 116.84 111.76) (xy 132.08 111.76)
 		)
 		(stroke
 			(width 0)
@@ -669,17 +659,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 99.06) (xy 151.13 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1afae092-017c-40ba-a6e5-5af380421149")
-	)
-	(wire
-		(pts
-			(xy 106.68 99.06) (xy 129.54 99.06)
+			(xy 93.98 99.06) (xy 132.08 99.06)
 		)
 		(stroke
 			(width 0)
@@ -689,7 +669,17 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 91.44) (xy 129.54 99.06)
+			(xy 153.67 111.76) (xy 166.37 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bab43d6-309f-4e7d-99a3-67cf7e8ca3cf")
+	)
+	(wire
+		(pts
+			(xy 132.08 91.44) (xy 132.08 99.06)
 		)
 		(stroke
 			(width 0)
@@ -699,7 +689,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 127) (xy 151.13 123.19)
+			(xy 166.37 127) (xy 166.37 123.19)
 		)
 		(stroke
 			(width 0)
@@ -709,7 +699,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 111.76) (xy 106.68 115.57)
+			(xy 93.98 111.76) (xy 93.98 115.57)
 		)
 		(stroke
 			(width 0)
@@ -719,7 +709,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 111.76) (xy 151.13 115.57)
+			(xy 166.37 111.76) (xy 166.37 115.57)
 		)
 		(stroke
 			(width 0)
@@ -729,17 +719,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 111.76) (xy 151.13 111.76)
+			(xy 132.08 99.06) (xy 166.37 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96ea0233-7470-4c87-a512-ba892d8d49a1")
+		(uuid "8befaf3c-e4c0-44dd-af9c-d3548164fc7f")
 	)
 	(wire
 		(pts
-			(xy 129.54 111.76) (xy 129.54 115.57)
+			(xy 132.08 111.76) (xy 132.08 115.57)
 		)
 		(stroke
 			(width 0)
@@ -749,7 +739,17 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 123.19) (xy 129.54 127)
+			(xy 132.08 127) (xy 166.37 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa9c45e8-daab-4052-8a7e-7afafcfdd3c0")
+	)
+	(wire
+		(pts
+			(xy 132.08 123.19) (xy 132.08 127)
 		)
 		(stroke
 			(width 0)
@@ -759,7 +759,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 123.19) (xy 106.68 127)
+			(xy 93.98 123.19) (xy 93.98 127)
 		)
 		(stroke
 			(width 0)
@@ -769,7 +769,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 127) (xy 129.54 127)
+			(xy 93.98 127) (xy 132.08 127)
 		)
 		(stroke
 			(width 0)
@@ -779,7 +779,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 111.76) (xy 106.68 111.76)
+			(xy 81.28 111.76) (xy 93.98 111.76)
 		)
 		(stroke
 			(width 0)
@@ -789,7 +789,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 106.68) (xy 106.68 111.76)
+			(xy 93.98 106.68) (xy 93.98 111.76)
 		)
 		(stroke
 			(width 0)
@@ -799,7 +799,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 127) (xy 129.54 128.27)
+			(xy 132.08 127) (xy 132.08 128.27)
 		)
 		(stroke
 			(width 0)
@@ -807,21 +807,9 @@
 		)
 		(uuid "f29da31d-bd27-4631-8152-7e2e013ae8d0")
 	)
-	(rectangle
-		(start 96.52 83.185)
-		(end 222.885 132.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 4b12187e-252a-49e2-9c80-5c509635171c)
-	)
 	(text "Thermistors - Potential Divider\nWill be physically placed next\nto the cell\n0*C 32.5k Ohm -- 3V\n25*C 10k Ohm  -- 2.5V\n60*C 2.49k Ohm -- 1.45V"
 		(exclude_from_sim no)
-		(at 191.516 111.506 0)
+		(at 128.778 61.214 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -829,39 +817,42 @@
 		)
 		(uuid "4d21ab46-7593-4184-a720-86f798561331")
 	)
-	(label "ADC2_MCU"
-		(at 121.92 111.76 0)
+	(hierarchical_label "ADC1_MCU"
+		(shape output)
+		(at 81.28 111.76 180)
 		(effects
 			(font
-				(size 1.905 1.905)
+				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "35043f1e-4681-4c96-b82d-271dc69482b4")
+		(uuid "58777ef2-6b47-47d1-aff2-cbad24d0af24")
 	)
-	(label "ADC1_MCU"
-		(at 99.06 111.76 0)
+	(hierarchical_label "ADC3_MCU"
+		(shape output)
+		(at 153.67 111.76 180)
 		(effects
 			(font
-				(size 1.905 1.905)
+				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "6eba2907-1c2a-426f-ba97-7ea181338d0f")
+		(uuid "be6b9c2d-4c44-4acb-ab7a-3f7642a627ae")
 	)
-	(label "ADC3_MCU"
-		(at 143.51 111.76 0)
+	(hierarchical_label "ADC2_MCU"
+		(shape output)
+		(at 116.84 111.76 180)
 		(effects
 			(font
-				(size 1.905 1.905)
+				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "905100ab-8c38-46d1-b696-69d7f5d7fb1b")
+		(uuid "efe9f841-89cf-4f41-9141-9fbbab8c8800")
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 106.68 102.87 0)
+		(at 93.98 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -870,7 +861,7 @@
 		(fields_autoplaced yes)
 		(uuid "05f732b6-01bb-482b-bc15-54ada890165f")
 		(property "Reference" "R26"
-			(at 109.22 101.5999 0)
+			(at 96.52 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -879,7 +870,7 @@
 			)
 		)
 		(property "Value" "3k2"
-			(at 109.22 104.1399 0)
+			(at 96.52 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -888,7 +879,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.902 102.87 90)
+			(at 92.202 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -897,7 +888,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 102.87 0)
+			(at 93.98 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -906,7 +897,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 106.68 102.87 0)
+			(at 93.98 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -931,7 +922,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 151.13 102.87 0)
+		(at 166.37 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -940,7 +931,7 @@
 		(fields_autoplaced yes)
 		(uuid "126372ec-792d-45ec-96eb-3a3659e90112")
 		(property "Reference" "R28"
-			(at 153.67 101.5999 0)
+			(at 168.91 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -949,7 +940,7 @@
 			)
 		)
 		(property "Value" "3k2"
-			(at 153.67 104.1399 0)
+			(at 168.91 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -958,7 +949,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.352 102.87 90)
+			(at 164.592 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -967,7 +958,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 102.87 0)
+			(at 166.37 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -976,7 +967,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 151.13 102.87 0)
+			(at 166.37 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1001,7 +992,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 106.68 119.38 0)
+		(at 93.98 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1010,7 +1001,7 @@
 		(fields_autoplaced yes)
 		(uuid "43faa1a9-71b7-48a2-bfcf-b8e2b1f7b78b")
 		(property "Reference" "TH4"
-			(at 109.22 118.4274 0)
+			(at 96.52 118.4274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1019,7 +1010,7 @@
 			)
 		)
 		(property "Value" "10K NTC"
-			(at 109.22 120.9674 0)
+			(at 96.52 120.9674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1028,7 +1019,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 118.11 0)
+			(at 93.98 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1037,7 +1028,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 118.11 0)
+			(at 93.98 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1046,7 +1037,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 106.68 119.38 0)
+			(at 93.98 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1071,7 +1062,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 129.54 102.87 0)
+		(at 132.08 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1080,7 +1071,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d5f1b12-3e7d-4a59-bdcd-98a80b58cdd1")
 		(property "Reference" "R27"
-			(at 132.08 101.5999 0)
+			(at 134.62 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1089,7 +1080,7 @@
 			)
 		)
 		(property "Value" "3k2"
-			(at 132.08 104.1399 0)
+			(at 134.62 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1098,7 +1089,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127.762 102.87 90)
+			(at 130.302 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1107,7 +1098,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 102.87 0)
+			(at 132.08 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1116,7 +1107,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 129.54 102.87 0)
+			(at 132.08 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1141,7 +1132,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 128.27 0)
+		(at 132.08 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1149,7 +1140,7 @@
 		(dnp no)
 		(uuid "ab9625b1-b5aa-4300-ab69-89f1982866bb")
 		(property "Reference" "#PWR010"
-			(at 129.54 134.62 0)
+			(at 132.08 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1158,7 +1149,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.112 129.286 0)
+			(at 136.652 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1166,7 +1157,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 128.27 0)
+			(at 132.08 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,7 +1166,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 128.27 0)
+			(at 132.08 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1184,7 +1175,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 128.27 0)
+			(at 132.08 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1206,7 +1197,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 129.54 91.44 0)
+		(at 132.08 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1215,7 +1206,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6f981c5-4a87-4632-b8da-c430af19597a")
 		(property "Reference" "#PWR09"
-			(at 129.54 95.25 0)
+			(at 132.08 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1224,7 +1215,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 129.54 86.36 0)
+			(at 132.08 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,7 +1223,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 91.44 0)
+			(at 132.08 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1241,7 +1232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 91.44 0)
+			(at 132.08 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1250,7 +1241,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 129.54 91.44 0)
+			(at 132.08 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1272,7 +1263,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 151.13 119.38 0)
+		(at 166.37 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1281,7 +1272,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2cb2cfc-e012-41c0-9991-a30b2f3d7a2e")
 		(property "Reference" "TH6"
-			(at 153.67 118.4274 0)
+			(at 168.91 118.4274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1290,7 +1281,7 @@
 			)
 		)
 		(property "Value" "10K NTC"
-			(at 153.67 120.9674 0)
+			(at 168.91 120.9674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1299,7 +1290,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 118.11 0)
+			(at 166.37 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1308,7 +1299,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 118.11 0)
+			(at 166.37 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,7 +1308,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 151.13 119.38 0)
+			(at 166.37 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1342,7 +1333,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 129.54 119.38 0)
+		(at 132.08 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1351,7 +1342,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8819934-5d75-4b65-964a-660f57ae130d")
 		(property "Reference" "TH5"
-			(at 132.08 118.4274 0)
+			(at 134.62 118.4274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1360,7 +1351,7 @@
 			)
 		)
 		(property "Value" "10K NTC"
-			(at 132.08 120.9674 0)
+			(at 134.62 120.9674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1369,7 +1360,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 118.11 0)
+			(at 132.08 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1378,7 +1369,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 118.11 0)
+			(at 132.08 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1387,7 +1378,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 129.54 119.38 0)
+			(at 132.08 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)

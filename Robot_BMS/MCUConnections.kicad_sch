@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2cf1e7b4-7b71-4419-9b8b-f707031f7270")
+	(paper "A4")
+	(lib_symbols)
+	(text "A connector that can interface with pin header\n"
+		(exclude_from_sim no)
+		(at 179.07 88.138 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "79a88713-dc70-4056-9b1b-f4b29c0e5faf")
+	)
+)

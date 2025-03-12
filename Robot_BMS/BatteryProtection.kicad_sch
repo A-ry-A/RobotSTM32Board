@@ -1,0 +1,3820 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d110d951-1bb5-4efa-96cb-a8e1a243e003")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Battery_Management:BQ297xy"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BQ297xy"
+				(at 5.08 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SON:WSON-6_1.5x1.5mm_P0.5mm"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/bq2970.pdf"
+				(at -6.35 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Voltage and Current Protection for Single-Cell Li-Ion and Li-Polymer Batteries"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "protection Li-Ion Li-Pol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "WSON*1.5x1.5mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BQ297xy_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "BQ297xy_1_1"
+				(pin no_connect line
+					(at 7.62 0 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "Cout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "Dout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "BAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SIS413DN-T1-GE3:SIS413DN-T1-GE3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SIS413DN-T1-GE3"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SIS862DNT1GE3"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/427/sis413dn-254110.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "P-Ch PowerPAK1212 Cu 30V 9.4mohm@10V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SIS413DN-T1-GE3"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "78-SIS413DN-T1-GE3"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SIS413DN-T1-GE3?qs=vgn07B5hXav8x6TX%252BtAIoQ%3D%3D"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "SIS413DN-T1-GE3"
+				(at 21.59 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sis413dn-t1-ge3/vishay?region=nac"
+				(at 21.59 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SIS413DN-T1-GE3_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "S_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "S_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "S_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "D_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "D_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "D_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "D_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 67.31 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04cc6c6e-129d-4364-b03c-421a5fc74563")
+	)
+	(junction
+		(at 62.23 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a0c856a-9d03-4c2c-b248-b72c38efe407")
+	)
+	(junction
+		(at 82.55 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cadfc15-6de2-4b88-8401-3c3991975532")
+	)
+	(junction
+		(at 80.01 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2674fa67-9340-493c-89e1-6a0cbd47abfc")
+	)
+	(junction
+		(at 59.69 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "299e9d1c-b04e-425a-9455-8cd857dce7c9")
+	)
+	(junction
+		(at 62.23 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fbb19e4-010c-40af-b252-a042e2205484")
+	)
+	(junction
+		(at 59.69 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b62c314-bc64-40d3-bcca-3cbeba05b547")
+	)
+	(junction
+		(at 87.63 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b8907e6-6840-49b2-b72f-5cac03ee09eb")
+	)
+	(junction
+		(at 62.23 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4107b159-b0c5-4499-8cb5-6f725c0cec71")
+	)
+	(junction
+		(at 64.77 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42f61cec-0a18-460b-8045-bbdb099ee99e")
+	)
+	(junction
+		(at 82.55 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45f44718-7ec6-4a40-aa5d-49445e637ace")
+	)
+	(junction
+		(at 60.96 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46b31707-e837-4175-9c93-9a34cce5a923")
+	)
+	(junction
+		(at 66.04 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a15ffe5-1b6e-4434-b09c-63a5273455ee")
+	)
+	(junction
+		(at 64.77 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b09bb8a-e7ce-429f-b28c-41f6f2bee850")
+	)
+	(junction
+		(at 67.31 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51c2e526-a048-4dac-811a-b5750098df0e")
+	)
+	(junction
+		(at 115.57 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59783c3e-fe1f-4479-b161-ef7410572ad8")
+	)
+	(junction
+		(at 81.28 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67eb1849-872a-4965-8535-011ff4bae6c4")
+	)
+	(junction
+		(at 123.19 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69bddfc9-80a0-48b4-bfd2-b84b81e42768")
+	)
+	(junction
+		(at 124.46 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73b422f7-2398-458c-ac62-2388c72fe759")
+	)
+	(junction
+		(at 105.41 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d01a7d8-7697-45b1-8fb9-bf81bc7b1da9")
+	)
+	(junction
+		(at 85.09 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e9cba87-58af-463b-ac71-0e97f1b08a6f")
+	)
+	(junction
+		(at 87.63 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ddfc0c2-e463-4180-908a-a455855d6e5f")
+	)
+	(junction
+		(at 81.28 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91ae8e95-8c2b-4066-8667-e36a82658004")
+	)
+	(junction
+		(at 124.46 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99f77727-4093-4c59-ba7a-5cd448a7ab83")
+	)
+	(junction
+		(at 78.74 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ba3a7e5-99a3-4105-9773-a306666571cd")
+	)
+	(junction
+		(at 82.55 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d44188b-7691-47ad-afa1-c30414774b0d")
+	)
+	(junction
+		(at 86.36 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aca9c2c6-f431-44c1-be9f-d0b2ac9bf23e")
+	)
+	(junction
+		(at 85.09 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b28fcd1f-cd5a-4e24-ab43-6d5799186ad9")
+	)
+	(junction
+		(at 80.01 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7fa503c-3185-4f3d-bc9a-02e41808bcc0")
+	)
+	(junction
+		(at 114.3 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb737f08-b721-40ae-8709-f67e260ebcb3")
+	)
+	(junction
+		(at 115.57 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd456bf9-5880-4bc8-bceb-3540b0ffde34")
+	)
+	(junction
+		(at 83.82 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ceef0294-1c60-411f-b69e-5eb10c792331")
+	)
+	(junction
+		(at 62.23 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8953e2c-a61a-42dc-b25e-2a283aae85da")
+	)
+	(junction
+		(at 63.5 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e079048b-03d0-4afb-9bf1-138572c40a31")
+	)
+	(junction
+		(at 105.41 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea661294-e780-42cf-b968-44aeaa9ee88f")
+	)
+	(junction
+		(at 82.55 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edbe2d3b-f3c9-4905-adad-1c030f33d034")
+	)
+	(junction
+		(at 58.42 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1539071-2fbc-4c90-a04b-fe5dd94ddc17")
+	)
+	(junction
+		(at 104.14 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4a052df-30fb-4176-a881-dc1a17f236fe")
+	)
+	(junction
+		(at 60.96 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdd802e7-a620-468e-8625-372be60d95da")
+	)
+	(wire
+		(pts
+			(xy 81.28 48.26) (xy 83.82 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03deb6f6-cb48-408c-a7b2-24f3439fc756")
+	)
+	(wire
+		(pts
+			(xy 64.77 127) (xy 62.23 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0507e77c-ea1f-47b0-b856-63fcf6f7795b")
+	)
+	(wire
+		(pts
+			(xy 124.46 127) (xy 115.57 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0512cbef-0666-47d9-b05d-b440554368ff")
+	)
+	(wire
+		(pts
+			(xy 58.42 48.26) (xy 60.96 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09edebee-eeac-4095-a474-00f41ca19a4d")
+	)
+	(wire
+		(pts
+			(xy 78.74 48.26) (xy 81.28 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc21056-06af-40cd-b4ba-da32c007b24e")
+	)
+	(wire
+		(pts
+			(xy 78.74 73.66) (xy 81.28 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f313b09-f392-4407-917c-668d81b1f0b4")
+	)
+	(wire
+		(pts
+			(xy 105.41 181.61) (xy 115.57 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a6ef9e-bc14-484d-ad26-bed8bc0f4a9b")
+	)
+	(wire
+		(pts
+			(xy 52.07 58.42) (xy 39.37 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "149b81d9-d828-4d98-b061-e9bdb924f447")
+	)
+	(wire
+		(pts
+			(xy 83.82 73.66) (xy 86.36 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18542207-7e06-4dff-b979-690e1bc5a3ec")
+	)
+	(wire
+		(pts
+			(xy 58.42 48.26) (xy 52.07 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a336a05-d3c3-4b8b-b7b7-f814c2046656")
+	)
+	(wire
+		(pts
+			(xy 72.39 96.52) (xy 72.39 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ad6bd48-d232-4e1d-b2d3-2976dbd1ab32")
+	)
+	(wire
+		(pts
+			(xy 93.98 43.18) (xy 71.12 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d73631a-240a-40f0-b178-dc2571524148")
+	)
+	(wire
+		(pts
+			(xy 115.57 156.21) (xy 115.57 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20140654-bee7-416a-afa7-8222e54a7db2")
+	)
+	(wire
+		(pts
+			(xy 82.55 127) (xy 85.09 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237a6a45-f61a-41b6-aff4-bc47a64b9708")
+	)
+	(wire
+		(pts
+			(xy 85.09 127) (xy 87.63 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2683f6ff-c498-4f2a-afbb-d0a7a580a825")
+	)
+	(wire
+		(pts
+			(xy 123.19 29.21) (xy 123.19 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3110242c-cc80-4f6b-98de-350459074420")
+	)
+	(wire
+		(pts
+			(xy 64.77 181.61) (xy 62.23 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32952641-3e18-4d52-89a9-30f05e3aec79")
+	)
+	(wire
+		(pts
+			(xy 123.19 43.18) (xy 114.3 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38c3b5c2-d5ea-4626-a257-c8ba222872d1")
+	)
+	(wire
+		(pts
+			(xy 124.46 137.16) (xy 124.46 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f83a74d-551b-4967-9ddf-9e49c488ad0f")
+	)
+	(wire
+		(pts
+			(xy 115.57 101.6) (xy 115.57 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b7b6a0-ff34-4b0d-8fe3-b46f2138ea36")
+	)
+	(wire
+		(pts
+			(xy 71.12 43.18) (xy 71.12 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "412a9a44-137f-4c5f-a23c-cf11f1559148")
+	)
+	(wire
+		(pts
+			(xy 123.19 73.66) (xy 114.3 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "499380d4-e520-41fa-a114-2f988cc05396")
+	)
+	(wire
+		(pts
+			(xy 114.3 48.26) (xy 114.3 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a5b843a-a0a9-45c4-a393-657cf767a131")
+	)
+	(wire
+		(pts
+			(xy 71.12 48.26) (xy 66.04 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bf13814-4c59-4a48-9d7d-e4697f919ccf")
+	)
+	(wire
+		(pts
+			(xy 73.66 48.26) (xy 73.66 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc286dd-0321-4409-b6fe-0bd62b1f74f9")
+	)
+	(wire
+		(pts
+			(xy 67.31 181.61) (xy 64.77 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc68c19-cbc8-4417-94d5-364dcb02744e")
+	)
+	(wire
+		(pts
+			(xy 95.25 96.52) (xy 72.39 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54332d4e-9189-4b56-b72d-15c132926feb")
+	)
+	(wire
+		(pts
+			(xy 87.63 101.6) (xy 95.25 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579cd552-2d25-4f80-b811-d24e6ea56d8b")
+	)
+	(wire
+		(pts
+			(xy 82.55 101.6) (xy 85.09 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a972ea0-20f9-4d97-9d15-a6f60b551bbc")
+	)
+	(wire
+		(pts
+			(xy 74.93 156.21) (xy 74.93 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d372dbf-7911-4fc8-b530-cb6ad1f73c23")
+	)
+	(wire
+		(pts
+			(xy 124.46 181.61) (xy 115.57 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d8d1680-4061-4574-92c7-f20b703d44da")
+	)
+	(wire
+		(pts
+			(xy 67.31 127) (xy 64.77 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ff79d66-aefb-436b-9488-c390d458cd9a")
+	)
+	(wire
+		(pts
+			(xy 124.46 96.52) (xy 124.46 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6005c439-62a2-4a86-b2ec-9c87bef86c66")
+	)
+	(wire
+		(pts
+			(xy 124.46 151.13) (xy 115.57 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "604c7ae9-3577-4160-a6d8-56424e6fb4fc")
+	)
+	(wire
+		(pts
+			(xy 105.41 161.29) (xy 105.41 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60f1f17e-4da0-4dc0-b96d-a6f8b98e5033")
+	)
+	(wire
+		(pts
+			(xy 66.04 73.66) (xy 63.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6341fcab-cbc0-41b7-a5d5-62536942d8b9")
+	)
+	(wire
+		(pts
+			(xy 124.46 82.55) (xy 124.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659fe544-cdf8-4250-af7b-d19fc688f487")
+	)
+	(wire
+		(pts
+			(xy 86.36 48.26) (xy 93.98 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ae20a1-9059-42d8-9572-db2ffa7cfa8e")
+	)
+	(wire
+		(pts
+			(xy 82.55 181.61) (xy 85.09 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66f22173-078a-40f9-b52e-8238a5fea7db")
+	)
+	(wire
+		(pts
+			(xy 72.39 156.21) (xy 67.31 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6917bc6d-6534-452c-a1b7-5ab54c021618")
+	)
+	(wire
+		(pts
+			(xy 53.34 166.37) (xy 40.64 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69750e24-f09a-43c7-9837-6791135ef322")
+	)
+	(wire
+		(pts
+			(xy 80.01 101.6) (xy 82.55 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cdd1519-1ba0-46d8-9db3-701eed412e92")
+	)
+	(wire
+		(pts
+			(xy 53.34 156.21) (xy 53.34 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de8ea18-28cb-44ab-9972-4cd42a73633a")
+	)
+	(wire
+		(pts
+			(xy 78.74 48.26) (xy 73.66 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ee8205c-e636-4ca7-bac6-10ee2c398c18")
+	)
+	(wire
+		(pts
+			(xy 123.19 54.61) (xy 123.19 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72a77416-f3ca-4646-9c2b-1ce17ed1a1ba")
+	)
+	(wire
+		(pts
+			(xy 74.93 127) (xy 67.31 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74ac8d06-5c0e-4247-ab10-63743e758b14")
+	)
+	(wire
+		(pts
+			(xy 60.96 48.26) (xy 63.5 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d425cf6-22ab-4e2d-a171-04749a1a5c3a")
+	)
+	(wire
+		(pts
+			(xy 53.34 101.6) (xy 53.34 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d4f4dc2-3f33-47f5-8597-a8b20597436c")
+	)
+	(wire
+		(pts
+			(xy 73.66 73.66) (xy 66.04 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dec9f88-d653-4c0a-897c-71db43000aec")
+	)
+	(wire
+		(pts
+			(xy 62.23 101.6) (xy 64.77 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e42dd32-96cf-4330-8190-2074ddcaaa61")
+	)
+	(wire
+		(pts
+			(xy 124.46 151.13) (xy 124.46 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fea86d1-0019-4606-ad66-7a38f249303f")
+	)
+	(wire
+		(pts
+			(xy 53.34 111.76) (xy 40.64 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c85a0a-4889-4ca8-b9ac-c130f41c1027")
+	)
+	(wire
+		(pts
+			(xy 124.46 96.52) (xy 115.57 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8813da41-43d5-4975-b0db-151072a9e8d1")
+	)
+	(wire
+		(pts
+			(xy 80.01 127) (xy 82.55 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a2c59b-4924-40e3-82f4-f01a1b3e303e")
+	)
+	(wire
+		(pts
+			(xy 59.69 101.6) (xy 62.23 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94177614-05fb-446e-9982-2f4ed6ad6049")
+	)
+	(wire
+		(pts
+			(xy 62.23 127) (xy 59.69 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b48d1a-4218-420a-b6f6-e73616f585c5")
+	)
+	(wire
+		(pts
+			(xy 74.93 181.61) (xy 67.31 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c76147-438f-4c2a-9061-46ed88b509f8")
+	)
+	(wire
+		(pts
+			(xy 104.14 73.66) (xy 114.3 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a649ab4-4eea-4465-bd64-9818bfc3a2cf")
+	)
+	(wire
+		(pts
+			(xy 114.3 62.23) (xy 114.3 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b0d67f3-1ee0-465e-898c-a7ea25a5a26f")
+	)
+	(wire
+		(pts
+			(xy 85.09 181.61) (xy 87.63 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc7cf68-f8a5-4c1b-86cc-09a3b3a8b5bb")
+	)
+	(wire
+		(pts
+			(xy 72.39 151.13) (xy 72.39 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a380be76-d96a-4ab9-b243-6622661f24b3")
+	)
+	(wire
+		(pts
+			(xy 104.14 53.34) (xy 104.14 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a422a868-a5e3-4ff8-beab-3b21fc1a85ac")
+	)
+	(wire
+		(pts
+			(xy 59.69 156.21) (xy 53.34 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6cfd3e6-20c2-44c1-9c2c-cfc9f48baf03")
+	)
+	(wire
+		(pts
+			(xy 115.57 170.18) (xy 115.57 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f06927-42bc-4e01-a4bc-8e3815b9a80a")
+	)
+	(wire
+		(pts
+			(xy 124.46 149.86) (xy 124.46 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aad939cc-0124-449c-a2c7-34cb125f4e46")
+	)
+	(wire
+		(pts
+			(xy 87.63 181.61) (xy 105.41 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad02c967-04d1-4b31-b0d1-c8754b659352")
+	)
+	(wire
+		(pts
+			(xy 105.41 106.68) (xy 105.41 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1918b36-ced6-4a33-9d32-8651bef177e8")
+	)
+	(wire
+		(pts
+			(xy 80.01 181.61) (xy 82.55 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1cd8e79-3966-4d0b-b3f3-5c58e0aa936a")
+	)
+	(wire
+		(pts
+			(xy 59.69 156.21) (xy 62.23 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b258f999-4df2-4ca1-bf92-efb27ea9b2c0")
+	)
+	(wire
+		(pts
+			(xy 52.07 48.26) (xy 52.07 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b26bd158-0cb7-43f4-9715-812730f479c9")
+	)
+	(wire
+		(pts
+			(xy 80.01 101.6) (xy 74.93 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b328b700-67f3-4081-9eec-547df5d8b616")
+	)
+	(wire
+		(pts
+			(xy 82.55 156.21) (xy 85.09 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3571744-8908-4717-9358-7e1462d461e3")
+	)
+	(wire
+		(pts
+			(xy 124.46 162.56) (xy 124.46 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5bfb95d-45bf-4d28-b94b-c6a27e5534a6")
+	)
+	(wire
+		(pts
+			(xy 115.57 115.57) (xy 115.57 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf2ad722-6f09-41a4-89ba-cb8138d5a9d5")
+	)
+	(wire
+		(pts
+			(xy 39.37 29.21) (xy 123.19 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f3b246-89db-4a2a-9da1-326c06c821a2")
+	)
+	(wire
+		(pts
+			(xy 86.36 73.66) (xy 104.14 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c343a226-2bc5-439b-a2fb-3a7745cef6ce")
+	)
+	(wire
+		(pts
+			(xy 62.23 156.21) (xy 64.77 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3713f7c-762d-41e8-8468-127df903e197")
+	)
+	(wire
+		(pts
+			(xy 40.64 137.16) (xy 124.46 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf020276-2b98-4a24-82ef-0f28be616b43")
+	)
+	(wire
+		(pts
+			(xy 74.93 101.6) (xy 74.93 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf9a8792-a445-4830-a5b1-6dc7f7068c20")
+	)
+	(wire
+		(pts
+			(xy 124.46 95.25) (xy 124.46 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e5e102-db5a-4233-991f-34cd45ed4089")
+	)
+	(wire
+		(pts
+			(xy 95.25 151.13) (xy 72.39 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5235c07-dccb-47f0-bc15-d8ed02d1fbb9")
+	)
+	(wire
+		(pts
+			(xy 62.23 181.61) (xy 59.69 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6fb71d8-88d4-4085-9b8f-3fb162002cf5")
+	)
+	(wire
+		(pts
+			(xy 87.63 127) (xy 105.41 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dad7c967-2460-4def-a886-d852eb2918c5")
+	)
+	(wire
+		(pts
+			(xy 80.01 156.21) (xy 82.55 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e212a282-2524-427b-8981-0bd15871acac")
+	)
+	(wire
+		(pts
+			(xy 87.63 156.21) (xy 95.25 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e46c4f55-e05a-4630-90ec-3ac9df29dd8b")
+	)
+	(wire
+		(pts
+			(xy 59.69 101.6) (xy 53.34 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e80ef907-752f-45a1-b7aa-65ee13400d64")
+	)
+	(wire
+		(pts
+			(xy 123.19 41.91) (xy 123.19 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d8f484-5ad2-4099-9749-c644f56a0efc")
+	)
+	(wire
+		(pts
+			(xy 81.28 73.66) (xy 83.82 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9249476-ebdf-46cb-92cd-3410a437f062")
+	)
+	(wire
+		(pts
+			(xy 124.46 107.95) (xy 124.46 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb21bee-2027-4ee8-8cfb-623c46eba248")
+	)
+	(wire
+		(pts
+			(xy 105.41 127) (xy 115.57 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eff178a0-2b83-4946-b10e-cc0f1cfafeda")
+	)
+	(wire
+		(pts
+			(xy 80.01 156.21) (xy 74.93 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05d3358-b50b-4648-a067-8c8bc253f2ae")
+	)
+	(wire
+		(pts
+			(xy 40.64 82.55) (xy 124.46 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2ed1234-624e-4604-8c1f-83fb0193e236")
+	)
+	(wire
+		(pts
+			(xy 72.39 101.6) (xy 67.31 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8331b6f-78a5-4784-bb8e-7d11d824a5a0")
+	)
+	(wire
+		(pts
+			(xy 60.96 73.66) (xy 58.42 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f942568a-a3ab-4e74-bdc9-5d8f4d2101dd")
+	)
+	(wire
+		(pts
+			(xy 63.5 73.66) (xy 60.96 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffac02d5-0ca8-4159-8757-5797c2802920")
+	)
+	(wire
+		(pts
+			(xy 123.19 43.18) (xy 123.19 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc1e2ad-fbdb-4562-9428-79f792be025c")
+	)
+	(text "2 N CHANNEL FETs have max Id of 22A, Rds of 5 milli_Ohms typical, Vgs of 1V"
+		(exclude_from_sim no)
+		(at 86.614 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3da1f7ac-fe7f-409b-b3fc-84cc0865b17b")
+	)
+	(text "2 N CHANNEL FETs have max Id of 22A, Rds of 5 milli_Ohms typical, Vgs of 1V"
+		(exclude_from_sim no)
+		(at 86.614 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b8baf886-0535-49cb-a5b8-28b43b162568")
+	)
+	(text "2 N CHANNEL FETs have max Id of 22A, Rds of 5 milli_Ohms typical, Vgs of 1V"
+		(exclude_from_sim no)
+		(at 85.344 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cf08baab-ffe2-4151-96fe-35e7b0e258ec")
+	)
+	(text "Battery Protection"
+		(exclude_from_sim no)
+		(at 226.314 94.742 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "d8a8c2bd-8378-48fe-8222-95802987a1d7")
+	)
+	(text "The drain current & Rds of the FET determines, charging and discharging current\nCharging Current is 1A Max Discharging Current limit is 10A\n100mV / Current Limit(10A) = Rds\n100mV/ 10A = 10 milli_ohms\nFrom Datasheet ^"
+		(exclude_from_sim no)
+		(at 222.25 150.114 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "eee495c6-7082-4a72-a97e-77b00337f5c3")
+	)
+	(symbol
+		(lib_id "SIS413DN-T1-GE3:SIS413DN-T1-GE3")
+		(at 80.01 101.6 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f05e371-63d1-4b32-821b-930b4334ca5c")
+		(property "Reference" "Q13"
+			(at 86.36 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SIS413DN-T1-GE3"
+			(at 91.694 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SIS862DNT1GE3"
+			(at 174.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/427/sis413dn-254110.pdf"
+			(at 274.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-Ch PowerPAK1212 Cu 30V 9.4mohm@10V"
+			(at 80.01 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 474.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 574.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SIS413DN-T1-GE3"
+			(at 674.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-SIS413DN-T1-GE3"
+			(at 774.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SIS413DN-T1-GE3?qs=vgn07B5hXav8x6TX%252BtAIoQ%3D%3D"
+			(at 874.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SIS413DN-T1-GE3"
+			(at 974.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sis413dn-t1-ge3/vishay?region=nac"
+			(at 1074.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ff397328-6bfc-4d35-a835-e2133e64bca0")
+		)
+		(pin "6"
+			(uuid "21db4a1c-db8c-4634-8d2d-c8b735e73dae")
+		)
+		(pin "7"
+			(uuid "4a0ff16f-eb30-4b4c-8c52-5e4855fbde2d")
+		)
+		(pin "1"
+			(uuid "dee62454-3202-47bd-8fbe-004e002e19f7")
+		)
+		(pin "8"
+			(uuid "133bb84f-bc61-4efa-8895-fa9f70772ec2")
+		)
+		(pin "2"
+			(uuid "a61f82c8-26e5-4257-bbc6-e7082b7a9af9")
+		)
+		(pin "3"
+			(uuid "0a5e7080-b16b-4128-b78f-2a3f3bf8a7e3")
+		)
+		(pin "4"
+			(uuid "624b51d0-6486-4893-9852-451a1de7ec3e")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ba86123e-f6d5-4f01-be08-e30873977d47"
+					(reference "Q13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battery_Management:BQ297xy")
+		(at 105.41 153.67 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39ac5b98-a624-44b6-b301-f9133a86163b")
+		(property "Reference" "U9"
+			(at 105.41 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BQ297xy"
+			(at 105.41 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SON:WSON-6_1.5x1.5mm_P0.5mm"
+			(at 105.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/bq2970.pdf"
+			(at 111.76 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage and Current Protection for Single-Cell Li-Ion and Li-Polymer Batteries"
+			(at 105.41 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90320829-d276-4ba8-b090-9aa80a090966")
+		)
+		(pin "3"
+			(uuid "3c9374d7-8714-4e5a-b344-873a3e3b2d7b")
+		)
+		(pin "5"
+			(uuid "825cfa25-898f-421e-a380-e6d54849d16c")
+		)
+		(pin "2"
+			(uuid "98743133-a9ab-4b3f-a32c-699e69909ddc")
+		)
+		(pin "6"
+			(uuid "db200d27-129f-4011-8d05-129b6e33d389")
+		)
+		(pin "4"
+			(uuid "584fc5c8-6fc8-47dd-95d8-d4743d18851e")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ba86123e-f6d5-4f01-be08-e30873977d47"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 114.3 58.42 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44ae851e-c20d-4e3f-9332-ba245d3837c6")
+		(property "Reference" "R1"
+			(at 111.76 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2k2"
+			(at 111.76 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 112.522 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73dc48af-d339-47d5-b4d2-5ac49ca719f1")
+		)
+		(pin "2"
+			(uuid "5f36e7fd-9f58-4b7a-b253-5ca31f100759")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ba86123e-f6d5-4f01-be08-e30873977d47"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 123.19 38.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57dc3c8a-df9a-48f5-b990-0e7eb6215792")
+		(property "Reference" "R2"
+			(at 120.65 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 120.65 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.968 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 123.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "905fe54b-c1e2-4b51-95ec-caac37c75348")
+		)
+		(pin "2"
+			(uuid "d740295c-afd3-4751-bdb2-f77640d0e1e5")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ba86123e-f6d5-4f01-be08-e30873977d47"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SIS413DN-T1-GE3:SIS413DN-T1-GE3")
+		(at 59.69 156.21 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6548f624-9f7c-4b39-81bd-fd866cf88560")
+		(property "Reference" "Q14"
+			(at 66.04 150.368 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SIS413DN-T1-GE3"
+			(at 71.374 153.416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SIS862DNT1GE3"
+			(at 154.61 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/427/sis413dn-254110.pdf"
+			(at 254.61 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-Ch PowerPAK1212 Cu 30V 9.4mohm@10V"
+			(at 59.69 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 454.61 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 554.61 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SIS413DN-T1-GE3"
+			(at 654.61 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-SIS413DN-T1-GE3"
+			(at 754.61 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SIS413DN-T1-GE3?qs=vgn07B5hXav8x6TX%252BtAIoQ%3D%3D"
+			(at 854.61 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SIS413DN-T1-GE3"
+			(at 954.61 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sis413dn-t1-ge3/vishay?region=nac"
+			(at 1054.61 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "a92bd9f8-48cb-4906-b584-38d06956827a")
+		)
+		(pin "6"
+			(uuid "1a45334a-39d3-48f1-9e7d-126984a82d35")
+		)
+		(pin "7"
+			(uuid "99289d5b-a981-4601-9150-ed3ecb499a64")
+		)
+		(pin "1"
+			(uuid "cadbc692-7084-4857-86b5-314066360152")
+		)
+		(pin "8"
+			(uuid "5106c63f-7d9a-4e7a-a0d4-bc64180b6a22")
+		)
+		(pin "2"
+			(uuid "cb7427e5-c22b-4931-966e-e1bac63b4a79")
+		)
+		(pin "3"
+			(uuid "da986f78-28a8-4027-a80c-e2e7ec9efb93")
+		)
+		(pin "4"
+			(uuid "ec14d827-4e37-47ee-8c32-15455ac14bce")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ba86123e-f6d5-4f01-be08-e30873977d47"
+					(reference "Q14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SIS413DN-T1-GE3:SIS413DN-T1-GE3")
+		(at 58.42 48.26 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c582d5b-726c-41d1-8d8c-d0a5366ff776")
+		(property "Reference" "Q10"
+			(at 64.77 42.418 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SIS413DN-T1-GE3"
+			(at 70.104 45.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SIS862DNT1GE3"
+			(at 153.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/427/sis413dn-254110.pdf"
+			(at 253.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-Ch PowerPAK1212 Cu 30V 9.4mohm@10V"
+			(at 58.42 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 453.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 553.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SIS413DN-T1-GE3"
+			(at 653.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-SIS413DN-T1-GE3"
+			(at 753.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SIS413DN-T1-GE3?qs=vgn07B5hXav8x6TX%252BtAIoQ%3D%3D"
+			(at 853.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SIS413DN-T1-GE3"
+			(at 953.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sis413dn-t1-ge3/vishay?region=nac"
+			(at 1053.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "bb23cd0e-db86-401b-8c2a-6b9d312582bf")
+		)
+		(pin "6"
+			(uuid "15bd4bdb-61a2-4345-84ea-ae3aa140f936")
+		)
+		(pin "7"
+			(uuid "3a570fa7-1ac6-42ab-8f5c-17efada0f62c")
+		)
+		(pin "1"
+			(uuid "43d85c76-bc40-4e00-a7e8-06b0c5d6a29b")
+		)
+		(pin "8"
+			(uuid "7a3bbded-01a6-4524-99fc-554ef220164e")
+		)
+		(pin "2"
+			(uuid "3d32e9b3-f510-4c9f-b4d1-be36d26688e4")
+		)
+		(pin "3"
+			(uuid "2ba58a66-5488-404b-98b0-1eeb2665702b")
+		)
+		(pin "4"
+			(uuid "2dbed11d-69db-4148-b638-815be8a3c660")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ba86123e-f6d5-4f01-be08-e30873977d47"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 111.76 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "864392e7-6f32-4c77-bec6-fd059153b8c6")
+		(property "Reference" "R3"
+			(at 113.03 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2k2"
+			(at 113.03 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.792 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "325206e8-31e9-4026-9603-345710e966cc")
+		)
+		(pin "2"
+			(uuid "82f4060b-4656-4a2e-85c3-46a96e6258c1")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ba86123e-f6d5-4f01-be08-e30873977d47"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SIS413DN-T1-GE3:SIS413DN-T1-GE3")
+		(at 80.01 156.21 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "896d7bd4-11bd-4ecc-b258-a96e2f2a49f5")
+		(property "Reference" "Q15"
+			(at 86.36 150.368 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SIS413DN-T1-GE3"
+			(at 91.694 153.416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SIS862DNT1GE3"
+			(at 174.93 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/427/sis413dn-254110.pdf"
+			(at 274.93 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-Ch PowerPAK1212 Cu 30V 9.4mohm@10V"
+			(at 80.01 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 474.93 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 574.93 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SIS413DN-T1-GE3"
+			(at 674.93 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-SIS413DN-T1-GE3"
+			(at 774.93 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SIS413DN-T1-GE3?qs=vgn07B5hXav8x6TX%252BtAIoQ%3D%3D"
+			(at 874.93 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SIS413DN-T1-GE3"
+			(at 974.93 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sis413dn-t1-ge3/vishay?region=nac"
+			(at 1074.93 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "4bb7cb05-7ea0-4d6d-9494-cb1a7231f22a")
+		)
+		(pin "6"
+			(uuid "50c1bf09-f558-454e-bcec-de99e135372c")
+		)
+		(pin "7"
+			(uuid "52412a27-2cc4-4cb5-aa99-ab3eb0e0942b")
+		)
+		(pin "1"
+			(uuid "a293efce-35fa-4c04-b36e-0955f8ebcec0")
+		)
+		(pin "8"
+			(uuid "361152b8-366e-4269-b4fb-e64c4afc1422")
+		)
+		(pin "2"
+			(uuid "3b1c1c5f-f4a7-4c44-abc3-a2e63fe12e7c")
+		)
+		(pin "3"
+			(uuid "d141abb8-0eb5-426d-95e1-79d5c8c4f84c")
+		)
+		(pin "4"
+			(uuid "6ca634e9-ed36-4238-8583-57c97c579a9a")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ba86123e-f6d5-4f01-be08-e30873977d47"
+					(reference "Q15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SIS413DN-T1-GE3:SIS413DN-T1-GE3")
+		(at 59.69 101.6 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9dd92039-e5cb-4174-915c-a3702666fc88")
+		(property "Reference" "Q12"
+			(at 66.04 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SIS413DN-T1-GE3"
+			(at 71.374 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SIS862DNT1GE3"
+			(at 154.61 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/427/sis413dn-254110.pdf"
+			(at 254.61 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-Ch PowerPAK1212 Cu 30V 9.4mohm@10V"
+			(at 59.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 454.61 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 554.61 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SIS413DN-T1-GE3"
+			(at 654.61 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-SIS413DN-T1-GE3"
+			(at 754.61 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SIS413DN-T1-GE3?qs=vgn07B5hXav8x6TX%252BtAIoQ%3D%3D"
+			(at 854.61 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SIS413DN-T1-GE3"
+			(at 954.61 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sis413dn-t1-ge3/vishay?region=nac"
+			(at 1054.61 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "add9ef4f-405b-49ed-ac5c-ec2d6476e7b6")
+		)
+		(pin "6"
+			(uuid "26703974-65c9-49eb-a9e6-13445cd58d0b")
+		)
+		(pin "7"
+			(uuid "48dd2a45-e4db-4818-b395-de67c8d5c359")
+		)
+		(pin "1"
+			(uuid "6825836f-20bb-451b-9015-cc7552c3d742")
+		)
+		(pin "8"
+			(uuid "1375cd82-b532-4627-ae2e-3ab0a0afadc6")
+		)
+		(pin "2"
+			(uuid "5190cc7e-8ca6-4cfb-a874-6ac87af8e39c")
+		)
+		(pin "3"
+			(uuid "64b6cc61-0e3f-46a4-b90f-4e98d0e96f57")
+		)
+		(pin "4"
+			(uuid "db423baf-cace-460e-83fb-effa8b3cd5a8")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ba86123e-f6d5-4f01-be08-e30873977d47"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a047d058-32a5-48b0-ab86-9d4b50228146")
+		(property "Reference" "R29"
+			(at 121.92 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 121.92 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 126.238 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ef3aa95-199d-49e3-ab77-e5df10589e6c")
+		)
+		(pin "2"
+			(uuid "3f0b2b54-dd23-4437-a9c1-a18671f4172f")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ba86123e-f6d5-4f01-be08-e30873977d47"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SIS413DN-T1-GE3:SIS413DN-T1-GE3")
+		(at 78.74 48.26 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b04a7221-9539-4dfc-a659-a88dbd2b8bf4")
+		(property "Reference" "Q11"
+			(at 85.09 42.418 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SIS413DN-T1-GE3"
+			(at 90.424 45.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SIS862DNT1GE3"
+			(at 173.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/427/sis413dn-254110.pdf"
+			(at 273.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-Ch PowerPAK1212 Cu 30V 9.4mohm@10V"
+			(at 78.74 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 473.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 573.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SIS413DN-T1-GE3"
+			(at 673.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-SIS413DN-T1-GE3"
+			(at 773.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SIS413DN-T1-GE3?qs=vgn07B5hXav8x6TX%252BtAIoQ%3D%3D"
+			(at 873.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SIS413DN-T1-GE3"
+			(at 973.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sis413dn-t1-ge3/vishay?region=nac"
+			(at 1073.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "bee1d56b-5cb9-4d98-a120-48cca21729fb")
+		)
+		(pin "6"
+			(uuid "d14aa39a-75b3-47b1-83e4-3fc1ba12a6ab")
+		)
+		(pin "7"
+			(uuid "c745ef79-ceb1-41d9-9214-ac3d4bcea8fd")
+		)
+		(pin "1"
+			(uuid "18f71c38-3ac3-4e7c-8184-eb2f0a97d473")
+		)
+		(pin "8"
+			(uuid "fd2a8516-289f-43d5-8107-a129e47066e2")
+		)
+		(pin "2"
+			(uuid "db177028-76d9-4f2b-a8e1-f3f9077531c4")
+		)
+		(pin "3"
+			(uuid "3d0511cd-04f1-48be-8817-9cefb880eeb4")
+		)
+		(pin "4"
+			(uuid "42b9e0ed-d7ec-4600-9ff6-bd1386ab835f")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ba86123e-f6d5-4f01-be08-e30873977d47"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battery_Management:BQ297xy")
+		(at 105.41 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c33be1d8-bb40-42d3-b2a1-6af0acd13635")
+		(property "Reference" "U8"
+			(at 105.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BQ297xy"
+			(at 105.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SON:WSON-6_1.5x1.5mm_P0.5mm"
+			(at 105.41 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/bq2970.pdf"
+			(at 111.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage and Current Protection for Single-Cell Li-Ion and Li-Polymer Batteries"
+			(at 105.41 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86d42c44-09f4-44a5-bdac-129cb04fbeb3")
+		)
+		(pin "3"
+			(uuid "42ee4be5-8231-43bb-af92-9a1070dc3b0f")
+		)
+		(pin "5"
+			(uuid "ca0a80da-5108-480d-8ab6-060c844e4c17")
+		)
+		(pin "2"
+			(uuid "06772c50-1f04-496d-9edb-3f49dcd40ce5")
+		)
+		(pin "6"
+			(uuid "b16ebb66-03a1-4184-8279-9f30af37b337")
+		)
+		(pin "4"
+			(uuid "68315c91-6d57-41ee-b80f-fc03d43bf3fa")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ba86123e-f6d5-4f01-be08-e30873977d47"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 166.37 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d163d7b1-d129-425c-94c8-6c332d882a63")
+		(property "Reference" "R30"
+			(at 113.03 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2k2"
+			(at 113.03 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.792 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1ba7462-691c-4ddc-a2fb-d7e9744c11d8")
+		)
+		(pin "2"
+			(uuid "dff8de2d-dcad-4ba9-82d9-b6fd2526424a")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ba86123e-f6d5-4f01-be08-e30873977d47"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 124.46 158.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db76266b-c4a7-40bf-bcfb-3bab75b7f87a")
+		(property "Reference" "C14"
+			(at 120.65 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 120.65 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.4948 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 124.46 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6ca4d3d-e8a1-4f4f-be6a-fcd7da2feb5b")
+		)
+		(pin "2"
+			(uuid "8d86c35d-9512-4434-b3ca-518dd5fb4145")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ba86123e-f6d5-4f01-be08-e30873977d47"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 146.05 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2eb06d4-783d-4a14-ad19-3f483d73f06a")
+		(property "Reference" "R31"
+			(at 121.92 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 121.92 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 126.238 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02f8a078-93d9-4769-8e13-5dd8a4331831")
+		)
+		(pin "2"
+			(uuid "6ceab30f-62bd-452a-84eb-297500c51d6b")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ba86123e-f6d5-4f01-be08-e30873977d47"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battery_Management:BQ297xy")
+		(at 104.14 45.72 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e361fe6f-55be-4830-99b5-c0b75d8172cc")
+		(property "Reference" "U7"
+			(at 104.14 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BQ297xy"
+			(at 104.14 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SON:WSON-6_1.5x1.5mm_P0.5mm"
+			(at 104.14 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/bq2970.pdf"
+			(at 110.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage and Current Protection for Single-Cell Li-Ion and Li-Polymer Batteries"
+			(at 104.14 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dae6602c-461d-40ab-9b27-eec0898ab448")
+		)
+		(pin "3"
+			(uuid "bcf97e82-e106-49bc-a92f-21ee46886aed")
+		)
+		(pin "5"
+			(uuid "f52ecd25-2361-4d3d-b9c5-29182e35ab6b")
+		)
+		(pin "2"
+			(uuid "fb380002-a32b-4ee9-9937-fada4873f4d4")
+		)
+		(pin "6"
+			(uuid "c95d662f-3969-4e3f-90f7-92bad33a1cda")
+		)
+		(pin "4"
+			(uuid "c23f4f08-ff5b-4ebe-b0bd-d7c3bb591b5a")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ba86123e-f6d5-4f01-be08-e30873977d47"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 123.19 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edb963c2-b2bf-4934-8c35-addcb29d83c4")
+		(property "Reference" "C12"
+			(at 119.38 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 119.38 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 122.2248 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 123.19 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bbc00b6-5fdf-43a3-984b-8e4baa6890b1")
+		)
+		(pin "2"
+			(uuid "00301165-107f-422c-8bcb-11733f8e471e")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ba86123e-f6d5-4f01-be08-e30873977d47"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 124.46 104.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f425f6b0-0086-449b-872c-a54f3c0dac3c")
+		(property "Reference" "C13"
+			(at 120.65 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 120.65 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.4948 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfa772bd-ac98-41cf-93fb-33d4f5a5c868")
+		)
+		(pin "2"
+			(uuid "d9b02faa-ef6b-4a75-ae2f-3165dec637f7")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ba86123e-f6d5-4f01-be08-e30873977d47"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

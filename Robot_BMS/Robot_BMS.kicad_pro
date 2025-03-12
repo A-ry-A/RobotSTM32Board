@@ -603,6 +603,18 @@
     [
       "72551b1c-3d40-4199-8911-e5b015f4abec",
       "Root"
+    ],
+    [
+      "cb04dfab-e035-4615-b482-7ed1936c63ff",
+      "Thermistors"
+    ],
+    [
+      "ba86123e-f6d5-4f01-be08-e30873977d47",
+      "Battery Protection Circuit"
+    ],
+    [
+      "c0de399f-bcaa-40ff-9d4f-05779018e40a",
+      "Charging Circuit"
     ]
   ],
   "text_variables": {}

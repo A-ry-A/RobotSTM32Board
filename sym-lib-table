@@ -14,4 +14,6 @@
   (lib (name "BNO085")(type "KiCad")(uri "${KIPRJMOD}/BNO085/BNO085.kicad_sym")(options "")(descr ""))
   (lib (name "NUCLEO-F410RB")(type "KiCad")(uri "${KIPRJMOD}/NUCLEO-F410RB/NUCLEO-F410RB.kicad_sym")(options "")(descr ""))
   (lib (name "NUCLEO-F411RE")(type "KiCad")(uri "${KIPRJMOD}/NUCLEO-F411RE/NUCLEO-F411RE.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS564252DRLR")(type "KiCad")(uri "${KIPRJMOD}/TPS564252DRLR/TPS564252DRLR.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS51386RJNR")(type "KiCad")(uri "${KIPRJMOD}/TPS51386RJNR/TPS51386RJNR.kicad_sym")(options "")(descr ""))
 )

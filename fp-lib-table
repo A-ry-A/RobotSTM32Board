@@ -6,4 +6,6 @@
   (lib (name "NUCLEO-F410RB")(type "KiCad")(uri "${KIPRJMOD}/NUCLEO-F410RB")(options "")(descr ""))
   (lib (name "TB6612FNG")(type "KiCad")(uri "${KIPRJMOD}/TB6612FNG")(options "")(descr ""))
   (lib (name "NUCLEO-F411RE")(type "KiCad")(uri "${KIPRJMOD}/NUCLEO-F411RE")(options "")(descr ""))
+  (lib (name "TPS564252DRLR")(type "KiCad")(uri "${KIPRJMOD}/TPS564252DRLR")(options "")(descr ""))
+  (lib (name "TPS51386RJNR")(type "KiCad")(uri "${KIPRJMOD}/TPS51386RJNR")(options "")(descr ""))
 )

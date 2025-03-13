@@ -16,4 +16,5 @@
   (lib (name "NUCLEO-F411RE")(type "KiCad")(uri "${KIPRJMOD}/NUCLEO-F411RE/NUCLEO-F411RE.kicad_sym")(options "")(descr ""))
   (lib (name "TPS564252DRLR")(type "KiCad")(uri "${KIPRJMOD}/TPS564252DRLR/TPS564252DRLR.kicad_sym")(options "")(descr ""))
   (lib (name "TPS51386RJNR")(type "KiCad")(uri "${KIPRJMOD}/TPS51386RJNR/TPS51386RJNR.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-03-13_17-27-54")(type "KiCad")(uri "${KIPRJMOD}/LM27403SQ_NOPB/KiCADv6/2025-03-13_17-27-54.kicad_sym")(options "")(descr ""))
 )

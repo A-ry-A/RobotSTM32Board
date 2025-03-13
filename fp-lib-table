@@ -8,4 +8,5 @@
   (lib (name "NUCLEO-F411RE")(type "KiCad")(uri "${KIPRJMOD}/NUCLEO-F411RE")(options "")(descr ""))
   (lib (name "TPS564252DRLR")(type "KiCad")(uri "${KIPRJMOD}/TPS564252DRLR")(options "")(descr ""))
   (lib (name "TPS51386RJNR")(type "KiCad")(uri "${KIPRJMOD}/TPS51386RJNR")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/LM27403SQ_NOPB/KiCADv6/footprints.pretty")(options "")(descr ""))
 )

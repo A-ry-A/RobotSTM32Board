@@ -539,50 +539,50 @@
 				)
 			)
 		)
-		(symbol "KT EELP41.12-S2U1-25-2X4X-5-R18:KT_EELP41.12-S2U1-25-2X4X-5-R18"
-			(pin_names hide)
+		(symbol "Toshiba schottky diode:CMS05TE12L_Q_M"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "LED"
-				(at 12.7 8.89 0)
+			(property "Reference" "CR"
+				(at 5.08 4.445 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "KT_EELP41.12-S2U1-25-2X4X-5-R18"
-				(at 12.7 6.35 0)
+			(property "Value" "CMS05TE12L_Q_M"
+				(at 5.08 -3.81 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "KTEELP4112S2U1252X4X5R18"
-				(at 12.7 -93.65 0)
+			(property "Footprint" "M-FLAT_TOS"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://in.element14.com/ams-osram-group/kt-eelp41-12-s2u1-25-2x4x-5-r18/led-true-green-224mcd-527nm-130deg/dp/4540818"
-				(at 12.7 -193.65 0)
+			(property "Datasheet" "CMS05TE12L_Q_M"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Description" "LED, InGaN on Sapphire, True Green, SMD, 0603 [1608 Metric], 5 mA, 2.5 V, 527 nm"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -591,63 +591,39 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "0.5"
-				(at 12.7 -393.65 0)
+			(property "ki_locked" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
-					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "720-P4112S2U1252X4X5"
-				(at 12.7 -493.65 0)
+			(property "ki_keywords" "CMS05(TE12L,Q,M)"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/KT-EELP41.12-S2U1-25-2X4X-5-R18?qs=ZcfC38r4PosnM6jzR6CYig%3D%3D"
-				(at 12.7 -593.65 0)
+			(property "ki_fp_filters" "M-FLAT_TOS M-FLAT_TOS-M M-FLAT_TOS-L"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "ams OSRAM"
-				(at 12.7 -693.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "KT EELP41.12-S2U1-25-2X4X-5-R18"
-				(at 12.7 -793.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "KT_EELP41.12-S2U1-25-2X4X-5-R18_1_1"
+			(symbol "CMS05TE12L_Q_M_1_1"
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 5.08 0)
+						(xy 2.54 0) (xy 3.4798 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -656,10 +632,10 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
+						(xy 3.175 0) (xy 3.81 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -668,10 +644,10 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 2.54) (xy 3.81 5.08)
+						(xy 3.81 0) (xy 6.35 -1.905)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -680,10 +656,10 @@
 				)
 				(polyline
 					(pts
-						(xy 8.89 2.54) (xy 6.35 5.08)
+						(xy 3.81 1.905) (xy 3.81 -1.905)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -692,10 +668,10 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 0) (xy 12.7 0)
+						(xy 6.35 -1.905) (xy 6.35 1.905)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -704,44 +680,32 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+						(xy 6.35 0) (xy 7.62 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+						(xy 6.35 1.905) (xy 3.81 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
+				(pin unspecified line
+					(at 10.16 0 180)
 					(length 2.54)
-					(name "K"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -756,10 +720,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 15.24 0 180)
+				(pin unspecified line
+					(at 0 0 0)
 					(length 2.54)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -775,116 +739,13 @@
 					)
 				)
 			)
-		)
-		(symbol "KY EELP41.22 Q2T1-36-A8J8-020-R18:KY_EELP41.22_Q2T1-36-A8J8-020-R18"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 12.7 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "KY_EELP41.22_Q2T1-36-A8J8-020-R18"
-				(at 12.7 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "KYEELP4122Q2T136A8J8020R18"
-				(at 12.7 -93.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://look.ams-osram.com/m/5a0070c0ca8e7419/original/KY-EELP41-22.pdf"
-				(at 12.7 -193.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "LED, InGaAlP, Yellow, SMD, 0603 [1608 Metric], 20 mA, 2 V, 589 nm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.5"
-				(at 12.7 -393.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "720-P412Q2T136A8J802"
-				(at 12.7 -493.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/KY-EELP41.22-Q2T1-36-A8J8-020-R18?qs=ZcfC38r4PotaNlE530FL%252BQ%3D%3D"
-				(at 12.7 -593.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "ams OSRAM"
-				(at 12.7 -693.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "KY EELP41.22 Q2T1-36-A8J8-020-R18"
-				(at 12.7 -793.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "KY_EELP41.22_Q2T1-36-A8J8-020-R18_1_1"
+			(symbol "CMS05TE12L_Q_M_1_2"
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 5.08 0)
+						(xy -1.905 3.81) (xy 1.905 3.81)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -893,10 +754,10 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
+						(xy -1.905 6.35) (xy 0 3.81)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -905,10 +766,10 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 2.54) (xy 3.81 5.08)
+						(xy 0 2.54) (xy 0 3.4798)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -917,10 +778,10 @@
 				)
 				(polyline
 					(pts
-						(xy 8.89 2.54) (xy 6.35 5.08)
+						(xy 0 3.175) (xy 0 3.81)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -929,10 +790,10 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 0) (xy 12.7 0)
+						(xy 0 6.35) (xy 0 7.62)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -941,44 +802,32 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+						(xy 1.905 6.35) (xy -1.905 6.35)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+						(xy 1.905 6.35) (xy 0 3.81)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
+				(pin unspecified line
+					(at 0 10.16 270)
 					(length 2.54)
-					(name "K"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -993,247 +842,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 15.24 0 180)
+				(pin unspecified line
+					(at 0 0 90)
 					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SML-D12V8WT86:SML-D12V8WT86"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 12.7 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "SML-D12V8WT86"
-				(at 12.7 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "SMLD12V8WT86"
-				(at 12.7 -93.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.rohm.com/datasheet?p=SML-D12V8W&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
-				(at 12.7 -193.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Red 630nm LED Indication - Discrete 2.2V 0603 (1608 Metric)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.65"
-				(at 12.7 -393.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "755-SML-D12V8WT86"
-				(at 12.7 -493.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/SML-D12V8WT86?qs=4kLU8WoGk0uh2PhEoCCv1w%3D%3D"
-				(at 12.7 -593.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "ROHM Semiconductor"
-				(at 12.7 -693.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "SML-D12V8WT86"
-				(at 12.7 -793.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "SML-D12V8WT86_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 2.54) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 2.54) (xy 6.35 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1547,22 +1159,10 @@
 		)
 	)
 	(junction
-		(at 71.12 190.5)
+		(at 28.194 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0c102266-dc5e-40f4-8fd9-4432f12574e4")
-	)
-	(junction
-		(at 41.91 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18694e40-c18f-4778-aa18-220a866bac31")
-	)
-	(junction
-		(at 41.91 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1fb5de0d-a48d-47b6-b08d-66281e8ed6b5")
+		(uuid "10fafe3c-d4f3-4025-9f01-2511c1f60768")
 	)
 	(junction
 		(at 71.12 127)
@@ -1571,34 +1171,28 @@
 		(uuid "2a180156-63fc-4572-acbf-0073deb5e3aa")
 	)
 	(junction
-		(at 59.69 190.5)
+		(at 60.452 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "38efd1c0-613e-4b18-86ea-11a3f1f0af81")
+		(uuid "2fc8e386-4207-4cf5-910c-1ed45a70df92")
 	)
 	(junction
-		(at 41.91 64.77)
+		(at 27.94 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3c66b5ac-01c2-4e4d-9a48-4c517448a033")
+		(uuid "364c8ab8-710f-4d66-a694-662983ba609e")
 	)
 	(junction
-		(at 41.91 146.05)
+		(at 28.194 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "71b672e7-4e69-40e7-9b5d-98c3108a3a50")
+		(uuid "5db9b62c-bb59-4d7b-a4ae-4cf1d2983e28")
 	)
 	(junction
-		(at 153.67 19.05)
+		(at 26.67 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7afa2079-6b73-4faa-b6fc-6b570a9b4d8d")
-	)
-	(junction
-		(at 99.06 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7eab9fff-179f-4feb-b9f1-dc99c5476902")
+		(uuid "6163ed1e-f6aa-4771-abe5-e5b85a8e3087")
 	)
 	(junction
 		(at 71.12 64.77)
@@ -1613,40 +1207,22 @@
 		(uuid "970ba257-6b16-4eaf-8275-5ed02ae0a6ee")
 	)
 	(junction
+		(at 73.66 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98a3548c-acde-41b3-b74f-d095146c0d85")
+	)
+	(junction
 		(at 59.69 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c6abc46-a909-47d1-9368-0fa9f23d4826")
 	)
 	(junction
-		(at 99.06 81.28)
+		(at 191.262 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ac39ed72-ea4e-4a99-9dcd-9181c5fe54c7")
-	)
-	(junction
-		(at 109.22 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6761028-f05e-4684-b2f9-7ae4b9564cc2")
-	)
-	(junction
-		(at 153.67 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b69d2940-e3a7-4084-ae46-839be3cbc964")
-	)
-	(junction
-		(at 41.91 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9c9c31f-c64c-4b5a-bbd1-8915544458f3")
-	)
-	(junction
-		(at 71.12 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1fbce38-e960-49a4-bd37-9f853c57f463")
+		(uuid "b68e0fb4-b85f-45ac-9a99-d524b87e04b9")
 	)
 	(junction
 		(at 71.12 111.76)
@@ -1655,34 +1231,28 @@
 		(uuid "c7db13fd-03eb-4f1f-bf1e-43f10cfb4eef")
 	)
 	(junction
-		(at 109.22 19.05)
+		(at 26.67 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cf0d7cf5-ff45-46ee-9b1f-19d65ed62483")
+		(uuid "dba269bf-5188-456d-a8cc-0a96a30ba5f6")
 	)
 	(junction
-		(at 109.22 81.28)
+		(at 191.262 114.046)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d6fdda11-3b8d-486e-b091-b42350a8b9c3")
+		(uuid "e04e6870-3284-419e-ac80-95d3985a546c")
 	)
 	(junction
-		(at 153.67 144.78)
+		(at 27.94 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d961a12b-b1d4-4df5-81a2-2e78c9d40baa")
+		(uuid "e89aa016-d142-419d-9080-62f6ec2910d2")
 	)
 	(junction
-		(at 41.91 82.55)
+		(at 73.66 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "db733018-2f44-4dfe-9fd0-84035cea8edc")
-	)
-	(junction
-		(at 99.06 19.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e07ae678-1dfb-4fea-80bd-26c0d66c1dbd")
+		(uuid "f03d1ed6-9ffa-492f-bb01-d3b382859c0c")
 	)
 	(junction
 		(at 71.12 49.53)
@@ -1704,7 +1274,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 104.14) (xy 163.83 127)
+			(xy 125.984 106.172) (xy 125.984 127)
 		)
 		(stroke
 			(width 0)
@@ -1724,17 +1294,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 144.78) (xy 109.22 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04dc9e5f-61b4-4c3f-860d-24928c947e1e")
-	)
-	(wire
-		(pts
-			(xy 163.83 144.78) (xy 163.83 160.02)
+			(xy 124.968 144.78) (xy 124.968 156.972)
 		)
 		(stroke
 			(width 0)
@@ -1744,7 +1304,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 81.28) (xy 109.22 81.28)
+			(xy 81.28 81.28) (xy 125.984 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1764,36 +1324,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 144.78) (xy 99.06 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1063d13d-c3f3-43f1-abc8-8c778d52b916")
-	)
-	(wire
-		(pts
-			(xy 99.06 100.33) (xy 99.06 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14907f33-3218-4f27-8705-77f579c10c2d")
-	)
-	(wire
-		(pts
-			(xy 153.67 96.52) (xy 153.67 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14c8feac-6274-42c3-8e94-0066f1908da0")
-	)
-	(wire
-		(pts
 			(xy 60.96 82.55) (xy 60.96 96.52)
 		)
 		(stroke
@@ -1801,16 +1331,6 @@
 			(type default)
 		)
 		(uuid "19c44187-240f-41f6-9527-d4d70c379479")
-	)
-	(wire
-		(pts
-			(xy 109.22 41.91) (xy 109.22 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bf5b5b4-07da-4fa6-b818-2f643d648f16")
 	)
 	(wire
 		(pts
@@ -1824,7 +1344,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 167.64) (xy 163.83 190.5)
+			(xy 124.968 164.592) (xy 124.968 190.5)
 		)
 		(stroke
 			(width 0)
@@ -1834,57 +1354,17 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 19.05) (xy 163.83 19.05)
+			(xy 27.94 146.05) (xy 60.96 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1dd416de-c1eb-4445-b909-e9fc183701d4")
+		(uuid "220b3693-78bf-4312-97c3-53b89a9cc79f")
 	)
 	(wire
 		(pts
-			(xy 109.22 104.14) (xy 109.22 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e7d3dd3-b7c8-4088-bd72-abcd87b27a80")
-	)
-	(wire
-		(pts
-			(xy 99.06 19.05) (xy 99.06 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f09a229-ae18-46ce-a187-3f4ab1bdee2b")
-	)
-	(wire
-		(pts
-			(xy 41.91 20.32) (xy 60.96 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f7aa175-dcc9-4da4-a49d-21ebc1109793")
-	)
-	(wire
-		(pts
-			(xy 153.67 81.28) (xy 109.22 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fb552c7-d814-4720-b5ea-f14121a223fa")
-	)
-	(wire
-		(pts
-			(xy 71.12 64.77) (xy 163.83 64.77)
+			(xy 71.12 64.77) (xy 126.238 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1894,7 +1374,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 41.91) (xy 163.83 64.77)
+			(xy 126.238 45.72) (xy 126.238 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1924,6 +1404,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.262 100.33) (xy 203.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d2369d-0d62-4097-87f1-72a23edc0fc0")
+	)
+	(wire
+		(pts
 			(xy 71.12 49.53) (xy 71.12 64.77)
 		)
 		(stroke
@@ -1931,16 +1421,6 @@
 			(type default)
 		)
 		(uuid "28c98075-1643-4303-8f75-c41ee7c983c7")
-	)
-	(wire
-		(pts
-			(xy 99.06 163.83) (xy 99.06 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2eb1e8f5-b4d1-4942-bd69-520689cbf2db")
 	)
 	(wire
 		(pts
@@ -1964,17 +1444,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 19.05) (xy 109.22 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39885f04-bc0d-485b-bb98-91f182c34cc2")
-	)
-	(wire
-		(pts
-			(xy 163.83 19.05) (xy 163.83 34.29)
+			(xy 126.238 19.05) (xy 126.238 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1984,7 +1454,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 127) (xy 41.91 127)
+			(xy 25.4 127) (xy 28.194 127)
 		)
 		(stroke
 			(width 0)
@@ -1994,33 +1464,23 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 81.28) (xy 163.83 96.52)
+			(xy 73.66 190.5) (xy 124.968 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3d4fea-c3b7-4bff-9bd8-728d16ad9517")
+	)
+	(wire
+		(pts
+			(xy 125.984 81.28) (xy 125.984 98.552)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "40ac5573-a971-4640-9ee2-486f858fe091")
-	)
-	(wire
-		(pts
-			(xy 41.91 82.55) (xy 41.91 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40bd0c03-c78a-4d1a-9983-7c5baad244f4")
-	)
-	(wire
-		(pts
-			(xy 96.52 106.68) (xy 99.06 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47edade8-8a72-4887-aabd-0698946ce946")
 	)
 	(wire
 		(pts
@@ -2034,7 +1494,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 177.8) (xy 59.69 179.07)
+			(xy 60.452 177.8) (xy 60.452 179.07)
 		)
 		(stroke
 			(width 0)
@@ -2044,7 +1504,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 184.15) (xy 52.07 184.15)
+			(xy 43.18 184.15) (xy 52.832 184.15)
 		)
 		(stroke
 			(width 0)
@@ -2054,23 +1514,13 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 171.45) (xy 41.91 190.5)
+			(xy 27.94 190.5) (xy 60.452 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c8d5b56-9ce8-454e-9679-51c5e6751782")
-	)
-	(wire
-		(pts
-			(xy 41.91 107.95) (xy 41.91 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52d05cf0-f26f-4e71-86d6-8c2c7f206663")
+		(uuid "50ba100e-2f67-4b60-9387-705c7158f4bf")
 	)
 	(wire
 		(pts
@@ -2084,33 +1534,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 160.02) (xy 153.67 160.02)
+			(xy 162.306 130.556) (xy 191.262 130.556)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59137b38-d1ba-43ac-ae9e-6d6b518a4866")
-	)
-	(wire
-		(pts
-			(xy 115.57 96.52) (xy 153.67 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60454679-d21d-4652-aaf7-0a0e5fecb79e")
-	)
-	(wire
-		(pts
-			(xy 96.52 44.45) (xy 99.06 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6051fd07-ac69-4f6c-8ac0-e891286597a6")
+		(uuid "5fc1fc0e-cca7-4bff-8f6f-75cfc919e1bb")
 	)
 	(wire
 		(pts
@@ -2124,7 +1554,17 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 20.32) (xy 41.91 20.32)
+			(xy 26.67 20.32) (xy 60.96 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "697e7e36-b920-4615-92ee-b45ec9473c6a")
+	)
+	(wire
+		(pts
+			(xy 25.4 20.32) (xy 26.67 20.32)
 		)
 		(stroke
 			(width 0)
@@ -2134,53 +1574,33 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 34.29) (xy 153.67 34.29)
+			(xy 25.4 82.55) (xy 28.194 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72baf5a3-610d-482d-a2c9-2b7fc32ab488")
+		(uuid "721376a8-6d1e-48f0-8409-92238863a167")
 	)
 	(wire
 		(pts
-			(xy 109.22 167.64) (xy 109.22 163.83)
+			(xy 191.262 114.046) (xy 191.262 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76ad3509-8b30-4f4a-b4a0-fa988f106cf2")
+		(uuid "77aefe28-c33b-4111-954a-9a2dec03fcbf")
 	)
 	(wire
 		(pts
-			(xy 99.06 175.26) (xy 115.57 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "797972d3-dfbd-41fc-baf0-51ef07950fb4")
-	)
-	(wire
-		(pts
-			(xy 71.12 127) (xy 163.83 127)
+			(xy 71.12 127) (xy 125.984 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7f692671-c436-45bd-b5b7-4555b2bd594c")
-	)
-	(wire
-		(pts
-			(xy 81.28 19.05) (xy 99.06 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fe121ab-fd9c-46cd-81aa-5897ff281cd7")
 	)
 	(wire
 		(pts
@@ -2194,7 +1614,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 20.32) (xy 41.91 38.1)
+			(xy 26.67 20.32) (xy 26.67 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2224,7 +1644,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 45.72) (xy 41.91 64.77)
+			(xy 26.67 45.72) (xy 26.67 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2234,23 +1654,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 19.05) (xy 109.22 22.86)
+			(xy 191.262 100.33) (xy 191.262 114.046)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c12504e-654f-4b82-a22a-bdd12f319d82")
-	)
-	(wire
-		(pts
-			(xy 99.06 170.18) (xy 99.06 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cb9f93f-7c9f-40f0-9794-593a9ae05186")
+		(uuid "8ba393b1-e8b3-45fc-99c6-a84d9a4ba117")
 	)
 	(wire
 		(pts
@@ -2264,7 +1674,17 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 175.26) (xy 71.12 190.5)
+			(xy 28.194 82.55) (xy 28.194 100.076)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8edc71ed-a669-42c4-b6bb-8516a91cf561")
+	)
+	(wire
+		(pts
+			(xy 73.66 175.26) (xy 73.66 190.5)
 		)
 		(stroke
 			(width 0)
@@ -2274,7 +1694,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 64.77) (xy 41.91 64.77)
+			(xy 25.4 64.77) (xy 26.67 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2284,33 +1704,23 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 167.64) (xy 109.22 167.64)
+			(xy 191.262 125.73) (xy 202.946 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9082ba69-e3cc-410a-aeed-43094c3579e3")
+		(uuid "90f5015c-8ec6-4953-bb5e-fe94ed0255c6")
 	)
 	(wire
 		(pts
-			(xy 25.4 146.05) (xy 41.91 146.05)
+			(xy 25.4 146.05) (xy 27.94 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "926e2711-0150-4bec-8956-8faa13b791bf")
-	)
-	(wire
-		(pts
-			(xy 99.06 49.53) (xy 115.57 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92a2930c-30e2-484b-a01f-ac4688126775")
 	)
 	(wire
 		(pts
@@ -2334,26 +1744,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 81.28) (xy 99.06 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98661095-b15a-4d80-9980-2ef2ed0d31cc")
-	)
-	(wire
-		(pts
-			(xy 153.67 144.78) (xy 163.83 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99add533-b94d-4bd5-b28e-c0e843f8f286")
-	)
-	(wire
-		(pts
 			(xy 81.28 81.28) (xy 81.28 96.52)
 		)
 		(stroke
@@ -2374,87 +1764,37 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 82.55) (xy 60.96 82.55)
+			(xy 60.452 190.5) (xy 73.66 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4ba9db6-5e3d-45ae-bcf8-3d97439ed04d")
+		(uuid "a29bb0d7-f1a1-4a5d-a81f-a74f0284c583")
 	)
 	(wire
 		(pts
-			(xy 41.91 146.05) (xy 60.96 146.05)
+			(xy 28.194 82.55) (xy 60.96 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a584933f-8d6b-4d71-9e04-c3a3e4ee8379")
+		(uuid "af6a912d-58db-404a-ab6d-3900c4a839f6")
 	)
 	(wire
 		(pts
-			(xy 109.22 81.28) (xy 109.22 85.09)
+			(xy 26.67 64.77) (xy 59.69 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6dd428e-82ba-421c-ba30-4c68c60a041b")
+		(uuid "b080c400-d556-4e6f-8705-4a5941a2b218")
 	)
 	(wire
 		(pts
-			(xy 96.52 170.18) (xy 99.06 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8b197d7-2345-46ec-9f76-85c800a6330e")
-	)
-	(wire
-		(pts
-			(xy 153.67 81.28) (xy 163.83 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a991e5d4-1ffd-405d-a9ce-8fe297a3c1c2")
-	)
-	(wire
-		(pts
-			(xy 96.52 104.14) (xy 109.22 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afeec649-11bd-48aa-9f89-b4ed6e9757b2")
-	)
-	(wire
-		(pts
-			(xy 99.06 111.76) (xy 115.57 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0b05ddb-c7e6-4b39-8a57-c2cc76772414")
-	)
-	(wire
-		(pts
-			(xy 96.52 165.1) (xy 99.06 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b62e5fc2-b8ab-4a7f-beed-a2ba8081fe50")
-	)
-	(wire
-		(pts
-			(xy 153.67 19.05) (xy 109.22 19.05)
+			(xy 81.28 19.05) (xy 126.238 19.05)
 		)
 		(stroke
 			(width 0)
@@ -2471,6 +1811,16 @@
 			(type default)
 		)
 		(uuid "b9bbd638-8727-4223-b2f1-027d40f21668")
+	)
+	(wire
+		(pts
+			(xy 191.262 125.73) (xy 191.262 130.556)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baeaceb3-413d-4941-a343-3fd3ec3e9a11")
 	)
 	(wire
 		(pts
@@ -2514,53 +1864,33 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 190.5) (xy 59.69 190.5)
+			(xy 213.106 114.046) (xy 222.25 114.046)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7b7a3f4-5e82-4017-9ccf-b88d6d309297")
+		(uuid "c5ef3c5c-3fbb-4baa-8a9d-f2d895141f11")
 	)
 	(wire
 		(pts
-			(xy 41.91 127) (xy 59.69 127)
+			(xy 28.194 127) (xy 59.69 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc66a5b7-d4ac-4e71-8fa8-cafa72a7b413")
+		(uuid "d1449a11-f0b8-440f-9412-dfdaac5d99e7")
 	)
 	(wire
 		(pts
-			(xy 99.06 81.28) (xy 99.06 85.09)
+			(xy 27.94 146.05) (xy 27.94 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1be7e59-29a7-4fc6-8aa2-6d3f97b603e3")
-	)
-	(wire
-		(pts
-			(xy 25.4 82.55) (xy 41.91 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2fa7d34-697e-4330-a33d-496d38c9a9d3")
-	)
-	(wire
-		(pts
-			(xy 153.67 144.78) (xy 109.22 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3672366-57a0-498b-ad0c-ec8d82054d36")
+		(uuid "d3208f29-0052-47f0-b4c5-736a9e9089a3")
 	)
 	(wire
 		(pts
@@ -2574,7 +1904,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 170.18) (xy 60.96 170.18)
+			(xy 60.452 170.18) (xy 60.96 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2584,33 +1914,23 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 146.05) (xy 41.91 163.83)
+			(xy 213.36 100.33) (xy 221.996 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d69a13d7-7e77-42ae-b8fa-96e9a55c68b4")
+		(uuid "d6965372-37a5-40c5-82d0-7fe92832151a")
 	)
 	(wire
 		(pts
-			(xy 25.4 190.5) (xy 41.91 190.5)
+			(xy 25.4 190.5) (xy 27.94 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d69dd6ce-b2e2-4d63-ba37-3f96ff316250")
-	)
-	(wire
-		(pts
-			(xy 109.22 144.78) (xy 109.22 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da6a1605-8e32-4998-904d-88cbfb1c30b4")
 	)
 	(wire
 		(pts
@@ -2624,27 +1944,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 190.5) (xy 71.12 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd4d2874-0f43-4c71-9922-993cd7abe1cd")
-	)
-	(wire
-		(pts
-			(xy 99.06 38.1) (xy 99.06 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd9b054f-8008-44b8-ba38-976e8a16c1d5")
-	)
-	(wire
-		(pts
-			(xy 81.28 144.78) (xy 99.06 144.78)
+			(xy 81.28 144.78) (xy 124.968 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2654,63 +1954,23 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 44.45) (xy 99.06 49.53)
+			(xy 28.194 107.696) (xy 28.194 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0752d76-6f59-42cc-b345-55298ce1b3a9")
+		(uuid "e4ba54da-16e5-465c-ae6e-c0d4636b2277")
 	)
 	(wire
 		(pts
-			(xy 153.67 160.02) (xy 153.67 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e095e8cc-347b-4c7c-ba69-0322a0662ae9")
-	)
-	(wire
-		(pts
-			(xy 99.06 106.68) (xy 99.06 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8d1db9e-ee94-4af8-8714-5b810018de5e")
-	)
-	(wire
-		(pts
-			(xy 96.52 101.6) (xy 99.06 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9372734-13f6-4912-b1ff-44134f19b31f")
-	)
-	(wire
-		(pts
-			(xy 59.69 189.23) (xy 59.69 190.5)
+			(xy 60.452 189.23) (xy 60.452 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eab49144-e90e-4d83-86c2-6c2a9a3358a4")
-	)
-	(wire
-		(pts
-			(xy 41.91 64.77) (xy 59.69 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee96d4c1-9ae5-42c1-b6cc-5c63a778c1ac")
 	)
 	(wire
 		(pts
@@ -2724,23 +1984,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 190.5) (xy 163.83 190.5)
+			(xy 202.946 114.046) (xy 191.262 114.046)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f0aa74c8-7031-4788-90fb-0bfccf334022")
-	)
-	(wire
-		(pts
-			(xy 96.52 39.37) (xy 99.06 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2caadcb-73dc-45ba-8d24-d4f75f226640")
+		(uuid "f3405498-7b04-41f6-a4ee-9297f4ad4740")
 	)
 	(wire
 		(pts
@@ -2754,23 +2004,13 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 41.91) (xy 109.22 41.91)
+			(xy 27.94 171.45) (xy 27.94 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc01e13d-4865-4966-9b7e-679c7cefbb73")
-	)
-	(wire
-		(pts
-			(xy 153.67 34.29) (xy 153.67 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd57f805-50b0-4e30-b144-e48ff1ee2dba")
+		(uuid "fb2b951b-8e5b-4b58-91b9-de303b882f49")
 	)
 	(wire
 		(pts
@@ -2782,57 +2022,47 @@
 		)
 		(uuid "ff4e6d92-784c-4859-8593-9c7752ba734f")
 	)
-	(text "LED1,2,3\nFWD Voltage - 2 to 2.4V\nFWD Current - ~7mA"
-		(exclude_from_sim no)
-		(at 134.874 175.514 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "20ca104f-6bcc-49f8-9c4b-0e3dc506af85")
-	)
 	(text "Li+ Ion Charger"
 		(exclude_from_sim no)
-		(at 227.584 38.1 0)
+		(at 230.124 26.416 0)
 		(effects
 			(font
-				(size 3.81 3.81)
+				(size 7.62 7.62)
 			)
 		)
 		(uuid "3f2c97bd-045c-4d67-967b-2fd4a34a154e")
 	)
-	(text "LED1,2,3\nFWD Voltage - 2 to 2.4V\nFWD Current - ~7mA"
+	(text "Charges @ 5V 1A and is fed either by \nthe USB-C or DC Barrel Jack supply\nor Solar Power"
 		(exclude_from_sim no)
-		(at 134.874 112.014 0)
+		(at 231.394 43.688 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "9b29fd6e-dbf0-4abf-a91d-f13660d6c876")
+	)
+	(text "USed a schottky diode with max fw volt drop of 0.45V\nto prevent voltages from going upstream"
+		(exclude_from_sim no)
+		(at 211.328 84.328 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "a2adc654-85ef-45b1-9413-ba7531b8d46b")
+		(uuid "fdd776e0-a31f-45e4-9567-e732e81646b8")
 	)
-	(text "STAT1 LED ON - Charge In Progress\nSTAT2 LED ON - Charge Done\nPG(Power Good) - Low unless in shutdown mode\nPROG pin left floating disables charger\nCHRG_EN Set High to enable charging"
-		(exclude_from_sim no)
-		(at 230.886 55.118 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "d52a3e01-c51b-4ce2-b395-b634e6e033bb")
-	)
-	(text "LED1,2,3\nFWD Voltage - 2 to 2.4V\nFWD Current - ~7mA"
-		(exclude_from_sim no)
-		(at 134.874 49.784 0)
+	(label "CHARGER+"
+		(at 124.968 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(uuid "fbbe7ad9-bef1-4380-a86d-647ee671d4a0")
+		(uuid "1cafdb5a-118a-486d-82bf-7b5f8043b2d2")
 	)
-	(label "CHRG_EN"
+	(label "CHRG_EN1"
 		(at 43.18 58.42 0)
 		(effects
 			(font
@@ -2842,7 +2072,7 @@
 		)
 		(uuid "1db78450-7ee4-4596-8222-13791d1a1ba3")
 	)
-	(label "CHRG_EN"
+	(label "CHRG_EN3"
 		(at 43.18 184.15 0)
 		(effects
 			(font
@@ -2852,7 +2082,7 @@
 		)
 		(uuid "2f243767-363f-45ff-a23a-085605a7680c")
 	)
-	(label "CHRG_EN"
+	(label "CHRG_EN2"
 		(at 43.18 120.65 0)
 		(effects
 			(font
@@ -2861,6 +2091,47 @@
 			(justify left bottom)
 		)
 		(uuid "771a74f9-1078-44c3-8a6b-1eb986316f17")
+	)
+	(label "CHARGER+"
+		(at 126.238 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96b6568c-c310-4336-ba37-4c79721752be")
+	)
+	(label "CHARGER+"
+		(at 162.306 130.556 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e666990-4f33-42d3-a1ad-0221628c239b")
+	)
+	(label "CHARGER+"
+		(at 125.984 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba4623fd-c3fc-4a6a-945a-56b9be2cd16a")
+	)
+	(hierarchical_label "MCU_CELL3_CHARGING"
+		(shape output)
+		(at 88.9 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24ac0fd6-48a8-404a-b44c-ecd2d68b5e96")
 	)
 	(hierarchical_label "CELL_3+"
 		(shape output)
@@ -2873,6 +2144,17 @@
 		)
 		(uuid "26e132f8-fc06-4968-85a3-e02139a09d33")
 	)
+	(hierarchical_label "MCU_CHARGE_EN2"
+		(shape output)
+		(at 43.18 120.65 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "362fd9de-f0a9-42a2-aca8-5869eb73d619")
+	)
 	(hierarchical_label "CELL_2-"
 		(shape output)
 		(at 25.4 127 180)
@@ -2884,6 +2166,39 @@
 		)
 		(uuid "36977b7a-ef0d-4d0b-abfd-c5bcce2808be")
 	)
+	(hierarchical_label "MCU_CELL2_PWRGD"
+		(shape output)
+		(at 88.9 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d5b9ce0-991e-4d79-b0d9-55df149fc5e3")
+	)
+	(hierarchical_label "MCU_CELL1_CHARGING"
+		(shape output)
+		(at 88.9 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60fbf8e1-4895-418b-9cf0-7ae95e9c25f8")
+	)
+	(hierarchical_label "MCU_CELL3_PWRGD"
+		(shape output)
+		(at 88.9 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "611d6139-b192-4055-a5b1-00c9fa98a143")
+	)
 	(hierarchical_label "CELL_3-"
 		(shape output)
 		(at 25.4 190.5 180)
@@ -2894,6 +2209,39 @@
 			(justify right)
 		)
 		(uuid "6442d914-73bd-4a9b-b492-7a4a2be23a7d")
+	)
+	(hierarchical_label "MCU_CELL3_CHARGE_DONE"
+		(shape output)
+		(at 88.9 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "647e5af6-99cc-4e4f-a19c-950da5f997ee")
+	)
+	(hierarchical_label "MCU_CHARGE_EN3"
+		(shape output)
+		(at 43.18 184.15 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "84626ab9-10cb-4997-b5d7-4121c20666df")
+	)
+	(hierarchical_label "VBUS"
+		(shape output)
+		(at 222.25 114.046 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "893a859e-5976-40f7-9499-fa7f204c9787")
 	)
 	(hierarchical_label "CELL_2+"
 		(shape output)
@@ -2928,145 +2276,75 @@
 		)
 		(uuid "b3c32238-c33f-487d-9747-22a244fe038c")
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 92.71 41.91 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "094eb3ba-cdb5-4ea0-87e1-c36041709c87")
-		(property "Reference" "R34"
-			(at 89.916 47.498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(hierarchical_label "MCU_CELL2_CHARGE_DONE"
+		(shape output)
+		(at 88.9 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "400"
-			(at 89.662 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 40.132 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 92.71 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fef45996-1b48-4b08-89d8-608d06c59f9c")
-		)
-		(pin "2"
-			(uuid "e6338eb7-f40e-44ee-88f7-90f2df2e50c3")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "bddb16f1-d3bc-42c5-8822-dbbdb1c0101b")
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 92.71 165.1 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "22cc9cdd-793f-4bc0-af58-971e0cd6ae59")
-		(property "Reference" "R41"
-			(at 85.852 173.228 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(hierarchical_label "5V_DC_BARREL_OUT"
+		(shape output)
+		(at 221.996 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "400"
-			(at 85.598 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "c516caca-697f-49e5-911e-7c819f47dab2")
+	)
+	(hierarchical_label "MCU_CELL1_CHARGE_DONE"
+		(shape output)
+		(at 88.9 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Footprint" ""
-			(at 92.71 163.322 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "cafb7aab-283d-4fd3-9cab-7f71962c1a73")
+	)
+	(hierarchical_label "MCU_CHARGE_EN1"
+		(shape output)
+		(at 43.18 58.42 180)
+		(effects
+			(font
+				(size 1.016 1.016)
 			)
+			(justify right)
 		)
-		(property "Datasheet" "~"
-			(at 92.71 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "d1c76160-0ae5-4d50-9792-750172179c9e")
+	)
+	(hierarchical_label "MCU_CELL2_CHARGING"
+		(shape output)
+		(at 88.9 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Description" "Resistor"
-			(at 92.71 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "e511c246-669f-427e-8d9c-b8e9f8a5f53b")
+	)
+	(hierarchical_label "MCU_CELL1_PWRGD"
+		(shape output)
+		(at 88.9 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(pin "1"
-			(uuid "63e7b32d-b023-4682-b510-920e13a5ec22")
-		)
-		(pin "2"
-			(uuid "31e782c3-a4d8-46f5-b425-5de4c5d9a2d3")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "R41")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "fe37bded-11e5-4db4-b3a4-4b779e36bea4")
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 41.91 104.14 0)
+		(at 28.194 103.886 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3075,8 +2353,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "295657c3-013d-4ec2-a689-e0d76eebd153")
-		(property "Reference" "C17"
-			(at 45.72 102.8699 0)
+		(property "Reference" "C5"
+			(at 32.004 102.6159 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3085,7 +2363,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 45.72 105.4099 0)
+			(at 32.004 105.1559 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3094,7 +2372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.9448 107.95 0)
+			(at 27.2288 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3103,7 +2381,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 104.14 0)
+			(at 28.194 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3112,7 +2390,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 41.91 104.14 0)
+			(at 28.194 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,75 +2407,77 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "C17")
+					(reference "C5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 92.71 39.37 90)
-		(mirror x)
+		(lib_id "Toshiba schottky diode:CMS05TE12L_Q_M")
+		(at 202.946 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2ceef140-d56f-4030-b8a5-011b84baf71a")
-		(property "Reference" "R33"
-			(at 85.852 47.498 90)
+		(fields_autoplaced yes)
+		(uuid "2e1fe7c6-5610-4e06-9c7b-d725339f2936")
+		(property "Reference" "CR3"
+			(at 208.026 119.126 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "400"
-			(at 85.598 49.53 90)
+		(property "Value" "CMS05TE12L_Q_M"
+			(at 208.026 121.666 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 92.71 37.592 90)
+		(property "Footprint" "M-FLAT_TOS"
+			(at 202.946 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CMS05TE12L_Q_M"
+			(at 202.946 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 202.946 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 92.71 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ec58940-a94d-41ae-8482-4b07dd488489")
 		)
 		(pin "2"
-			(uuid "77fe3c89-a0fc-400d-b3ec-71e68f2d0bb8")
+			(uuid "317cceb7-a1e9-460f-bdb1-993f84808e6c")
+		)
+		(pin "1"
+			(uuid "2d404eeb-0756-4c7d-b195-cd02d32930ca")
 		)
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "R33")
+					(reference "CR3")
 					(unit 1)
 				)
 			)
@@ -3213,7 +2493,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36e7329c-9a0a-4297-bca0-fb968478425b")
-		(property "Reference" "U11"
+		(property "Reference" "U5"
 			(at 71.12 88.9 0)
 			(effects
 				(font
@@ -3292,251 +2572,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KT EELP41.12-S2U1-25-2X4X-5-R18:KT_EELP41.12-S2U1-25-2X4X-5-R18")
-		(at 109.22 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a79de4a-650c-4be2-98e5-6e7602bdeb98")
-		(property "Reference" "LED11"
-			(at 113.03 29.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KT_EELP41.12-S2U1-25-2X4X-5-R18"
-			(at 113.03 31.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "KTEELP4112S2U1252X4X5R18"
-			(at 202.87 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://in.element14.com/ams-osram-group/kt-eelp41-12-s2u1-25-2x4x-5-r18/led-true-green-224mcd-527nm-130deg/dp/4540818"
-			(at 302.87 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED, InGaN on Sapphire, True Green, SMD, 0603 [1608 Metric], 5 mA, 2.5 V, 527 nm"
-			(at 109.22 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at 502.87 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "720-P4112S2U1252X4X5"
-			(at 602.87 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/KT-EELP41.12-S2U1-25-2X4X-5-R18?qs=ZcfC38r4PosnM6jzR6CYig%3D%3D"
-			(at 702.87 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ams OSRAM"
-			(at 802.87 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "KT EELP41.12-S2U1-25-2X4X-5-R18"
-			(at 902.87 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "baf8b44b-ca2e-4c8c-80f0-712495ef0ee5")
-		)
-		(pin "2"
-			(uuid "0ff3f878-c596-4d46-a1de-aa05248c6065")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "LED11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KT EELP41.12-S2U1-25-2X4X-5-R18:KT_EELP41.12-S2U1-25-2X4X-5-R18")
-		(at 109.22 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ceae3fc-b348-4f88-ae68-e540c5e62fe6")
-		(property "Reference" "LED14"
-			(at 113.03 91.4399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KT_EELP41.12-S2U1-25-2X4X-5-R18"
-			(at 113.03 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "KTEELP4112S2U1252X4X5R18"
-			(at 202.87 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://in.element14.com/ams-osram-group/kt-eelp41-12-s2u1-25-2x4x-5-r18/led-true-green-224mcd-527nm-130deg/dp/4540818"
-			(at 302.87 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED, InGaN on Sapphire, True Green, SMD, 0603 [1608 Metric], 5 mA, 2.5 V, 527 nm"
-			(at 109.22 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at 502.87 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "720-P4112S2U1252X4X5"
-			(at 602.87 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/KT-EELP41.12-S2U1-25-2X4X-5-R18?qs=ZcfC38r4PosnM6jzR6CYig%3D%3D"
-			(at 702.87 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ams OSRAM"
-			(at 802.87 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "KT EELP41.12-S2U1-25-2X4X-5-R18"
-			(at 902.87 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7734567-7120-4b36-bc67-9d8b3bd34bca")
-		)
-		(pin "2"
-			(uuid "536428dd-04d1-4c42-bc5d-44173b9b1154")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "LED14")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3544,7 +2580,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 163.83 163.83 0)
+		(at 124.968 160.782 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3553,8 +2589,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d3866b5-c515-48a9-98b1-a57635d7092c")
-		(property "Reference" "C20"
-			(at 167.64 162.5599 0)
+		(property "Reference" "C9"
+			(at 128.778 159.5119 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3563,7 +2599,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 167.64 165.0999 0)
+			(at 128.778 162.0519 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3572,7 +2608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.8648 167.64 0)
+			(at 124.0028 164.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,7 +2617,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 163.83 0)
+			(at 124.968 160.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3590,7 +2626,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 163.83 163.83 0)
+			(at 124.968 160.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3607,7 +2643,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "C20")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3623,7 +2659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d7f9cfc-a525-41a0-9e52-8e69dd25c85e")
-		(property "Reference" "R36"
+		(property "Reference" "R11"
 			(at 57.7215 108.9025 0)
 			(effects
 				(font
@@ -3677,143 +2713,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 92.71 44.45 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e7c2e6b-b994-4475-8065-74147d41dc39")
-		(property "Reference" "R35"
-			(at 93.726 47.498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "400"
-			(at 93.726 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 42.672 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 92.71 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff3502e7-e410-4b0c-b3d9-2ad5bda96590")
-		)
-		(pin "2"
-			(uuid "d8cc1e4e-1a2e-481e-9f9a-e90e046b1600")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 92.71 167.64 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4639202c-fd2c-4429-9ffa-4d05e938b986")
-		(property "Reference" "R42"
-			(at 89.916 173.228 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "400"
-			(at 89.662 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 165.862 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 92.71 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "117efd3f-c3d6-45d8-abe6-b303662720d5")
-		)
-		(pin "2"
-			(uuid "513c68db-13e7-4104-8f19-3f169496fc5d")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "R42")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3828,7 +2728,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a92e7ed-cb9d-4043-ba52-5f8d81bfa3ca")
-		(property "Reference" "Q17"
+		(property "Reference" "Q8"
 			(at 65.278 118.364 0)
 			(effects
 				(font
@@ -3888,508 +2788,77 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "Q17")
+					(reference "Q8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "KY EELP41.22 Q2T1-36-A8J8-020-R18:KY_EELP41.22_Q2T1-36-A8J8-020-R18")
-		(at 115.57 49.53 90)
+		(lib_id "Toshiba schottky diode:CMS05TE12L_Q_M")
+		(at 203.2 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6ab41ad7-2c01-48aa-b748-12625164e193")
-		(property "Reference" "LED12"
-			(at 119.38 40.6399 90)
+		(uuid "558348cb-e9e2-48f2-af24-94b9e5aae6d2")
+		(property "Reference" "CR1"
+			(at 208.28 93.726 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "KY_EELP41.22_Q2T1-36-A8J8-020-R18"
-			(at 119.38 43.1799 90)
+		(property "Value" "CMS05TE12L_Q_M"
+			(at 208.28 96.266 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "KYEELP4122Q2T136A8J8020R18"
-			(at 209.22 36.83 0)
+		(property "Footprint" "M-FLAT_TOS"
+			(at 203.2 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://look.ams-osram.com/m/5a0070c0ca8e7419/original/KY-EELP41-22.pdf"
-			(at 309.22 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED, InGaAlP, Yellow, SMD, 0603 [1608 Metric], 20 mA, 2 V, 589 nm"
-			(at 115.57 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Height" "0.5"
-			(at 509.22 36.83 0)
+		(property "Datasheet" "CMS05TE12L_Q_M"
+			(at 203.2 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "720-P412Q2T136A8J802"
-			(at 609.22 36.83 0)
+		(property "Description" ""
+			(at 203.2 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/KY-EELP41.22-Q2T1-36-A8J8-020-R18?qs=ZcfC38r4PotaNlE530FL%252BQ%3D%3D"
-			(at 709.22 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ams OSRAM"
-			(at 809.22 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "KY EELP41.22 Q2T1-36-A8J8-020-R18"
-			(at 909.22 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "4b64cf07-3385-462b-9a95-8452cf6ecbc6")
 		)
 		(pin "1"
-			(uuid "458cb9b1-f2fc-4208-9b18-97f09a7ccf31")
-		)
-		(pin "2"
-			(uuid "46259119-3d7a-4b48-9b9c-75519d2eed0d")
+			(uuid "8795e84d-c8b2-4af6-aed4-9487ebc042ab")
 		)
 		(instances
-			(project "Robot_BMS"
+			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "LED12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KY EELP41.22 Q2T1-36-A8J8-020-R18:KY_EELP41.22_Q2T1-36-A8J8-020-R18")
-		(at 115.57 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78909cd2-3d3c-4c1b-a3e8-69ab6b434ba0")
-		(property "Reference" "LED15"
-			(at 119.38 102.8699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KY_EELP41.22_Q2T1-36-A8J8-020-R18"
-			(at 119.38 105.4099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "KYEELP4122Q2T136A8J8020R18"
-			(at 209.22 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://look.ams-osram.com/m/5a0070c0ca8e7419/original/KY-EELP41-22.pdf"
-			(at 309.22 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED, InGaAlP, Yellow, SMD, 0603 [1608 Metric], 20 mA, 2 V, 589 nm"
-			(at 115.57 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at 509.22 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "720-P412Q2T136A8J802"
-			(at 609.22 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/KY-EELP41.22-Q2T1-36-A8J8-020-R18?qs=ZcfC38r4PotaNlE530FL%252BQ%3D%3D"
-			(at 709.22 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ams OSRAM"
-			(at 809.22 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "KY EELP41.22 Q2T1-36-A8J8-020-R18"
-			(at 909.22 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "596f4f1d-a014-46c2-916a-bf93be13e537")
-		)
-		(pin "2"
-			(uuid "0f5aec7b-9def-4f07-b662-f29ea00cb483")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "LED15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 92.71 101.6 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7965385f-ba9b-4069-9e54-f1d45515476a")
-		(property "Reference" "R37"
-			(at 85.852 109.728 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "400"
-			(at 85.598 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 99.822 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 92.71 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3551c116-3487-46ce-a2ee-fd66dd5fe94a")
-		)
-		(pin "2"
-			(uuid "7961b011-8f57-4923-85bb-450f6bea3667")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SML-D12V8WT86:SML-D12V8WT86")
-		(at 99.06 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e7bdd83-d65c-4552-936c-d2a783c080e9")
-		(property "Reference" "LED10"
-			(at 82.296 23.876 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SML-D12V8WT86"
-			(at 82.296 26.416 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SMLD12V8WT86"
-			(at 106.172 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.rohm.com/datasheet?p=SML-D12V8W&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
-			(at 292.71 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Red 630nm LED Indication - Discrete 2.2V 0603 (1608 Metric)"
-			(at 99.06 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.65"
-			(at 492.71 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "755-SML-D12V8WT86"
-			(at 592.71 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/SML-D12V8WT86?qs=4kLU8WoGk0uh2PhEoCCv1w%3D%3D"
-			(at 692.71 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ROHM Semiconductor"
-			(at 792.71 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SML-D12V8WT86"
-			(at 892.71 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "af677478-ca3b-4973-8bd3-6d4d20b17f1a")
-		)
-		(pin "1"
-			(uuid "a193dd79-c500-4f5a-9820-e64db898ebae")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "LED10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 92.71 104.14 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8e75edaa-42b4-4ecb-99a5-8e279500ee6b")
-		(property "Reference" "R38"
-			(at 89.916 109.728 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "400"
-			(at 89.662 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 102.362 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 92.71 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9bf083d9-04b3-4475-a37c-dbb916dc4542")
-		)
-		(pin "2"
-			(uuid "c70012b8-97ba-4234-b4b0-b5dbd76b0565")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "R38")
+					(reference "CR1")
 					(unit 1)
 				)
 			)
@@ -4405,7 +2874,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93678563-dc8d-4d4a-a010-49f4b40879e0")
-		(property "Reference" "U12"
+		(property "Reference" "U6"
 			(at 71.12 152.4 0)
 			(effects
 				(font
@@ -4484,250 +2953,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KT EELP41.12-S2U1-25-2X4X-5-R18:KT_EELP41.12-S2U1-25-2X4X-5-R18")
-		(at 109.22 163.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93fe4332-1cd2-4f0f-95ce-fdc784e0c18d")
-		(property "Reference" "LED17"
-			(at 113.03 154.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KT_EELP41.12-S2U1-25-2X4X-5-R18"
-			(at 113.03 157.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "KTEELP4112S2U1252X4X5R18"
-			(at 202.87 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://in.element14.com/ams-osram-group/kt-eelp41-12-s2u1-25-2x4x-5-r18/led-true-green-224mcd-527nm-130deg/dp/4540818"
-			(at 302.87 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED, InGaN on Sapphire, True Green, SMD, 0603 [1608 Metric], 5 mA, 2.5 V, 527 nm"
-			(at 109.22 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at 502.87 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "720-P4112S2U1252X4X5"
-			(at 602.87 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/KT-EELP41.12-S2U1-25-2X4X-5-R18?qs=ZcfC38r4PosnM6jzR6CYig%3D%3D"
-			(at 702.87 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ams OSRAM"
-			(at 802.87 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "KT EELP41.12-S2U1-25-2X4X-5-R18"
-			(at 902.87 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94be116c-08ed-40ef-932f-1d1bac9d3443")
-		)
-		(pin "2"
-			(uuid "944ff2a1-e75e-4650-b64a-65f9d39c210d")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "LED17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SML-D12V8WT86:SML-D12V8WT86")
-		(at 99.06 163.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "96daea31-25ad-4e76-9a08-a622850672ca")
-		(property "Reference" "LED16"
-			(at 82.296 149.606 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SML-D12V8WT86"
-			(at 82.296 152.146 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SMLD12V8WT86"
-			(at 106.172 206.248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.rohm.com/datasheet?p=SML-D12V8W&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
-			(at 292.71 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Red 630nm LED Indication - Discrete 2.2V 0603 (1608 Metric)"
-			(at 99.06 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.65"
-			(at 492.71 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "755-SML-D12V8WT86"
-			(at 592.71 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/SML-D12V8WT86?qs=4kLU8WoGk0uh2PhEoCCv1w%3D%3D"
-			(at 692.71 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ROHM Semiconductor"
-			(at 792.71 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SML-D12V8WT86"
-			(at 892.71 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e61a6cf9-23ea-406b-b973-7bd77b5d23c7")
-		)
-		(pin "1"
-			(uuid "84fe1180-9e1a-4d2d-8575-8b15e9451c9c")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "LED16")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -4735,7 +2961,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 41.91 167.64 0)
+		(at 27.94 167.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4744,8 +2970,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97d953ea-e700-41c8-82d8-1c2d0c4bfc9e")
-		(property "Reference" "C19"
-			(at 45.72 166.3699 0)
+		(property "Reference" "C6"
+			(at 31.75 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,7 +2980,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 45.72 168.9099 0)
+			(at 31.75 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4763,7 +2989,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.9448 171.45 0)
+			(at 26.9748 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4772,7 +2998,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 167.64 0)
+			(at 27.94 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4781,7 +3007,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 41.91 167.64 0)
+			(at 27.94 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4798,7 +3024,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "C19")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4814,7 +3040,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a4f209b-7997-4393-ac31-746e063fc37a")
-		(property "Reference" "R32"
+		(property "Reference" "R10"
 			(at 57.7215 46.6725 0)
 			(effects
 				(font
@@ -4868,7 +3094,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "R32")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4876,7 +3102,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 173.99 0)
+		(at 60.452 173.99 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4884,8 +3110,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a415051c-2b34-4d59-bb9b-41aa54858aba")
-		(property "Reference" "R40"
-			(at 57.7215 172.4025 0)
+		(property "Reference" "R12"
+			(at 58.4835 172.4025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4894,7 +3120,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 57.7215 174.9425 0)
+			(at 58.4835 174.9425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4903,7 +3129,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.912 173.99 90)
+			(at 58.674 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4912,7 +3138,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 173.99 0)
+			(at 60.452 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4921,7 +3147,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 173.99 0)
+			(at 60.452 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4938,75 +3164,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 92.71 106.68 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6fce140-b83c-4b1d-81e5-b42fac8cf997")
-		(property "Reference" "R39"
-			(at 93.726 109.728 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "400"
-			(at 93.726 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 104.902 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 92.71 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b558f45-cc29-4724-ad4e-ef241a95ead6")
-		)
-		(pin "2"
-			(uuid "846df982-4ee6-4095-bead-7b1a59e2d38b")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "R39")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5021,7 +3179,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4fd0418-f91e-4e36-85da-4934590f83c8")
-		(property "Reference" "Q16"
+		(property "Reference" "Q7"
 			(at 65.278 56.134 0)
 			(effects
 				(font
@@ -5081,129 +3239,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "Q16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KY EELP41.22 Q2T1-36-A8J8-020-R18:KY_EELP41.22_Q2T1-36-A8J8-020-R18")
-		(at 115.57 175.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf28ae9a-5d07-43c3-b05e-13982c7f3cee")
-		(property "Reference" "LED18"
-			(at 119.38 166.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KY_EELP41.22_Q2T1-36-A8J8-020-R18"
-			(at 119.38 168.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "KYEELP4122Q2T136A8J8020R18"
-			(at 209.22 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://look.ams-osram.com/m/5a0070c0ca8e7419/original/KY-EELP41-22.pdf"
-			(at 309.22 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED, InGaAlP, Yellow, SMD, 0603 [1608 Metric], 20 mA, 2 V, 589 nm"
-			(at 115.57 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at 509.22 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "720-P412Q2T136A8J802"
-			(at 609.22 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/KY-EELP41.22-Q2T1-36-A8J8-020-R18?qs=ZcfC38r4PotaNlE530FL%252BQ%3D%3D"
-			(at 709.22 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ams OSRAM"
-			(at 809.22 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "KY EELP41.22 Q2T1-36-A8J8-020-R18"
-			(at 909.22 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a80ac16-16f3-44ef-bd9f-b6c7bba273f7")
-		)
-		(pin "2"
-			(uuid "7ac47936-f917-4fce-b679-af533d50d621")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "LED18")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -5211,7 +3247,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 41.91 41.91 0)
+		(at 26.67 41.91 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5220,8 +3256,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d38f6de0-60ce-425d-a851-ced5d94a45c5")
-		(property "Reference" "C15"
-			(at 45.72 40.6399 0)
+		(property "Reference" "C4"
+			(at 30.48 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5230,7 +3266,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 45.72 43.1799 0)
+			(at 30.48 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5239,7 +3275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.9448 45.72 0)
+			(at 25.7048 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5248,7 +3284,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 41.91 0)
+			(at 26.67 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5257,7 +3293,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 41.91 41.91 0)
+			(at 26.67 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5274,7 +3310,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "C15")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5282,15 +3318,15 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7002")
-		(at 57.15 184.15 0)
+		(at 57.912 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d649dfea-fcdc-44da-9c7d-d5d4d60f12e1")
-		(property "Reference" "Q18"
-			(at 65.278 181.864 0)
+		(property "Reference" "Q9"
+			(at 66.04 181.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5299,7 +3335,7 @@
 			)
 		)
 		(property "Value" "2N7002"
-			(at 62.992 184.658 0)
+			(at 63.754 184.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5308,7 +3344,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 62.23 186.055 0)
+			(at 62.992 186.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5319,7 +3355,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 62.23 187.96 0)
+			(at 62.992 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,7 +3365,7 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 57.15 184.15 0)
+			(at 57.912 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5349,128 +3385,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "Q18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SML-D12V8WT86:SML-D12V8WT86")
-		(at 99.06 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd0b4ea8-64d6-44a6-aa59-938afe9ebb4f")
-		(property "Reference" "LED13"
-			(at 82.296 86.106 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SML-D12V8WT86"
-			(at 82.296 88.646 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SMLD12V8WT86"
-			(at 106.172 142.748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.rohm.com/datasheet?p=SML-D12V8W&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
-			(at 292.71 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Red 630nm LED Indication - Discrete 2.2V 0603 (1608 Metric)"
-			(at 99.06 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.65"
-			(at 492.71 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "755-SML-D12V8WT86"
-			(at 592.71 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/SML-D12V8WT86?qs=4kLU8WoGk0uh2PhEoCCv1w%3D%3D"
-			(at 692.71 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ROHM Semiconductor"
-			(at 792.71 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SML-D12V8WT86"
-			(at 892.71 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e3b802c5-9726-4fdb-b4d8-ad9d717a6eca")
-		)
-		(pin "1"
-			(uuid "1affc502-f8d7-4293-95c2-995f2589e99e")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "LED13")
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -5486,7 +3401,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2dd22bb-c248-47f4-8669-b3ce8b769920")
-		(property "Reference" "U10"
+		(property "Reference" "U4"
 			(at 71.12 26.67 0)
 			(effects
 				(font
@@ -5565,7 +3480,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "U10")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5573,7 +3488,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 163.83 38.1 0)
+		(at 126.238 41.91 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5582,8 +3497,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e89e4159-ff20-4d1e-b3ee-04665c5ef133")
-		(property "Reference" "C16"
-			(at 167.64 36.8299 0)
+		(property "Reference" "C7"
+			(at 130.048 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5592,7 +3507,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 167.64 39.3699 0)
+			(at 130.048 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5601,7 +3516,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.8648 41.91 0)
+			(at 125.2728 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5610,7 +3525,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 38.1 0)
+			(at 126.238 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5619,7 +3534,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 163.83 38.1 0)
+			(at 126.238 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5636,7 +3551,77 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "C16")
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Toshiba schottky diode:CMS05TE12L_Q_M")
+		(at 202.946 114.046 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb04698c-e09a-487d-8fe0-293fbf79ad89")
+		(property "Reference" "CR2"
+			(at 208.026 107.442 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "CMS05TE12L_Q_M"
+			(at 208.026 109.982 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "M-FLAT_TOS"
+			(at 202.946 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CMS05TE12L_Q_M"
+			(at 202.946 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 202.946 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "913ef842-33e1-4d14-9c1c-fa090af9ada3")
+		)
+		(pin "1"
+			(uuid "0d2678dc-b332-45e7-a8e6-b8a02b036630")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
+					(reference "CR2")
 					(unit 1)
 				)
 			)
@@ -5644,7 +3629,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 163.83 100.33 0)
+		(at 125.984 102.362 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5653,8 +3638,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1466935-6220-4864-9c87-f1f2289f3192")
-		(property "Reference" "C18"
-			(at 167.64 99.0599 0)
+		(property "Reference" "C8"
+			(at 129.794 101.0919 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5663,7 +3648,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 167.64 101.5999 0)
+			(at 129.794 103.6319 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5672,7 +3657,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.8648 104.14 0)
+			(at 125.0188 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5681,7 +3666,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 100.33 0)
+			(at 125.984 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5690,7 +3675,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 163.83 100.33 0)
+			(at 125.984 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5707,75 +3692,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 92.71 170.18 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ffa6fdc6-283f-4474-8a0a-992a0fcae6e2")
-		(property "Reference" "R43"
-			(at 93.726 173.228 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "400"
-			(at 93.726 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 168.402 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 92.71 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c1b07bf3-8207-49a1-86a8-f323b8755c02")
-		)
-		(pin "2"
-			(uuid "2defb5ae-7015-4e0e-b760-da8236570ef5")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "R43")
+					(reference "C8")
 					(unit 1)
 				)
 			)

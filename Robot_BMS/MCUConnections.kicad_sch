@@ -4,15 +4,375 @@
 	(generator_version "8.0")
 	(uuid "2cf1e7b4-7b71-4419-9b8b-f707031f7270")
 	(paper "A4")
+	(title_block
+		(date "2025-03-13")
+	)
 	(lib_symbols)
-	(text "A connector that can interface with pin header\n"
+	(wire
+		(pts
+			(xy 81.28 89.154) (xy 102.362 89.154)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ca4100-e2d7-43bd-be5c-3e8d4c70e48b")
+	)
+	(wire
+		(pts
+			(xy 81.28 118.618) (xy 102.362 118.618)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c2e07d-ae64-4928-9592-396f31b1b356")
+	)
+	(wire
+		(pts
+			(xy 81.28 95.758) (xy 102.362 95.758)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c7b482-bb5d-418d-b7a0-da1ed3997f3c")
+	)
+	(wire
+		(pts
+			(xy 81.28 86.614) (xy 102.362 86.614)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc7d361-1471-4b87-ae3d-0d040743ef69")
+	)
+	(wire
+		(pts
+			(xy 81.28 107.696) (xy 102.362 107.696)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f509d05-dbc3-4eb0-b420-ccc497e32889")
+	)
+	(wire
+		(pts
+			(xy 81.28 83.82) (xy 102.362 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b58c80a-195d-4dfe-b430-5049f32b215d")
+	)
+	(wire
+		(pts
+			(xy 81.28 105.156) (xy 102.362 105.156)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc6da56-848d-4825-b8d0-e9ec8b0eb7c2")
+	)
+	(wire
+		(pts
+			(xy 81.28 113.538) (xy 102.362 113.538)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "404aed54-5a9b-4106-ade7-9a77765ab9d3")
+	)
+	(wire
+		(pts
+			(xy 81.28 110.236) (xy 102.362 110.236)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44587a29-7f4b-43fd-8e20-5e9a0001b8a0")
+	)
+	(wire
+		(pts
+			(xy 81.28 115.824) (xy 102.362 115.824)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb7f56b-1cc5-442c-85ac-e2843e271a16")
+	)
+	(wire
+		(pts
+			(xy 81.28 69.596) (xy 102.362 69.596)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7809efba-6e5f-406a-a229-fa650c17f535")
+	)
+	(wire
+		(pts
+			(xy 81.28 91.694) (xy 102.362 91.694)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a896a4fd-5859-4c46-ac6c-87a5bb74819d")
+	)
+	(wire
+		(pts
+			(xy 81.28 98.298) (xy 102.362 98.298)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca92cf35-70a1-4dc7-b076-4f134e9b451f")
+	)
+	(wire
+		(pts
+			(xy 81.28 100.838) (xy 102.362 100.838)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc61ddcf-52f8-4331-a070-33e24b25d6b1")
+	)
+	(wire
+		(pts
+			(xy 81.28 77.978) (xy 102.362 77.978)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dada65bf-3239-4867-8a11-cae86611f5b7")
+	)
+	(wire
+		(pts
+			(xy 81.28 80.772) (xy 102.362 80.772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec020b3e-2c56-478f-bbee-de71e00af05b")
+	)
+	(wire
+		(pts
+			(xy 81.28 73.66) (xy 102.362 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6bf9e10-8311-4f76-9475-43ecdb5ae0fa")
+	)
+	(text "A connector that can interface to HAT Board on top of STM32\nApart from SCL & SDA, they are all simple Input/Output pins\nor logic high or low pins\n"
 		(exclude_from_sim no)
-		(at 179.07 88.138 0)
+		(at 191.262 38.354 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 			)
 		)
 		(uuid "79a88713-dc70-4056-9b1b-f4b29c0e5faf")
+	)
+	(hierarchical_label "MCU_CELL1_PWRGD"
+		(shape output)
+		(at 81.28 91.694 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1606f156-7a2b-47a4-a9d2-41823a029e21")
+	)
+	(hierarchical_label "MCU_CELL3_CHARGING"
+		(shape output)
+		(at 81.28 105.156 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27e9b6ae-5161-4a95-b664-33efa815c1b4")
+	)
+	(hierarchical_label "SCL"
+		(shape bidirectional)
+		(at 81.28 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c85f656-f05c-41f8-bd20-7a9adb51bbd5")
+	)
+	(hierarchical_label "ADC3_MCU"
+		(shape output)
+		(at 81.28 118.618 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a1580b8-a4ce-44df-af00-6237ae5fdc81")
+	)
+	(hierarchical_label "ADC1_MCU"
+		(shape output)
+		(at 81.28 113.538 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e8feb19-0b20-4f82-93e4-76976bdb6ce6")
+	)
+	(hierarchical_label "MCU_CELL2_CHARGING"
+		(shape output)
+		(at 81.28 95.758 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c5725a1-f4ab-49f4-b6b6-f49cc25a0f14")
+	)
+	(hierarchical_label "MCU_CELL3_CHARGE_DONE"
+		(shape output)
+		(at 81.28 107.696 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "63622948-bcbf-4f1b-88ea-aa19f40cf245")
+	)
+	(hierarchical_label "MCU_CELL2_CHARGE_DONE"
+		(shape output)
+		(at 81.28 98.298 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66ce121b-feaf-411e-894e-3d331efb8bc0")
+	)
+	(hierarchical_label "MCU_CHARGE_EN2"
+		(shape output)
+		(at 81.28 80.772 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75afbe11-574f-43f4-806f-19fd5767b608")
+	)
+	(hierarchical_label "MCU_CELL1_CHARGE_DONE"
+		(shape output)
+		(at 81.28 89.154 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "893450e6-e363-4524-abc7-ea87e71e6de0")
+	)
+	(hierarchical_label "MCU_CELL3_PWRGD"
+		(shape output)
+		(at 81.28 110.236 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "995d8ef3-8bd8-4a7d-bce2-b5a29f208b63")
+	)
+	(hierarchical_label "MCU_CHARGE_EN3"
+		(shape output)
+		(at 81.28 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b4473f1-c315-4edf-a353-9f9477b9eb0e")
+	)
+	(hierarchical_label "MCU_CELL2_PWRGD"
+		(shape output)
+		(at 81.28 100.838 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9de8db17-7a45-4ec7-9ec1-9e86ebaedf72")
+	)
+	(hierarchical_label "ADC2_MCU"
+		(shape output)
+		(at 81.28 115.824 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e6ed928-23ac-4003-947a-a45eef8e227b")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 81.28 69.596 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8ab903a-0c0e-406b-9d39-366c2dc67082")
+	)
+	(hierarchical_label "MCU_CELL1_CHARGING"
+		(shape output)
+		(at 81.28 86.614 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4876034-01f9-45d2-8c50-31b684594e4b")
+	)
+	(hierarchical_label "MCU_CHARGE_EN1"
+		(shape output)
+		(at 81.28 77.978 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f3a5399b-07b1-425b-ba30-d76a1ada81b0")
 	)
 )

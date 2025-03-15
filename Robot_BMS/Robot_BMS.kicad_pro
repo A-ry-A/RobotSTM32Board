@@ -631,6 +631,10 @@
     [
       "f21d0d80-f932-4fe7-82f0-3490cb74f2de",
       "To MCU"
+    ],
+    [
+      "7a60a594-7330-4ecb-a3c9-8c0f96aa21b4",
+      "DC Power Supply"
     ]
   ],
   "text_variables": {}

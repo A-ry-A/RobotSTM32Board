@@ -5,50 +5,50 @@
 	(uuid "bb7065dd-804c-44e1-9c04-3a9528d1f04c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:Battery_Cell"
-			(pin_numbers hide)
+		(symbol "18650 Battery Holder:BH-18650-PC"
 			(pin_names
-				(offset 0) hide)
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
+			(property "Reference" "B"
+				(at 4.826 3.81 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
+			(property "Value" "BH-18650-PC"
+				(at 4.826 -3.81 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
+			(property "Footprint" "BAT_BH-18650-PC_MPD"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Description" "Single-cell battery"
+			(property "Datasheet" "BH-18650-PC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -57,7 +57,15 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "battery cell"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BH-18650-PC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -66,83 +74,128 @@
 					(hide yes)
 				)
 			)
-			(symbol "Battery_Cell_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
+			(property "ki_fp_filters" "BAT_BH-18650-PC_MPD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
 			)
-			(symbol "Battery_Cell_1_1"
-				(pin passive line
-					(at 0 5.08 270)
+			(symbol "BH-18650-PC_0_1"
+				(polyline
+					(pts
+						(xy 1.778 1.27) (xy 2.794 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0.762) (xy 2.286 1.778)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 -1.778) (xy 3.556 1.778)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 0.762) (xy 4.572 -0.762)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 -1.778) (xy 5.588 1.778)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.604 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.604 0.762) (xy 6.604 -0.762)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.366 1.27) (xy 8.382 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
 					(length 2.54)
-					(name "+"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -157,10 +210,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -2.54 90)
+				(pin unspecified line
+					(at 0 0 0)
 					(length 2.54)
-					(name "-"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -383,16 +436,28 @@
 		)
 	)
 	(junction
-		(at 114.3 140.97)
+		(at 114.3 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0ce23d19-1651-45e4-beeb-911bf958232d")
+		(uuid "45d6a788-005e-4d1a-946a-0b755dcd1e1a")
+	)
+	(junction
+		(at 114.554 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8363d497-0e09-4205-b459-e33dea87bf32")
 	)
 	(junction
 		(at 114.3 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5287dd3e-3c92-4c95-a857-37a3b4b919c8")
+		(uuid "86cb8dfd-eee5-4474-8252-b90160004cb1")
+	)
+	(junction
+		(at 114.3 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a612604-7b08-4b0e-aa1e-11e13de5c2b1")
 	)
 	(junction
 		(at 114.3 58.42)
@@ -401,22 +466,16 @@
 		(uuid "90d365fb-a60b-4172-b3c9-ef6417cdb20d")
 	)
 	(junction
-		(at 114.3 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a20ff608-cc34-4f8d-b31a-aac345e2b051")
-	)
-	(junction
 		(at 114.3 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a557b13d-091d-4fca-8e25-1311f5c3686a")
 	)
 	(junction
-		(at 114.3 119.38)
+		(at 114.554 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f9b68742-bfbf-445a-b207-299317c9af96")
+		(uuid "c8df6073-169d-4f7d-8f48-48a014bc9645")
 	)
 	(wire
 		(pts
@@ -450,13 +509,23 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 140.97) (xy 114.3 146.05)
+			(xy 114.3 140.97) (xy 114.3 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "17c79db2-742a-4ac1-adae-c6d3edebe246")
+	)
+	(wire
+		(pts
+			(xy 114.554 140.97) (xy 143.51 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd70a32-82d4-4444-a4c1-256cc8f14ba6")
 	)
 	(wire
 		(pts
@@ -470,6 +539,26 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 73.914) (xy 114.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ca9aa6-2d62-4a8d-827e-57fe566b357c")
+	)
+	(wire
+		(pts
+			(xy 114.3 149.86) (xy 144.78 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46977e2c-b352-46ff-811f-e684add39e0a")
+	)
+	(wire
+		(pts
 			(xy 114.3 105.41) (xy 114.3 119.38)
 		)
 		(stroke
@@ -480,17 +569,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 100.33) (xy 114.3 105.41)
+			(xy 114.554 140.97) (xy 114.3 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "650d4959-0947-48e7-a16c-b675ab0eefc5")
+		(uuid "693cfdcc-d032-4cd1-8ec5-c17b0446a1c3")
 	)
 	(wire
 		(pts
-			(xy 114.3 119.38) (xy 143.51 119.38)
+			(xy 114.3 119.38) (xy 114.554 119.38)
 		)
 		(stroke
 			(width 0)
@@ -500,7 +589,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 119.38) (xy 114.3 127)
+			(xy 114.554 136.652) (xy 114.554 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94b4d816-d191-488c-bbc4-5fd648bdad61")
+	)
+	(wire
+		(pts
+			(xy 114.554 119.38) (xy 114.554 126.492)
 		)
 		(stroke
 			(width 0)
@@ -510,7 +609,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 58.42) (xy 114.3 62.23)
+			(xy 114.3 58.42) (xy 114.3 63.754)
 		)
 		(stroke
 			(width 0)
@@ -540,7 +639,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 86.36) (xy 114.3 92.71)
+			(xy 114.3 86.36) (xy 114.3 91.948)
 		)
 		(stroke
 			(width 0)
@@ -550,43 +649,54 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 76.2) (xy 114.3 76.2)
+			(xy 114.3 149.86) (xy 114.3 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba18bd0d-a9b5-4dfb-87d2-2a784bd3187c")
+		(uuid "cc96af58-af2d-4d93-8289-d8114208315d")
 	)
 	(wire
 		(pts
-			(xy 114.3 69.85) (xy 114.3 76.2)
+			(xy 114.554 119.38) (xy 143.51 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6052923-f491-477c-ba67-9cc7b2702df6")
+		(uuid "d671ce2e-cf4a-4e0e-919f-205e5bd51bff")
 	)
 	(wire
 		(pts
-			(xy 114.3 140.97) (xy 143.51 140.97)
+			(xy 114.3 102.108) (xy 114.3 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e948d7b6-a472-40d6-b140-f85496758c96")
+		(uuid "f0a61653-0b7d-4c49-8ce0-1a17ec508476")
 	)
-	(wire
-		(pts
-			(xy 114.3 134.62) (xy 114.3 140.97)
+	(text "B1,2,&3 are 18650 battery holders"
+		(exclude_from_sim no)
+		(at 59.69 36.83 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
 		)
-		(stroke
-			(width 0)
-			(type default)
+		(uuid "83cb087b-d30e-48a2-bd92-499019a35e8e")
+	)
+	(hierarchical_label "SRN"
+		(shape output)
+		(at 144.78 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
-		(uuid "f9faa30c-134d-48dc-b68f-c2f97ccf5a0c")
+		(uuid "26831a05-8dd4-4568-aea3-ce3faf602fbb")
 	)
 	(hierarchical_label "CELL_2-"
 		(shape output)
@@ -610,7 +720,7 @@
 		)
 		(uuid "31775823-b0b9-46ab-b57a-dc8aef74d704")
 	)
-	(hierarchical_label "CELL_3-"
+	(hierarchical_label "CELL_3-{slash}SRP"
 		(shape output)
 		(at 143.51 140.97 0)
 		(effects
@@ -655,52 +765,55 @@
 		(uuid "8b10673d-03a5-44d4-8e7b-7fc5a57efd07")
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 114.3 97.79 0)
+		(lib_id "18650 Battery Holder:BH-18650-PC")
+		(at 114.3 63.754 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0dfc5953-bbc7-45e3-948a-989df3ecb1e7")
-		(property "Reference" "BT2"
-			(at 101.854 95.758 0)
+		(fields_autoplaced yes)
+		(uuid "2923947b-6a33-49b3-8c49-11405e7d81e0")
+		(property "Reference" "B1"
+			(at 117.094 67.5639 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "Li-Ion Cell"
-			(at 101.854 98.298 0)
+		(property "Value" "BH-18650-PC"
+			(at 117.094 70.1039 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 114.3 96.266 90)
+		(property "Footprint" "BAT_BH-18650-PC_MPD"
+			(at 114.3 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 114.3 96.266 90)
+		(property "Datasheet" "BH-18650-PC"
+			(at 114.3 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-cell battery"
-			(at 114.3 97.79 0)
+		(property "Description" ""
+			(at 114.3 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -709,15 +822,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee666925-685d-48fe-add2-9cd02a6adddc")
+			(uuid "c3e16972-014f-446c-8295-a13cf551dbb4")
 		)
 		(pin "2"
-			(uuid "b680f597-b0a2-4ec9-8896-1b2ae5140a1d")
+			(uuid "390fdc3f-f2a0-46b8-8277-beed07491b16")
 		)
 		(instances
-			(project "Robot_BMS"
+			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/e8cba041-cae9-4c3d-bb1a-67e8763cb5b9"
-					(reference "BT2")
+					(reference "B1")
 					(unit 1)
 				)
 			)
@@ -733,7 +846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dbb8d9c-7dc2-467a-ab46-affb607593a6")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR09"
 			(at 114.3 55.88 0)
 			(effects
 				(font
@@ -783,7 +896,79 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/e8cba041-cae9-4c3d-bb1a-67e8763cb5b9"
-					(reference "#PWR05")
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "18650 Battery Holder:BH-18650-PC")
+		(at 114.3 91.948 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e8a3300-3407-453d-823c-37c0f579e756")
+		(property "Reference" "B2"
+			(at 117.094 95.7579 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BH-18650-PC"
+			(at 117.094 98.2979 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BAT_BH-18650-PC_MPD"
+			(at 114.3 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "BH-18650-PC"
+			(at 114.3 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9679544-a7a6-4191-af82-06c85af60cf0")
+		)
+		(pin "2"
+			(uuid "9a841f5b-4c21-45ad-b191-40fdc71bcd42")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/e8cba041-cae9-4c3d-bb1a-67e8763cb5b9"
+					(reference "B2")
 					(unit 1)
 				)
 			)
@@ -791,7 +976,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 146.05 0)
+		(at 114.3 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -799,8 +984,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "637f482f-0436-480d-afca-1dcca965317b")
-		(property "Reference" "#PWR06"
-			(at 114.3 152.4 0)
+		(property "Reference" "#PWR010"
+			(at 114.3 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -809,7 +994,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 151.13 0)
+			(at 114.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -817,7 +1002,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 146.05 0)
+			(at 114.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -826,7 +1011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 146.05 0)
+			(at 114.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -835,7 +1020,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 146.05 0)
+			(at 114.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -849,59 +1034,62 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/e8cba041-cae9-4c3d-bb1a-67e8763cb5b9"
-					(reference "#PWR06")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 114.3 67.31 0)
+		(lib_id "18650 Battery Holder:BH-18650-PC")
+		(at 114.554 126.492 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "73e24a85-add2-4d61-b3fc-07fef515c607")
-		(property "Reference" "BT1"
-			(at 101.854 65.278 0)
+		(fields_autoplaced yes)
+		(uuid "a30ef854-599a-47eb-b348-7047ee345a6f")
+		(property "Reference" "B3"
+			(at 117.348 130.3019 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "Li-Ion Cell"
-			(at 101.854 67.818 0)
+		(property "Value" "BH-18650-PC"
+			(at 117.348 132.8419 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 114.3 65.786 90)
+		(property "Footprint" "BAT_BH-18650-PC_MPD"
+			(at 114.554 126.492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 114.3 65.786 90)
+		(property "Datasheet" "BH-18650-PC"
+			(at 114.554 126.492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-cell battery"
-			(at 114.3 67.31 0)
+		(property "Description" ""
+			(at 114.554 126.492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -910,84 +1098,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4f5e7596-3715-4ff6-b4e5-d40e5656c545")
+			(uuid "fa999899-1456-4868-9925-8a50d630d8f6")
 		)
 		(pin "2"
-			(uuid "fb104894-0b35-4271-93aa-d5c55863039e")
+			(uuid "548a4681-8235-40a5-8eec-08b80deda309")
 		)
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/e8cba041-cae9-4c3d-bb1a-67e8763cb5b9"
-					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 114.3 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e15e5927-b2ad-4084-87d9-91719cfb19b5")
-		(property "Reference" "BT3"
-			(at 101.854 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Li-Ion Cell"
-			(at 101.854 132.588 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 130.556 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 130.556 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 114.3 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a889ea3b-cca6-4456-989d-a995ac01da8d")
-		)
-		(pin "2"
-			(uuid "135bb3b2-6d38-4c40-ab1f-11c2a8d86ebb")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/e8cba041-cae9-4c3d-bb1a-67e8763cb5b9"
-					(reference "BT3")
+					(reference "B3")
 					(unit 1)
 				)
 			)

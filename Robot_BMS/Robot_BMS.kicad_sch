@@ -545,7 +545,7 @@
 	)
 	(sheet
 		(at 229.87 69.088)
-		(size 25.654 18.796)
+		(size 29.718 18.796)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -577,7 +577,7 @@
 			(at 229.87 75.184 180)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.905 1.905)
 				)
 				(justify left)
 			)
@@ -936,7 +936,7 @@
 			(type solid)
 		)
 		(fill
-			(color 244 255 52 1.0000)
+			(color 88 0 0 1.0000)
 		)
 		(uuid "c1bdabe1-a4b5-470d-80f8-90d5658c2a45")
 		(property "Sheetname" "USB-C"
@@ -962,6 +962,7 @@
 			(effects
 				(font
 					(size 1.905 1.905)
+					(color 255 250 246 1)
 				)
 				(justify left)
 			)
@@ -972,6 +973,7 @@
 			(effects
 				(font
 					(size 1.905 1.905)
+					(color 248 255 248 1)
 				)
 				(justify left)
 			)
@@ -982,6 +984,7 @@
 			(effects
 				(font
 					(size 1.905 1.905)
+					(color 249 255 253 1)
 				)
 				(justify left)
 			)
@@ -992,6 +995,7 @@
 			(effects
 				(font
 					(size 1.905 1.905)
+					(color 255 255 255 1)
 				)
 				(justify left)
 			)
@@ -1463,6 +1467,44 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
 					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.588 139.7)
+		(size 34.798 21.082)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 11 1.0000)
+		)
+		(uuid "ff8c01d9-7d3c-4161-8f4f-7a8402a9daec")
+		(property "Sheetname" "Solar Power"
+			(at 132.588 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Solar.kicad_sch"
+			(at 132.588 161.3666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
+					(page "10")
 				)
 			)
 		)

@@ -2042,6 +2042,16 @@
 		)
 		(uuid "9b29fd6e-dbf0-4abf-a91d-f13660d6c876")
 	)
+	(text "PWR good PINS STILL NEED TO BE PULLED UP"
+		(exclude_from_sim no)
+		(at 120.904 53.594 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "b5450030-37d3-42fe-9c09-6ca1b724e7ca")
+	)
 	(text "USed a schottky diode with max fw volt drop of 0.45V\nto prevent voltages from going upstream"
 		(exclude_from_sim no)
 		(at 211.328 84.328 0)
@@ -2353,7 +2363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "295657c3-013d-4ec2-a689-e0d76eebd153")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 32.004 102.6159 0)
 			(effects
 				(font
@@ -2407,7 +2417,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2423,7 +2433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e1fe7c6-5610-4e06-9c7b-d725339f2936")
-		(property "Reference" "CR3"
+		(property "Reference" "CR2"
 			(at 208.026 119.126 0)
 			(effects
 				(font
@@ -2477,7 +2487,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "CR3")
+					(reference "CR2")
 					(unit 1)
 				)
 			)
@@ -2589,7 +2599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d3866b5-c515-48a9-98b1-a57635d7092c")
-		(property "Reference" "C9"
+		(property "Reference" "C7"
 			(at 128.778 159.5119 0)
 			(effects
 				(font
@@ -2643,7 +2653,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "C9")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -2804,7 +2814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "558348cb-e9e2-48f2-af24-94b9e5aae6d2")
-		(property "Reference" "CR1"
+		(property "Reference" "CR3"
 			(at 208.28 93.726 0)
 			(effects
 				(font
@@ -2858,7 +2868,7 @@
 		(instances
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "CR1")
+					(reference "CR3")
 					(unit 1)
 				)
 			)
@@ -2970,7 +2980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97d953ea-e700-41c8-82d8-1c2d0c4bfc9e")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 31.75 166.3699 0)
 			(effects
 				(font
@@ -3024,7 +3034,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3497,7 +3507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e89e4159-ff20-4d1e-b3ee-04665c5ef133")
-		(property "Reference" "C7"
+		(property "Reference" "C9"
 			(at 130.048 40.6399 0)
 			(effects
 				(font
@@ -3551,7 +3561,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "C7")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3567,7 +3577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb04698c-e09a-487d-8fe0-293fbf79ad89")
-		(property "Reference" "CR2"
+		(property "Reference" "CR1"
 			(at 208.026 107.442 0)
 			(effects
 				(font
@@ -3621,7 +3631,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c0de399f-bcaa-40ff-9d4f-05779018e40a"
-					(reference "CR2")
+					(reference "CR1")
 					(unit 1)
 				)
 			)

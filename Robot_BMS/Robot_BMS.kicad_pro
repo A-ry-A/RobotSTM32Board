@@ -635,6 +635,10 @@
     [
       "7a60a594-7330-4ecb-a3c9-8c0f96aa21b4",
       "DC Power Supply"
+    ],
+    [
+      "ff8c01d9-7d3c-4161-8f4f-7a8402a9daec",
+      "Solar Power"
     ]
   ],
   "text_variables": {}

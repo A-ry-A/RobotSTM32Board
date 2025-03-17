@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MSD1583-223MEB
+D INDUCTOR, 22UH, 3.45A, 20%, PWR, 10.5MHZ
+K
+F 
+$ENDCMP
+#
+#End Doc Library

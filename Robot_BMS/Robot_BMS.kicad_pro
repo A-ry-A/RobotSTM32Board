@@ -613,7 +613,7 @@
       "Battery Protection Circuit"
     ],
     [
-      "c0de399f-bcaa-40ff-9d4f-05779018e40a",
+      "31837631-dd5f-49d4-a8ae-a36c80dc2ea1",
       "Charging Circuit"
     ],
     [
@@ -639,6 +639,10 @@
     [
       "ff8c01d9-7d3c-4161-8f4f-7a8402a9daec",
       "Solar Power"
+    ],
+    [
+      "c0de399f-bcaa-40ff-9d4f-05779018e40a",
+      "EX Charging Circuit"
     ]
   ],
   "text_variables": {}

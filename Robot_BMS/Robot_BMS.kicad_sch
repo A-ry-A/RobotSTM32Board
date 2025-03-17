@@ -544,6 +544,64 @@
 		(uuid "f212e5fb-4ecf-4a9c-94c5-9ac2e42270fc")
 	)
 	(sheet
+		(at 176.53 135.128)
+		(size 28.702 20.066)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 171 167 1.0000)
+		)
+		(uuid "31837631-dd5f-49d4-a8ae-a36c80dc2ea1")
+		(property "Sheetname" "Charging Circuit"
+			(at 176.53 134.4164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ChargingV2.kicad_sch"
+			(at 176.53 155.7786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MCU_CHARGE_EN1" output
+			(at 176.53 141.478 180)
+			(effects
+				(font
+					(size 1.905 1.905)
+				)
+				(justify left)
+			)
+			(uuid "fd7c42ce-7321-430a-bdf5-87cc63059469")
+		)
+		(pin "CHARGE_IN" input
+			(at 176.53 143.764 180)
+			(effects
+				(font
+					(size 1.905 1.905)
+				)
+				(justify left)
+			)
+			(uuid "30c434e4-0bfd-4e2d-9bfc-76d105e2ade5")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 229.87 69.088)
 		(size 29.718 18.796)
 		(fields_autoplaced yes)
@@ -701,7 +759,7 @@
 			(color 76 253 255 1.0000)
 		)
 		(uuid "c0de399f-bcaa-40ff-9d4f-05779018e40a")
-		(property "Sheetname" "Charging Circuit"
+		(property "Sheetname" "EX Charging Circuit"
 			(at 129.159 81.2034 0)
 			(effects
 				(font
@@ -922,7 +980,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
-					(page "4")
+					(page "11")
 				)
 			)
 		)

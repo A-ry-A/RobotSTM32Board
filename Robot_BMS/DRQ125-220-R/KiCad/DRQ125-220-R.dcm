@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRQ125-220-R
+D Coupled Inductors 22uH 4.71A 0.0396ohms
+K
+F https://componentsearchengine.com/Datasheets/1/DRQ125-220-R.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1472,8 +1472,8 @@
 		)
 	)
 	(sheet
-		(at 132.588 139.7)
-		(size 34.798 21.082)
+		(at 132.588 145.796)
+		(size 34.798 6.858)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1484,7 +1484,7 @@
 		)
 		(uuid "ff8c01d9-7d3c-4161-8f4f-7a8402a9daec")
 		(property "Sheetname" "Solar Power"
-			(at 132.588 138.9884 0)
+			(at 132.588 145.0844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1493,13 +1493,23 @@
 			)
 		)
 		(property "Sheetfile" "Solar.kicad_sch"
-			(at 132.588 161.3666 0)
+			(at 132.588 153.2386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "SOLAR_5V_OUT" output
+			(at 132.588 149.098 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b99a3e85-fc6b-4fe3-b596-caac948217ab")
 		)
 		(instances
 			(project "Robot_BMS"

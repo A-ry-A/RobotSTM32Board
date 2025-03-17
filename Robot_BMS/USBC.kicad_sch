@@ -1904,6 +1904,10 @@
 		(uuid "3e76ada9-b266-442d-8d7b-889c7fcbf770")
 	)
 	(no_connect
+		(at 74.676 138.43)
+		(uuid "449acb51-9d06-477f-8815-5002beffa49c")
+	)
+	(no_connect
 		(at 59.436 107.95)
 		(uuid "55874dc7-1f27-429a-91c3-d900fd379ca0")
 	)
@@ -1936,6 +1940,10 @@
 		(uuid "998e3730-6b9c-4e82-96d8-4a5e9b085a7d")
 	)
 	(no_connect
+		(at 72.136 138.43)
+		(uuid "9e57c5be-1233-4c92-9c2b-f4511bef2269")
+	)
+	(no_connect
 		(at 94.996 115.57)
 		(uuid "a1792357-c95b-4a59-8223-f3877122cb8b")
 	)
@@ -1958,10 +1966,6 @@
 	(no_connect
 		(at 228.346 127.508)
 		(uuid "b6d8a8fa-9fe0-45cc-a958-ce70144631cf")
-	)
-	(no_connect
-		(at 59.436 115.57)
-		(uuid "b7ae9d85-2ab5-4d70-8611-697d972fb3bb")
 	)
 	(no_connect
 		(at 59.436 113.03)
@@ -2110,6 +2114,16 @@
 			(type default)
 		)
 		(uuid "3b60e7ba-a92f-4200-be6c-5281545c0d1f")
+	)
+	(wire
+		(pts
+			(xy 44.958 115.57) (xy 59.436 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e23eb5f-1975-46d8-ab21-2d8860cf7908")
 	)
 	(wire
 		(pts
@@ -2483,6 +2497,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.958 131.318) (xy 44.958 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d6e237-57a4-43c7-a7f3-6599725bc513")
+	)
+	(wire
+		(pts
 			(xy 84.836 74.168) (xy 94.234 74.168)
 		)
 		(stroke
@@ -2631,15 +2655,25 @@
 		)
 		(uuid "3a84877d-5262-449e-850f-81e346c880e7")
 	)
-	(text "When plugging in a USB-C cable \n5V appears but it will supply very low current.\nTO get 5V 3A PD the first 4 l.s.bits of\nregister PDO1_I must be written to via I2C\nWe are writing to Non-Volatile-Memory so \nit hasl imited write cycles.\n\nWrite 4b0111 to register PD01_I"
+	(text "When plugging in a USB-C cable \n5V appears but it will supply very low current.\nTo get 15V 3A PD the first 2 l.s.bits of\nregister PDO4_V must be written to via I2C\nWe are writing to Non-Volatile-Memory so \nit hasl imited write cycles.\n\nWrite 2b01 to register PD04_V\nthen to select 3A write to\nthe first 3 l.s.bits of PDO4_I 4b0111"
 		(exclude_from_sim no)
-		(at 101.346 174.752 0)
+		(at 107.442 175.26 0)
 		(effects
 			(font
 				(size 1.905 1.905)
 			)
 		)
 		(uuid "41937031-5452-4380-aecd-13ce20ecfad6")
+	)
+	(text "VBUS => 15V"
+		(exclude_from_sim no)
+		(at 258.826 50.8 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "5076c9fe-8e11-4813-a301-a30ee36b2c6f")
 	)
 	(text "2 Ways TO Configure USB-C PD"
 		(exclude_from_sim no)
@@ -2673,7 +2707,7 @@
 		)
 		(uuid "e32707e6-b45b-440a-a2bd-3f9a07813bb4")
 	)
-	(text "I have left all Sel_PDO floating \nwhich defaults the chip to 5V 3A"
+	(text "Connect GPIO2/SEL_PDO4 to GND\nwhich defaults the chip to 15V 3A"
 		(exclude_from_sim no)
 		(at 40.64 173.99 0)
 		(effects
@@ -3289,6 +3323,72 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c1bdabe1-a4b5-470d-80f8-90d5658c2a45"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.958 131.318 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4006fad5-9400-4072-a3dd-edec62149415")
+		(property "Reference" "#PWR035"
+			(at 44.958 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.958 136.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.958 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.958 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.958 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e38d1de-4bcc-453f-959e-6c15e13e5bba")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c1bdabe1-a4b5-470d-80f8-90d5658c2a45"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)

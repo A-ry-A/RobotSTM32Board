@@ -1866,7 +1866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f75d94b-8f04-40f1-b2ef-0fcf8d586c4b")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 153.67 129.54 0)
 			(effects
 				(font
@@ -1916,7 +1916,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ddc79d9c-dbaa-4c26-8116-aed3dbdb681b"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -1931,7 +1931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d6a9ebb-b6c3-406c-837a-1740f9f7bbff")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 163.83 87.63 0)
 			(effects
 				(font
@@ -1981,7 +1981,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ddc79d9c-dbaa-4c26-8116-aed3dbdb681b"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -2153,7 +2153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4340aec7-02de-4e99-a2d6-63f599cd4e3a")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 156.21 118.11 0)
 			(effects
 				(font
@@ -2203,7 +2203,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ddc79d9c-dbaa-4c26-8116-aed3dbdb681b"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -2360,7 +2360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65609508-7f3d-45e7-ab89-adf6800ca215")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 104.14 154.94 0)
 			(effects
 				(font
@@ -2410,7 +2410,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ddc79d9c-dbaa-4c26-8116-aed3dbdb681b"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2566,7 +2566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aef80462-5d73-44e2-8c63-37eec5c9b3e1")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 100.33 55.88 0)
 			(effects
 				(font
@@ -2616,7 +2616,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ddc79d9c-dbaa-4c26-8116-aed3dbdb681b"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2702,7 +2702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8d7c305-6a57-4bed-b6ef-860033a9070e")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 78.74 101.6 0)
 			(effects
 				(font
@@ -2752,7 +2752,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ddc79d9c-dbaa-4c26-8116-aed3dbdb681b"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)

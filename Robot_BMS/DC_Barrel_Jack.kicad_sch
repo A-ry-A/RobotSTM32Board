@@ -5,328 +5,169 @@
 	(uuid "26f26682-76cd-44c6-8890-b224ecad7997")
 	(paper "A4")
 	(lib_symbols
-		(symbol "DC Barrel Jack:DCJ200-10-A-XX-K_REVA"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "694108301002:694108301002"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -7.6272 5.0848 0)
+				(at 16.51 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 				)
 			)
-			(property "Value" "DCJ200-10-A-XX-K_REVA"
-				(at -7.6313 -5.0875 0)
+			(property "Value" "694108301002"
+				(at 16.51 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "DCJ200-10-A-XX-K_REVA:GCT_DCJ200-10-A-XX-K_REVA"
+			(property "Footprint" "694108301002"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/6941xx301002.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC Power Jack Right Angled 5A, 30 V(DC), Contact Resistance 50 m"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Height" "11"
+				(at 16.51 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Mouser Part Number" "710-694108301002"
+				(at 16.51 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "PARTREV" "A"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/694108301002?qs=a9WhcLg8qCwpBR6w1flhOw%3D%3D"
+				(at 16.51 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 16.51 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "SNAPEDA_PN" "DCJ200-10-A-K1-K"
-				(at 0 0 0)
+			(property "Manufacturer_Part_Number" "694108301002"
+				(at 16.51 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "11 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Global Connector Technology"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "DCJ200-10-A-XX-K_REVA_0_0"
-				(arc
-					(start -5.715 3.81)
-					(mid -6.9794 2.54)
-					(end -5.715 1.27)
+			(symbol "694108301002_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.715 3.81) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -4.445 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -2.54) (xy -3.81 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0.635) (xy 0 0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -5.715 1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.81) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 4.445) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.635) (xy 0 4.445)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 4.445) (xy -1.27 4.445)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -0.508 -1.27) (xy 0.508 -1.27) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type background)
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 20.32 -2.54 180)
 					(length 5.08)
-					(name "~"
+					(name "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 20.32 0 180)
 					(length 5.08)
-					(name "~"
+					(name "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 0 0 0)
 					(length 5.08)
-					(name "~"
+					(name "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -430,49 +271,85 @@
 			)
 		)
 	)
+	(junction
+		(at 134.62 103.124)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd44fdc9-b8fb-41c9-9efa-a184e462b364")
+	)
 	(wire
 		(pts
-			(xy 215.646 73.406) (xy 195.58 73.406)
+			(xy 154.94 103.124) (xy 154.94 99.314)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "348618ce-73b9-43c7-98fe-2149fe5ac133")
+		(uuid "111a26da-6e13-4912-9cf0-0607079f1e08")
 	)
 	(wire
 		(pts
-			(xy 215.646 78.486) (xy 212.852 78.486)
+			(xy 134.62 103.124) (xy 134.62 108.966)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "892aef59-553e-4597-a44d-9851ddd44adc")
+		(uuid "2c961947-6ec0-4427-8bbc-8d49b5d87b67")
 	)
 	(wire
 		(pts
-			(xy 212.852 78.486) (xy 212.852 78.74)
+			(xy 154.94 105.664) (xy 175.006 105.664)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b183baa2-f095-4cb0-af10-3dc6dccf084c")
+		(uuid "32e47662-9901-4614-881b-02bc4634bca3")
 	)
-	(text "SW REG takes in 9-24V from DC barrel jack\ndesign uses TI Webench designer but\ndatasheet also referenced when layout\nwas done."
+	(wire
+		(pts
+			(xy 154.94 99.314) (xy 134.62 99.314)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1d00eb-6578-44ee-a649-cbedc531ef3e")
+	)
+	(wire
+		(pts
+			(xy 134.62 99.314) (xy 134.62 103.124)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d30975c1-47ec-449e-9d93-35a2a885885d")
+	)
+	(text "This gets fed directly into the 13V charging IC"
 		(exclude_from_sim no)
-		(at 227.33 148.844 0)
+		(at 108.966 39.624 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 5.08 5.08)
 			)
 		)
-		(uuid "7d45a384-372b-47a8-821f-bddf763ab38a")
+		(uuid "948f3aec-11a6-4254-aeaa-3c113b575353")
+	)
+	(text "30V 5A MAX\n2.5mm inner diameter"
+		(exclude_from_sim no)
+		(at 146.304 119.126 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "a744a0e5-3a6e-4db1-9da3-5dc005e43774")
 	)
 	(text "DC Barrel Jack connector\n"
 		(exclude_from_sim no)
-		(at 220.98 64.262 0)
+		(at 148.336 89.916 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -480,9 +357,9 @@
 		)
 		(uuid "b49ee64d-e7b2-4d89-9828-355034ec41cd")
 	)
-	(text "DC BARREL JACK POWER SUPPLY"
+	(text "DC BARREL JACK Connector\n"
 		(exclude_from_sim no)
-		(at 109.22 20.066 0)
+		(at 93.98 23.622 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -490,151 +367,20 @@
 		)
 		(uuid "dd02e049-41ae-449e-a4c4-d79846f16e2b")
 	)
-	(text "DC Barrel Jack gets fed into Sepic converter\n\n"
-		(exclude_from_sim no)
-		(at 163.576 76.2 0)
+	(hierarchical_label "DC_BARREL_JACK"
+		(shape output)
+		(at 175.006 105.664 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(uuid "fc3ae58b-6f2f-4d91-a758-bfc6e4cf89d8")
-	)
-	(label "DC_BARREL_SUPPLY"
-		(at 195.58 73.406 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a858913-7465-4803-b2cf-4dec346b9914")
-	)
-	(symbol
-		(lib_id "DC Barrel Jack:DCJ200-10-A-XX-K_REVA")
-		(at 220.726 75.946 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "04025810-69e7-4e87-a6bb-040ec92510b3")
-		(property "Reference" "J2"
-			(at 223.9617 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DCJ200-10-A-XX-K_REVA"
-			(at 223.9617 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DCJ200-10-A-XX-K_REVA:GCT_DCJ200-10-A-XX-K_REVA"
-			(at 220.726 75.946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.726 75.946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 220.726 75.946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "A"
-			(at 220.726 75.946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 220.726 75.946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "DCJ200-10-A-K1-K"
-			(at 220.726 75.946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "11 mm"
-			(at 220.726 75.946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Global Connector Technology"
-			(at 220.726 75.946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b1d6ec8-78e6-490e-9be2-ddf8489cf0d6")
-		)
-		(pin "3"
-			(uuid "01186666-f70f-44c7-9965-1bb06759117a")
-		)
-		(pin "2"
-			(uuid "a76ab439-e996-4173-997f-174918766512")
-		)
-		(instances
-			(project ""
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/7a60a594-7330-4ecb-a3c9-8c0f96aa21b4"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "a5dc71ff-498f-488d-8bf0-e1b55e6dcd03")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.852 78.74 0)
+		(at 134.62 108.966 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -642,9 +388,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "abd062ff-e35b-4145-b99a-d7eeadca07ab")
-		(property "Reference" "#PWR025"
-			(at 212.852 85.09 0)
+		(uuid "922b428a-f54f-4e17-9328-d6f46a6f810e")
+		(property "Reference" "#PWR026"
+			(at 134.62 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -653,7 +399,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.852 83.82 0)
+			(at 134.62 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -661,7 +407,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.852 78.74 0)
+			(at 134.62 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -670,7 +416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.852 78.74 0)
+			(at 134.62 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -679,7 +425,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.852 78.74 0)
+			(at 134.62 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -688,12 +434,134 @@
 			)
 		)
 		(pin "1"
-			(uuid "c8c1d298-6f27-4a79-a807-3f8c8cfaf305")
+			(uuid "0ef6bc16-7d96-4a59-abdb-d77ce016a860")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/7a60a594-7330-4ecb-a3c9-8c0f96aa21b4"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "694108301002:694108301002")
+		(at 134.62 103.124 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9423102c-cc50-4247-a514-3cd81acca988")
+		(property "Reference" "J4"
+			(at 144.78 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "694108301002"
+			(at 144.78 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "694108301002"
+			(at 151.13 198.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/6941xx301002.pdf"
+			(at 151.13 298.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Power Jack Right Angled 5A, 30 V(DC), Contact Resistance 50 m"
+			(at 134.62 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "11"
+			(at 151.13 498.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-694108301002"
+			(at 151.13 598.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/694108301002?qs=a9WhcLg8qCwpBR6w1flhOw%3D%3D"
+			(at 151.13 698.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 151.13 798.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "694108301002"
+			(at 151.13 898.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "507fa08c-ad8f-44c1-a519-d93265844cf1")
+		)
+		(pin "1"
+			(uuid "2b0952dc-4ae5-463d-97c4-75e0d6f4edb8")
+		)
+		(pin "3"
+			(uuid "69ad1ad5-04bf-4455-b5fa-d88363d8e583")
 		)
 		(instances
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/7a60a594-7330-4ecb-a3c9-8c0f96aa21b4"
-					(reference "#PWR025")
+					(reference "J4")
 					(unit 1)
 				)
 			)

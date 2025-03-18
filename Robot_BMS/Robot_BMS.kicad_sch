@@ -602,8 +602,8 @@
 		)
 	)
 	(sheet
-		(at 229.87 69.088)
-		(size 29.718 18.796)
+		(at 229.87 75.184)
+		(size 29.718 4.826)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -613,8 +613,8 @@
 			(color 255 32 234 1.0000)
 		)
 		(uuid "7a60a594-7330-4ecb-a3c9-8c0f96aa21b4")
-		(property "Sheetname" "DC Power Supply"
-			(at 229.87 68.3764 0)
+		(property "Sheetname" "DC Barrel Jack"
+			(at 229.87 74.4724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -623,7 +623,7 @@
 			)
 		)
 		(property "Sheetfile" "DC_Barrel_Jack.kicad_sch"
-			(at 229.87 88.4686 0)
+			(at 229.87 80.5946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -631,15 +631,15 @@
 				(justify left top)
 			)
 		)
-		(pin "5V_DC_BARREL_OUT" output
-			(at 229.87 75.184 180)
+		(pin "DC_BARREL_JACK" output
+			(at 229.87 77.724 180)
 			(effects
 				(font
-					(size 1.905 1.905)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "18902c33-499f-42a6-82dc-5f27a6665a2d")
+			(uuid "2c5c4c45-de71-48e0-863f-2614ba63a53e")
 		)
 		(instances
 			(project "Robot_BMS"
@@ -1559,15 +1559,15 @@
 				(justify left top)
 			)
 		)
-		(pin "SOLAR_5V_OUT" output
-			(at 132.588 149.098 180)
+		(pin "SOLAR_13V_OUT" output
+			(at 132.588 149.606 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b99a3e85-fc6b-4fe3-b596-caac948217ab")
+			(uuid "44d5f2eb-4bfd-4e13-a679-006c8b10b494")
 		)
 		(instances
 			(project "Robot_BMS"

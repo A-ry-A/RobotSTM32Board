@@ -2675,7 +2675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60fefef8-5173-4335-94ef-3847ba59ef7e")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR07"
 			(at 146.558 74.422 0)
 			(effects
 				(font
@@ -2725,7 +2725,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "#PWR037")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)

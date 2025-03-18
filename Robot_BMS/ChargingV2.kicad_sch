@@ -1913,7 +1913,27 @@
 		)
 		(uuid "798663f9-f278-45c8-9983-20cb84c42eb0")
 	)
-	(hierarchical_label "SOLAR_13V_OUT"
+	(label "CHARGE_IN"
+		(at 177.292 108.204 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b91e01a6-c8e8-4eef-b896-00226e0d8fda")
+	)
+	(label "CHARGE_IN"
+		(at 26.924 61.214 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2dd0abb-f983-4a64-987b-20a4e13e40cf")
+	)
+	(hierarchical_label "SOLAR_15V_OUT"
 		(shape output)
 		(at 238.252 108.204 0)
 		(effects
@@ -1924,7 +1944,7 @@
 		)
 		(uuid "2cfeb716-5caf-4a1a-9c52-cff07ba1fd0a")
 	)
-	(hierarchical_label "MCU_CHARGE_EN1"
+	(hierarchical_label "MCU_CHARGE_EN"
 		(shape output)
 		(at 52.578 81.534 180)
 		(effects
@@ -1934,17 +1954,6 @@
 			(justify right)
 		)
 		(uuid "6e4cca83-77a2-46bd-9ac1-38b6d328bf76")
-	)
-	(hierarchical_label "CHARGE_IN"
-		(shape input)
-		(at 177.292 108.204 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "76ed7554-978f-411b-953f-184316bbd266")
 	)
 	(hierarchical_label "DC_BARREL_JACK"
 		(shape output)
@@ -1968,17 +1977,6 @@
 		)
 		(uuid "c6962825-3cbe-4729-b50b-d2c43fea64f4")
 	)
-	(hierarchical_label "CHARGE_IN"
-		(shape input)
-		(at 26.924 61.214 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e0211811-4312-4c73-b319-351147486e29")
-	)
 	(symbol
 		(lib_id "Regulator_Switching:TPS54308")
 		(at 88.646 70.612 0)
@@ -1989,7 +1987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02d93447-229f-40bd-b6ca-ab1d6912a883")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 88.646 60.198 0)
 			(effects
 				(font
@@ -2054,7 +2052,7 @@
 		(instances
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "U4")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2070,7 +2068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11bbaad3-3356-4ead-813b-ee9af1039f35")
-		(property "Reference" "C5"
+		(property "Reference" "C2"
 			(at 105.41 57.15 90)
 			(effects
 				(font
@@ -2122,7 +2120,7 @@
 		(instances
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "C5")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2138,7 +2136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33c0f383-556f-4031-87f4-555e2c5fb500")
-		(property "Reference" "C6"
+		(property "Reference" "C3"
 			(at 136.906 84.5819 0)
 			(effects
 				(font
@@ -2192,7 +2190,7 @@
 		(instances
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "C6")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2274,7 +2272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "459acc0b-a8d6-4e4b-bdd6-344e3a01f491")
-		(property "Reference" "R11"
+		(property "Reference" "R5"
 			(at 122.428 95.2499 0)
 			(effects
 				(font
@@ -2328,7 +2326,7 @@
 		(instances
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "R11")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2480,7 +2478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "501fac6e-7a72-4127-9e12-fc41e537b681")
-		(property "Reference" "R10"
+		(property "Reference" "R4"
 			(at 122.428 83.8199 0)
 			(effects
 				(font
@@ -2534,7 +2532,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "R10")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2550,7 +2548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52f0df2b-6b0f-4843-9361-7eb6b04e3e92")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 36.83 73.6599 0)
 			(effects
 				(font
@@ -2604,7 +2602,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3025,7 +3023,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5916d9c-b9fe-4f74-8908-b2ef410f4501")
-		(property "Reference" "Q7"
+		(property "Reference" "Q1"
 			(at 78.232 79.248 0)
 			(effects
 				(font
@@ -3085,7 +3083,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "Q7")
+					(reference "Q1")
 					(unit 1)
 				)
 			)

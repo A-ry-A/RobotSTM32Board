@@ -7,7 +7,110 @@
 	(title_block
 		(date "2025-03-13")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 82.042 129.286)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2039857-305d-4d64-98f4-f07a36ff245b")
+	)
 	(wire
 		(pts
 			(xy 81.28 89.154) (xy 102.362 89.154)
@@ -50,16 +153,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 107.696) (xy 102.362 107.696)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f509d05-dbc3-4eb0-b420-ccc497e32889")
-	)
-	(wire
-		(pts
 			(xy 81.28 83.82) (xy 102.362 83.82)
 		)
 		(stroke
@@ -70,7 +163,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 105.156) (xy 102.362 105.156)
+			(xy 81.28 111.506) (xy 102.362 111.506)
 		)
 		(stroke
 			(width 0)
@@ -90,13 +183,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 110.236) (xy 102.362 110.236)
+			(xy 82.042 129.286) (xy 102.87 129.286)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44587a29-7f4b-43fd-8e20-5e9a0001b8a0")
+		(uuid "5b0172e8-8a65-44d3-8c77-b9dbe9f01588")
 	)
 	(wire
 		(pts
@@ -110,13 +203,23 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 69.596) (xy 102.362 69.596)
+			(xy 81.534 102.616) (xy 102.616 102.616)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7809efba-6e5f-406a-a229-fa650c17f535")
+	)
+	(wire
+		(pts
+			(xy 81.026 129.286) (xy 82.042 129.286)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "859e8093-5784-4be1-8819-52bf1874f7cf")
 	)
 	(wire
 		(pts
@@ -140,7 +243,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 100.838) (xy 102.362 100.838)
+			(xy 81.28 109.22) (xy 102.362 109.22)
 		)
 		(stroke
 			(width 0)
@@ -160,7 +263,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 80.772) (xy 102.362 80.772)
+			(xy 81.28 106.934) (xy 102.362 106.934)
 		)
 		(stroke
 			(width 0)
@@ -170,13 +273,23 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 73.66) (xy 102.362 73.66)
+			(xy 81.534 104.648) (xy 102.616 104.648)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f6bf9e10-8311-4f76-9475-43ecdb5ae0fa")
+	)
+	(wire
+		(pts
+			(xy 82.042 129.286) (xy 82.042 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f908591c-4c5e-4a6b-8ef3-1ea399dedf14")
 	)
 	(text "A connector that can interface to HAT Board on top of STM32\nApart from SCL & SDA, they are all simple Input/Output pins\nor logic high or low pins\n"
 		(exclude_from_sim no)
@@ -188,31 +301,31 @@
 		)
 		(uuid "79a88713-dc70-4056-9b1b-f4b29c0e5faf")
 	)
-	(hierarchical_label "MCU_CELL1_PWRGD"
+	(hierarchical_label "TO_LOAD"
 		(shape output)
-		(at 81.28 91.694 180)
+		(at 81.28 106.934 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "1606f156-7a2b-47a4-a9d2-41823a029e21")
+		(uuid "1d1052cc-5d57-45b6-9623-a076319088f0")
 	)
-	(hierarchical_label "MCU_CELL3_CHARGING"
-		(shape output)
-		(at 81.28 105.156 180)
+	(hierarchical_label "MCU_CHRG_CTRL"
+		(shape input)
+		(at 81.28 95.758 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "27e9b6ae-5161-4a95-b664-33efa815c1b4")
+		(uuid "24442a00-7840-4e76-b3b3-a73c8039769f")
 	)
 	(hierarchical_label "SCL"
 		(shape bidirectional)
-		(at 81.28 73.66 180)
+		(at 81.534 104.648 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -243,93 +356,27 @@
 		)
 		(uuid "3e8feb19-0b20-4f82-93e4-76976bdb6ce6")
 	)
-	(hierarchical_label "MCU_CELL2_CHARGING"
-		(shape output)
-		(at 81.28 95.758 180)
+	(hierarchical_label "MCU_DISCHRG_CTRL"
+		(shape input)
+		(at 81.28 91.694 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "5c5725a1-f4ab-49f4-b6b6-f49cc25a0f14")
+		(uuid "5bb46039-a099-4fbe-a2c1-22b77e297f8e")
 	)
-	(hierarchical_label "MCU_CELL3_CHARGE_DONE"
+	(hierarchical_label "MCU_CHARGE_EN"
 		(shape output)
-		(at 81.28 107.696 180)
+		(at 81.28 111.506 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "63622948-bcbf-4f1b-88ea-aa19f40cf245")
-	)
-	(hierarchical_label "MCU_CELL2_CHARGE_DONE"
-		(shape output)
-		(at 81.28 98.298 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "66ce121b-feaf-411e-894e-3d331efb8bc0")
-	)
-	(hierarchical_label "MCU_CHARGE_EN2"
-		(shape output)
-		(at 81.28 80.772 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "75afbe11-574f-43f4-806f-19fd5767b608")
-	)
-	(hierarchical_label "MCU_CELL1_CHARGE_DONE"
-		(shape output)
-		(at 81.28 89.154 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "893450e6-e363-4524-abc7-ea87e71e6de0")
-	)
-	(hierarchical_label "MCU_CELL3_PWRGD"
-		(shape output)
-		(at 81.28 110.236 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "995d8ef3-8bd8-4a7d-bce2-b5a29f208b63")
-	)
-	(hierarchical_label "MCU_CHARGE_EN3"
-		(shape output)
-		(at 81.28 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9b4473f1-c315-4edf-a353-9f9477b9eb0e")
-	)
-	(hierarchical_label "MCU_CELL2_PWRGD"
-		(shape output)
-		(at 81.28 100.838 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9de8db17-7a45-4ec7-9ec1-9e86ebaedf72")
+		(uuid "5c827309-9c28-4386-b7f6-620de5d6fae6")
 	)
 	(hierarchical_label "ADC2_MCU"
 		(shape output)
@@ -342,9 +389,31 @@
 		)
 		(uuid "9e6ed928-23ac-4003-947a-a45eef8e227b")
 	)
+	(hierarchical_label "GND"
+		(shape output)
+		(at 81.026 129.286 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae8e6605-32ce-41d6-9bb1-0937e1704a3c")
+	)
+	(hierarchical_label "ALERT"
+		(shape output)
+		(at 81.28 98.298 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf8863d5-e6d5-4dec-8aa2-5637e25966ae")
+	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 81.28 69.596 180)
+		(at 81.534 102.616 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -353,26 +422,81 @@
 		)
 		(uuid "c8ab903a-0c0e-406b-9d39-366c2dc67082")
 	)
-	(hierarchical_label "MCU_CELL1_CHARGING"
+	(hierarchical_label "MCU_USB_DETECT"
 		(shape output)
-		(at 81.28 86.614 180)
+		(at 81.28 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "d4876034-01f9-45d2-8c50-31b684594e4b")
+		(uuid "d02f5500-bdba-4592-b94a-7ba7f26b8b6d")
 	)
-	(hierarchical_label "MCU_CHARGE_EN1"
-		(shape output)
-		(at 81.28 77.978 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.042 132.08 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fad116f-6b82-4402-81b4-a93f518ff7bc")
+		(property "Reference" "#PWR018"
+			(at 82.042 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify right)
 		)
-		(uuid "f3a5399b-07b1-425b-ba30-d76a1ada81b0")
+		(property "Value" "GND"
+			(at 85.852 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.042 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.042 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.042 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fef78ab2-eedc-4073-9042-5b19720f9784")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/f21d0d80-f932-4fe7-82f0-3490cb74f2de"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
 	)
 )

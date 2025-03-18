@@ -617,12 +617,8 @@
       "USB-C"
     ],
     [
-      "e8cba041-cae9-4c3d-bb1a-67e8763cb5b9",
-      "Battery"
-    ],
-    [
       "f21d0d80-f932-4fe7-82f0-3490cb74f2de",
-      "To MCU"
+      "To MCU OR System"
     ],
     [
       "26a1c9c5-a214-45fb-a345-5a76cfe84f03",

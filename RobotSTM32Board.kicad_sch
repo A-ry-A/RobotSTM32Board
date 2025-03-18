@@ -6356,6 +6356,12 @@
 		(uuid "2e499fa4-0850-46fc-906a-51b1c0d30a06")
 	)
 	(junction
+		(at 544.83 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2eaa84fb-3a2d-4849-8aae-0d3342eef7a3")
+	)
+	(junction
 		(at 392.43 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7897,7 +7903,7 @@
 	)
 	(wire
 		(pts
-			(xy 534.67 173.99) (xy 637.54 173.99)
+			(xy 534.67 173.99) (xy 544.83 173.99)
 		)
 		(stroke
 			(width 0)
@@ -8817,6 +8823,16 @@
 	)
 	(wire
 		(pts
+			(xy 544.83 173.99) (xy 637.54 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eaa33a0-3c95-4528-ad15-ad871980649b")
+	)
+	(wire
+		(pts
 			(xy 184.15 142.24) (xy 190.5 142.24)
 		)
 		(stroke
@@ -9034,6 +9050,16 @@
 			(type default)
 		)
 		(uuid "b2e62c31-72b9-497e-af82-a16e14acab59")
+	)
+	(wire
+		(pts
+			(xy 544.83 128.27) (xy 544.83 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b319895d-b306-4519-852d-ada2bba15e03")
 	)
 	(wire
 		(pts
@@ -9967,6 +9993,16 @@
 	)
 	(wire
 		(pts
+			(xy 521.97 128.27) (xy 544.83 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe1b4768-0d81-4eb9-a6d0-7605218b968f")
+	)
+	(wire
+		(pts
 			(xy 78.74 165.1) (xy 78.74 167.64)
 		)
 		(stroke
@@ -10787,6 +10823,28 @@
 			)
 		)
 	)
+	(global_label "MotorACW"
+		(shape input)
+		(at 34.29 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "499791bb-f032-4783-ab55-3864339b9f80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.2335 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 184.15 71.12 270)
@@ -11117,6 +11175,28 @@
 			)
 		)
 	)
+	(global_label "MotorBCW"
+		(shape input)
+		(at 34.29 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86fab410-d6bf-40f3-9353-7d0c522894e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.0521 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "6V"
 		(shape input)
 		(at 152.4 132.08 0)
@@ -11196,6 +11276,28 @@
 		(uuid "97e60887-f887-4426-b6d1-f28397e41966")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 21.7933 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MotorACCW"
+		(shape input)
+		(at 74.93 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "984af947-06cd-47c9-912d-f4865ab8503f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.2565 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11447,6 +11549,28 @@
 			)
 		)
 	)
+	(global_label "MotorPWMA"
+		(shape input)
+		(at 34.29 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b743ac80-1e6c-468d-8aea-010abb0e2316")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.7821 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MotorC1"
 		(shape input)
 		(at 220.98 16.51 180)
@@ -11575,6 +11699,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MotorBCCW"
+		(shape input)
+		(at 74.93 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce39b5eb-eaa3-4842-a049-cbdaed68c8a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.4379 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11981,7 +12127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 257.81 138.43 0)
 			(effects
 				(font
@@ -12051,7 +12197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 502.92 160.02 0)
 			(effects
 				(font
@@ -12234,6 +12380,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 29.21 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11361896-ae9a-49d3-831c-a4d930e09cbc")
+		(property "Reference" "J12"
+			(at 30.48 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Qwiik3"
+			(at 30.48 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+			(at 29.21 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 29.21 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2ea77deb-7ed9-48ee-ad95-79e949526c9b")
+		)
+		(pin "3"
+			(uuid "2bf22eab-4462-47fa-94a4-24fb56017982")
+		)
+		(pin "2"
+			(uuid "d93f63c8-bf92-4dab-b20a-2c44501f11cb")
+		)
+		(pin "1"
+			(uuid "bc6f2119-81e2-40cc-8d47-01a3ba54ed76")
+		)
+		(instances
+			(project "RobotSTM32Board"
+				(path "/ac0c4a11-3af6-428a-b627-4ab879a3dd88"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 401.32 85.09 270)
 		(unit 1)
@@ -12259,7 +12480,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 401.32 85.09 0)
 			(effects
 				(font
@@ -12329,7 +12550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 468.63 158.75 0)
 			(effects
 				(font
@@ -12895,7 +13116,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 412.75 54.61 0)
 			(effects
 				(font
@@ -12965,7 +13186,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 637.54 156.21 0)
 			(effects
 				(font
@@ -13035,7 +13256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 582.295 48.26 0)
 			(effects
 				(font
@@ -13204,7 +13425,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 370.84 54.61 0)
 			(effects
 				(font
@@ -13479,7 +13700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 257.81 154.94 0)
 			(effects
 				(font
@@ -13617,7 +13838,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 546.1 116.84 0)
 			(effects
 				(font
@@ -13687,7 +13908,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 381 113.03 0)
 			(effects
 				(font
@@ -13969,7 +14190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 420.37 116.84 0)
 			(effects
 				(font
@@ -14037,7 +14258,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 181.61 142.24 0)
 			(effects
 				(font
@@ -14107,7 +14328,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 664.21 116.84 0)
 			(effects
 				(font
@@ -14175,7 +14396,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 537.21 102.87 0)
 			(effects
 				(font
@@ -14479,6 +14700,81 @@
 			(project ""
 				(path "/ac0c4a11-3af6-428a-b627-4ab879a3dd88"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 29.21 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f83a234-45b8-48b5-8d40-254b552e9c34")
+		(property "Reference" "J13"
+			(at 30.48 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Qwiik4"
+			(at 30.48 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+			(at 29.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 29.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "11d2540e-d07e-43f7-b47c-63c68cbec66a")
+		)
+		(pin "3"
+			(uuid "4d308f73-9e1d-4417-a480-4746a9f6fb64")
+		)
+		(pin "2"
+			(uuid "4af5b329-bfb0-469b-b6aa-4e1dc8329d23")
+		)
+		(pin "1"
+			(uuid "ba19600d-6b72-4e87-81f3-1e070847358a")
+		)
+		(instances
+			(project "RobotSTM32Board"
+				(path "/ac0c4a11-3af6-428a-b627-4ab879a3dd88"
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -14797,7 +15093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 354.33 74.93 0)
 			(effects
 				(font
@@ -14931,7 +15227,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 600.71 66.04 0)
 			(effects
 				(font
@@ -15001,7 +15297,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 605.79 86.36 0)
 			(effects
 				(font
@@ -15071,7 +15367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 187.96 157.48 0)
 			(effects
 				(font
@@ -15277,7 +15573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 581.66 90.17 0)
 			(effects
 				(font
@@ -15347,7 +15643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 140.97 180.34 0)
 			(effects
 				(font
@@ -15549,7 +15845,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 650.24 81.28 0)
 			(effects
 				(font
@@ -15617,7 +15913,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 386.08 54.61 90)
 			(effects
 				(font
@@ -15687,7 +15983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 370.84 85.09 0)
 			(effects
 				(font
@@ -15821,7 +16117,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 584.2 66.04 0)
 			(effects
 				(font
@@ -15891,7 +16187,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 650.24 64.77 0)
 			(effects
 				(font
@@ -16252,7 +16548,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 637.54 73.66 0)
 			(effects
 				(font
@@ -16559,7 +16855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 407.67 120.65 0)
 			(effects
 				(font
@@ -16629,7 +16925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RTW24"
+		(property "Footprint" "footprints:RTW24"
 			(at 405.13 73.66 0)
 			(effects
 				(font
@@ -16743,6 +17039,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 29.21 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b14b2fc1-32d5-4397-99f6-e0f945e027da")
+		(property "Reference" "J10"
+			(at 30.48 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Qwiik1"
+			(at 30.48 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+			(at 29.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 29.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8ed5a872-ded2-4d90-b33f-51c6ab074bf7")
+		)
+		(pin "3"
+			(uuid "958234f3-05df-4928-8abf-a9787c573e44")
+		)
+		(pin "2"
+			(uuid "a8c69488-554f-495a-b586-2fffb8c83570")
+		)
+		(pin "1"
+			(uuid "5f19640f-ad06-4e77-8687-43e55224e06e")
+		)
+		(instances
+			(project "RobotSTM32Board"
+				(path "/ac0c4a11-3af6-428a-b627-4ab879a3dd88"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 152.4 165.1 90)
 		(unit 1)
@@ -16768,7 +17139,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 152.4 165.1 0)
 			(effects
 				(font
@@ -16902,7 +17273,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 553.72 102.87 0)
 			(effects
 				(font
@@ -17042,7 +17413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 595.63 162.56 0)
 			(effects
 				(font
@@ -17142,7 +17513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 173.99 156.21 0)
 			(effects
 				(font
@@ -17210,7 +17581,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 134.62 165.1 0)
 			(effects
 				(font
@@ -17412,7 +17783,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 593.09 77.47 0)
 			(effects
 				(font
@@ -17482,7 +17853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 78.74 170.18 0)
 			(effects
 				(font
@@ -17552,7 +17923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 455.93 158.75 0)
 			(effects
 				(font
@@ -17622,7 +17993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 140.97 170.18 0)
 			(effects
 				(font
@@ -17689,7 +18060,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 134.62 180.34 0)
 			(effects
 				(font
@@ -17750,7 +18121,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "22uf"
 			(at 247.65 137.1662 0)
 			(effects
 				(font
@@ -17759,7 +18130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 245.11 135.89 0)
 			(effects
 				(font
@@ -18087,6 +18458,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 29.21 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea19b5d9-75e6-4dec-b241-9dff85adc624")
+		(property "Reference" "J11"
+			(at 30.48 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Qwiik2"
+			(at 30.48 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+			(at 29.21 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 29.21 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "20a7f22a-8df1-48a5-b910-5ede6872ddd4")
+		)
+		(pin "3"
+			(uuid "ae358162-c693-4762-be34-b0f9b997c42a")
+		)
+		(pin "2"
+			(uuid "e0c1b482-26a8-4985-af3c-fd116c55ca87")
+		)
+		(pin "1"
+			(uuid "23873275-eb95-4d7d-840b-571d4256da2f")
+		)
+		(instances
+			(project "RobotSTM32Board"
+				(path "/ac0c4a11-3af6-428a-b627-4ab879a3dd88"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L_Small")
 		(at 591.82 54.61 90)
 		(unit 1)
@@ -18112,7 +18558,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 591.82 54.61 0)
 			(effects
 				(font
@@ -18182,7 +18628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 582.295 63.5 0)
 			(effects
 				(font
@@ -18283,7 +18729,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 238.76 132.08 0)
 			(effects
 				(font
@@ -18429,7 +18875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 224.79 129.54 0)
 			(effects
 				(font
@@ -18466,6 +18912,81 @@
 			(project "RobotSTM32Board"
 				(path "/ac0c4a11-3af6-428a-b627-4ab879a3dd88"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 29.21 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa230b2a-0b15-4d1f-b1e5-6c1e8dada33a")
+		(property "Reference" "J14"
+			(at 30.48 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Qwiik5"
+			(at 30.48 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+			(at 29.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 29.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6ea54810-1507-4c6a-9ad9-7ac235ebffd5")
+		)
+		(pin "3"
+			(uuid "16c425ab-1e12-4f0c-8a65-55d0272e43cf")
+		)
+		(pin "2"
+			(uuid "2b8d6f39-0bce-48a9-aba6-d25a9c80d96d")
+		)
+		(pin "1"
+			(uuid "bc7e2e3d-d0de-42ad-8d82-c148471edef7")
+		)
+		(instances
+			(project "RobotSTM32Board"
+				(path "/ac0c4a11-3af6-428a-b627-4ab879a3dd88"
+					(reference "J14")
 					(unit 1)
 				)
 			)

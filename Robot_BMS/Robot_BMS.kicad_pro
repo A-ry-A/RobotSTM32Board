@@ -609,16 +609,8 @@
       "Thermistors"
     ],
     [
-      "ba86123e-f6d5-4f01-be08-e30873977d47",
-      "Battery Protection Circuit"
-    ],
-    [
       "31837631-dd5f-49d4-a8ae-a36c80dc2ea1",
       "Charging Circuit"
-    ],
-    [
-      "ddc79d9c-dbaa-4c26-8116-aed3dbdb681b",
-      "Fuel Gauge"
     ],
     [
       "c1bdabe1-a4b5-470d-80f8-90d5658c2a45",
@@ -633,16 +625,16 @@
       "To MCU"
     ],
     [
+      "26a1c9c5-a214-45fb-a345-5a76cfe84f03",
+      "Battery Management"
+    ],
+    [
       "7a60a594-7330-4ecb-a3c9-8c0f96aa21b4",
       "DC Barrel Jack"
     ],
     [
       "ff8c01d9-7d3c-4161-8f4f-7a8402a9daec",
       "Solar Power"
-    ],
-    [
-      "c0de399f-bcaa-40ff-9d4f-05779018e40a",
-      "EX Charging Circuit"
     ]
   ],
   "text_variables": {}

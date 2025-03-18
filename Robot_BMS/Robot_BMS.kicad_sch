@@ -544,6 +544,44 @@
 		(uuid "f212e5fb-4ecf-4a9c-94c5-9ac2e42270fc")
 	)
 	(sheet
+		(at 149.606 82.296)
+		(size 33.274 28.956)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 26 255 46 1.0000)
+		)
+		(uuid "26a1c9c5-a214-45fb-a345-5a76cfe84f03")
+		(property "Sheetname" "Battery Management"
+			(at 149.606 81.5844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Battery Management.kicad_sch"
+			(at 149.606 111.8366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 176.53 135.128)
 		(size 28.702 20.066)
 		(fields_autoplaced yes)
@@ -645,342 +683,6 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
 					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 129.54 46.99)
-		(size 24.765 25.4)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 97 255 60 1.0000)
-		)
-		(uuid "ba86123e-f6d5-4f01-be08-e30873977d47")
-		(property "Sheetname" "Battery Protection Circuit"
-			(at 129.54 45.6434 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "BatteryProtection.kicad_sch"
-			(at 129.54 72.9746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "CELL_3-" input
-			(at 129.54 68.58 180)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify left)
-			)
-			(uuid "9ae18733-3348-408a-a79b-40fe81a3297a")
-		)
-		(pin "CELL_2+" input
-			(at 129.54 58.42 180)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify left)
-			)
-			(uuid "d058e4df-eb11-4411-adce-763fb563a4dc")
-		)
-		(pin "CELL_1+" input
-			(at 129.54 50.8 180)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify left)
-			)
-			(uuid "8a932545-8cbb-477c-b1e5-0736b25270ee")
-		)
-		(pin "CELL_1-" input
-			(at 129.54 53.34 180)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify left)
-			)
-			(uuid "5f7bbd92-fe90-402a-a12d-0b533c7fdf81")
-		)
-		(pin "CELL_2-" input
-			(at 129.54 60.96 180)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify left)
-			)
-			(uuid "d06bf1cc-6e34-42ea-8bf7-6214bda91af5")
-		)
-		(pin "CELL_3+" input
-			(at 129.54 66.04 180)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify left)
-			)
-			(uuid "dbbcbe85-6313-4c08-9dfc-0c8edaa29dea")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 129.159 82.55)
-		(size 70.739 39.878)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 76 253 255 1.0000)
-		)
-		(uuid "c0de399f-bcaa-40ff-9d4f-05779018e40a")
-		(property "Sheetname" "EX Charging Circuit"
-			(at 129.159 81.2034 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Charging.kicad_sch"
-			(at 129.159 123.0126 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "CELL_2-" output
-			(at 129.159 97.79 180)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify left)
-			)
-			(uuid "7a7b206d-bf61-4a93-b5e9-739de786f685")
-		)
-		(pin "CELL_3+" output
-			(at 129.159 102.87 180)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify left)
-			)
-			(uuid "4995025a-8951-40dc-aaba-3792a9730b73")
-		)
-		(pin "CELL_3-" output
-			(at 129.159 105.41 180)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify left)
-			)
-			(uuid "da11b1b0-94d6-4e4a-ab89-21fa0eebb7a4")
-		)
-		(pin "CELL_2+" output
-			(at 129.159 95.25 180)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify left)
-			)
-			(uuid "925e6ca4-63f7-419f-8261-53698f726573")
-		)
-		(pin "CELL_1+" output
-			(at 129.159 87.63 180)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify left)
-			)
-			(uuid "59ee5e0a-f8e6-4e50-a005-53adece741a5")
-		)
-		(pin "CELL_1-" output
-			(at 129.159 90.17 180)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify left)
-			)
-			(uuid "377cfd7c-707d-4222-bf2e-f60a9e2d4a5a")
-		)
-		(pin "MCU_CELL2_CHARGE_DONE" output
-			(at 199.898 107.188 0)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify right)
-			)
-			(uuid "ad2e0013-54cb-48ff-a37b-51ed28e52a3d")
-		)
-		(pin "MCU_CELL2_CHARGING" output
-			(at 199.898 97.536 0)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify right)
-			)
-			(uuid "ec294b7d-a38d-4396-ae3d-f98ed6f125fd")
-		)
-		(pin "MCU_CELL1_CHARGING" output
-			(at 199.898 100.076 0)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify right)
-			)
-			(uuid "4aa59eb2-4ed6-4ca6-961b-f928133be4e7")
-		)
-		(pin "MCU_CELL1_CHARGE_DONE" output
-			(at 199.898 110.236 0)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify right)
-			)
-			(uuid "b4fa32d1-c408-4027-bda1-e99b014716f0")
-		)
-		(pin "MCU_CELL1_PWRGD" output
-			(at 199.898 119.888 0)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify right)
-			)
-			(uuid "baa42909-e2fd-403c-9106-24f05d3d7cb5")
-		)
-		(pin "MCU_CHARGE_EN1" output
-			(at 199.898 90.932 0)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify right)
-			)
-			(uuid "0b85ffe4-ba22-409a-919e-d00969fbeb1d")
-		)
-		(pin "MCU_CELL2_PWRGD" output
-			(at 199.898 117.094 0)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify right)
-			)
-			(uuid "620261ff-11a9-4ed3-8e45-9cb5db25ea02")
-		)
-		(pin "MCU_CELL3_CHARGING" output
-			(at 199.898 94.996 0)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify right)
-			)
-			(uuid "7e874fcc-cf5f-467b-877d-2394b4a42ea5")
-		)
-		(pin "MCU_CELL3_PWRGD" output
-			(at 199.898 114.046 0)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify right)
-			)
-			(uuid "cf8e9996-3529-430d-9baf-a9dbc79325de")
-		)
-		(pin "MCU_CELL3_CHARGE_DONE" output
-			(at 199.898 104.394 0)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify right)
-			)
-			(uuid "4c321829-eca5-4d43-b230-2889405e54c4")
-		)
-		(pin "MCU_CHARGE_EN3" output
-			(at 199.898 85.344 0)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify right)
-			)
-			(uuid "dfe255c9-3cd5-48d2-ab0b-a5fb896c71da")
-		)
-		(pin "MCU_CHARGE_EN2" output
-			(at 199.898 88.138 0)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify right)
-			)
-			(uuid "3685adaf-2c0e-4067-affc-b28e33222da0")
-		)
-		(pin "VBUS" output
-			(at 129.159 113.03 180)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify left)
-			)
-			(uuid "09c1db42-9bf6-428b-88c2-dde46d564dec")
-		)
-		(pin "5V_DC_BARREL_OUT" output
-			(at 129.159 115.316 180)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify left)
-			)
-			(uuid "b6b10ec7-2cf2-4b78-bd42-fd4a01fe52f8")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
-					(page "11")
 				)
 			)
 		)
@@ -1131,84 +833,6 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 46.99 123.698)
-		(size 45.466 11.43)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 185 150 255 1.0000)
-		)
-		(uuid "ddc79d9c-dbaa-4c26-8116-aed3dbdb681b")
-		(property "Sheetname" "Fuel Gauge"
-			(at 46.99 122.3514 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "FuelGauge.kicad_sch"
-			(at 46.99 135.7126 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "SDA" bidirectional
-			(at 92.456 128.27 0)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify right)
-			)
-			(uuid "ab3f0082-9623-4718-9a88-40362e7566e3")
-		)
-		(pin "SCL" bidirectional
-			(at 92.456 130.81 0)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify right)
-			)
-			(uuid "baf917d0-1284-497a-825d-327fb7772646")
-		)
-		(pin "SRN" input
-			(at 46.99 131.318 180)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify left)
-			)
-			(uuid "a4914301-47ec-4cce-abb8-6057d7449cff")
-		)
-		(pin "CELL_3-{slash}SRP" input
-			(at 46.99 128.778 180)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify left)
-			)
-			(uuid "e92dbd29-632f-4ea9-8a56-5c3a9858750c")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
-					(page "5")
 				)
 			)
 		)

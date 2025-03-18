@@ -1878,7 +1878,7 @@
 		(at 226.568 66.802 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.905 1.905)
 			)
 		)
 		(uuid "5a3f5dfc-a71c-49b3-a1d9-a43f21aeea8c")
@@ -1945,6 +1945,17 @@
 			(justify right)
 		)
 		(uuid "76ed7554-978f-411b-953f-184316bbd266")
+	)
+	(hierarchical_label "DC_BARREL_JACK"
+		(shape output)
+		(at 237.236 82.804 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9f864ed-20d8-4ee3-9ef5-00cfa1be8274")
 	)
 	(hierarchical_label "VBUS"
 		(shape output)

@@ -54,7 +54,7 @@
 	)
 	(wire
 		(pts
-			(xy 84.836 90.297) (xy 75.311 90.297)
+			(xy 84.836 90.297) (xy 74.676 90.297)
 		)
 		(stroke
 			(width 0)
@@ -204,6 +204,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.676 74.422) (xy 107.188 74.422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aba9a98-9f30-4e71-9007-0d32aca5a525")
+	)
+	(wire
+		(pts
 			(xy 225.552 119.888) (xy 225.552 109.728)
 		)
 		(stroke
@@ -214,7 +224,17 @@
 	)
 	(wire
 		(pts
-			(xy 97.536 79.375) (xy 75.311 79.375)
+			(xy 107.188 74.422) (xy 107.188 90.678)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5366e996-af8c-465e-8ac1-560914b5a563")
+	)
+	(wire
+		(pts
+			(xy 97.536 79.375) (xy 74.676 79.375)
 		)
 		(stroke
 			(width 0)
@@ -271,6 +291,16 @@
 			(type default)
 		)
 		(uuid "696bfdf3-77e1-44b4-a625-d632ba11f9b3")
+	)
+	(wire
+		(pts
+			(xy 107.188 90.678) (xy 128.27 90.678)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e3bc780-6bf6-4b39-a1bb-dde7d1afd652")
 	)
 	(wire
 		(pts
@@ -414,7 +444,7 @@
 	)
 	(wire
 		(pts
-			(xy 75.311 84.709) (xy 91.186 84.709)
+			(xy 74.676 84.709) (xy 91.186 84.709)
 		)
 		(stroke
 			(width 0)
@@ -584,24 +614,13 @@
 	)
 	(text "Battery Management System"
 		(exclude_from_sim no)
-		(at 143.764 27.686 0)
+		(at 98.806 21.59 0)
 		(effects
 			(font
 				(size 7.62 7.62)
 			)
 		)
 		(uuid "7459fd28-a51f-4c5b-8b8d-d4f4642b341b")
-	)
-	(text "All Key Components added in, Passives \n& additional FETs to be added week \ncommencing 10/03 according to datasheet"
-		(exclude_from_sim no)
-		(at 13.97 184.658 0)
-		(effects
-			(font
-				(size 4.318 4.318)
-			)
-			(justify left)
-		)
-		(uuid "f212e5fb-4ecf-4a9c-94c5-9ac2e42270fc")
 	)
 	(sheet
 		(at 40.132 128.778)
@@ -920,8 +939,8 @@
 		)
 	)
 	(sheet
-		(at 51.816 73.406)
-		(size 23.495 21.59)
+		(at 51.181 72.39)
+		(size 23.495 22.606)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -932,7 +951,7 @@
 		)
 		(uuid "cb04dfab-e035-4615-b482-7ed1936c63ff")
 		(property "Sheetname" "Thermistors"
-			(at 51.816 72.0594 0)
+			(at 51.181 71.0434 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -941,7 +960,7 @@
 			)
 		)
 		(property "Sheetfile" "Thermistors.kicad_sch"
-			(at 51.816 95.5806 0)
+			(at 51.181 95.5806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -950,7 +969,7 @@
 			)
 		)
 		(pin "ADC2_MCU" output
-			(at 75.311 84.709 0)
+			(at 74.676 84.709 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -960,7 +979,7 @@
 			(uuid "30a44831-47bc-49c0-951b-f080f55b4329")
 		)
 		(pin "ADC3_MCU" output
-			(at 75.311 79.375 0)
+			(at 74.676 79.375 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -970,7 +989,7 @@
 			(uuid "6ccf37fe-0c1e-42f7-b601-04f326c82f09")
 		)
 		(pin "ADC1_MCU" output
-			(at 75.311 90.297 0)
+			(at 74.676 90.297 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -978,6 +997,16 @@
 				(justify right)
 			)
 			(uuid "4f78f0e6-ae65-4c4b-aca6-73e64d3ec9d4")
+		)
+		(pin "3V3" input
+			(at 74.676 74.422 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+				)
+				(justify right)
+			)
+			(uuid "28fa7ed4-5353-4239-bb6b-279d552a7b2d")
 		)
 		(instances
 			(project "Robot_BMS"
@@ -988,8 +1017,8 @@
 		)
 	)
 	(sheet
-		(at 128.27 91.44)
-		(size 44.704 36.576)
+		(at 128.27 87.884)
+		(size 44.704 40.132)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1000,7 +1029,7 @@
 		)
 		(uuid "f21d0d80-f932-4fe7-82f0-3490cb74f2de")
 		(property "Sheetname" "To MCU OR System"
-			(at 128.27 90.0934 0)
+			(at 128.27 86.5374 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -1136,6 +1165,16 @@
 				(justify left)
 			)
 			(uuid "7713e359-8c3d-4f1a-a795-99f82e98c9ee")
+		)
+		(pin "3V3" input
+			(at 128.27 90.678 180)
+			(effects
+				(font
+					(size 1.905 1.905)
+				)
+				(justify left)
+			)
+			(uuid "02df2951-49cd-4e23-9622-eee62844b257")
 		)
 		(instances
 			(project "Robot_BMS"

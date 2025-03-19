@@ -1433,6 +1433,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 120.396 70.612)
@@ -1451,6 +1547,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a244941-a51d-40e0-9fff-ba1dd9beb937")
+	)
+	(junction
+		(at 146.558 70.612)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "525d1a9e-999c-46fc-a4c1-8d43d367f37a")
 	)
 	(junction
 		(at 133.096 70.612)
@@ -1482,6 +1584,12 @@
 		(color 0 0 0 0)
 		(uuid "ecc860bb-97f1-4cc8-a525-870673152b12")
 	)
+	(junction
+		(at 72.39 61.214)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffeee9b0-b6da-4ab1-b307-a2944a0916c8")
+	)
 	(wire
 		(pts
 			(xy 120.396 70.612) (xy 133.096 70.612)
@@ -1491,6 +1599,16 @@
 			(type default)
 		)
 		(uuid "00f78c50-9d09-46e1-baaf-c0be87deed84")
+	)
+	(wire
+		(pts
+			(xy 51.816 81.534) (xy 65.024 81.534)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0256367c-101b-4aa9-93a0-48fe966aea65")
 	)
 	(wire
 		(pts
@@ -1654,6 +1772,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 61.214) (xy 78.486 61.214)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61b363b3-1c4d-4e52-8702-c4504f187942")
+	)
+	(wire
+		(pts
 			(xy 98.806 73.152) (xy 98.806 90.932)
 		)
 		(stroke
@@ -1711,16 +1839,6 @@
 			(type default)
 		)
 		(uuid "896595b1-8941-401a-b344-d1440c7d901d")
-	)
-	(wire
-		(pts
-			(xy 52.578 81.534) (xy 65.024 81.534)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bcb47c1-ed5e-4efe-95d2-861d3be2ee85")
 	)
 	(wire
 		(pts
@@ -1834,7 +1952,7 @@
 	)
 	(wire
 		(pts
-			(xy 32.766 61.214) (xy 78.486 61.214)
+			(xy 32.766 61.214) (xy 72.39 61.214)
 		)
 		(stroke
 			(width 0)
@@ -1903,15 +2021,15 @@
 		)
 		(uuid "b09d4e5e-f21d-4945-ab3b-2980452aa3af")
 	)
-	(label "CHRG_EN1"
-		(at 52.832 81.534 0)
+	(text "All standard Passive\ncomponenets are 0603 imperial"
+		(exclude_from_sim no)
+		(at 208.28 173.736 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
 			)
-			(justify left bottom)
 		)
-		(uuid "798663f9-f278-45c8-9983-20cb84c42eb0")
+		(uuid "c147c4bd-c335-4d4e-952e-f60fbcd6fa8e")
 	)
 	(label "CHARGE_IN"
 		(at 177.292 108.204 0)
@@ -1946,7 +2064,7 @@
 	)
 	(hierarchical_label "MCU_CHARGE_EN"
 		(shape output)
-		(at 52.578 81.534 180)
+		(at 51.816 81.534 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -2053,6 +2171,71 @@
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 72.39 61.214 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0341169b-3acb-4890-9485-88157b10e241")
+		(property "Reference" "#FLG03"
+			(at 72.39 63.119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 72.39 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 72.39 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36b36081-a7e3-4da2-a744-47d0f3a0362c")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -2358,7 +2541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "M-FLAT_TOS"
+		(property "Footprint" "RobotBMS:M-FLAT_TOS"
 			(at 218.186 108.204 0)
 			(effects
 				(font
@@ -2832,7 +3015,7 @@
 				)
 			)
 		)
-		(property "Footprint" "M-FLAT_TOS"
+		(property "Footprint" "RobotBMS:M-FLAT_TOS"
 			(at 218.186 96.52 0)
 			(effects
 				(font
@@ -2970,7 +3153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "M-FLAT_TOS"
+		(property "Footprint" "RobotBMS:M-FLAT_TOS"
 			(at 218.44 82.804 0)
 			(effects
 				(font
@@ -3084,6 +3267,71 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 146.558 70.612 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd2718ea-8e08-48d1-8af0-8a813bffa575")
+		(property "Reference" "#FLG04"
+			(at 146.558 72.517 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 146.558 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.558 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.558 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 146.558 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "911db2d6-df66-407b-9ebd-f3b0618da1ae")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)

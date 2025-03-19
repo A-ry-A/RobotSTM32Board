@@ -2198,6 +2198,10 @@
 		(uuid "fe65b961-97af-453a-b8ae-92d445aaad83")
 	)
 	(no_connect
+		(at 191.516 57.15)
+		(uuid "0ac6f052-da7e-4647-8cd1-4edffc224417")
+	)
+	(no_connect
 		(at 188.976 57.15)
 		(uuid "32c40d2b-152f-4711-ba96-3b2c66d73e12")
 	)
@@ -2208,6 +2212,10 @@
 	(no_connect
 		(at 183.896 107.95)
 		(uuid "58977b83-2425-4d06-8af7-2613d0d48e4c")
+	)
+	(no_connect
+		(at 183.896 57.15)
+		(uuid "76760df7-35c5-4cc5-b841-81c8f87091bf")
 	)
 	(no_connect
 		(at 181.356 107.95)
@@ -3649,6 +3657,16 @@
 		)
 		(uuid "74e5b196-3fc0-458a-8481-fce9e646a7f2")
 	)
+	(text "All standard Passive\ncomponenets are 0603 imperial"
+		(exclude_from_sim no)
+		(at 216.916 172.466 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "84b948b5-2583-456d-af63-93dcdd20830f")
+	)
 	(hierarchical_label "GND"
 		(shape output)
 		(at 235.458 156.21 180)
@@ -3822,7 +3840,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN40P400X400X80-33N-D"
+		(property "Footprint" "RobotBMS:QFN40P400X400X80-33N-D"
 			(at 195.326 159.69 0)
 			(effects
 				(font
@@ -4173,7 +4191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SIS862DNT1GE3"
+		(property "Footprint" "RobotBMS:SIS862DNT1GE3"
 			(at 202.184 -61.138 0)
 			(effects
 				(font
@@ -4402,7 +4420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SIS862DNT1GE3"
+		(property "Footprint" "RobotBMS:SIS862DNT1GE3"
 			(at 218.44 -61.392 0)
 			(effects
 				(font
@@ -5391,7 +5409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BAT_BH-18650-PC_MPD"
+		(property "Footprint" "RobotBMS:BAT_BH-18650-PC_MPD"
 			(at 96.266 98.044 0)
 			(effects
 				(font
@@ -5530,7 +5548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BAT_BH-18650-PC_MPD"
+		(property "Footprint" "RobotBMS:BAT_BH-18650-PC_MPD"
 			(at 96.266 75.692 0)
 			(effects
 				(font
@@ -5738,7 +5756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BAT_BH-18650-PC_MPD"
+		(property "Footprint" "RobotBMS:BAT_BH-18650-PC_MPD"
 			(at 96.266 110.998 0)
 			(effects
 				(font

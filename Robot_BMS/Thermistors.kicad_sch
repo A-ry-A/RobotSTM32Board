@@ -956,6 +956,30 @@
 		(color 0 0 0 0)
 		(uuid "beb4bf11-2e6b-45ac-ac51-a186e74e7786")
 	)
+	(no_connect
+		(at 107.95 155.194)
+		(uuid "0066ed6d-2aca-4bd3-9157-028306c88a2e")
+	)
+	(no_connect
+		(at 22.098 194.818)
+		(uuid "0d3627e1-dcde-4ece-8313-29b10d4fe758")
+	)
+	(no_connect
+		(at 65.024 195.072)
+		(uuid "47f70b1e-ef39-45c8-8c54-81958b9a7c9b")
+	)
+	(no_connect
+		(at 107.95 195.834)
+		(uuid "50323475-7bc8-4746-9748-6669b94506c2")
+	)
+	(no_connect
+		(at 65.024 154.432)
+		(uuid "714d24dc-feda-49c0-b4ad-60e79734635d")
+	)
+	(no_connect
+		(at 22.098 154.178)
+		(uuid "f7a89d2b-3761-47ec-9333-4f538cf47ab8")
+	)
 	(wire
 		(pts
 			(xy 132.08 104.14) (xy 132.08 111.76)
@@ -1196,7 +1220,7 @@
 		)
 		(uuid "4d21ab46-7593-4184-a720-86f798561331")
 	)
-	(text "The NTC will not be soldered onto the PCB\nbut connected via flying leads that\nwill be soldered onto the test points"
+	(text "The NTC will not be soldered onto the PCB\nbut connected via flying leads that\nwill be soldered onto the test points\nPlaced on schematic so that they are\nin the generated BOM"
 		(exclude_from_sim no)
 		(at 65.024 143.51 0)
 		(effects

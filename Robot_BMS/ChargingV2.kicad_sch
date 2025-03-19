@@ -256,42 +256,50 @@
 				)
 			)
 		)
-		(symbol "Device:C"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "CL10A106MA8NRNC:CL10A106MA8NRNC"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 8.89 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
+			(property "Value" "CL10A106MA8NRNC"
+				(at 8.89 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
+			(property "Footprint" "CAPC1608X90N"
+				(at 8.89 -96.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.arrow.com/en/products/cl10a106ma8nrnc/samsung-electro-mechanics"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Cap Ceramic 10uF 25V X5R 20% SMD 0603 85C T/R"
 				(at 0 0 0)
 				(effects
 					(font
@@ -300,40 +308,63 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
+			(property "Height" "0.9"
+				(at 8.89 -396.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
+			(property "Mouser Part Number" "187-CL10A106MA8NRNC"
+				(at 8.89 -496.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL10A106MA8NRNC?qs=47mY1nHWefS2vFRvRJVTdQ%3D%3D"
+				(at 8.89 -596.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "C_0_1"
+			(property "Manufacturer_Name" "SAMSUNG"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CL10A106MA8NRNC"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CL10A106MA8NRNC_1_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy 5.08 0) (xy 5.588 0)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -342,22 +373,44 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy 5.588 2.54) (xy 5.588 -2.54)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "C_1_1"
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -373,9 +426,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -392,40 +445,50 @@
 				)
 			)
 		)
-		(symbol "Device:R"
-			(pin_numbers hide)
+		(symbol "ESR03EZPF1003:ESR03EZPF1003"
 			(pin_names
-				(offset 0)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.032 0 90)
+				(at 5.715 3.81 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "ESR03EZPF1003"
+				(at 6.35 -3.81 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
+			(property "Footprint" "RES_R0603_ROM"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "ESR03EZPF1003"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -434,7 +497,15 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ESR03EZPF1003"
 				(at 0 0 0)
 				(effects
 					(font
@@ -443,7 +514,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "ki_fp_filters" "RES_R0603_ROM RES_R0603_ROM-M RES_R0603_ROM-L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -452,33 +523,95 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "ESR03EZPF1003_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.175 1.27)
 					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
+				(polyline
+					(pts
+						(xy 3.175 1.27) (xy 4.445 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.27) (xy 5.715 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 1.27) (xy 6.985 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -1.27) (xy 8.255 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 1.27) (xy 9.525 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -1.27) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -493,10 +626,132 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
+				(pin unspecified line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESR03EZPF1003_1_2"
+				(polyline
+					(pts
+						(xy -1.27 3.175) (xy 1.27 4.445)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.715) (xy 1.27 6.985)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 8.255) (xy 1.27 9.525)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.27 3.175)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 4.445) (xy -1.27 5.715)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.985) (xy -1.27 8.255)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 9.525) (xy 0 10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -957,6 +1212,206 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RN73H1JTTD4811B25:RN73H1JTTD4811B25"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -7.6244 2.5415 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "RN73H1JTTD4811B25"
+				(at -7.63 -5.0866 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "RN73H1JTTD4811B25:RESC1608X55N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RN73H1JTTD4811B25_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -4.445 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 1.905) (xy -3.175 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.905) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 4.445 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.905) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2075,7 +2530,7 @@
 		)
 	)
 	(junction
-		(at 137.414 102.362)
+		(at 137.414 116.586)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "116baece-49c8-4873-ae38-5da52119d499")
@@ -2091,6 +2546,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63749a2b-a75b-47e8-ab93-e0c38762ee13")
+	)
+	(junction
+		(at 137.414 70.612)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c9df34a-2fda-4160-8e54-7965f18d4508")
 	)
 	(junction
 		(at 163.576 70.612)
@@ -2117,12 +2578,6 @@
 		(uuid "ecc860bb-97f1-4cc8-a525-870673152b12")
 	)
 	(junction
-		(at 137.414 70.612)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed37e2f0-ee57-4d13-916e-9f09e1357b62")
-	)
-	(junction
 		(at 150.114 70.612)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2133,16 +2588,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffeee9b0-b6da-4ab1-b307-a2944a0916c8")
-	)
-	(wire
-		(pts
-			(xy 137.414 70.612) (xy 150.114 70.612)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00f78c50-9d09-46e1-baaf-c0be87deed84")
 	)
 	(wire
 		(pts
@@ -2196,16 +2641,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.414 70.612) (xy 137.414 80.518)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "115fa3d0-e70b-4e4c-8ce0-7d8e73b799cb")
-	)
-	(wire
-		(pts
 			(xy 109.22 70.612) (xy 111.252 70.612)
 		)
 		(stroke
@@ -2236,6 +2671,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.414 90.17) (xy 137.414 92.202)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29860e05-0161-4de4-aff5-2f3fd419dc64")
+	)
+	(wire
+		(pts
 			(xy 98.806 90.17) (xy 137.414 90.17)
 		)
 		(stroke
@@ -2256,7 +2701,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.414 99.568) (xy 137.414 102.362)
+			(xy 137.414 112.522) (xy 137.414 116.586)
 		)
 		(stroke
 			(width 0)
@@ -2296,7 +2741,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.414 102.362) (xy 137.414 104.14)
+			(xy 137.414 116.586) (xy 137.414 118.364)
 		)
 		(stroke
 			(width 0)
@@ -2366,16 +2811,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.414 91.948) (xy 137.414 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "896595b1-8941-401a-b344-d1440c7d901d")
-	)
-	(wire
-		(pts
 			(xy 26.924 61.214) (xy 32.766 61.214)
 		)
 		(stroke
@@ -2426,7 +2861,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.414 102.362) (xy 150.114 102.362)
+			(xy 137.414 116.586) (xy 150.114 116.586)
 		)
 		(stroke
 			(width 0)
@@ -2456,7 +2891,7 @@
 	)
 	(wire
 		(pts
-			(xy 150.114 102.362) (xy 150.114 88.9)
+			(xy 150.114 93.98) (xy 150.114 116.586)
 		)
 		(stroke
 			(width 0)
@@ -2473,6 +2908,16 @@
 			(type default)
 		)
 		(uuid "d455a04f-9d19-4996-aebe-c5f5319e3e25")
+	)
+	(wire
+		(pts
+			(xy 137.414 70.612) (xy 137.414 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4e68bb7-f7a0-4824-b6bd-65048eb5bba9")
 	)
 	(wire
 		(pts
@@ -2496,7 +2941,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.414 90.17) (xy 137.414 88.138)
+			(xy 137.414 86.36) (xy 137.414 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2533,6 +2978,16 @@
 			(type default)
 		)
 		(uuid "fe378226-177c-49db-817d-7e82f89ae975")
+	)
+	(wire
+		(pts
+			(xy 137.414 70.612) (xy 150.114 70.612)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff280f47-61ef-47df-a54d-f711424362ef")
 	)
 	(text "helpful link"
 		(exclude_from_sim no)
@@ -2936,76 +3391,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 150.114 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33c0f383-556f-4031-87f4-555e2c5fb500")
-		(property "Reference" "C3"
-			(at 153.924 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 153.924 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.0792 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 150.114 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 150.114 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5800d665-61ed-488c-a869-0d9930dd9858")
-		)
-		(pin "2"
-			(uuid "2f85c2f6-68bf-4124-9a25-b0631ff27848")
-		)
-		(instances
-			(project ""
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 32.766 85.09 0)
 		(mirror y)
@@ -3072,53 +3457,55 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 137.414 95.758 0)
+		(lib_id "ESR03EZPF1003:ESR03EZPF1003")
+		(at 137.414 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "459acc0b-a8d6-4e4b-bdd6-344e3a01f491")
-		(property "Reference" "R5"
-			(at 139.446 94.4879 0)
+		(uuid "40bc6588-3e99-4f53-8c06-0e674cd5e13a")
+		(property "Reference" "R2"
+			(at 139.446 78.7399 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "4.81k"
-			(at 139.446 97.0279 0)
+		(property "Value" "100k"
+			(at 139.446 81.2799 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 135.636 95.758 90)
+		(property "Footprint" "RES_R0603_ROM"
+			(at 137.414 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.414 95.758 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 137.414 95.758 0)
+		(property "Datasheet" "ESR03EZPF1003"
+			(at 137.414 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.414 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,15 +3514,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "24650ff8-88f0-4501-960a-20f1ec64d958")
+			(uuid "d9e458f5-a76d-4d4c-9afd-6e98293438a9")
 		)
 		(pin "2"
-			(uuid "5abc4587-25f7-4850-a663-c63924e3e45e")
+			(uuid "c1c3f5ac-ae96-4633-87f6-73f28f9b42bd")
 		)
 		(instances
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "R5")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3213,7 +3600,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.414 104.14 0)
+		(at 137.414 118.364 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3222,7 +3609,7 @@
 		(dnp no)
 		(uuid "4cb0713a-f8b3-46ac-b104-833db16e220f")
 		(property "Reference" "#PWR06"
-			(at 137.414 110.49 0)
+			(at 137.414 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3231,7 +3618,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 108.204 0)
+			(at 137.16 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3239,7 +3626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.414 104.14 0)
+			(at 137.414 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,7 +3635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.414 104.14 0)
+			(at 137.414 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3257,7 +3644,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.414 104.14 0)
+			(at 137.414 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3272,76 +3659,6 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 137.414 84.328 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "501fac6e-7a72-4127-9e12-fc41e537b681")
-		(property "Reference" "R4"
-			(at 139.446 83.0579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 139.446 85.5979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.636 84.328 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.414 84.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 137.414 84.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8787109-be3a-4ebc-9d98-4ab02591478f")
-		)
-		(pin "2"
-			(uuid "4038aaac-c362-4493-94b1-e9970242b584")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3474,6 +3791,128 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CL10A106MA8NRNC:CL10A106MA8NRNC")
+		(at 150.114 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b7df9ba-b8d0-48e7-b9e4-ede01439f106")
+		(property "Reference" "C18"
+			(at 153.924 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 153.924 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CAPC1608X90N"
+			(at 246.304 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/cl10a106ma8nrnc/samsung-electro-mechanics"
+			(at 346.304 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cap Ceramic 10uF 25V X5R 20% SMD 0603 85C T/R"
+			(at 150.114 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 546.304 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL10A106MA8NRNC"
+			(at 646.304 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL10A106MA8NRNC?qs=47mY1nHWefS2vFRvRJVTdQ%3D%3D"
+			(at 746.304 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 846.304 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10A106MA8NRNC"
+			(at 946.304 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a657d47c-a7c2-495f-bfd4-48f75572d271")
+		)
+		(pin "1"
+			(uuid "38db6a72-ab31-47aa-9b70-3417c8465562")
+		)
+		(instances
+			(project ""
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3962,6 +4401,77 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
 					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RN73H1JTTD4811B25:RN73H1JTTD4811B25")
+		(at 137.414 102.362 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec5d600a-a584-46a9-ae1e-ecc9f4c05fa7")
+		(property "Reference" "R4"
+			(at 140.716 101.0919 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.81k"
+			(at 140.716 103.6319 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RN73H1JTTD4811B25:RESC1608X55N"
+			(at 137.414 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.414 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.414 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c3486d2c-c132-4fa5-8ebc-74586b69150f")
+		)
+		(pin "1"
+			(uuid "0571aff4-1a96-475c-b833-6065f32ee790")
+		)
+		(instances
+			(project ""
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
+					(reference "R4")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ETQ-P5M220YSC
+D Series/Type: High Vibration Acceleration-resistant Power Choke Coil for Automotive-MS (MC type), Size [L] (mm): 10.910.0, Height (mm): 5.6, Inductance (H): 20, DC Resistance [Typ.] (at 20) (m): 45.5, DC Resistance [max.] (at 20) (m): 50, Rated Current [Typ.] (T=40K, FR4, t=1.6 mm,Four-layer PWB) (A): 5.2, Rated Current [Typ.] (T=40K, High heat dissipation PWB) (A): 6.2, Rated Current [Typ.] (L=30%)  (A): 7.9, Weight (Typ.) (g): 3.1, AEC-Q200 compliant
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/AGL0000/AGL0000C70.pdf
+$ENDCMP
+#
+#End Doc Library

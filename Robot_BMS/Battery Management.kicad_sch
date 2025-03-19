@@ -939,6 +939,257 @@
 				)
 			)
 		)
+		(symbol "C0603C104K5RACAUTO:C0603C104K5RACAUTO"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "C0603C104K5RACAUTO"
+				(at 3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CAPC17595_87N_KEM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "C0603C104K5RACAUTO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C0603C104K5RACAUTO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CAPC17595_87N_KEM CAPC17595_87N_KEM-M CAPC17595_87N_KEM-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C0603C104K5RACAUTO_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.4798 -1.905) (xy 3.4798 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 -1.905) (xy 4.1148 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "C0603C104K5RACAUTO_1_2"
+				(polyline
+					(pts
+						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1180,6 +1431,257 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GRM188R61H225KE11D:GRM188R61H225KE11D"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "GRM188R61H225KE11D"
+				(at 3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CAP_GRM188R61H225KE11__MUR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "GRM188R61H225KE11D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "GRM188R61H225KE11D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CAP_GRM188R61H225KE11__MUR CAP_GRM188R61H225KE11__MUR-M CAP_GRM188R61H225KE11__MUR-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GRM188R61H225KE11D_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.4798 -1.905) (xy 3.4798 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 -1.905) (xy 4.1148 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "GRM188R61H225KE11D_1_2"
+				(polyline
+					(pts
+						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2000,16 +2502,16 @@
 		(uuid "1f18f2c6-77c9-4722-8bc1-8b40dee70473")
 	)
 	(junction
+		(at 106.68 53.086)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b089a0f-967a-47df-ac22-e9d454a72f85")
+	)
+	(junction
 		(at 148.336 78.994)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c557eb5-f546-4af2-84fd-0aedcf9fcb8b")
-	)
-	(junction
-		(at 173.736 143.002)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e1f1508-5e6c-4760-ab24-896eb1bd681f")
 	)
 	(junction
 		(at 181.356 132.588)
@@ -2072,6 +2574,12 @@
 		(uuid "6bdaf34a-c060-46c8-8841-ec1c066239af")
 	)
 	(junction
+		(at 181.356 143.256)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79066a5f-4a36-435d-b6cc-78c4886d554f")
+	)
+	(junction
 		(at 148.336 108.712)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2102,22 +2610,10 @@
 		(uuid "a052800a-45e7-43bd-bd5c-21ac0e59be0a")
 	)
 	(junction
-		(at 181.356 143.002)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a58773f6-1193-43f0-b07b-b66fda45a4ad")
-	)
-	(junction
 		(at 240.03 33.528)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adff3238-78f5-4710-b9d4-b369cbac0840")
-	)
-	(junction
-		(at 106.68 53.086)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b21f3387-9a54-42b0-9157-ac4b3beb4562")
 	)
 	(junction
 		(at 173.736 132.588)
@@ -2148,6 +2644,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0744249-e88b-4984-9623-6677bc842990")
+	)
+	(junction
+		(at 173.736 143.256)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3ac19ea-15ee-4235-92f5-bf4aa9b8665c")
 	)
 	(junction
 		(at 205.994 28.702)
@@ -2345,6 +2847,16 @@
 			(type default)
 		)
 		(uuid "1b2d51b4-d5b4-41d4-8754-e60a50c92b1a")
+	)
+	(wire
+		(pts
+			(xy 181.356 143.256) (xy 181.356 150.622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf3496c-ade3-4978-9b88-fdde9e41a95a")
 	)
 	(wire
 		(pts
@@ -2589,6 +3101,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 53.086) (xy 163.322 53.086)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45786c30-a81b-4a41-a102-808e0ec2817d")
+	)
+	(wire
+		(pts
 			(xy 163.576 80.01) (xy 160.528 80.01)
 		)
 		(stroke
@@ -2669,16 +3191,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.736 132.588) (xy 173.736 143.002)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5db9fdec-6934-4200-88c2-575c2f626b11")
-	)
-	(wire
-		(pts
 			(xy 163.322 53.086) (xy 163.322 43.942)
 		)
 		(stroke
@@ -2750,7 +3262,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.736 143.002) (xy 173.736 150.622)
+			(xy 173.736 132.588) (xy 173.736 143.256)
 		)
 		(stroke
 			(width 0)
@@ -2818,16 +3330,6 @@
 			(type default)
 		)
 		(uuid "710c6df0-7305-404c-9426-3b457e386b55")
-	)
-	(wire
-		(pts
-			(xy 106.68 53.086) (xy 163.322 53.086)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71bef88b-c227-4bb3-bdfc-39a00a2c994a")
 	)
 	(wire
 		(pts
@@ -3092,6 +3594,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.736 143.256) (xy 173.736 150.622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ab2666-441f-40e3-aad5-e75d1f94340f")
+	)
+	(wire
+		(pts
 			(xy 205.994 26.162) (xy 205.994 28.702)
 		)
 		(stroke
@@ -3223,7 +3735,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.356 143.002) (xy 181.356 150.622)
+			(xy 181.356 132.588) (xy 181.356 143.256)
 		)
 		(stroke
 			(width 0)
@@ -3361,16 +3873,6 @@
 			(type default)
 		)
 		(uuid "dbc7c7ba-54f8-4885-a8c8-55d8b22e408f")
-	)
-	(wire
-		(pts
-			(xy 181.356 132.588) (xy 181.356 143.002)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1fb2e4c-a9ec-470a-8f12-2e42d1e3ceb8")
 	)
 	(wire
 		(pts
@@ -3745,76 +4247,6 @@
 		(uuid "e548ddad-4917-4f45-a694-f8ae1bbce1cc")
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 177.546 143.002 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ef75612-a69f-4636-9336-4dd32fd4e678")
-		(property "Reference" "C14"
-			(at 180.086 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 180.086 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.736 142.0368 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.546 143.002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 177.546 143.002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6e9b9b46-a6e2-4df6-9318-f4dc7eba8c4c")
-		)
-		(pin "1"
-			(uuid "9a03e38d-e487-4982-99c8-6e96f018d2eb")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BQ76922RSNR:BQ76922RSNR")
 		(at 163.576 72.39 0)
 		(unit 1)
@@ -4158,6 +4590,78 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C0603C104K5RACAUTO:C0603C104K5RACAUTO")
+		(at 173.736 143.256 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cdb21d3-8567-4fc2-b242-4a166811138a")
+		(property "Reference" "C9"
+			(at 176.022 146.558 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 175.26 148.844 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAPC17595_87N_KEM"
+			(at 173.736 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C0603C104K5RACAUTO"
+			(at 173.736 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "C0603C104K5RACAUTO"
+			(at 173.736 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3bba0f83-bded-4609-9a61-72dae944acfc")
+		)
+		(pin "1"
+			(uuid "67fbe148-9dde-4dfe-9ff2-3830db4f90f0")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4623,6 +5127,77 @@
 		)
 	)
 	(symbol
+		(lib_id "C0603C104K5RACAUTO:C0603C104K5RACAUTO")
+		(at 148.336 69.596 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48a49375-a21d-4c81-badb-8994bd3f1a86")
+		(property "Reference" "C1"
+			(at 151.384 72.898 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 151.13 75.184 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAPC17595_87N_KEM"
+			(at 148.336 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C0603C104K5RACAUTO"
+			(at 148.336 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "C0603C104K5RACAUTO"
+			(at 148.336 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2494bd28-0693-4f5b-bf9f-ea37a29481d7")
+		)
+		(pin "1"
+			(uuid "4924ad6e-b13d-4008-8089-f60125c3e27e")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 137.922 78.994 90)
 		(unit 1)
@@ -4693,15 +5268,15 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 129.032 108.712 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5f32dffb-5fa5-4604-bf3d-2deca2c05e40")
 		(property "Reference" "R10"
-			(at 129.032 103.124 90)
+			(at 129.286 110.998 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4709,7 +5284,7 @@
 			)
 		)
 		(property "Value" "20"
-			(at 129.032 105.664 90)
+			(at 129.54 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4717,7 +5292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.032 110.49 90)
+			(at 129.032 106.934 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,76 +5328,6 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 159.258 117.602 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e02cb31-b97a-4618-a32e-71f6ad533262")
-		(property "Reference" "C11"
-			(at 155.956 116.3319 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 155.956 118.8719 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.2232 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 159.258 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 159.258 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "64b74d85-563a-4d95-944a-e09d5446c0e2")
-		)
-		(pin "1"
-			(uuid "299ddab8-1a1f-42b7-b6e2-bf07ab8617e5")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4965,53 +5470,126 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 148.336 101.854 180)
+		(lib_id "GRM188R61H225KE11D:GRM188R61H225KE11D")
+		(at 106.68 60.706 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "733372cb-4183-4cb9-aae2-bfb47f777d8f")
-		(property "Reference" "C10"
-			(at 151.384 100.5839 0)
+		(uuid "7a94cad5-6529-4177-bff5-f506490f9541")
+		(property "Reference" "C8"
+			(at 110.49 55.6259 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 110.49 58.1659 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RobotBMS:CAP_GRM188R61H225KE11__MUR"
+			(at 106.68 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "GRM188R61H225KE11D"
+			(at 106.68 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GRM188R61H225KE11D"
+			(at 106.68 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25116953-2b58-4997-8fe4-99b4937f84e5")
+		)
+		(pin "2"
+			(uuid "8e9aa6b3-15a4-4d83-b72b-e757dfd75037")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C0603C104K5RACAUTO:C0603C104K5RACAUTO")
+		(at 159.258 113.792 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a049835-103e-49fc-ac11-7880234f030b")
+		(property "Reference" "C15"
+			(at 155.448 116.3319 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
 			)
 		)
 		(property "Value" "0.1u"
-			(at 151.384 103.1239 0)
+			(at 155.448 118.8719 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 147.3708 98.044 0)
+		(property "Footprint" "CAPC17595_87N_KEM"
+			(at 159.258 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.336 101.854 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 148.336 101.854 0)
+		(property "Datasheet" "C0603C104K5RACAUTO"
+			(at 159.258 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "C0603C104K5RACAUTO"
+			(at 159.258 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,15 +5598,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b434f8b8-1e38-4e5d-8be9-f18286dcc994")
+			(uuid "c57139f4-28c6-4d29-8b94-780a466b2220")
 		)
 		(pin "1"
-			(uuid "a879e68a-1add-4730-9056-04d3efafe9c0")
+			(uuid "f66f555e-c279-48f4-b79f-4add637cafed")
 		)
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "C10")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -5312,76 +5890,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 148.336 73.406 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8d4b0b4-3065-4787-a6e1-0a6d17cd23c4")
-		(property "Reference" "C9"
-			(at 152.146 72.1359 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 152.146 74.6759 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.3708 69.596 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.336 73.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 148.336 73.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d18733de-c908-40f9-b578-6bad720fc356")
-		)
-		(pin "1"
-			(uuid "3aa8bc19-840c-4996-9a4e-83ee29941a9a")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "18650 Battery Holder:BH-18650-PC")
 		(at 96.266 98.044 90)
 		(mirror x)
@@ -5593,6 +6101,149 @@
 		)
 	)
 	(symbol
+		(lib_id "GRM188R61H225KE11D:GRM188R61H225KE11D")
+		(at 189.484 142.748 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd92b996-a5e0-4b9f-81ae-594bad985ba6")
+		(property "Reference" "C11"
+			(at 193.294 137.6679 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 193.294 140.2079 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RobotBMS:CAP_GRM188R61H225KE11__MUR"
+			(at 189.484 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "GRM188R61H225KE11D"
+			(at 189.484 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GRM188R61H225KE11D"
+			(at 189.484 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34ef5799-551e-42b7-8f09-6d9515c4c8e6")
+		)
+		(pin "2"
+			(uuid "2d813b0e-ae7d-4c74-b869-243c76fc6cc2")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C0603C104K5RACAUTO:C0603C104K5RACAUTO")
+		(at 148.336 98.044 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be92fe9d-be27-44fa-a17d-9808c82e36a8")
+		(property "Reference" "C2"
+			(at 144.526 100.5839 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 144.526 103.1239 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAPC17595_87N_KEM"
+			(at 148.336 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C0603C104K5RACAUTO"
+			(at 148.336 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "C0603C104K5RACAUTO"
+			(at 148.336 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c156193b-773f-4223-8cbe-27bf68cb72b0")
+		)
+		(pin "1"
+			(uuid "a93e2d5f-39db-4fc3-b283-bccf300a17a5")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 229.616 86.868 0)
 		(mirror y)
@@ -5653,76 +6304,6 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 189.484 138.938 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5d31a57-dca5-49c5-8d93-b1d02ec4e71e")
-		(property "Reference" "C15"
-			(at 186.436 137.6679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 186.436 140.2079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.4492 135.128 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.484 138.938 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 189.484 138.938 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f276c45e-a7c8-431c-b58d-37ee39663163")
-		)
-		(pin "1"
-			(uuid "28badea7-4719-4494-8e68-6acf6588eebd")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -6407,76 +6988,6 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 106.68 56.896 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ddb0bbd6-dfac-44d2-8a94-de9082db2d88")
-		(property "Reference" "C8"
-			(at 110.49 55.6259 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 110.49 58.1659 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.6452 60.706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 106.68 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f6411fa8-2bdc-4897-8d53-c8a4ce464856")
-		)
-		(pin "1"
-			(uuid "b9d21e3b-1929-4fd3-b943-c71c32eaf20e")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "C8")
 					(unit 1)
 				)
 			)

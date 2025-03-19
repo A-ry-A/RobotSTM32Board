@@ -3270,7 +3270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2be97404-196f-40c8-ade4-7100e7d86d0a")
-		(property "Reference" "L3"
+		(property "Reference" "L1"
 			(at 121.412 65.024 0)
 			(effects
 				(font
@@ -3286,7 +3286,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ETQP5M220YSC"
+		(property "Footprint" "RobotBMS:ETQP5M220YSC"
 			(at 127.762 166.802 0)
 			(effects
 				(font
@@ -3384,7 +3384,7 @@
 		(instances
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "L3")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -3466,7 +3466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40bc6588-3e99-4f53-8c06-0e674cd5e13a")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 139.446 78.7399 90)
 			(effects
 				(font
@@ -3484,7 +3484,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RES_R0603_ROM"
+		(property "Footprint" "RobotBMS:RES_R0603_ROM"
 			(at 137.414 86.36 0)
 			(effects
 				(font
@@ -3522,7 +3522,7 @@
 		(instances
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3806,7 +3806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b7df9ba-b8d0-48e7-b9e4-ede01439f106")
-		(property "Reference" "C18"
+		(property "Reference" "C3"
 			(at 153.924 86.3599 90)
 			(effects
 				(font
@@ -3824,7 +3824,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "RobotBMS:CAPC1608X90N"
 			(at 246.304 85.09 0)
 			(effects
 				(font
@@ -3912,7 +3912,7 @@
 		(instances
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "C18")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3927,7 +3927,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "931265da-6483-4234-a28d-4e97781871eb")
-		(property "Reference" "C10"
+		(property "Reference" "C2"
 			(at 102.87 57.15 0)
 			(effects
 				(font
@@ -3945,7 +3945,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC17595_87N_KEM"
+		(property "Footprint" "RobotBMS:CAPC17595_87N_KEM"
 			(at 101.6 64.008 0)
 			(effects
 				(font
@@ -3983,7 +3983,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "C10")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4134,7 +4134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdd29b80-7eee-4cb0-8bfe-d300b2b728ce")
-		(property "Reference" "C24"
+		(property "Reference" "C1"
 			(at 36.576 73.6599 90)
 			(effects
 				(font
@@ -4190,7 +4190,7 @@
 		(instances
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "C24")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4416,7 +4416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec5d600a-a584-46a9-ae1e-ecc9f4c05fa7")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 140.716 101.0919 90)
 			(effects
 				(font
@@ -4434,7 +4434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RN73H1JTTD4811B25:RESC1608X55N"
+		(property "Footprint" "RobotBMS:RESC1608X55N"
 			(at 137.414 102.362 0)
 			(effects
 				(font
@@ -4471,7 +4471,7 @@
 		(instances
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)

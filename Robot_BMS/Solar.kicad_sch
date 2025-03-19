@@ -178,6 +178,326 @@
 				)
 			)
 		)
+		(symbol "AT0603DRE07100RL:AT0603DRE07100RL"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -7.6244 2.5415 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "AT0603DRE07100RL"
+				(at -7.63 -5.0866 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "AT0603DRE07100RL:RESC1608X55N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Yageo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.55mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "1608 Yageo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/AT0603DRE07100RL/Yageo/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC 7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "V6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/AT0603DRE07100RL/Yageo/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "AT0603DRE07100RL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            100 Ohms ±0.5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Yageo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "AT0603DRE07100RL_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -4.445 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 1.905) (xy -3.175 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.905) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 4.445 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.905) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "B370-13-F:B370-13-F"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -666,6 +986,257 @@
 				)
 			)
 		)
+		(symbol "C0603X821K5RACTU:C0603X821K5RACTU"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "C0603X821K5RACTU"
+				(at 3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CAPC17795_95N_KEM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "C0603X821K5RACTU"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C0603X821K5RACTU"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CAPC17795_95N_KEM CAPC17795_95N_KEM-M CAPC17795_95N_KEM-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C0603X821K5RACTU_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.4798 -1.905) (xy 3.4798 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 -1.905) (xy 4.1148 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "C0603X821K5RACTU_1_2"
+				(polyline
+					(pts
+						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "C1608X5R1H105K080AB:C1608X5R1H105K080AB"
 			(pin_names
 				(offset 0.254)
@@ -911,6 +1482,1229 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CC0603KRX7R6BB184:CC0603KRX7R6BB184"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CC0603KRX7R6BB184"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CC0603KRX7R6BB184:CAPC1608X90"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Yageo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            0.18µF ±10% 10V Ceramic Capacitor X7R 0603 (1608 Metric)\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "0603 Yageo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CC0603KRX7R6BB184/Yageo/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "CC0603KRX7R6BB184"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/CC0603KRX7R6BB184/Yageo/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CC0603KRX7R6BB184_0_0"
+				(rectangle
+					(start 0 -1.905)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 -1.905)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CL10A106MA8NRNC:CL10A106MA8NRNC"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CL10A106MA8NRNC"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CAPC1608X90N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.arrow.com/en/products/cl10a106ma8nrnc/samsung-electro-mechanics"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Cap Ceramic 10uF 25V X5R 20% SMD 0603 85C T/R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.9"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "187-CL10A106MA8NRNC"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL10A106MA8NRNC?qs=47mY1nHWefS2vFRvRJVTdQ%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "SAMSUNG"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CL10A106MA8NRNC"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CL10A106MA8NRNC_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CRCW0603110KFKEAC:CRCW0603110KFKEAC"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -7.6244 2.5415 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CRCW0603110KFKEAC"
+				(at -7.63 -5.0866 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CRCW0603110KFKEAC:RESC1608X55N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Vishay Dale"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            110 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thick Film\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "1608 Rohm Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0603110KFKEAC/Vishay+Dale/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "CRCW0603110KFKEAC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/CRCW0603110KFKEAC/Vishay+Dale/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CRCW0603110KFKEAC_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -4.445 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 1.905) (xy -3.175 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.905) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 4.445 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.905) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CRCW060340K2FKEAHP:CRCW060340K2FKEAHP"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -7.6244 2.5415 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CRCW060340K2FKEAHP"
+				(at -7.63 -5.0866 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CRCW060340K2FKEAHP:RESC1608X55N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Vishay Dale"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            40.2 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "1608 Vishay"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW060340K2FKEAHP/Vishay+Dale/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "CRCW060340K2FKEAHP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/CRCW060340K2FKEAHP/Vishay+Dale/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CRCW060340K2FKEAHP_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -4.445 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 1.905) (xy -3.175 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.905) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 4.445 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.905) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CRCW0603604RFKEA:CRCW0603604RFKEA"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -7.6244 2.5415 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CRCW0603604RFKEA"
+				(at -7.63 -5.0866 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CRCW0603604RFKEA:RESC1508X50N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Vishay"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            Resistor, Thick Film, 604 Ohms, 0.1 W, 1%, SMT, 0603, TCR 37 ppm/DegC, Cut Tape | Vishay Dale CRCW0603604RFKEA\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "1508 Vishay"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0603604RFKEA/Vishay/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "CRCW0603604RFKEA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/CRCW0603604RFKEA/Vishay/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CRCW0603604RFKEA_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -4.445 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 1.905) (xy -3.175 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.905) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 4.445 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.905) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1190,142 +2984,6 @@
 				)
 			)
 		)
-		(symbol "Device:C"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -1441,6 +3099,326 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ERJPA3F20R0V:ERJPA3F20R0V"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -7.624 2.541 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ERJPA3F20R0V"
+				(at -7.624 -5.087 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "ERJPA3F20R0V:RES_ERJPA3F20R0V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Panasonic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.45 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "1608-2 Panasonic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/ERJPA3F20R0V/Panasonic/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "3/1/2020"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ERJPA3F20R0V/Panasonic/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "ERJPA3F20R0V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            Thick Film Smnt Resistor 0603 Case 20Ohm +/-1% 0.25W +/-100ppm/degC | Panasonic Electronic Components ERJPA3F20R0V\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Panasonic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ERJPA3F20R0V_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -4.445 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 1.905) (xy -3.175 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.905) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 4.445 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.905) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1845,6 +3823,757 @@
 				)
 			)
 		)
+		(symbol "RC0603FR-0710KL:RC0603FR-0710KL"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 5.715 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "RC0603FR-0710KL"
+				(at 6.35 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "RC0603N_YAG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "RC0603FR-0710KL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "RC0603FR-0710KL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RC0603N_YAG RC0603N_YAG-M RC0603N_YAG-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0603FR-0710KL_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.175 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.27) (xy 4.445 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.27) (xy 5.715 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 1.27) (xy 6.985 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -1.27) (xy 8.255 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 1.27) (xy 9.525 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -1.27) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RC0603FR-0710KL_1_2"
+				(polyline
+					(pts
+						(xy -1.27 3.175) (xy 1.27 4.445)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.715) (xy 1.27 6.985)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 8.255) (xy 1.27 9.525)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.27 3.175)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 4.445) (xy -1.27 5.715)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.985) (xy -1.27 8.255)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 9.525) (xy 0 10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SR201A102JARTR1:SR201A102JARTR1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 3.8109 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SR201A102JARTR1"
+				(at 0 -5.0885 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SR201A102JARTR1:CAPRR254W50L508T317H508"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "AVX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "5.08mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Radial AVX / Kyocera"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/SR201A102JARTR1/AVX/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC 7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "081816"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SR201A102JARTR1/AVX/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "SR201A102JARTR1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            SR Series 5.08 x 5.08 mm 1 nF 100 V ±5% Tolerance C0G/NP0 Radial Lead/SkyCap®\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "KYOCERA AVX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "SR201A102JARTR1_0_0"
+				(rectangle
+					(start 0 -1.9069)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.9069 -1.9069)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ZRB18AR6YA475ME05L:ZRB18AR6YA475ME05L"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 3.8109 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ZRB18AR6YA475ME05L"
+				(at 0 -5.0885 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "ZRB18AR6YA475ME05L:CAPC1608X120N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Murata"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            SMD capacitor X5R(EIA) with capacitance 4.7uF Tol.20%. Rated voltage 35Vdc 85C\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "1608 Murata"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ZRB18AR6YA475ME05L/Murata/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "ZRB18AR6YA475ME05L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/ZRB18AR6YA475ME05L/Murata/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ZRB18AR6YA475ME05L_0_0"
+				(rectangle
+					(start 0 -1.9069)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.9069 -1.9069)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1949,12 +4678,6 @@
 		(uuid "03e74afa-7b00-4a23-9658-ddd344136b0f")
 	)
 	(junction
-		(at 60.452 103.378)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0701685b-2f49-4cf0-9acb-78d703b198cd")
-	)
-	(junction
 		(at 189.992 108.458)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1973,16 +4696,10 @@
 		(uuid "409ccf6c-4882-450d-b823-5f8ba343b6bf")
 	)
 	(junction
-		(at 248.412 90.932)
+		(at 226.568 53.086)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "42b61d48-b3b8-4b1b-8d62-8f4a4a2b0699")
-	)
-	(junction
-		(at 60.452 64.008)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46f64af1-dbf0-438a-a95f-51c955d0fb32")
+		(uuid "47734cec-f88e-4ac0-99bd-ea48348598de")
 	)
 	(junction
 		(at 171.45 51.816)
@@ -1991,46 +4708,40 @@
 		(uuid "4c51bee1-c929-4e0b-a2c7-338743379a1b")
 	)
 	(junction
+		(at 60.452 64.008)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5287aad5-90d7-425a-b74e-5ed360d1d7be")
+	)
+	(junction
 		(at 44.45 64.008)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5743956c-eab5-477f-b354-4c2863836200")
 	)
 	(junction
-		(at 116.84 132.334)
+		(at 60.452 99.822)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5e819779-299f-43f6-8980-ff2ac65c472b")
+		(uuid "64692dd0-72a2-4602-a668-a52c1f31ec9f")
 	)
 	(junction
-		(at 226.568 70.612)
+		(at 254.254 90.932)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "65510fe9-3edb-4434-a0cb-295bb23c9a9d")
+		(uuid "688b91a9-0d11-42b7-96a4-f0a30c801296")
 	)
 	(junction
-		(at 226.568 53.086)
+		(at 242.824 53.086)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "70f17f34-4609-4072-8efe-0f29fee96220")
+		(uuid "76adc94e-0726-4d28-be5d-abf4540e600c")
 	)
 	(junction
-		(at 87.63 61.976)
+		(at 116.84 130.302)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7f29fc73-a377-44cf-a0b0-7e428fdaedb9")
-	)
-	(junction
-		(at 94.234 132.334)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97317fc8-0955-4b51-98d0-d7e63d3f0f82")
-	)
-	(junction
-		(at 60.452 91.694)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d927eb0-edf9-4d85-8bf7-b3131f9e9b9f")
+		(uuid "a19182a9-1682-4b46-933e-2f3ae9087460")
 	)
 	(junction
 		(at 187.452 67.818)
@@ -2039,16 +4750,16 @@
 		(uuid "a4663d0e-e6f8-4a4b-b962-bb216bf8ef04")
 	)
 	(junction
-		(at 44.45 103.378)
+		(at 94.234 130.302)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b2c43a06-4da2-4752-b67e-2e7183f27e33")
+		(uuid "c0a68a52-56f5-4853-a05b-1e8587f92114")
 	)
 	(junction
-		(at 248.412 53.086)
+		(at 88.392 61.976)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b4b05271-b531-45e1-ac90-83f4145f22a9")
+		(uuid "d0f8be0b-6470-4f20-9782-6aa06df2c126")
 	)
 	(junction
 		(at 192.024 51.816)
@@ -2057,10 +4768,40 @@
 		(uuid "d318bc6e-6e7a-4c45-b16d-637e504ec480")
 	)
 	(junction
+		(at 254.254 53.086)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d89f9522-6caf-44c2-b1a9-1dc644828477")
+	)
+	(junction
+		(at 226.568 74.676)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e55d59f8-bb16-4319-ba97-8414d30d461a")
+	)
+	(junction
 		(at 187.452 108.458)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e666dcab-f71c-476a-b2bf-0b66ad1e1556")
+	)
+	(junction
+		(at 44.45 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7c19570-4dfa-4285-a77c-1f85036ef54a")
+	)
+	(junction
+		(at 60.452 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee4596b2-2d04-428e-92a8-1558a57ec956")
+	)
+	(junction
+		(at 242.824 90.932)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcbd545e-3918-4844-88f3-c6fe0c2fdc35")
 	)
 	(wire
 		(pts
@@ -2074,17 +4815,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.568 70.612) (xy 226.568 63.754)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "066ed232-75ae-4a70-8fec-727d9710eb71")
-	)
-	(wire
-		(pts
-			(xy 226.568 90.932) (xy 248.412 90.932)
+			(xy 226.568 90.932) (xy 242.824 90.932)
 		)
 		(stroke
 			(width 0)
@@ -2094,17 +4825,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.452 64.008) (xy 60.452 69.342)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b151881-dd4d-4630-95cc-0a92d8b4d927")
-	)
-	(wire
-		(pts
-			(xy 125.984 91.694) (xy 125.984 81.28)
+			(xy 125.984 81.28) (xy 125.984 99.822)
 		)
 		(stroke
 			(width 0)
@@ -2114,7 +4835,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.568 53.086) (xy 217.932 53.086)
+			(xy 217.932 53.086) (xy 226.568 53.086)
 		)
 		(stroke
 			(width 0)
@@ -2144,7 +4865,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 58.42) (xy 219.71 70.612)
+			(xy 219.71 58.42) (xy 219.71 74.676)
 		)
 		(stroke
 			(width 0)
@@ -2174,7 +4895,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 82.804) (xy 87.63 85.852)
+			(xy 88.392 91.186) (xy 88.392 94.234)
 		)
 		(stroke
 			(width 0)
@@ -2194,36 +4915,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 132.334) (xy 116.84 132.334)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2134de5d-fba8-45be-a8a0-f99541a51b5d")
-	)
-	(wire
-		(pts
-			(xy 65.786 45.974) (xy 100.076 45.974)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "215a94aa-7271-413c-ad19-90999098bf28")
-	)
-	(wire
-		(pts
-			(xy 226.568 53.086) (xy 248.412 53.086)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21c9ed60-0683-466a-ad5c-39b1a5ad6c8e")
-	)
-	(wire
-		(pts
 			(xy 121.158 58.42) (xy 219.71 58.42)
 		)
 		(stroke
@@ -2234,13 +4925,23 @@
 	)
 	(wire
 		(pts
-			(xy 30.734 103.378) (xy 44.45 103.378)
+			(xy 30.734 110.49) (xy 44.45 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2739e6a7-da69-45f2-8579-81c74ed3728a")
+	)
+	(wire
+		(pts
+			(xy 254.254 53.086) (xy 254.254 67.564)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "290fa8fe-35fc-4207-837e-5cebf163aaa2")
 	)
 	(wire
 		(pts
@@ -2251,6 +4952,16 @@
 			(type default)
 		)
 		(uuid "2af08be0-551e-4e8f-a8f9-dbe964ff3c4c")
+	)
+	(wire
+		(pts
+			(xy 60.452 64.008) (xy 60.452 68.072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dabbd7f-d154-4830-8b49-1e3f70c5285f")
 	)
 	(wire
 		(pts
@@ -2294,6 +5005,16 @@
 	)
 	(wire
 		(pts
+			(xy 94.234 117.094) (xy 94.234 130.302)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "348202d3-ca50-4393-aa78-0c0ab9223650")
+	)
+	(wire
+		(pts
 			(xy 187.452 67.818) (xy 184.912 67.818)
 		)
 		(stroke
@@ -2301,6 +5022,16 @@
 			(type default)
 		)
 		(uuid "34f505fd-0764-448e-9359-50592d3107bc")
+	)
+	(wire
+		(pts
+			(xy 60.452 109.474) (xy 60.452 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "359ae3ef-8fe2-4816-9ac4-5d97e39945e5")
 	)
 	(wire
 		(pts
@@ -2314,16 +5045,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.452 103.378) (xy 60.452 101.854)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "379dbb37-2c9b-492c-8135-919bb35355e7")
-	)
-	(wire
-		(pts
 			(xy 161.544 91.44) (xy 161.544 99.314)
 		)
 		(stroke
@@ -2334,13 +5055,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.452 103.378) (xy 60.452 106.426)
+			(xy 242.824 90.932) (xy 254.254 90.932)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c4ae35e-fad6-4f89-9985-127a8ac3aab3")
+		(uuid "398f5fc5-854b-4248-9757-75bf8c859d85")
 	)
 	(wire
 		(pts
@@ -2354,17 +5075,17 @@
 	)
 	(wire
 		(pts
-			(xy 226.568 81.28) (xy 226.568 90.932)
+			(xy 242.824 53.086) (xy 242.824 66.294)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d25ab27-e88f-4ced-a3d2-b52c33614a53")
+		(uuid "3dfb0944-8fdf-4cea-aa2c-733c882cd371")
 	)
 	(wire
 		(pts
-			(xy 30.734 81.534) (xy 30.734 103.378)
+			(xy 30.734 81.534) (xy 30.734 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2394,26 +5115,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 61.976) (xy 87.63 64.516)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5112be5a-a5dd-4b61-84dd-04777a558364")
-	)
-	(wire
-		(pts
-			(xy 248.412 90.932) (xy 248.412 72.644)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53ddd3ce-332e-439c-9e92-49adce78fc3b")
-	)
-	(wire
-		(pts
 			(xy 188.722 51.816) (xy 192.024 51.816)
 		)
 		(stroke
@@ -2424,43 +5125,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 72.136) (xy 87.63 75.184)
+			(xy 115.824 130.302) (xy 116.84 130.302)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a3390e1-0783-42e6-ab11-d5fd285feaad")
-	)
-	(wire
-		(pts
-			(xy 65.786 45.974) (xy 65.786 45.212)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ae49778-0ec9-4ab1-9347-5e8e85a2f04f")
-	)
-	(wire
-		(pts
-			(xy 94.234 132.334) (xy 94.234 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c00ef66-bdbd-4454-b953-a796bbb8e9c7")
-	)
-	(wire
-		(pts
-			(xy 60.452 76.962) (xy 60.452 91.694)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cfed0d8-9abf-4729-95f7-51c14542e68e")
+		(uuid "58dd5550-557d-40ce-ac92-68e0f6363f88")
 	)
 	(wire
 		(pts
@@ -2494,13 +5165,33 @@
 	)
 	(wire
 		(pts
-			(xy 74.422 61.976) (xy 87.63 61.976)
+			(xy 74.422 61.976) (xy 88.392 61.976)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6a5154fe-40d8-4ace-90fe-0b0961942d21")
+	)
+	(wire
+		(pts
+			(xy 254.254 53.086) (xy 261.874 53.086)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b0bb47d-6be7-486b-88ee-1e2dd46bf6be")
+	)
+	(wire
+		(pts
+			(xy 226.568 88.138) (xy 226.568 90.932)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bcc6350-6a72-4342-b7ef-61f017b7b5c3")
 	)
 	(wire
 		(pts
@@ -2514,7 +5205,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 132.334) (xy 116.84 138.938)
+			(xy 116.84 117.094) (xy 116.84 130.302)
 		)
 		(stroke
 			(width 0)
@@ -2534,13 +5225,33 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 70.612) (xy 226.568 70.612)
+			(xy 219.71 74.676) (xy 226.568 74.676)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7a063c45-5dad-4f42-b59f-532ac5c9a09a")
+	)
+	(wire
+		(pts
+			(xy 88.392 61.976) (xy 98.806 61.976)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ddc288d-2a4f-4e7a-9d65-a3dda8a517c6")
+	)
+	(wire
+		(pts
+			(xy 226.568 73.406) (xy 226.568 74.676)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fec5138-6ded-4fbb-b1c2-7952c2d30229")
 	)
 	(wire
 		(pts
@@ -2574,6 +5285,16 @@
 	)
 	(wire
 		(pts
+			(xy 254.254 80.264) (xy 254.254 90.932)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c6ad6a-dde7-4d0b-9211-3833eb9eb129")
+	)
+	(wire
+		(pts
 			(xy 161.544 88.9) (xy 161.544 91.44)
 		)
 		(stroke
@@ -2594,16 +5315,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.452 91.694) (xy 125.984 91.694)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ad70fa7-5c50-4fbe-b6c5-d6f45ae1e742")
-	)
-	(wire
-		(pts
 			(xy 74.422 82.042) (xy 74.422 85.344)
 		)
 		(stroke
@@ -2611,6 +5322,16 @@
 			(type default)
 		)
 		(uuid "8cb7b437-d58b-48b0-adf3-6c27968f5909")
+	)
+	(wire
+		(pts
+			(xy 94.234 144.526) (xy 94.234 151.384)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d9b0cf3-c2cf-4a25-bd24-756f6a5e9f37")
 	)
 	(wire
 		(pts
@@ -2634,16 +5355,6 @@
 	)
 	(wire
 		(pts
-			(xy 94.234 147.32) (xy 94.234 151.384)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91d8e400-7533-4188-bb0d-8319f6f81fe6")
-	)
-	(wire
-		(pts
 			(xy 171.45 67.31) (xy 184.658 67.31)
 		)
 		(stroke
@@ -2651,16 +5362,6 @@
 			(type default)
 		)
 		(uuid "931fed89-877a-453d-adae-8df670e41db3")
-	)
-	(wire
-		(pts
-			(xy 94.234 117.094) (xy 94.234 132.334)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "937fbb36-947f-49c7-9675-d1570c57e534")
 	)
 	(wire
 		(pts
@@ -2674,17 +5375,37 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 132.334) (xy 94.234 132.334)
+			(xy 242.824 53.086) (xy 254.254 53.086)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "998b877e-6ccc-4c62-b077-9b186600e356")
+		(uuid "987a40cd-ebee-4103-887e-6a823f12d683")
 	)
 	(wire
 		(pts
-			(xy 60.452 45.212) (xy 65.786 45.212)
+			(xy 44.45 85.09) (xy 44.45 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b699672-22b0-4c5d-814e-238f41d6f38b")
+	)
+	(wire
+		(pts
+			(xy 116.84 130.302) (xy 116.84 138.938)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9de81b77-a9af-4a59-bfba-9df0491c6c91")
+	)
+	(wire
+		(pts
+			(xy 60.452 45.212) (xy 100.076 45.212)
 		)
 		(stroke
 			(width 0)
@@ -2701,6 +5422,16 @@
 			(type default)
 		)
 		(uuid "a5e61a56-3ad0-4ec9-b95c-1fc28ec99620")
+	)
+	(wire
+		(pts
+			(xy 60.452 110.49) (xy 60.452 111.252)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a658d7b1-fbab-46b6-9d12-0584e818415e")
 	)
 	(wire
 		(pts
@@ -2734,7 +5465,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.076 45.974) (xy 100.076 24.384)
+			(xy 100.076 45.212) (xy 100.076 24.384)
 		)
 		(stroke
 			(width 0)
@@ -2744,23 +5475,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 117.094) (xy 116.84 132.334)
+			(xy 226.568 53.086) (xy 242.824 53.086)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4faaa48-b87a-4d53-b2ae-95b9458fb3d2")
-	)
-	(wire
-		(pts
-			(xy 99.06 81.28) (xy 99.06 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba9c8a7b-cb6b-4e3d-b986-ee3a1546deeb")
+		(uuid "ba39fc9e-9699-4189-adc4-b8536d974032")
 	)
 	(wire
 		(pts
@@ -2804,13 +5525,13 @@
 	)
 	(wire
 		(pts
-			(xy 248.412 53.086) (xy 248.412 65.024)
+			(xy 60.452 101.854) (xy 60.452 99.822)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0763cba-46d7-4133-bc62-3ddc633d50b9")
+		(uuid "d2c76f5f-8af5-457d-9e82-b034b03a2d03")
 	)
 	(wire
 		(pts
@@ -2821,6 +5542,16 @@
 			(type default)
 		)
 		(uuid "d37d62a1-4f61-4f3b-aa94-331055da1ff8")
+	)
+	(wire
+		(pts
+			(xy 60.452 88.392) (xy 60.452 99.822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3fa9782-9ab2-4466-9ac6-a3282292b598")
 	)
 	(wire
 		(pts
@@ -2854,23 +5585,13 @@
 	)
 	(wire
 		(pts
-			(xy 248.412 53.086) (xy 261.874 53.086)
+			(xy 88.392 82.296) (xy 88.392 83.566)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "daadae37-0895-4ad5-ab26-700f39b5d666")
-	)
-	(wire
-		(pts
-			(xy 226.568 53.086) (xy 226.568 56.134)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de39a3dc-fb7d-4812-aa9a-7d9114e98849")
+		(uuid "dd05f548-d668-4018-8271-3d9510ba9cb6")
 	)
 	(wire
 		(pts
@@ -2884,7 +5605,17 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 103.378) (xy 60.452 103.378)
+			(xy 242.824 78.994) (xy 242.824 90.932)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "defd51bf-be71-40d2-8920-c7690317bf81")
+	)
+	(wire
+		(pts
+			(xy 44.45 110.49) (xy 60.452 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2894,7 +5625,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.568 70.612) (xy 226.568 73.66)
+			(xy 226.568 74.676) (xy 226.568 75.438)
 		)
 		(stroke
 			(width 0)
@@ -2904,13 +5635,33 @@
 	)
 	(wire
 		(pts
-			(xy 248.412 90.932) (xy 248.412 93.218)
+			(xy 254.254 90.932) (xy 254.254 93.218)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e8821408-118a-4a34-84eb-dea52dae1438")
+	)
+	(wire
+		(pts
+			(xy 60.452 99.822) (xy 125.984 99.822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8bffdb1-6246-47c8-8ad5-851defd98c91")
+	)
+	(wire
+		(pts
+			(xy 94.234 130.302) (xy 95.504 130.302)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb371c7f-3561-423e-986c-91c95b8fbbd3")
 	)
 	(wire
 		(pts
@@ -2934,33 +5685,23 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 103.378) (xy 44.45 85.09)
+			(xy 99.06 93.98) (xy 99.06 94.742)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5f0db7f-678e-4210-977c-5ec3a599af2a")
+		(uuid "fbe507f7-013a-4f36-b6ce-3f942ce0bf80")
 	)
 	(wire
 		(pts
-			(xy 87.63 61.976) (xy 98.806 61.976)
+			(xy 94.234 130.302) (xy 94.234 136.906)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7772bc1-7439-47d0-b45c-698a5cb3af81")
-	)
-	(wire
-		(pts
-			(xy 60.452 91.694) (xy 60.452 94.234)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fabb4ca9-13fc-4dd2-9aa0-b31a0c00c5bf")
+		(uuid "fc346202-90c1-4cd2-a165-ccd3235155e8")
 	)
 	(text "Uses screw terminals to connect\nSolar panels to the system"
 		(exclude_from_sim no)
@@ -3086,7 +5827,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.452 106.426 0)
+		(at 60.452 111.252 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3095,7 +5836,7 @@
 		(dnp no)
 		(uuid "039dc497-192d-40fd-ab58-18242eb803aa")
 		(property "Reference" "#PWR030"
-			(at 60.452 112.776 0)
+			(at 60.452 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3104,7 +5845,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.198 110.49 0)
+			(at 60.198 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3112,7 +5853,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.452 106.426 0)
+			(at 60.452 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3121,7 +5862,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.452 106.426 0)
+			(at 60.452 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3130,7 +5871,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.452 106.426 0)
+			(at 60.452 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3145,6 +5886,128 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CL10A106MA8NRNC:CL10A106MA8NRNC")
+		(at 254.254 80.264 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "099a7743-c44f-484a-9fad-1f4684a1165a")
+		(property "Reference" "C24"
+			(at 258.064 72.6439 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 258.064 75.1839 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RobotBMS:CAPC1608X90N"
+			(at 350.444 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/cl10a106ma8nrnc/samsung-electro-mechanics"
+			(at 450.444 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cap Ceramic 10uF 25V X5R 20% SMD 0603 85C T/R"
+			(at 254.254 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 650.444 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL10A106MA8NRNC"
+			(at 750.444 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL10A106MA8NRNC?qs=47mY1nHWefS2vFRvRJVTdQ%3D%3D"
+			(at 850.444 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 950.444 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10A106MA8NRNC"
+			(at 1050.444 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e65fb798-0fbd-4baf-b3ab-746c12c46cc5")
+		)
+		(pin "1"
+			(uuid "7590e3dd-33aa-4e92-8769-8ee25c42edc3")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -3238,6 +6101,78 @@
 		)
 	)
 	(symbol
+		(lib_id "C0603X821K5RACTU:C0603X821K5RACTU")
+		(at 94.234 136.906 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "121c94aa-5f26-4ec3-86bb-5124bc191d72")
+		(property "Reference" "C21"
+			(at 90.678 139.4459 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "820p"
+			(at 90.678 141.9859 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RobotBMS:CAPC17795_95N_KEM"
+			(at 94.234 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C0603X821K5RACTU"
+			(at 94.234 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 94.234 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c558098-05c2-4f10-ba7f-be255a774ea0")
+		)
+		(pin "1"
+			(uuid "a2153512-abde-4106-9724-9c66ccbdbe05")
+		)
+		(instances
+			(project ""
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 161.544 99.314 0)
 		(mirror y)
@@ -3304,35 +6239,55 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 44.45 81.28 0)
+		(lib_id "CL10A106MA8NRNC:CL10A106MA8NRNC")
+		(at 242.824 78.994 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "27995129-2229-44bb-ae2a-feaefa89c839")
-		(property "Reference" "C17"
-			(at 48.26 80.0099 0)
+		(uuid "22919f00-74f8-4693-ae38-77a11f1393e3")
+		(property "Reference" "C23"
+			(at 246.634 71.3739 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "4.7u"
-			(at 48.26 82.5499 0)
+		(property "Value" "10u"
+			(at 246.634 73.9139 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 45.4152 85.09 0)
+		(property "Footprint" "RobotBMS:CAPC1608X90N"
+			(at 339.014 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/cl10a106ma8nrnc/samsung-electro-mechanics"
+			(at 439.014 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cap Ceramic 10uF 25V X5R 20% SMD 0603 85C T/R"
+			(at 242.824 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,34 +6295,66 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 44.45 81.28 0)
+		(property "Height" "0.9"
+			(at 639.014 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 44.45 81.28 0)
+		(property "Mouser Part Number" "187-CL10A106MA8NRNC"
+			(at 739.014 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "53f2cf3f-6c5a-46b3-9c2c-57e70d5097d1")
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL10A106MA8NRNC?qs=47mY1nHWefS2vFRvRJVTdQ%3D%3D"
+			(at 839.014 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 939.014 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10A106MA8NRNC"
+			(at 1039.014 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "b690153a-bde1-43ed-8d4f-196edab4316d")
+			(uuid "8ade942d-f50e-4a27-a8b8-cd3d1a97d38a")
+		)
+		(pin "1"
+			(uuid "b77aa509-4463-4d3f-ad81-d3ccc20ec654")
 		)
 		(instances
-			(project ""
+			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
-					(reference "C17")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -3584,17 +6571,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 87.63 68.326 0)
+		(lib_id "ZRB18AR6YA475ME05L:ZRB18AR6YA475ME05L")
+		(at 44.45 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "326619f9-010c-4ba7-893d-5e599609a1e1")
-		(property "Reference" "R20"
-			(at 90.17 67.0559 0)
+		(uuid "4844e50b-a9c9-4f32-b9d2-5b8fb8fab7d2")
+		(property "Reference" "C17"
+			(at 41.402 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3602,8 +6588,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "600"
-			(at 90.17 69.5959 0)
+		(property "Value" "4.7u"
+			(at 41.402 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,8 +6597,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 85.852 68.326 90)
+		(property "Footprint" "RobotBMS:CAPC1608X120N"
+			(at 44.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3620,8 +6616,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 87.63 68.326 0)
+		(property "Description" ""
+			(at 44.45 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3629,25 +6625,96 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 87.63 68.326 0)
+		(property "MF" "Murata"
+			(at 44.45 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "cb64fa08-7979-4c58-b7fe-1c9794e9ff89")
+		(property "Description_1" "\n                        \n                            SMD capacitor X5R(EIA) with capacitance 4.7uF Tol.20%. Rated voltage 35Vdc 85C\n                        \n"
+			(at 44.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608 Murata"
+			(at 44.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 44.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ZRB18AR6YA475ME05L/Murata/view-part/?ref=snap"
+			(at 44.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ZRB18AR6YA475ME05L"
+			(at 44.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 44.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ZRB18AR6YA475ME05L/Murata/view-part/?ref=eda"
+			(at 44.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "ab899f58-cad1-48f3-888f-878fb13738f6")
+			(uuid "7d8ebeee-21f3-475b-b0e3-9a4ec7bc50d5")
+		)
+		(pin "1"
+			(uuid "68c6213a-b40f-4d11-a719-dbdebbe4752e")
 		)
 		(instances
-			(project "Robot_BMS"
+			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
-					(reference "R20")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3655,7 +6722,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 83.82 0)
+		(at 99.06 94.742 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3664,7 +6731,7 @@
 		(dnp no)
 		(uuid "4947393c-7f7f-4993-99a7-f252784d69e8")
 		(property "Reference" "#PWR034"
-			(at 99.06 90.17 0)
+			(at 99.06 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3673,7 +6740,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 98.806 87.884 0)
+			(at 98.806 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,7 +6748,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 83.82 0)
+			(at 99.06 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3690,7 +6757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 83.82 0)
+			(at 99.06 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3699,7 +6766,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 83.82 0)
+			(at 99.06 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,74 +6781,6 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 105.41 132.334 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4fa2c2e4-f171-4a5e-9e42-12485950a2d6")
-		(property "Reference" "R22"
-			(at 105.41 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 105.41 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 134.112 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 105.41 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62c2d8c8-4c9d-4d87-b20d-1d978dae344c")
-		)
-		(pin "2"
-			(uuid "63ef1e92-c924-4ff8-ac3d-0ea8f370620c")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
-					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -3815,7 +6814,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RobotBMS:RESC1508X50N"
 			(at 118.618 142.748 90)
 			(effects
 				(font
@@ -3824,7 +6823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?30417"
 			(at 116.84 142.748 0)
 			(effects
 				(font
@@ -3833,7 +6832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "WFCP0603R0120FE66 Current Sense Resistors - SMD .012ohms 1% .5w"
 			(at 116.84 142.748 0)
 			(effects
 				(font
@@ -3858,76 +6857,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 99.06 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54a647b9-ad06-4d1c-be74-733d1df28ebe")
-		(property "Reference" "R21"
-			(at 101.6 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "40k2"
-			(at 101.6 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.282 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 99.06 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05c80982-62dd-4748-a143-94853e52ef38")
-		)
-		(pin "2"
-			(uuid "9f524c12-84e7-4b58-81a5-28a89a5bd72f")
-		)
-		(instances
-			(project ""
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "C1608X5R1H105K080AB:C1608X5R1H105K080AB")
 		(at 181.102 51.816 0)
 		(unit 1)
@@ -3937,7 +6866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69214e89-b237-4e56-a3be-ab71117a1540")
-		(property "Reference" "C16"
+		(property "Reference" "C22"
 			(at 184.912 45.212 0)
 			(effects
 				(font
@@ -3953,7 +6882,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAP_1608_TDK"
+		(property "Footprint" "RobotBMS:CAP_1608_TDK"
 			(at 181.102 51.816 0)
 			(effects
 				(font
@@ -3991,147 +6920,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 248.412 68.834 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6fa78be6-2048-4493-8e05-60377a7b1b4e")
-		(property "Reference" "C23"
-			(at 251.46 67.5639 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 251.46 70.1039 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 249.3772 72.644 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 248.412 68.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 248.412 68.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8ec7888-f980-4242-b761-330e5ccf6b42")
-		)
-		(pin "2"
-			(uuid "e7323d3a-511f-4abe-bbef-fa22bd62a55d")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 226.568 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "739d0836-1673-4596-bfbc-b50105357d3c")
-		(property "Reference" "R25"
-			(at 228.6 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 228.6 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.568 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 226.568 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "73f98ff2-bac8-4741-9d92-7edc85da3e88")
-		)
-		(pin "1"
-			(uuid "5d499665-8f62-4632-9d83-b22567fe9956")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
-					(reference "R25")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -4139,7 +6928,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 248.412 93.218 0)
+		(at 254.254 93.218 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4148,7 +6937,7 @@
 		(dnp no)
 		(uuid "73d383ca-7361-407b-a66b-c85d02d02d47")
 		(property "Reference" "#PWR038"
-			(at 248.412 99.568 0)
+			(at 254.254 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,7 +6946,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.158 97.282 0)
+			(at 254 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4165,7 +6954,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.412 93.218 0)
+			(at 254.254 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4174,7 +6963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.412 93.218 0)
+			(at 254.254 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4183,7 +6972,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.412 93.218 0)
+			(at 254.254 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,6 +6987,198 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SR201A102JARTR1:SR201A102JARTR1")
+		(at 74.422 79.502 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dddf5b0-e071-4d3b-a4be-4eaac9869500")
+		(property "Reference" "C19"
+			(at 77.978 76.9619 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n"
+			(at 77.978 79.5019 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RobotBMS:CAPRR254W50L508T317H508"
+			(at 74.422 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.422 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.422 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "AVX"
+			(at 74.422 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.08mm"
+			(at 74.422 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Radial AVX / Kyocera"
+			(at 74.422 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 74.422 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SR201A102JARTR1/AVX/view-part/?ref=eda"
+			(at 74.422 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 74.422 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "081816"
+			(at 74.422 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SR201A102JARTR1/AVX/view-part/?ref=snap"
+			(at 74.422 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SR201A102JARTR1"
+			(at 74.422 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            SR Series 5.08 x 5.08 mm 1 nF 100 V ±5% Tolerance C0G/NP0 Radial Lead/SkyCap®\n                        \n"
+			(at 74.422 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 74.422 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KYOCERA AVX"
+			(at 74.422 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ddecf39-a0d5-4110-ab29-2d79dea1d838")
+		)
+		(pin "2"
+			(uuid "9b9768f5-d6cb-46cc-9969-1520ff48b1aa")
+		)
+		(instances
+			(project ""
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -4271,7 +7252,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 85.852 0)
+		(at 88.392 94.234 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4280,7 +7261,7 @@
 		(dnp no)
 		(uuid "951fba86-fc87-45b2-9eb7-33a0753ddb96")
 		(property "Reference" "#PWR032"
-			(at 87.63 92.202 0)
+			(at 88.392 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,7 +7270,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.376 89.916 0)
+			(at 88.138 98.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,7 +7278,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 85.852 0)
+			(at 88.392 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4306,7 +7287,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 85.852 0)
+			(at 88.392 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,7 +7296,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 85.852 0)
+			(at 88.392 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,35 +7317,43 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 60.452 73.152 0)
+		(lib_id "AT0603DRE07100RL:AT0603DRE07100RL")
+		(at 105.664 130.302 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9760ed94-7aa5-4e38-8e80-085a7337b846")
-		(property "Reference" "R19"
-			(at 62.23 71.8819 0)
+		(uuid "96ba3f4b-1940-4cb3-9da5-379d6ab493c7")
+		(property "Reference" "R22"
+			(at 105.664 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "20"
-			(at 62.23 74.4219 0)
+		(property "Value" "100"
+			(at 105.664 126.492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 58.674 73.152 90)
+		(property "Footprint" "RobotBMS:RESC1608X55N"
+			(at 105.664 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.664 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4372,8 +7361,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 60.452 73.152 0)
+		(property "Description" ""
+			(at 105.664 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4381,25 +7370,287 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 60.452 73.152 0)
+		(property "MF" "Yageo"
+			(at 105.664 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.55mm"
+			(at 105.664 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608 Yageo"
+			(at 105.664 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 105.664 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AT0603DRE07100RL/Yageo/view-part/?ref=eda"
+			(at 105.664 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 105.664 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V6"
+			(at 105.664 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AT0603DRE07100RL/Yageo/view-part/?ref=snap"
+			(at 105.664 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "AT0603DRE07100RL"
+			(at 105.664 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            100 Ohms ±0.5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film\n                        \n"
+			(at 105.664 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 105.664 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 105.664 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "d9f15b25-506d-402a-8c06-96133d5875bd")
+			(uuid "4f2cc552-5be1-4ae8-a415-883f059c26e6")
 		)
 		(pin "1"
-			(uuid "25ecc030-8c2b-4d5c-ae1f-9187ab67b656")
+			(uuid "5e8ae2c7-eac7-455d-a36c-dd7130d06351")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CRCW0603604RFKEA:CRCW0603604RFKEA")
+		(at 88.392 72.136 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cdf00b3-5f35-420a-8549-8eeff8357a7b")
+		(property "Reference" "R20"
+			(at 92.202 70.8659 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "604"
+			(at 92.202 73.4059 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RobotBMS:RESC1508X50N"
+			(at 88.392 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.392 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.392 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Vishay"
+			(at 88.392 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Resistor, Thick Film, 604 Ohms, 0.1 W, 1%, SMT, 0603, TCR 37 ppm/DegC, Cut Tape | Vishay Dale CRCW0603604RFKEA\n                        \n"
+			(at 88.392 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1508 Vishay"
+			(at 88.392 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 88.392 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0603604RFKEA/Vishay/view-part/?ref=snap"
+			(at 88.392 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "CRCW0603604RFKEA"
+			(at 88.392 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 88.392 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CRCW0603604RFKEA/Vishay/view-part/?ref=eda"
+			(at 88.392 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1763a6b-c2ae-4348-930c-158c4f752be2")
+		)
+		(pin "1"
+			(uuid "e016a0cd-0591-442a-a2d5-dd13270e0bb3")
 		)
 		(instances
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
-					(reference "R19")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -4474,35 +7725,42 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 87.63 78.994 0)
+		(lib_id "ERJPA3F20R0V:ERJPA3F20R0V")
+		(at 60.452 78.232 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a55a5cba-5abd-451f-8189-ac9027584d03")
-		(property "Reference" "C20"
-			(at 91.44 77.7239 0)
+		(uuid "a1dfd6c9-749f-404e-91cd-1c8bd7becc33")
+		(property "Reference" "R19"
+			(at 55.372 75.946 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "180n"
-			(at 91.44 80.2639 0)
+		(property "Value" "20"
+			(at 55.372 78.232 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 88.5952 82.804 0)
+		(property "Footprint" "RobotBMS:RES_ERJPA3F20R0V"
+			(at 60.452 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.452 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4510,8 +7768,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 87.63 78.994 0)
+		(property "Description" ""
+			(at 60.452 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4519,25 +7777,287 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 87.63 78.994 0)
+		(property "MF" "Panasonic"
+			(at 60.452 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "e07a2964-7623-42b3-8f53-00b5f289202d")
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.45 mm"
+			(at 60.452 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608-2 Panasonic"
+			(at 60.452 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 60.452 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ERJPA3F20R0V/Panasonic/view-part/?ref=eda"
+			(at 60.452 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 60.452 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "3/1/2020"
+			(at 60.452 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ERJPA3F20R0V/Panasonic/view-part/?ref=snap"
+			(at 60.452 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERJPA3F20R0V"
+			(at 60.452 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Thick Film Smnt Resistor 0603 Case 20Ohm +/-1% 0.25W +/-100ppm/degC | Panasonic Electronic Components ERJPA3F20R0V\n                        \n"
+			(at 60.452 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 60.452 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 60.452 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "bb382236-4dce-4f9b-acd4-e7c18a2a05ed")
+			(uuid "7081e5c9-a566-44a8-acb8-68b932e55e62")
+		)
+		(pin "1"
+			(uuid "13c455b0-4cfd-4ad5-8208-54590c3690bd")
 		)
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
-					(reference "C20")
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CRCW060340K2FKEAHP:CRCW060340K2FKEAHP")
+		(at 99.06 83.82 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b56cd3d1-9694-46f7-a62f-6931b0cf4bcf")
+		(property "Reference" "R21"
+			(at 102.362 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "40k2"
+			(at 102.362 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RobotBMS:RESC1608X55N"
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Vishay Dale"
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            40.2 kOhms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film\n                        \n"
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608 Vishay"
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW060340K2FKEAHP/Vishay+Dale/view-part/?ref=snap"
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "CRCW060340K2FKEAHP"
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CRCW060340K2FKEAHP/Vishay+Dale/view-part/?ref=eda"
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53f2aac6-9976-4c53-9e67-a93a97976bca")
+		)
+		(pin "1"
+			(uuid "04a2bf94-2d2c-4394-83e9-1224a96cbd1c")
+		)
+		(instances
+			(project ""
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -4802,35 +8322,45 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 94.234 143.51 0)
+		(lib_id "CC0603KRX7R6BB184:CC0603KRX7R6BB184")
+		(at 88.392 88.646 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d0076760-5e87-4c85-b05b-700242529b3d")
-		(property "Reference" "C21"
-			(at 97.79 142.2399 0)
+		(uuid "dd79d123-f5f4-49f9-bd1c-4dd253029cd0")
+		(property "Reference" "C20"
+			(at 91.44 86.1059 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "820p"
-			(at 97.79 144.7799 0)
+		(property "Value" "180n"
+			(at 91.44 88.6459 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 95.1992 147.32 0)
+		(property "Footprint" "RobotBMS:CAPC1608X90"
+			(at 88.392 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.392 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,8 +8368,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 94.234 143.51 0)
+		(property "Description" ""
+			(at 88.392 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4847,25 +8377,96 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 94.234 143.51 0)
+		(property "MF" "Yageo"
+			(at 88.392 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "64a6bae8-47da-4204-9fb2-41e5b9960f4a")
+		(property "Description_1" "\n                        \n                            0.18µF ±10% 10V Ceramic Capacitor X7R 0603 (1608 Metric)\n                        \n"
+			(at 88.392 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 Yageo"
+			(at 88.392 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 88.392 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CC0603KRX7R6BB184/Yageo/view-part/?ref=snap"
+			(at 88.392 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "CC0603KRX7R6BB184"
+			(at 88.392 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 88.392 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CC0603KRX7R6BB184/Yageo/view-part/?ref=eda"
+			(at 88.392 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "a0cad20f-55ab-4436-8f62-49a951462464")
+			(uuid "bbdbf1c8-0a8e-4177-8b67-fbc4d9b27fb9")
+		)
+		(pin "1"
+			(uuid "b04a9167-1fc1-44e6-ad6e-9914a4755a7c")
 		)
 		(instances
-			(project "Robot_BMS"
+			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
-					(reference "C21")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -4939,15 +8540,15 @@
 	)
 	(symbol
 		(lib_id "C0603C104K5RACAUTO:C0603C104K5RACAUTO")
-		(at 60.452 94.234 270)
+		(at 60.452 101.854 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e8c5c461-2cc8-42e6-81e0-07e54a2636fa")
-		(property "Reference" "C14"
-			(at 62.992 95.25 90)
+		(property "Reference" "C18"
+			(at 62.992 102.87 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4956,7 +8557,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 62.738 97.282 90)
+			(at 62.738 104.902 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4964,8 +8565,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC17595_87N_KEM"
-			(at 60.452 94.234 0)
+		(property "Footprint" "RobotBMS:CAPC17595_87N_KEM"
+			(at 60.452 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,7 +8576,7 @@
 			)
 		)
 		(property "Datasheet" "C0603C104K5RACAUTO"
-			(at 60.452 94.234 0)
+			(at 60.452 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4985,7 +8586,7 @@
 			)
 		)
 		(property "Description" "C0603C104K5RACAUTO"
-			(at 60.452 94.234 0)
+			(at 60.452 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5002,60 +8603,60 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
-					(reference "C14")
+					(reference "C18")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 74.422 78.232 0)
+		(lib_id "RC0603FR-0710KL:RC0603FR-0710KL")
+		(at 226.568 88.138 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef40a60a-c5bb-4666-b9a8-bec5726d2328")
-		(property "Reference" "C19"
-			(at 77.47 76.9619 0)
+		(uuid "e9bfd229-801e-4943-acd7-bb0da7fa249e")
+		(property "Reference" "R25"
+			(at 230.632 78.232 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "990p"
-			(at 77.47 79.5019 0)
+		(property "Value" "10k"
+			(at 230.378 81.28 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 75.3872 82.042 0)
+		(property "Footprint" "RobotBMS:RC0603N_YAG"
+			(at 226.568 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 74.422 78.232 0)
+		(property "Datasheet" "RC0603FR-0710KL"
+			(at 226.568 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 74.422 78.232 0)
+		(property "Description" ""
+			(at 226.568 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5064,50 +8665,59 @@
 			)
 		)
 		(pin "1"
-			(uuid "7a03b7ee-4ce6-46d6-9f57-6fc6a67b0ddd")
+			(uuid "2fbe18bd-7b1b-4d3d-b176-60327349fb32")
 		)
 		(pin "2"
-			(uuid "4ae2bd13-f52f-4d96-93d3-842863b76aaa")
+			(uuid "86db75d4-5630-4f65-b356-3f1d956a2096")
 		)
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
-					(reference "C19")
+					(reference "R25")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 226.568 59.944 0)
+		(lib_id "CRCW0603110KFKEAC:CRCW0603110KFKEAC")
+		(at 226.568 63.246 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f970ba4a-a7fd-4335-bfb8-d6650030f124")
+		(uuid "f0674b05-5251-4dcc-9383-21fee6002d7e")
 		(property "Reference" "R24"
-			(at 228.6 58.6739 0)
+			(at 229.616 61.9759 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "110k"
-			(at 228.6 61.2139 0)
+			(at 229.616 64.5159 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 224.79 59.944 90)
+		(property "Footprint" "RobotBMS:RESC1608X55N"
+			(at 226.568 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.568 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,8 +8725,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 226.568 59.944 0)
+		(property "Description" ""
+			(at 226.568 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5124,23 +8734,94 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 226.568 59.944 0)
+		(property "MF" "Vishay Dale"
+			(at 226.568 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            110 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thick Film\n                        \n"
+			(at 226.568 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608 Rohm Semiconductor"
+			(at 226.568 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 226.568 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0603110KFKEAC/Vishay+Dale/view-part/?ref=snap"
+			(at 226.568 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "CRCW0603110KFKEAC"
+			(at 226.568 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 226.568 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CRCW0603110KFKEAC/Vishay+Dale/view-part/?ref=eda"
+			(at 226.568 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "d55e16b0-30c0-4f3d-b7e3-ea1513524058")
+			(uuid "7f07a2cb-212d-42ff-b507-76d954e9c32b")
 		)
 		(pin "1"
-			(uuid "a8de81ce-ca31-4199-b40f-78b137d737fd")
+			(uuid "ffe14f0c-ac40-4073-9a64-df93146e546d")
 		)
 		(instances
-			(project "Robot_BMS"
+			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
 					(reference "R24")
 					(unit 1)

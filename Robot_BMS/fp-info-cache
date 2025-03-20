@@ -1,4 +1,4 @@
-24705261369938196
+24710488614913143
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90923,6 +90923,13 @@ MOSFET (N-Channel)
 9
 9
 RobotBMS
+CAPC1608X90
+<b>CAPACITOR</b>
+
+0
+2
+2
+RobotBMS
 CAPC1608X90N
 CL10A106MQ8NNNC
 Capacitor
@@ -90947,6 +90954,20 @@ RobotBMS
 CAPC17595_87N_KEM
 
 C0603C104K5RACAUTO 
+0
+2
+2
+RobotBMS
+CAPC17795_95N_KEM
+
+C0603X821K5RACTU 
+0
+2
+2
+RobotBMS
+CAPRR254W50L508T317H508
+
+
 0
 2
 2

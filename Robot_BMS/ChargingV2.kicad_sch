@@ -3150,7 +3150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps54308.pdf"
+		(property "Datasheet" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS54308DDCR?qs=gt1LBUVyoHl9iRtozvTSQw%3D%3D&srsltid=AfmBOor4dTlKEWBPcURVRY9CiGSjj8TpqTcqn704-3eWI04XBC6X9RDt"
 			(at 81.026 61.722 0)
 			(effects
 				(font
@@ -3160,6 +3160,24 @@
 			)
 		)
 		(property "Description" "3A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, continuous-conduction, SOT-23-6"
+			(at 88.646 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.10"
+			(at 88.646 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPS54308DDCR"
 			(at 88.646 70.612 0)
 			(effects
 				(font
@@ -3255,6 +3273,94 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Toshiba schottky diode:CMS05TE12L_Q_M")
+		(at 218.186 108.204 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c369aac-2cf1-4fed-b062-a61748d9cd00")
+		(property "Reference" "CR2"
+			(at 223.266 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "CMS05TE12L_Q_M"
+			(at 223.266 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "RobotBMS:M-FLAT_TOS"
+			(at 218.186 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.uk/ProductDetail/Toshiba/CMS05TE12LQM?qs=JiHARDETuZDcvazKO1MDNQ%3D%3D&srsltid=AfmBOopWrxi0PKcgDv_hck6b5GzUq4xcRRzPONvEurGhtaMTFZsmDRz3"
+			(at 218.186 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky Diode 0.45V FWD Voltage"
+			(at 218.186 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.80"
+			(at 218.186 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CMS05TE12L_Q_M"
+			(at 218.186 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b0380f0e-ecfc-44a7-ab9d-f72b565a3927")
+		)
+		(pin "1"
+			(uuid "96ffb269-62e8-479e-89ba-13cc4dfbbc60")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
+					(reference "CR2")
 					(unit 1)
 				)
 			)
@@ -3372,6 +3478,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.20"
+			(at 111.252 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3494,7 +3609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ESR03EZPF1003"
+		(property "Datasheet" "https://www.digikey.co.uk/en/products/detail/rohm-semiconductor/ESR03EZPF1003/1983430"
 			(at 137.414 86.36 0)
 			(effects
 				(font
@@ -3504,8 +3619,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 100K OHM 1% 1/4W 0603"
 			(at 137.414 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.12"
+			(at 137.414 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESR03EZPF1003"
+			(at 137.414 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3530,16 +3663,16 @@
 	)
 	(symbol
 		(lib_id "Toshiba schottky diode:CMS05TE12L_Q_M")
-		(at 218.186 108.204 0)
+		(at 218.186 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "47aefcd8-d0f5-42d2-b020-996e33431e63")
-		(property "Reference" "CR2"
-			(at 223.266 101.6 0)
+		(uuid "496c0703-b041-4952-8758-4c1d7611a4dc")
+		(property "Reference" "CR1"
+			(at 223.266 89.916 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3547,7 +3680,7 @@
 			)
 		)
 		(property "Value" "CMS05TE12L_Q_M"
-			(at 223.266 104.14 0)
+			(at 223.266 92.456 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3555,7 +3688,7 @@
 			)
 		)
 		(property "Footprint" "RobotBMS:M-FLAT_TOS"
-			(at 218.186 108.204 0)
+			(at 218.186 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3564,8 +3697,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CMS05TE12L_Q_M"
-			(at 218.186 108.204 0)
+		(property "Datasheet" "https://www.mouser.co.uk/ProductDetail/Toshiba/CMS05TE12LQM?qs=JiHARDETuZDcvazKO1MDNQ%3D%3D&srsltid=AfmBOopWrxi0PKcgDv_hck6b5GzUq4xcRRzPONvEurGhtaMTFZsmDRz3"
+			(at 218.186 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,8 +3707,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 218.186 108.204 0)
+		(property "Description" "Schottky Diode 0.45V FWD Voltage"
+			(at 218.186 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.80"
+			(at 218.186 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CMS05TE12L_Q_M"
+			(at 218.186 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3584,15 +3735,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "2112a66c-bcd5-4a6e-a447-21a75f021b74")
+			(uuid "e2ce8e1e-ee68-4c7c-a883-176f0996f34f")
 		)
 		(pin "1"
-			(uuid "030bbd91-a337-4300-bf58-ad9442f9b7e3")
+			(uuid "dc83a93e-52a6-4b33-a6a4-d2437a56726f")
 		)
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "CR2")
+					(reference "CR1")
 					(unit 1)
 				)
 			)
@@ -3903,6 +4054,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.11"
+			(at 150.114 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a657d47c-a7c2-495f-bfd4-48f75572d271")
 		)
@@ -3955,7 +4115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0603C104K5RACAUTO"
+		(property "Datasheet" "https://uk.farnell.com/kemet/c0603c104k5racauto/cap-0-1-f-50v-10-x7r-0603/dp/2070398"
 			(at 101.6 64.008 0)
 			(effects
 				(font
@@ -3965,7 +4125,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C0603C104K5RACAUTO"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, AEC-Q200, 0.1 µF, 50 V, 0603 [1608 Metric], ± 10%, X7R"
+			(at 101.6 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.05"
+			(at 101.6 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACAUTO"
 			(at 101.6 64.008 0)
 			(effects
 				(font
@@ -4056,76 +4234,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Toshiba schottky diode:CMS05TE12L_Q_M")
-		(at 218.186 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2056df1-8f13-4bd2-83fd-60f9e2a042b6")
-		(property "Reference" "CR1"
-			(at 223.266 89.916 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "CMS05TE12L_Q_M"
-			(at 223.266 92.456 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "RobotBMS:M-FLAT_TOS"
-			(at 218.186 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "CMS05TE12L_Q_M"
-			(at 218.186 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 218.186 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "69389b60-407b-455b-b387-13a59978df50")
-		)
-		(pin "1"
-			(uuid "6038a25a-50ed-4350-87b9-a2d78e895d5b")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "CR1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "GRM188R61H225KE11D:GRM188R61H225KE11D")
 		(at 32.766 78.74 90)
 		(unit 1)
@@ -4162,7 +4270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GRM188R61H225KE11D"
+		(property "Datasheet" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R61H225KE11D?qs=eeBpzGFlv%252B%2Fz%2FOAJ2DfLOw%3D%3D&srsltid=AfmBOooMRD77aOTkbRY7oYUXY9ClaKW758oHzigtEwQ_PDvO6XIDiy7v"
 			(at 32.766 78.74 0)
 			(effects
 				(font
@@ -4172,8 +4280,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GRM188R61H225KE11D"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 2.2 uF 50 VDC 10% 0603 X5R"
 			(at 32.766 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.22"
+			(at 32.766 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM188R61H225KE11D"
+			(at 32.766 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4232,7 +4358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CMS05TE12L_Q_M"
+		(property "Datasheet" "https://www.mouser.co.uk/ProductDetail/Toshiba/CMS05TE12LQM?qs=JiHARDETuZDcvazKO1MDNQ%3D%3D&srsltid=AfmBOopWrxi0PKcgDv_hck6b5GzUq4xcRRzPONvEurGhtaMTFZsmDRz3"
 			(at 218.44 82.804 0)
 			(effects
 				(font
@@ -4243,6 +4369,24 @@
 			)
 		)
 		(property "Description" "Schottky Diode 0.45V FWD Voltage"
+			(at 218.44 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.80"
+			(at 218.44 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CMS05TE12L_Q_M"
 			(at 218.44 82.804 0)
 			(effects
 				(font
@@ -4304,7 +4448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+		(property "Datasheet" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/2N7002-H6327?qs=CVg1V728NXGZyf6kD1tkzQ%3D%3D&mgh=1&vip=1&utm_id=20808080842&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gclid=Cj0KCQjw1um-BhDtARIsABjU5x70kCIU17Y9chiVxNH_Vom0j4sKZ5ToqWr6DV3ByRFWQx4h5b8ahzcaAj4GEALw_wcB"
 			(at 75.184 85.344 0)
 			(effects
 				(font
@@ -4315,6 +4459,24 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 70.104 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.21"
+			(at 70.104 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2N7002 H6327"
 			(at 70.104 81.534 0)
 			(effects
 				(font
@@ -4444,7 +4606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RN73H1JTTD4811B25?qs=582LK1XNA7LTNwR5VHugwg%3D%3D&srsltid=AfmBOoo6gri6g2xu2rXc1ABkOav6S-9c3aTxtg7NNutX6ztjQHESnNk1"
 			(at 137.414 102.362 0)
 			(effects
 				(font
@@ -4453,8 +4615,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thin Film Resistors - SMD 4.81kOhm,0603,0.1%,2"
 			(at 137.414 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.18"
+			(at 137.414 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RN73H1JTTD4811B25"
+			(at 137.414 102.362 90)
 			(effects
 				(font
 					(size 1.27 1.27)

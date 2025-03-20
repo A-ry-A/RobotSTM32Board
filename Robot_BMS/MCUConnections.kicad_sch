@@ -1423,7 +1423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.co.uk/en/products/detail/w-rth-elektronik/61301411121/4846849?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_New%20Customer%20Acquisition&utm_term=&productid=4846849&utm_content=&utm_id=go_cmp-19905262708_adg-_ad-__dev-c_ext-_prd-4846849_sig-Cj0KCQjw1um-BhDtARIsABjU5x5IZchPm1Re5jb8lZ6dm-_WGVxZLQDpy4bDA0Enw1KwuXt_1ODZSgUaAiIqEALw_wcB&gad_source=1&gclid=Cj0KCQjw1um-BhDtARIsABjU5x5IZchPm1Re5jb8lZ6dm-_WGVxZLQDpy4bDA0Enw1KwuXt_1ODZSgUaAiIqEALw_wcB&gclsrc=aw.ds"
 			(at 112.268 105.918 0)
 			(effects
 				(font
@@ -1433,6 +1433,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x14, script generated"
+			(at 112.268 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.67"
+			(at 112.268 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "61301411121"
 			(at 112.268 105.918 0)
 			(effects
 				(font

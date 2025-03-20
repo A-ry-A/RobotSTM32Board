@@ -1,21 +1,170 @@
-
-(footprint RESC1608X55N (layer F.Cu) (tedit 67DAF9E9)
-  (descr "")
-  (attr smd)
-  (fp_text reference REF** (at -0.26 -1.05 0) (layer F.SilkS)
-    (effects (font (size 0.393700787402 0.393700787402) (thickness 0.15)))
-  )
-  (fp_text value RESC1608X55N (at 1.49 1.05 0) (layer F.Fab)
-    (effects (font (size 0.393700787402 0.393700787402) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -0.814 0.0) (size 0.89 0.93) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at 0.814 0.0) (size 0.89 0.93) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start 0.9 0.45) (end -0.9 0.45) (layer F.Fab) (width 0.127))
-  (fp_line (start 0.9 -0.45) (end -0.9 -0.45) (layer F.Fab) (width 0.127))
-  (fp_line (start 0.9 0.45) (end 0.9 -0.45) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.9 0.45) (end -0.9 -0.45) (layer F.Fab) (width 0.127))
-  (fp_line (start -1.508 0.715) (end 1.508 0.715) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.508 -0.715) (end 1.508 -0.715) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.508 0.715) (end -1.508 -0.715) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.508 0.715) (end 1.508 -0.715) (layer F.CrtYd) (width 0.05))
+(footprint "RESC1608X55N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.26 -1.05 0)
+		(layer "F.SilkS")
+		(uuid "699384d9-f98c-4509-9705-575d7d2da87f")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Value" "RESC1608X55N"
+		(at 1.49 1.05 0)
+		(layer "F.Fab")
+		(uuid "7cdd9c5d-02db-4e75-91b3-354e08a76ec5")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e7d2243-8233-4f0f-a8d6-551bce1a9e28")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82d38da7-f156-4078-bd25-c8b753708c47")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2bb04760-605a-439c-8af8-bab0919be382")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.508 -0.715)
+		(end 1.508 -0.715)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "450ca820-474a-4e7f-a007-78fbb9d5684e")
+	)
+	(fp_line
+		(start -1.508 0.715)
+		(end -1.508 -0.715)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c0ab2d2-78f7-476f-bf98-6ef3475bf2ea")
+	)
+	(fp_line
+		(start -1.508 0.715)
+		(end 1.508 0.715)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "32b3f42a-9ce5-4a7e-bbed-3234c97c81a3")
+	)
+	(fp_line
+		(start 1.508 0.715)
+		(end 1.508 -0.715)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7f7b7b47-b996-4b48-b07a-bef7472d0fbe")
+	)
+	(fp_line
+		(start -0.9 0.45)
+		(end -0.9 -0.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "61f8e6e6-f124-4927-b509-0c8f3daa0a94")
+	)
+	(fp_line
+		(start 0.9 -0.45)
+		(end -0.9 -0.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "27f62473-a1c4-412f-b40e-dc636141dbe9")
+	)
+	(fp_line
+		(start 0.9 0.45)
+		(end -0.9 0.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a5868ff4-c796-4589-b2e9-195ac48f15fb")
+	)
+	(fp_line
+		(start 0.9 0.45)
+		(end 0.9 -0.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8dbfb6f1-583b-437d-9cd7-e996ae4cb9b2")
+	)
+	(pad "1" smd rect
+		(at -0.814 0)
+		(size 0.89 0.93)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "19531dcc-9a87-4f0c-9d7d-bcffb870bad9")
+	)
+	(pad "2" smd rect
+		(at 0.814 0)
+		(size 0.89 0.93)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "03be5120-df82-45d8-bc40-f93efba4a2ec")
+	)
+	(model "${KIPRJMOD}/RobotBMS.3dshapes/CRCW0603110KFKEAC.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

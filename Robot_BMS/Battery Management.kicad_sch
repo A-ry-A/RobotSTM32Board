@@ -4215,22 +4215,28 @@
 		(uuid "1f028d25-eaff-4786-9672-f6d3a152d01d")
 	)
 	(junction
-		(at 160.782 45.974)
+		(at 186.182 48.514)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1f18f2c6-77c9-4722-8bc1-8b40dee70473")
+		(uuid "1fa5c9f8-5030-45c7-9fda-4594f10695fe")
 	)
 	(junction
-		(at 52.832 68.072)
+		(at 160.782 48.514)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2b089a0f-967a-47df-ac22-e9d454a72f85")
+		(uuid "283ea99d-a7a1-42fd-9291-60fe598d76cd")
 	)
 	(junction
 		(at 94.488 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c557eb5-f546-4af2-84fd-0aedcf9fcb8b")
+	)
+	(junction
+		(at 186.182 45.974)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2df53ba4-e31e-4528-a53e-fa795c014b85")
 	)
 	(junction
 		(at 115.316 143.51)
@@ -4281,10 +4287,10 @@
 		(uuid "542d5cd9-0b06-40af-8d0b-0c70affd2cba")
 	)
 	(junction
-		(at 113.538 119.888)
+		(at 160.782 45.974)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6f8431d7-0758-41ea-ad21-dc3a4d9eabb2")
+		(uuid "5b66553b-82a1-4efc-b180-b70efde62abf")
 	)
 	(junction
 		(at 94.488 123.698)
@@ -4311,12 +4317,6 @@
 		(uuid "8887e7a6-a42d-4448-a428-7e38e4b0d50b")
 	)
 	(junction
-		(at 186.182 45.974)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96575526-c261-4929-af14-b1f57be4ceca")
-	)
-	(junction
 		(at 115.316 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4335,16 +4335,16 @@
 		(uuid "9e164713-e331-4933-9c2a-8dd6f4dab265")
 	)
 	(junction
-		(at 186.182 48.514)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "adff3238-78f5-4710-b9d4-b369cbac0840")
-	)
-	(junction
 		(at 109.474 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0ee4b33-b5c3-4f83-9c4a-904a6dc1d4b4")
+	)
+	(junction
+		(at 114.046 119.888)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4db4b98-2daa-48ad-8d4b-a8b077a93f0f")
 	)
 	(junction
 		(at 130.556 177.038)
@@ -4371,10 +4371,10 @@
 		(uuid "c5401d60-2036-4d99-b276-3fe8ab6a5742")
 	)
 	(junction
-		(at 160.782 48.514)
+		(at 160.782 43.434)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d0744249-e88b-4984-9623-6677bc842990")
+		(uuid "cdca412f-dc92-49d9-bb67-06fe07ceca07")
 	)
 	(junction
 		(at 152.146 43.688)
@@ -4383,16 +4383,22 @@
 		(uuid "d685f23b-57a8-48fb-b8c2-8a25ee82127d")
 	)
 	(junction
-		(at 160.782 43.434)
+		(at 52.832 68.072)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d6b9018b-1869-4258-8bff-ff5880feabb2")
+		(uuid "d773d579-b0c4-42e2-b9ee-8a661e79ed19")
 	)
 	(junction
 		(at 152.146 46.228)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e202a7ac-c3a6-4f9b-8a76-1ac2c1b16374")
+	)
+	(junction
+		(at 114.046 140.208)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e400ba58-7a37-4e35-8fa5-d16717ed38ec")
 	)
 	(junction
 		(at 42.418 124.46)
@@ -4405,12 +4411,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea64fcd7-1548-49a6-bddf-982529da9439")
-	)
-	(junction
-		(at 113.538 140.208)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f911a2ee-98ec-4734-b48c-6210bb5a36e4")
 	)
 	(junction
 		(at 94.488 110.998)
@@ -4481,6 +4481,16 @@
 			(type default)
 		)
 		(uuid "061db2f0-ba0e-4cee-abe7-02235c1c5a84")
+	)
+	(wire
+		(pts
+			(xy 114.046 119.888) (xy 115.316 119.888)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08ca6518-81bb-48ef-9011-3a23c4c81332")
 	)
 	(wire
 		(pts
@@ -4576,7 +4586,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 140.208) (xy 113.538 140.208)
+			(xy 105.41 140.208) (xy 114.046 140.208)
 		)
 		(stroke
 			(width 0)
@@ -4616,16 +4626,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.538 119.888) (xy 115.316 119.888)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "219e1fe2-b80d-4e7d-9c91-41d037e04a6a")
-	)
-	(wire
-		(pts
 			(xy 109.474 68.072) (xy 110.998 68.072)
 		)
 		(stroke
@@ -4636,13 +4636,23 @@
 	)
 	(wire
 		(pts
-			(xy 160.782 40.894) (xy 160.782 43.434)
+			(xy 114.046 140.208) (xy 118.11 140.208)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2a32c8db-dcc3-4b30-a997-6c950a62098b")
+		(uuid "22ce057c-6a71-4161-ad40-51fccb8802bb")
+	)
+	(wire
+		(pts
+			(xy 111.252 119.888) (xy 114.046 119.888)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24979bfd-0802-457f-8ae8-8afff0b306ec")
 	)
 	(wire
 		(pts
@@ -4807,7 +4817,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.832 68.072) (xy 109.474 68.072)
+			(xy 40.894 68.072) (xy 52.832 68.072)
 		)
 		(stroke
 			(width 0)
@@ -4834,6 +4844,16 @@
 			(type default)
 		)
 		(uuid "470abd8d-6fa0-4322-81b9-c99006cd054b")
+	)
+	(wire
+		(pts
+			(xy 160.782 48.514) (xy 160.782 54.356)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cef9014-362a-4de1-bc21-b4beb2b1b8a9")
 	)
 	(wire
 		(pts
@@ -4914,26 +4934,6 @@
 			(type default)
 		)
 		(uuid "5c8f4612-3e0d-4cbd-8fb7-a10a502ef90c")
-	)
-	(wire
-		(pts
-			(xy 160.782 48.514) (xy 160.782 54.356)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60b1c662-8d96-447c-96cb-75833c9054f8")
-	)
-	(wire
-		(pts
-			(xy 40.894 68.072) (xy 52.832 68.072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "613545ce-7c32-4837-8324-47444cd71d7f")
 	)
 	(wire
 		(pts
@@ -5279,6 +5279,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.182 45.974) (xy 186.182 48.514)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "942387f1-a933-4af2-8a54-2bb6c201b76f")
+	)
+	(wire
+		(pts
 			(xy 42.418 88.9) (xy 67.31 88.9)
 		)
 		(stroke
@@ -5329,13 +5339,23 @@
 	)
 	(wire
 		(pts
-			(xy 160.782 43.434) (xy 160.782 45.974)
+			(xy 160.782 40.894) (xy 160.782 43.434)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9e0bbdd8-cd0d-4afe-a1c2-5d870d07ab9b")
+	)
+	(wire
+		(pts
+			(xy 186.182 48.514) (xy 186.182 52.578)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f96065c-3807-4aeb-8cf8-1051e0310926")
 	)
 	(wire
 		(pts
@@ -5379,16 +5399,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.782 45.974) (xy 160.782 48.514)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6abb458-cf78-4ac9-a0dc-5509ef6db0cf")
-	)
-	(wire
-		(pts
 			(xy 84.582 126.238) (xy 111.252 126.238)
 		)
 		(stroke
@@ -5396,6 +5406,16 @@
 			(type default)
 		)
 		(uuid "a742aeb9-0bec-4947-9b47-82561a49cbe0")
+	)
+	(wire
+		(pts
+			(xy 160.782 43.434) (xy 160.782 45.974)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa992963-3969-4bba-9bfe-aeabe57aee1f")
 	)
 	(wire
 		(pts
@@ -5530,6 +5550,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.782 45.974) (xy 160.782 48.514)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8441bc7-59e6-476c-af68-d29e67560287")
+	)
+	(wire
+		(pts
 			(xy 126.746 43.688) (xy 126.746 46.228)
 		)
 		(stroke
@@ -5537,16 +5567,6 @@
 			(type default)
 		)
 		(uuid "c9eec852-2831-4485-8a9b-29177c968ec8")
-	)
-	(wire
-		(pts
-			(xy 186.182 48.514) (xy 186.182 52.578)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd0d96e8-fd58-4368-b6ec-0e37e949c2f2")
 	)
 	(wire
 		(pts
@@ -5567,16 +5587,6 @@
 			(type default)
 		)
 		(uuid "cf6d4b78-6574-42d2-9402-f24c95070c3e")
-	)
-	(wire
-		(pts
-			(xy 111.252 119.888) (xy 113.538 119.888)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfc7c5e6-c7da-4402-a051-ce70aa90fb36")
 	)
 	(wire
 		(pts
@@ -5637,16 +5647,6 @@
 			(type default)
 		)
 		(uuid "d7989a3c-e7cf-4615-a957-fad7e29d84af")
-	)
-	(wire
-		(pts
-			(xy 113.538 140.208) (xy 118.11 140.208)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7ca0386-02a1-4d96-86bc-26af5798549f")
 	)
 	(wire
 		(pts
@@ -5752,16 +5752,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.182 45.974) (xy 186.182 48.514)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9341137-726b-43fb-a85b-5335288ed089")
-	)
-	(wire
-		(pts
 			(xy 86.36 93.98) (xy 94.488 93.98)
 		)
 		(stroke
@@ -5810,6 +5800,16 @@
 			(type default)
 		)
 		(uuid "eea3168a-4f2a-4ba5-be09-1a71e33596cb")
+	)
+	(wire
+		(pts
+			(xy 52.832 68.072) (xy 109.474 68.072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1427c11-8809-4430-ba4d-d2ec7340548a")
 	)
 	(wire
 		(pts
@@ -6042,6 +6042,478 @@
 		(uuid "e548ddad-4917-4f45-a694-f8ae1bbce1cc")
 	)
 	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 165.354 84.328 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00238648-a444-4582-af77-4defc9b9fa82")
+		(property "Reference" "Q3"
+			(at 173.482 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 171.196 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 170.434 86.233 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/2N7002-H6327?qs=CVg1V728NXGZyf6kD1tkzQ%3D%3D&mgh=1&vip=1&utm_id=20808080842&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gclid=Cj0KCQjw1um-BhDtARIsABjU5x70kCIU17Y9chiVxNH_Vom0j4sKZ5ToqWr6DV3ByRFWQx4h5b8ahzcaAj4GEALw_wcB"
+			(at 170.434 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 165.354 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.21"
+			(at 165.354 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2N7002 H6327"
+			(at 165.354 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e8c68192-985b-45c3-b137-a6aebfb6e1db")
+		)
+		(pin "3"
+			(uuid "fcc74cc3-4b45-4bbd-ae44-6a2eb9b6839e")
+		)
+		(pin "1"
+			(uuid "ff8e6e2c-9b40-4ae0-ac8a-f170201f05a4")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GRM188R61H225KE11D:GRM188R61H225KE11D")
+		(at 52.832 75.692 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0542941d-41cc-4dd0-8b84-0b0ca84549ed")
+		(property "Reference" "C8"
+			(at 56.642 70.6119 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 56.642 73.1519 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RobotBMS:CAP_GRM188R61H225KE11__MUR"
+			(at 52.832 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R61H225KE11D?qs=eeBpzGFlv%252B%2Fz%2FOAJ2DfLOw%3D%3D&srsltid=AfmBOooMRD77aOTkbRY7oYUXY9ClaKW758oHzigtEwQ_PDvO6XIDiy7v"
+			(at 52.832 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 2.2 uF 50 VDC 10% 0603 X5R"
+			(at 52.832 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.22"
+			(at 52.832 75.692 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM188R61H225KE11D"
+			(at 52.832 75.692 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58217f6e-e896-449c-a346-94cb3cda2d42")
+		)
+		(pin "2"
+			(uuid "4356c60a-ae12-4adc-b4fe-cb94e422cf60")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "18650 Battery Holder:BH-18650-PC")
+		(at 42.418 125.984 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ebbe224-a72e-40e1-a408-69c44afb182d")
+		(property "Reference" "B3"
+			(at 39.624 129.7939 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BH-18650-PC"
+			(at 39.624 132.3339 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RobotBMS:BAT_BH-18650-PC_MPD"
+			(at 42.418 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.uk/en/products/detail/mpd-memory-protection-devices/BH-18650-PC/3029216?srsltid=AfmBOoq6lGI2cYGJ3Cfqnk8xR0AGBP0Fpn8p5Ip-hPx4z4o8K8kUS-Z8"
+			(at 42.418 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BATTERY HOLDER 18650 PC PIN"
+			(at 42.418 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "3.08"
+			(at 42.418 125.984 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BH-18650-PC"
+			(at 42.418 125.984 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3b22b6c-1a8f-4916-a0e5-15c816d8281f")
+		)
+		(pin "2"
+			(uuid "11b58799-b1c1-4228-846e-43e840122bca")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
+					(reference "B3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AT0603DRE07100RL:AT0603DRE07100RL")
+		(at 130.556 165.608 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0eca7db8-9f5c-41ec-be43-99e7f0d471d7")
+		(property "Reference" "R16"
+			(at 127.254 164.3379 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100"
+			(at 127.254 166.8779 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RobotBMS:RESC1608X55N"
+			(at 130.556 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://uk.farnell.com/yageo/at0603dre07100rl/res-100r-0-5-0-1w-thin-film-0603/dp/4047067"
+			(at 130.556 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 100 ohm, ± 0.5%, 100 mW, 0603 [1608 Metric], Metal Film (Thin Film)"
+			(at 130.556 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 130.556 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.55mm"
+			(at 130.556 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608 Yageo"
+			(at 130.556 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.068"
+			(at 130.556 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AT0603DRE07100RL/Yageo/view-part/?ref=eda"
+			(at 130.556 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 130.556 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V6"
+			(at 130.556 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AT0603DRE07100RL/Yageo/view-part/?ref=snap"
+			(at 130.556 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "AT0603DRE07100RL"
+			(at 130.556 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            100 Ohms ±0.5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film\n                        \n"
+			(at 130.556 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 130.556 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 130.556 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AT0603DRE07100RL"
+			(at 130.556 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0db40f20-4fcd-49d9-8159-f8cc89b1b6fe")
+		)
+		(pin "1"
+			(uuid "27cff07e-34cf-46a2-9138-802884baae9d")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BQ76922RSNR:BQ76922RSNR")
 		(at 109.728 87.376 0)
 		(unit 1)
@@ -6077,7 +6549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq76922.pdf"
+		(property "Datasheet" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ76922RSNR?qs=dbcCsuKDzFV1TGwm4B7DLw%3D%3D&srsltid=AfmBOor1BwixVM4imBs0xd3ssBI2snkv_dKEs7gEDBC8HCYSlzWdYF-s"
 			(at 141.478 274.676 0)
 			(effects
 				(font
@@ -6143,6 +6615,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Price" "3.08"
+			(at 109.728 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6256,16 +6737,16 @@
 	)
 	(symbol
 		(lib_id "AT0603DRE07100RL:AT0603DRE07100RL")
-		(at 167.894 68.58 90)
+		(at 167.894 68.58 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b49883d-5ad2-480d-8247-cc11a38d605d")
+		(uuid "1c82a14c-161e-4d9b-aa9a-438ee7ec3489")
 		(property "Reference" "R18"
-			(at 171.704 67.3099 90)
+			(at 164.592 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6274,7 +6755,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 171.704 69.8499 90)
+			(at 164.592 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6292,7 +6773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://uk.farnell.com/yageo/at0603dre07100rl/res-100r-0-5-0-1w-thin-film-0603/dp/4047067"
 			(at 167.894 68.58 0)
 			(effects
 				(font
@@ -6301,7 +6782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 100 ohm, ± 0.5%, 100 mW, 0603 [1608 Metric], Metal Film (Thin Film)"
 			(at 167.894 68.58 0)
 			(effects
 				(font
@@ -6340,7 +6821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
+		(property "Price" "0.068"
 			(at 167.894 68.58 0)
 			(effects
 				(font
@@ -6430,11 +6911,20 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "AT0603DRE07100RL"
+			(at 167.894 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "b22c066e-975e-4cc0-be64-0f2631b13baf")
+			(uuid "27fbf8e7-6091-43d7-958a-d39fe0d638c5")
 		)
 		(pin "1"
-			(uuid "0eacc087-abbc-4e2f-a515-612bf20cdff4")
+			(uuid "20d43792-ed55-4d60-9cfa-ee4e99476e36")
 		)
 		(instances
 			(project "Robot_BMS"
@@ -6512,766 +7002,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ERJPA3F20R0V:ERJPA3F20R0V")
-		(at 77.47 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24591b1b-3f59-4c72-8497-ec440ef33e15")
-		(property "Reference" "R12"
-			(at 77.47 76.962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20"
-			(at 77.47 79.502 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RobotBMS:RES_ERJPA3F20R0V"
-			(at 77.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 77.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.45 mm"
-			(at 77.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "1608-2 Panasonic"
-			(at 77.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 77.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ERJPA3F20R0V/Panasonic/view-part/?ref=eda"
-			(at 77.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 77.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "3/1/2020"
-			(at 77.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ERJPA3F20R0V/Panasonic/view-part/?ref=snap"
-			(at 77.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "ERJPA3F20R0V"
-			(at 77.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Thick Film Smnt Resistor 0603 Case 20Ohm +/-1% 0.25W +/-100ppm/degC | Panasonic Electronic Components ERJPA3F20R0V\n                        \n"
-			(at 77.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 77.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 77.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f84a5d26-fbca-4762-9c43-e1f527356889")
-		)
-		(pin "1"
-			(uuid "f5e77140-3749-4df5-92eb-ddcdd7700738")
-		)
-		(instances
-			(project ""
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "GA0603A101JXBAC31G:GA0603A101JXBAC31G")
-		(at 122.428 143.51 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2664b2ce-a868-481d-89b6-c05d2ca98736")
-		(property "Reference" "C14"
-			(at 125.222 137.668 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100p"
-			(at 126.492 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RobotBMS:CAPC1608X97N"
-			(at 122.428 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 122.428 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 122.428 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Vitramon"
-			(at 122.428 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Cap Ceramic 100pF 100V C0G 5% Pad SMD 0603 150°C Automotive T/R\n                        \n"
-			(at 122.428 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "1608 Vishay Vitramon"
-			(at 122.428 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 122.428 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GA0603A101JXBAC31G/Vishay/view-part/?ref=snap"
-			(at 122.428 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "GA0603A101JXBAC31G"
-			(at 122.428 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 122.428 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/GA0603A101JXBAC31G/Vishay/view-part/?ref=eda"
-			(at 122.428 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc4328bd-32fc-403b-8651-d895332cbbd2")
-		)
-		(pin "2"
-			(uuid "055a235f-dac0-49a3-b013-5a60dc0861eb")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ERJPA3F20R0V:ERJPA3F20R0V")
-		(at 113.538 130.048 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c6fceea-f6ed-4599-8b30-81ccad4e9742")
-		(property "Reference" "R13"
-			(at 108.458 130.048 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20"
-			(at 108.458 131.826 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RobotBMS:RES_ERJPA3F20R0V"
-			(at 113.538 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.538 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 113.538 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 113.538 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.45 mm"
-			(at 113.538 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "1608-2 Panasonic"
-			(at 113.538 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 113.538 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ERJPA3F20R0V/Panasonic/view-part/?ref=eda"
-			(at 113.538 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 113.538 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "3/1/2020"
-			(at 113.538 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ERJPA3F20R0V/Panasonic/view-part/?ref=snap"
-			(at 113.538 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "ERJPA3F20R0V"
-			(at 113.538 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Thick Film Smnt Resistor 0603 Case 20Ohm +/-1% 0.25W +/-100ppm/degC | Panasonic Electronic Components ERJPA3F20R0V\n                        \n"
-			(at 113.538 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 113.538 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 113.538 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a0bbac04-c030-47ce-a0ca-2e496cd9ca9b")
-		)
-		(pin "1"
-			(uuid "5104d5c7-273f-42a8-800d-04d474e761f6")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "C0603C104K5RACAUTO:C0603C104K5RACAUTO")
-		(at 119.888 153.67 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2cdb21d3-8567-4fc2-b242-4a166811138a")
-		(property "Reference" "C13"
-			(at 122.174 156.972 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 121.412 159.258 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RobotBMS:CAPC17595_87N_KEM"
-			(at 119.888 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "C0603C104K5RACAUTO"
-			(at 119.888 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "C0603C104K5RACAUTO"
-			(at 119.888 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3bba0f83-bded-4609-9a61-72dae944acfc")
-		)
-		(pin "1"
-			(uuid "67fbe148-9dde-4dfe-9ff2-3830db4f90f0")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SIS413DN-T1-GE3:SIS413DN-T1-GE3")
-		(at 126.746 48.768 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "30539b51-b177-4d8e-ace9-9ab55f750ae6")
-		(property "Reference" "Q2"
-			(at 139.954 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SIS413DN-T1-GE3"
-			(at 131.064 37.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RobotBMS:SIS862DNT1GE3"
-			(at 148.336 -46.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/427/sis413dn-254110.pdf"
-			(at 148.336 -146.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-Ch PowerPAK1212 Cu 30V 9.4mohm@10V"
-			(at 126.746 48.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 148.336 -346.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 148.336 -446.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SIS413DN-T1-GE3"
-			(at 148.336 -546.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "78-SIS413DN-T1-GE3"
-			(at 148.336 -646.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SIS413DN-T1-GE3?qs=vgn07B5hXav8x6TX%252BtAIoQ%3D%3D"
-			(at 148.336 -746.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "SIS413DN-T1-GE3"
-			(at 148.336 -846.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sis413dn-t1-ge3/vishay?region=nac"
-			(at 148.336 -946.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "f098be30-9f27-4b4e-9cb6-f6211d732a50")
-		)
-		(pin "6"
-			(uuid "e07e88c2-3253-407b-a875-36e35269a477")
-		)
-		(pin "7"
-			(uuid "e7a7b8bc-7233-46a3-870a-054b87ce2945")
-		)
-		(pin "1"
-			(uuid "550d9227-dbf1-41d2-88c8-55db9102c73d")
-		)
-		(pin "8"
-			(uuid "4e389c27-9b2d-48c7-8518-262474798b75")
-		)
-		(pin "2"
-			(uuid "d6b695ba-3fca-44e7-a855-89c8b851da4d")
-		)
-		(pin "3"
-			(uuid "86d41b71-020c-49dd-9fe6-65a1b5b50670")
-		)
-		(pin "4"
-			(uuid "24d9aead-8f28-448e-8243-878adefb5dd8")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SIS413DN-T1-GE3:SIS413DN-T1-GE3")
 		(at 186.182 48.514 180)
 		(unit 1)
@@ -7279,7 +7009,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "35fe9625-8d81-4ced-9c28-e53fe27e8c21")
+		(uuid "1f69359a-7631-4cb9-b46b-5f46a80f92ea")
 		(property "Reference" "Q4"
 			(at 172.974 34.036 0)
 			(effects
@@ -7308,7 +7038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/427/sis413dn-254110.pdf"
+		(property "Datasheet" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SIS413DN-T1-GE3?qs=vgn07B5hXav8x6TX%252BtAIoQ%3D%3D"
 			(at 164.592 -146.406 0)
 			(effects
 				(font
@@ -7397,29 +7127,38 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.58"
+			(at 186.182 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
-			(uuid "415da70c-d835-40dc-8eca-f0a1b307de03")
+			(uuid "6a95f7f8-a9bc-4b99-9e65-1bed05ce0dac")
 		)
 		(pin "6"
-			(uuid "5b3928a9-4938-4fbe-9ea9-beae78f62228")
+			(uuid "4f78caef-8873-413e-871f-1d7780c7026a")
 		)
 		(pin "7"
-			(uuid "3ddd3310-d772-429a-8150-6e527640d94c")
+			(uuid "db6454c3-e38d-425a-82c0-fc7b648f42da")
 		)
 		(pin "1"
-			(uuid "71b37ed6-133a-4fa2-93cb-1b70efbc69a2")
+			(uuid "44d24b9c-4788-4167-b476-618c4f4d56b1")
 		)
 		(pin "8"
-			(uuid "80534a39-bf0a-4f65-85f4-844a67e7c9c7")
+			(uuid "264c1bc0-7b9e-4922-9975-0dfd8cfea6d1")
 		)
 		(pin "2"
-			(uuid "157988da-4305-4eeb-bfc2-423e96d658f2")
+			(uuid "fbf610b1-85e2-4431-bc05-cc72e75217c0")
 		)
 		(pin "3"
-			(uuid "ce3e5741-f314-4621-8b7a-9823bc1611b4")
+			(uuid "97a5ca5c-b8c8-4f46-bcf0-52249eb862cf")
 		)
 		(pin "4"
-			(uuid "ffb827bd-3e0d-4c74-931e-de5610dcc343")
+			(uuid "750c642c-60d1-4964-a299-e3e4b6233dae")
 		)
 		(instances
 			(project "Robot_BMS"
@@ -7431,63 +7170,33 @@
 		)
 	)
 	(symbol
-		(lib_id "AT0603DRE07100RL:AT0603DRE07100RL")
-		(at 115.316 165.1 90)
-		(mirror x)
+		(lib_id "ERJPA3F20R0V:ERJPA3F20R0V")
+		(at 77.47 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "395d2003-b761-4c08-b5f3-f5960cc8b7da")
-		(property "Reference" "R14"
-			(at 111.506 163.8299 90)
+		(fields_autoplaced yes)
+		(uuid "24591b1b-3f59-4c72-8497-ec440ef33e15")
+		(property "Reference" "R12"
+			(at 77.47 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100"
-			(at 111.506 166.3699 90)
+		(property "Value" "20"
+			(at 77.47 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "RobotBMS:RESC1608X55N"
-			(at 115.316 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.316 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 115.316 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Yageo"
-			(at 115.316 165.1 0)
+		(property "Footprint" "RobotBMS:RES_ERJPA3F20R0V"
+			(at 77.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7496,8 +7205,26 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.55mm"
-			(at 115.316 165.1 0)
+		(property "Datasheet" "https://uk.farnell.com/panasonic/erjpa3f20r0v/res-20r-1-0-25w-0603-thick-film/dp/2335873?srsltid=AfmBOoqUeUzg1pk6hwoWxXeW9FrmcibLL0xygyGA52BZvslTL7es8ncf"
+			(at 77.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 20 ohm, ± 1%, 250 mW, 0603 [1608 Metric], Thick Film, High Power, Anti-Surge"
+			(at 77.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 77.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7506,8 +7233,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1608 Yageo"
-			(at 115.316 165.1 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.45 mm"
+			(at 77.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7516,8 +7243,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
-			(at 115.316 165.1 0)
+		(property "Package" "1608-2 Panasonic"
+			(at 77.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7526,8 +7253,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/AT0603DRE07100RL/Yageo/view-part/?ref=eda"
-			(at 115.316 165.1 0)
+		(property "Price" "0.0512"
+			(at 77.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7536,8 +7263,8 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" "IPC 7351B"
-			(at 115.316 165.1 0)
+		(property "Check_prices" "https://www.snapeda.com/parts/ERJPA3F20R0V/Panasonic/view-part/?ref=eda"
+			(at 77.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7546,8 +7273,8 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "V6"
-			(at 115.316 165.1 0)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 77.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7556,8 +7283,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AT0603DRE07100RL/Yageo/view-part/?ref=snap"
-			(at 115.316 165.1 0)
+		(property "PARTREV" "3/1/2020"
+			(at 77.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7566,8 +7293,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "AT0603DRE07100RL"
-			(at 115.316 165.1 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ERJPA3F20R0V/Panasonic/view-part/?ref=snap"
+			(at 77.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7576,8 +7303,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\n                        \n                            100 Ohms ±0.5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film\n                        \n"
-			(at 115.316 165.1 0)
+		(property "MP" "ERJPA3F20R0V"
+			(at 77.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Thick Film Smnt Resistor 0603 Case 20Ohm +/-1% 0.25W +/-100ppm/degC | Panasonic Electronic Components ERJPA3F20R0V\n                        \n"
+			(at 77.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7587,7 +7324,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 115.316 165.1 0)
+			(at 77.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7596,26 +7333,35 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Yageo"
-			(at 115.316 165.1 0)
+		(property "MANUFACTURER" "Panasonic"
+			(at 77.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJPA3F20R0V"
+			(at 77.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "aecca7dc-34fc-4a70-8b47-8d690cbffe48")
+			(uuid "f84a5d26-fbca-4762-9c43-e1f527356889")
 		)
 		(pin "1"
-			(uuid "f7100bd0-11a1-4063-9d43-4205c91e96bf")
+			(uuid "f5e77140-3749-4df5-92eb-ddcdd7700738")
 		)
 		(instances
-			(project "Robot_BMS"
+			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "R14")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7629,9 +7375,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "48a49375-a21d-4c81-badb-8994bd3f1a86")
+		(uuid "2ec0630d-a2b5-4eeb-8e38-64db1b22fdba")
 		(property "Reference" "C10"
-			(at 97.536 87.884 90)
+			(at 98.806 88.392 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7640,7 +7386,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 97.282 90.17 90)
+			(at 97.79 90.424 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7658,7 +7404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0603C104K5RACAUTO"
+		(property "Datasheet" "https://uk.farnell.com/kemet/c0603c104k5racauto/cap-0-1-f-50v-10-x7r-0603/dp/2070398"
 			(at 94.488 84.582 0)
 			(effects
 				(font
@@ -7668,7 +7414,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C0603C104K5RACAUTO"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, AEC-Q200, 0.1 µF, 50 V, 0603 [1608 Metric], ± 10%, X7R"
+			(at 94.488 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.05"
+			(at 94.488 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACAUTO"
 			(at 94.488 84.582 0)
 			(effects
 				(font
@@ -7678,15 +7442,382 @@
 			)
 		)
 		(pin "2"
-			(uuid "2494bd28-0693-4f5b-bf9f-ea37a29481d7")
+			(uuid "ac74ad3f-9f50-4a49-8eca-932f914a338f")
 		)
 		(pin "1"
-			(uuid "4924ad6e-b13d-4008-8089-f60125c3e27e")
+			(uuid "7a2f6590-a6b9-4231-9b8c-5362c815970a")
 		)
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SIS413DN-T1-GE3:SIS413DN-T1-GE3")
+		(at 126.746 48.768 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30539b51-b177-4d8e-ace9-9ab55f750ae6")
+		(property "Reference" "Q2"
+			(at 139.954 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SIS413DN-T1-GE3"
+			(at 131.064 37.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RobotBMS:SIS862DNT1GE3"
+			(at 148.336 -46.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SIS413DN-T1-GE3?qs=vgn07B5hXav8x6TX%252BtAIoQ%3D%3D"
+			(at 148.336 -146.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-Ch PowerPAK1212 Cu 30V 9.4mohm@10V"
+			(at 126.746 48.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 148.336 -346.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 148.336 -446.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SIS413DN-T1-GE3"
+			(at 148.336 -546.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-SIS413DN-T1-GE3"
+			(at 148.336 -646.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SIS413DN-T1-GE3?qs=vgn07B5hXav8x6TX%252BtAIoQ%3D%3D"
+			(at 148.336 -746.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SIS413DN-T1-GE3"
+			(at 148.336 -846.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sis413dn-t1-ge3/vishay?region=nac"
+			(at 148.336 -946.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.58"
+			(at 126.746 48.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "f098be30-9f27-4b4e-9cb6-f6211d732a50")
+		)
+		(pin "6"
+			(uuid "e07e88c2-3253-407b-a875-36e35269a477")
+		)
+		(pin "7"
+			(uuid "e7a7b8bc-7233-46a3-870a-054b87ce2945")
+		)
+		(pin "1"
+			(uuid "550d9227-dbf1-41d2-88c8-55db9102c73d")
+		)
+		(pin "8"
+			(uuid "4e389c27-9b2d-48c7-8518-262474798b75")
+		)
+		(pin "2"
+			(uuid "d6b695ba-3fca-44e7-a855-89c8b851da4d")
+		)
+		(pin "3"
+			(uuid "86d41b71-020c-49dd-9fe6-65a1b5b50670")
+		)
+		(pin "4"
+			(uuid "24d9aead-8f28-448e-8243-878adefb5dd8")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ERJPA3F20R0V:ERJPA3F20R0V")
+		(at 76.2 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e1539fb-5c01-4d9e-b99c-850ae55d07a6")
+		(property "Reference" "R11"
+			(at 76.2 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 76.2 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RobotBMS:RES_ERJPA3F20R0V"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://uk.farnell.com/panasonic/erjpa3f20r0v/res-20r-1-0-25w-0603-thick-film/dp/2335873?srsltid=AfmBOoqUeUzg1pk6hwoWxXeW9FrmcibLL0xygyGA52BZvslTL7es8ncf"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 20 ohm, ± 1%, 250 mW, 0603 [1608 Metric], Thick Film, High Power, Anti-Surge"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.45 mm"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608-2 Panasonic"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0512"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ERJPA3F20R0V/Panasonic/view-part/?ref=eda"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "3/1/2020"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ERJPA3F20R0V/Panasonic/view-part/?ref=snap"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERJPA3F20R0V"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Thick Film Smnt Resistor 0603 Case 20Ohm +/-1% 0.25W +/-100ppm/degC | Panasonic Electronic Components ERJPA3F20R0V\n                        \n"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJPA3F20R0V"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f66423ff-f673-4800-8ef4-24e0b59e0897")
+		)
+		(pin "1"
+			(uuid "0f926ab9-ff08-4d96-87df-6a6c422d1340")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7728,7 +7859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "RC0603FR-073K24L"
+		(property "Datasheet" "https://uk.farnell.com/wurth-elektronik/580060716002/res-r001-1-0-33w-metal-plate-0603/dp/4050755"
 			(at 116.84 177.038 0)
 			(effects
 				(font
@@ -7738,7 +7869,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Current Sense Resistor, 0.001 ohm, WRIS-PSMB Series, 0603 [1608 Metric], 330 mW, ± 1%"
+			(at 116.84 177.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "580060716002"
+			(at 116.84 177.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.445"
 			(at 116.84 177.038 0)
 			(effects
 				(font
@@ -7757,6 +7906,95 @@
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C0603C104K5RACAUTO:C0603C104K5RACAUTO")
+		(at 84.582 128.778 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ee7eda0-5dea-4ffd-8931-4b8a6b381daa")
+		(property "Reference" "C9"
+			(at 88.9 132.588 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 87.884 134.62 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RobotBMS:CAPC17595_87N_KEM"
+			(at 84.582 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://uk.farnell.com/kemet/c0603c104k5racauto/cap-0-1-f-50v-10-x7r-0603/dp/2070398"
+			(at 84.582 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, AEC-Q200, 0.1 µF, 50 V, 0603 [1608 Metric], ± 10%, X7R"
+			(at 84.582 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.05"
+			(at 84.582 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACAUTO"
+			(at 84.582 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3bac9b62-82e2-4327-8a21-2f8b5ea9f8f2")
+		)
+		(pin "1"
+			(uuid "7b1a2b91-555e-4812-aaec-cd35af444847")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -7829,34 +8067,35 @@
 		)
 	)
 	(symbol
-		(lib_id "GRM188R61H225KE11D:GRM188R61H225KE11D")
-		(at 52.832 75.692 90)
+		(lib_id "18650 Battery Holder:BH-18650-PC")
+		(at 42.418 113.03 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7a94cad5-6529-4177-bff5-f506490f9541")
-		(property "Reference" "C8"
-			(at 56.642 70.6119 90)
+		(uuid "79196d94-d7c7-4a4e-b15b-5438712454bb")
+		(property "Reference" "B2"
+			(at 39.624 116.8399 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
-			(at 56.642 73.1519 90)
+		(property "Value" "BH-18650-PC"
+			(at 39.624 119.3799 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "RobotBMS:CAP_GRM188R61H225KE11__MUR"
-			(at 52.832 75.692 0)
+		(property "Footprint" "RobotBMS:BAT_BH-18650-PC_MPD"
+			(at 42.418 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7865,8 +8104,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GRM188R61H225KE11D"
-			(at 52.832 75.692 0)
+		(property "Datasheet" "https://www.digikey.co.uk/en/products/detail/mpd-memory-protection-devices/BH-18650-PC/3029216?srsltid=AfmBOoq6lGI2cYGJ3Cfqnk8xR0AGBP0Fpn8p5Ip-hPx4z4o8K8kUS-Z8"
+			(at 42.418 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7875,8 +8114,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GRM188R61H225KE11D"
-			(at 52.832 75.692 0)
+		(property "Description" "BATTERY HOLDER 18650 PC PIN"
+			(at 42.418 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "3.08"
+			(at 42.418 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BH-18650-PC"
+			(at 42.418 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7885,15 +8142,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "25116953-2b58-4997-8fe4-99b4937f84e5")
+			(uuid "bb633a45-3540-43b1-946e-47e71d977a4f")
 		)
 		(pin "2"
-			(uuid "8e9aa6b3-15a4-4d83-b72b-e757dfd75037")
+			(uuid "3ed34fa2-920e-4ba8-be8b-0fb23ce23456")
 		)
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "C8")
+					(reference "B2")
 					(unit 1)
 				)
 			)
@@ -7935,7 +8192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C1608X5R1H474K080AB"
+		(property "Datasheet" "https://www.digikey.co.uk/en/products/detail/tdk-corporation/C1608X5R1H474K080AB/2732899?srsltid=AfmBOoqagN9YJBqR85ruxF3MMpUEc4G3YAP5Yultw5Ndhr4vU9UQ3zFV"
 			(at 110.998 68.072 0)
 			(effects
 				(font
@@ -7945,7 +8202,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.47 µF ±10% 50V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 110.998 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C1608X5R1H474K080AB"
+			(at 110.998 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.156"
 			(at 110.998 68.072 0)
 			(effects
 				(font
@@ -7964,529 +8239,6 @@
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ERJPA3F20R0V:ERJPA3F20R0V")
-		(at 76.2 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "88803599-2b11-47b2-9610-8eb079d7adeb")
-		(property "Reference" "R11"
-			(at 76.2 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20"
-			(at 76.2 90.678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RobotBMS:RES_ERJPA3F20R0V"
-			(at 76.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 76.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.45 mm"
-			(at 76.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "1608-2 Panasonic"
-			(at 76.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 76.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ERJPA3F20R0V/Panasonic/view-part/?ref=eda"
-			(at 76.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 76.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "3/1/2020"
-			(at 76.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ERJPA3F20R0V/Panasonic/view-part/?ref=snap"
-			(at 76.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "ERJPA3F20R0V"
-			(at 76.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Thick Film Smnt Resistor 0603 Case 20Ohm +/-1% 0.25W +/-100ppm/degC | Panasonic Electronic Components ERJPA3F20R0V\n                        \n"
-			(at 76.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 76.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 76.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "345606ed-149c-4df0-b787-69b17e92ad30")
-		)
-		(pin "1"
-			(uuid "e242688d-23c6-4ce9-911b-fb927d1be551")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "C0603C104K5RACAUTO:C0603C104K5RACAUTO")
-		(at 84.582 128.778 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a049835-103e-49fc-ac11-7880234f030b")
-		(property "Reference" "C9"
-			(at 80.772 131.3179 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 80.772 133.8579 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RobotBMS:CAPC17595_87N_KEM"
-			(at 84.582 128.778 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "C0603C104K5RACAUTO"
-			(at 84.582 128.778 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "C0603C104K5RACAUTO"
-			(at 84.582 128.778 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c57139f4-28c6-4d29-8b94-780a466b2220")
-		)
-		(pin "1"
-			(uuid "f66f555e-c279-48f4-b79f-4add637cafed")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 165.354 84.328 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b31f670-7c2b-4011-8130-853d3e6ab31f")
-		(property "Reference" "Q3"
-			(at 173.482 82.042 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 171.196 84.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 170.434 86.233 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 170.434 88.138 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 165.354 84.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "399830b8-1151-439a-a94d-96a4f8f5dfb3")
-		)
-		(pin "3"
-			(uuid "f986cdc9-7900-4e5e-9d4a-535fda68ec39")
-		)
-		(pin "1"
-			(uuid "4b08d3cf-43d6-43a7-8513-2b9b04b29734")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ERJPA3F20R0V:ERJPA3F20R0V")
-		(at 68.834 123.698 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f8662e7-0535-41cc-8e2f-a203fa637291")
-		(property "Reference" "R9"
-			(at 68.834 118.618 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20"
-			(at 68.834 120.396 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RobotBMS:RES_ERJPA3F20R0V"
-			(at 68.834 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.834 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.834 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 68.834 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.45 mm"
-			(at 68.834 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "1608-2 Panasonic"
-			(at 68.834 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 68.834 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ERJPA3F20R0V/Panasonic/view-part/?ref=eda"
-			(at 68.834 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 68.834 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "3/1/2020"
-			(at 68.834 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ERJPA3F20R0V/Panasonic/view-part/?ref=snap"
-			(at 68.834 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "ERJPA3F20R0V"
-			(at 68.834 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Thick Film Smnt Resistor 0603 Case 20Ohm +/-1% 0.25W +/-100ppm/degC | Panasonic Electronic Components ERJPA3F20R0V\n                        \n"
-			(at 68.834 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 68.834 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 68.834 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8ed3356c-f927-4cea-a62d-1049ed07b2d6")
-		)
-		(pin "1"
-			(uuid "9e94deff-c63d-4a47-be50-d1ab5700a1b3")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8560,17 +8312,16 @@
 		)
 	)
 	(symbol
-		(lib_id "18650 Battery Holder:BH-18650-PC")
-		(at 42.418 113.03 90)
-		(mirror x)
+		(lib_id "C0603C104K5RACAUTO:C0603C104K5RACAUTO")
+		(at 119.888 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b6b37e50-0083-4ee3-8503-8729e1824989")
-		(property "Reference" "B2"
-			(at 39.624 116.8399 90)
+		(uuid "9794da9a-b548-4d32-852c-97e3bce960b2")
+		(property "Reference" "C13"
+			(at 121.666 157.226 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8578,8 +8329,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BH-18650-PC"
-			(at 39.624 119.3799 90)
+		(property "Value" "0.1u"
+			(at 121.158 159.766 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8587,8 +8338,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RobotBMS:BAT_BH-18650-PC_MPD"
-			(at 42.418 113.03 0)
+		(property "Footprint" "RobotBMS:CAPC17595_87N_KEM"
+			(at 119.888 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8597,8 +8348,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "BH-18650-PC"
-			(at 42.418 113.03 0)
+		(property "Datasheet" "https://uk.farnell.com/kemet/c0603c104k5racauto/cap-0-1-f-50v-10-x7r-0603/dp/2070398"
+			(at 119.888 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8607,8 +8358,115 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 42.418 113.03 0)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, AEC-Q200, 0.1 µF, 50 V, 0603 [1608 Metric], ± 10%, X7R"
+			(at 119.888 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.05"
+			(at 119.888 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACAUTO"
+			(at 119.888 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1149c47c-8908-4967-a249-b92522cd584e")
+		)
+		(pin "1"
+			(uuid "83d6ef12-2101-45df-a20e-32aff947f2c2")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GRM188R61H225KE11D:GRM188R61H225KE11D")
+		(at 139.192 156.972 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a68dd98-a422-48ca-84da-98b1bfbc7c8a")
+		(property "Reference" "C15"
+			(at 143.002 151.8919 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 143.002 154.4319 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RobotBMS:CAP_GRM188R61H225KE11__MUR"
+			(at 139.192 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM188R61H225KE11D?qs=eeBpzGFlv%252B%2Fz%2FOAJ2DfLOw%3D%3D&srsltid=AfmBOooMRD77aOTkbRY7oYUXY9ClaKW758oHzigtEwQ_PDvO6XIDiy7v"
+			(at 139.192 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 2.2 uF 50 VDC 10% 0603 X5R"
+			(at 139.192 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.22"
+			(at 139.192 156.972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM188R61H225KE11D"
+			(at 139.192 156.972 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8617,15 +8475,304 @@
 			)
 		)
 		(pin "1"
-			(uuid "4d3ed253-910a-46bb-aad8-f9367a8737f3")
+			(uuid "56f19469-d7e7-41c2-bc83-c28f9db9ddc7")
 		)
 		(pin "2"
-			(uuid "c97683bc-87bf-46f1-9e40-7b3d2144f73b")
+			(uuid "1a18e03e-673c-4c11-96b9-009c434d4fef")
 		)
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "B2")
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C0603C104K5RACAUTO:C0603C104K5RACAUTO")
+		(at 94.488 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f9e1ae3-5f7f-4a9a-b1ae-c085b6140fcc")
+		(property "Reference" "C11"
+			(at 98.806 116.84 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 97.79 118.872 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RobotBMS:CAPC17595_87N_KEM"
+			(at 94.488 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://uk.farnell.com/kemet/c0603c104k5racauto/cap-0-1-f-50v-10-x7r-0603/dp/2070398"
+			(at 94.488 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, AEC-Q200, 0.1 µF, 50 V, 0603 [1608 Metric], ± 10%, X7R"
+			(at 94.488 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.05"
+			(at 94.488 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACAUTO"
+			(at 94.488 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cfde726a-beef-45ad-b39f-75250873af77")
+		)
+		(pin "1"
+			(uuid "cc43ba8e-eb5b-4dc9-990f-304fac08dc8a")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ERJPA3F20R0V:ERJPA3F20R0V")
+		(at 114.046 130.048 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af265eef-c974-41d3-8b84-4ae993508dd3")
+		(property "Reference" "R13"
+			(at 110.236 128.7779 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "20"
+			(at 110.236 131.3179 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RobotBMS:RES_ERJPA3F20R0V"
+			(at 114.046 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://uk.farnell.com/panasonic/erjpa3f20r0v/res-20r-1-0-25w-0603-thick-film/dp/2335873?srsltid=AfmBOoqUeUzg1pk6hwoWxXeW9FrmcibLL0xygyGA52BZvslTL7es8ncf"
+			(at 114.046 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 20 ohm, ± 1%, 250 mW, 0603 [1608 Metric], Thick Film, High Power, Anti-Surge"
+			(at 114.046 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 114.046 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.45 mm"
+			(at 114.046 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608-2 Panasonic"
+			(at 114.046 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0512"
+			(at 114.046 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ERJPA3F20R0V/Panasonic/view-part/?ref=eda"
+			(at 114.046 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 114.046 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "3/1/2020"
+			(at 114.046 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ERJPA3F20R0V/Panasonic/view-part/?ref=snap"
+			(at 114.046 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERJPA3F20R0V"
+			(at 114.046 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Thick Film Smnt Resistor 0603 Case 20Ohm +/-1% 0.25W +/-100ppm/degC | Panasonic Electronic Components ERJPA3F20R0V\n                        \n"
+			(at 114.046 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 114.046 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 114.046 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJPA3F20R0V"
+			(at 114.046 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a7a96f0-ce16-470d-a712-44047d63f89c")
+		)
+		(pin "1"
+			(uuid "b3c8b060-5c38-4165-8543-920c156bba34")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -8669,7 +8816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://uk.farnell.com/vishay/ga0603a101jxbac31g/cap-100pf-100v-5-c0g-np0-0603/dp/2896273?srsltid=AfmBOopps1O3T5ds2gH7mhcZk32VudXQ5U8fCOsk4ufABrc0nzttvuWd"
 			(at 40.894 70.612 0)
 			(effects
 				(font
@@ -8678,7 +8825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 100PF 100V C0G/NP0 0603"
 			(at 40.894 70.612 0)
 			(effects
 				(font
@@ -8717,7 +8864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
+		(property "Price" "0.204"
 			(at 40.894 70.612 0)
 			(effects
 				(font
@@ -8764,6 +8911,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GA0603A101JXBAC31G"
+			(at 40.894 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8887,7 +9043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "BH-18650-PC"
+		(property "Datasheet" "https://www.digikey.co.uk/en/products/detail/mpd-memory-protection-devices/BH-18650-PC/3029216?srsltid=AfmBOoq6lGI2cYGJ3Cfqnk8xR0AGBP0Fpn8p5Ip-hPx4z4o8K8kUS-Z8"
 			(at 42.418 90.678 0)
 			(effects
 				(font
@@ -8897,8 +9053,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "BATTERY HOLDER 18650 PC PIN"
 			(at 42.418 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "3.08"
+			(at 42.418 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BH-18650-PC"
+			(at 42.418 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8916,149 +9090,6 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
 					(reference "B1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "GRM188R61H225KE11D:GRM188R61H225KE11D")
-		(at 139.192 156.972 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bd92b996-a5e0-4b9f-81ae-594bad985ba6")
-		(property "Reference" "C15"
-			(at 143.002 151.8919 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 143.002 154.4319 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RobotBMS:CAP_GRM188R61H225KE11__MUR"
-			(at 139.192 156.972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "GRM188R61H225KE11D"
-			(at 139.192 156.972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "GRM188R61H225KE11D"
-			(at 139.192 156.972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34ef5799-551e-42b7-8f09-6d9515c4c8e6")
-		)
-		(pin "2"
-			(uuid "2d813b0e-ae7d-4c74-b869-243c76fc6cc2")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "C0603C104K5RACAUTO:C0603C104K5RACAUTO")
-		(at 94.488 113.03 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "be92fe9d-be27-44fa-a17d-9808c82e36a8")
-		(property "Reference" "C11"
-			(at 90.678 115.5699 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 90.678 118.1099 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RobotBMS:CAPC17595_87N_KEM"
-			(at 94.488 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "C0603C104K5RACAUTO"
-			(at 94.488 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "C0603C104K5RACAUTO"
-			(at 94.488 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c156193b-773f-4223-8cbe-27bf68cb72b0")
-		)
-		(pin "1"
-			(uuid "a93e2d5f-39db-4fc3-b283-bccf300a17a5")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -9132,16 +9163,16 @@
 	)
 	(symbol
 		(lib_id "AT0603DRE07100RL:AT0603DRE07100RL")
-		(at 130.556 165.608 90)
+		(at 115.316 165.1 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c770426c-df75-4c43-8451-4443de867456")
-		(property "Reference" "R16"
-			(at 134.366 164.3379 90)
+		(uuid "c8551b1e-6649-4915-b7c4-126412863389")
+		(property "Reference" "R14"
+			(at 112.014 163.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9150,7 +9181,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 134.366 166.8779 90)
+			(at 112.014 166.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9159,7 +9190,7 @@
 			)
 		)
 		(property "Footprint" "RobotBMS:RESC1608X55N"
-			(at 130.556 165.608 0)
+			(at 115.316 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9168,8 +9199,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 130.556 165.608 0)
+		(property "Datasheet" "https://uk.farnell.com/yageo/at0603dre07100rl/res-100r-0-5-0-1w-thin-film-0603/dp/4047067"
+			(at 115.316 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9177,8 +9208,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 130.556 165.608 0)
+		(property "Description" "SMD Chip Resistor, 100 ohm, ± 0.5%, 100 mW, 0603 [1608 Metric], Metal Film (Thin Film)"
+			(at 115.316 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9187,7 +9218,7 @@
 			)
 		)
 		(property "MF" "Yageo"
-			(at 130.556 165.608 0)
+			(at 115.316 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9197,7 +9228,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.55mm"
-			(at 130.556 165.608 0)
+			(at 115.316 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9207,7 +9238,7 @@
 			)
 		)
 		(property "Package" "1608 Yageo"
-			(at 130.556 165.608 0)
+			(at 115.316 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9216,8 +9247,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
-			(at 130.556 165.608 0)
+		(property "Price" "0.068"
+			(at 115.316 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9227,7 +9258,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/AT0603DRE07100RL/Yageo/view-part/?ref=eda"
-			(at 130.556 165.608 0)
+			(at 115.316 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9237,7 +9268,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 130.556 165.608 0)
+			(at 115.316 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9247,7 +9278,7 @@
 			)
 		)
 		(property "PARTREV" "V6"
-			(at 130.556 165.608 0)
+			(at 115.316 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9257,7 +9288,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AT0603DRE07100RL/Yageo/view-part/?ref=snap"
-			(at 130.556 165.608 0)
+			(at 115.316 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9267,7 +9298,7 @@
 			)
 		)
 		(property "MP" "AT0603DRE07100RL"
-			(at 130.556 165.608 0)
+			(at 115.316 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9277,7 +9308,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            100 Ohms ±0.5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film\n                        \n"
-			(at 130.556 165.608 0)
+			(at 115.316 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9287,7 +9318,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 130.556 165.608 0)
+			(at 115.316 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9297,7 +9328,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Yageo"
-			(at 130.556 165.608 0)
+			(at 115.316 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9306,88 +9337,25 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "AT0603DRE07100RL"
+			(at 115.316 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "1071ba26-eec1-4297-a9b0-92f8994f8cdc")
+			(uuid "2e224bc6-37f4-46d5-9eaf-e2c8f5e1c556")
 		)
 		(pin "1"
-			(uuid "8cfbb349-9c08-42bb-9b36-b576fb9bee59")
+			(uuid "06f62577-e934-4b50-8939-5ad5ff7857b7")
 		)
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "18650 Battery Holder:BH-18650-PC")
-		(at 42.418 125.984 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c815e4c0-62bf-48ed-9c7d-e9c9dfbf35cc")
-		(property "Reference" "B3"
-			(at 45.212 129.7939 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BH-18650-PC"
-			(at 45.212 132.3339 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RobotBMS:BAT_BH-18650-PC_MPD"
-			(at 42.418 125.984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "BH-18650-PC"
-			(at 42.418 125.984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 42.418 125.984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15317f04-fb57-4859-aa18-6dd14128e4b6")
-		)
-		(pin "2"
-			(uuid "6a91c28c-9aa7-46e4-8630-2157367ef034")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "B3")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -9526,6 +9494,204 @@
 		)
 	)
 	(symbol
+		(lib_id "ERJPA3F20R0V:ERJPA3F20R0V")
+		(at 68.834 123.698 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7652521-dc46-4dbb-bfae-093cd848ca3c")
+		(property "Reference" "R9"
+			(at 68.834 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 68.834 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RobotBMS:RES_ERJPA3F20R0V"
+			(at 68.834 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://uk.farnell.com/panasonic/erjpa3f20r0v/res-20r-1-0-25w-0603-thick-film/dp/2335873?srsltid=AfmBOoqUeUzg1pk6hwoWxXeW9FrmcibLL0xygyGA52BZvslTL7es8ncf"
+			(at 68.834 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 20 ohm, ± 1%, 250 mW, 0603 [1608 Metric], Thick Film, High Power, Anti-Surge"
+			(at 68.834 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 68.834 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.45 mm"
+			(at 68.834 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608-2 Panasonic"
+			(at 68.834 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0512"
+			(at 68.834 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ERJPA3F20R0V/Panasonic/view-part/?ref=eda"
+			(at 68.834 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 68.834 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "3/1/2020"
+			(at 68.834 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ERJPA3F20R0V/Panasonic/view-part/?ref=snap"
+			(at 68.834 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERJPA3F20R0V"
+			(at 68.834 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Thick Film Smnt Resistor 0603 Case 20Ohm +/-1% 0.25W +/-100ppm/degC | Panasonic Electronic Components ERJPA3F20R0V\n                        \n"
+			(at 68.834 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 68.834 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 68.834 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJPA3F20R0V"
+			(at 68.834 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3935a5de-28b9-4a38-a724-993d45ea48e4")
+		)
+		(pin "1"
+			(uuid "8caaafb8-16d4-4a5f-a709-d15c6d36a8f1")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 134.62 177.038 0)
 		(mirror y)
@@ -9658,194 +9824,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ERJPA3F20R0V:ERJPA3F20R0V")
-		(at 69.596 110.998 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e49b2fe1-ccc4-43fd-8705-9d2525996e30")
-		(property "Reference" "R10"
-			(at 69.596 105.918 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20"
-			(at 69.596 107.696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RobotBMS:RES_ERJPA3F20R0V"
-			(at 69.596 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.596 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 69.596 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 69.596 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.45 mm"
-			(at 69.596 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "1608-2 Panasonic"
-			(at 69.596 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 69.596 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ERJPA3F20R0V/Panasonic/view-part/?ref=eda"
-			(at 69.596 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 69.596 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "3/1/2020"
-			(at 69.596 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ERJPA3F20R0V/Panasonic/view-part/?ref=snap"
-			(at 69.596 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "ERJPA3F20R0V"
-			(at 69.596 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Thick Film Smnt Resistor 0603 Case 20Ohm +/-1% 0.25W +/-100ppm/degC | Panasonic Electronic Components ERJPA3F20R0V\n                        \n"
-			(at 69.596 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 69.596 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 69.596 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "722d5704-a5d1-49e2-b793-9ac775f7f718")
-		)
-		(pin "1"
-			(uuid "820636d9-45bd-41a4-a191-d6bb818d434c")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "RC0603FR-0710KL:RC0603FR-0710KL")
 		(at 141.224 60.96 0)
 		(mirror x)
@@ -9881,7 +9859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "RC0603FR-0710KL"
+		(property "Datasheet" "https://www.digikey.co.uk/en/products/detail/yageo/RC0603FR-0710KL/726880?srsltid=AfmBOoqjqC5qo52Z-BfREj56jdcNCkiFl9EdC8LTCxkmf6IG3DRH4_a1"
 			(at 141.224 60.96 0)
 			(effects
 				(font
@@ -9891,7 +9869,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 141.224 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.096"
+			(at 141.224 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-0710KL"
 			(at 141.224 60.96 0)
 			(effects
 				(font
@@ -9981,6 +9977,166 @@
 		)
 	)
 	(symbol
+		(lib_id "GA0603A101JXBAC31G:GA0603A101JXBAC31G")
+		(at 122.428 143.51 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f25a873d-cf56-46a9-aac1-858fadfbaaa1")
+		(property "Reference" "C14"
+			(at 124.968 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100p"
+			(at 126.492 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RobotBMS:CAPC1608X97N"
+			(at 122.428 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://uk.farnell.com/vishay/ga0603a101jxbac31g/cap-100pf-100v-5-c0g-np0-0603/dp/2896273?srsltid=AfmBOopps1O3T5ds2gH7mhcZk32VudXQ5U8fCOsk4ufABrc0nzttvuWd"
+			(at 122.428 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100PF 100V C0G/NP0 0603"
+			(at 122.428 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Vishay Vitramon"
+			(at 122.428 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Cap Ceramic 100pF 100V C0G 5% Pad SMD 0603 150°C Automotive T/R\n                        \n"
+			(at 122.428 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608 Vishay Vitramon"
+			(at 122.428 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.204"
+			(at 122.428 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GA0603A101JXBAC31G/Vishay/view-part/?ref=snap"
+			(at 122.428 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "GA0603A101JXBAC31G"
+			(at 122.428 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 122.428 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/GA0603A101JXBAC31G/Vishay/view-part/?ref=eda"
+			(at 122.428 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GA0603A101JXBAC31G"
+			(at 122.428 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d999455-a371-46ad-b7c8-8fbe170f576c")
+		)
+		(pin "2"
+			(uuid "72e8a085-deb8-4e8c-a23d-d47884561b8f")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "C1608X5R1H105K080AB:C1608X5R1H105K080AB")
 		(at 175.768 92.456 270)
 		(unit 1)
@@ -10018,7 +10174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C1608X5R1H105K080AB"
+		(property "Datasheet" "https://www.digikey.co.uk/en/products/detail/tdk-corporation/C1608X5R1H105K080AB/2732903?srsltid=AfmBOor56GgfnLXHgi-3LeZegffSOwAv9v8D2cXwpLB2cc7IytPjt7iG"
 			(at 175.768 92.456 0)
 			(effects
 				(font
@@ -10028,8 +10184,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 1UF 50V X5R 0603"
 			(at 175.768 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.156"
+			(at 175.768 92.456 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C1608X5R1H105K080AB"
+			(at 175.768 92.456 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10047,6 +10221,204 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ERJPA3F20R0V:ERJPA3F20R0V")
+		(at 69.596 110.998 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa4b6a73-59d2-4dfd-a2f5-989e21895e28")
+		(property "Reference" "R10"
+			(at 69.596 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 69.596 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RobotBMS:RES_ERJPA3F20R0V"
+			(at 69.596 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://uk.farnell.com/panasonic/erjpa3f20r0v/res-20r-1-0-25w-0603-thick-film/dp/2335873?srsltid=AfmBOoqUeUzg1pk6hwoWxXeW9FrmcibLL0xygyGA52BZvslTL7es8ncf"
+			(at 69.596 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 20 ohm, ± 1%, 250 mW, 0603 [1608 Metric], Thick Film, High Power, Anti-Surge"
+			(at 69.596 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 69.596 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.45 mm"
+			(at 69.596 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1608-2 Panasonic"
+			(at 69.596 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0512"
+			(at 69.596 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ERJPA3F20R0V/Panasonic/view-part/?ref=eda"
+			(at 69.596 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 69.596 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "3/1/2020"
+			(at 69.596 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ERJPA3F20R0V/Panasonic/view-part/?ref=snap"
+			(at 69.596 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ERJPA3F20R0V"
+			(at 69.596 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Thick Film Smnt Resistor 0603 Case 20Ohm +/-1% 0.25W +/-100ppm/degC | Panasonic Electronic Components ERJPA3F20R0V\n                        \n"
+			(at 69.596 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 69.596 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 69.596 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJPA3F20R0V"
+			(at 69.596 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e98dfd7a-5122-4865-b5d0-765d57a4aa6a")
+		)
+		(pin "1"
+			(uuid "0dc171a6-77b8-417f-83dc-510edf2a1228")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
+					(reference "R10")
 					(unit 1)
 				)
 			)

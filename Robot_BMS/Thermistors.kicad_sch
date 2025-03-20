@@ -1319,7 +1319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 166.37 120.65 0)
 			(effects
 				(font
@@ -1337,6 +1337,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "exposed pad"
+			(at 166.37 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0"
+			(at 166.37 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a5cceab-f06c-4011-8553-449b715e1a0f")
 		)
@@ -1344,6 +1362,96 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/cb04dfab-e035-4615-b482-7ed1936c63ff"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RC0603FR_073K24L:RC0603FR-073K24L")
+		(at 132.08 104.14 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "019401b6-3f9a-45b3-a838-8ac52b07d77b")
+		(property "Reference" "R2"
+			(at 129.794 96.5199 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3k24"
+			(at 129.794 99.0599 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RobotBMS:RC0603N_YAG"
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.uk/en/products/detail/yageo/RC0603FR-073K24L/727125"
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 3.24K OHM 1% 1/10W 0603"
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.08"
+			(at 132.08 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-073K24L"
+			(at 132.08 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da6058d9-c702-41db-a04c-f6122b385e81")
+		)
+		(pin "2"
+			(uuid "db94ec6b-b984-41c5-80d3-6f71d2bfc0ba")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/cb04dfab-e035-4615-b482-7ed1936c63ff"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -1416,6 +1524,96 @@
 	)
 	(symbol
 		(lib_id "NTCLE100E3103HB0:NTCLE100E3103HB0")
+		(at 65.024 195.072 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09338778-8c50-45ad-a3ff-8cc7ea5045b8")
+		(property "Reference" "TH2"
+			(at 71.882 173.4819 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 71.882 176.0219 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RobotBMS:THERMISTORS_100E3103HB0_VIS"
+			(at 65.024 195.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/NTCLE100E3103HB0?qs=5%252BH5Zw0P0yW5JOWp96diiA%3D%3D&utm_id=9520607717&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gclid=Cj0KCQjw1um-BhDtARIsABjU5x5YCU0sR6JFxllQE0SxqyTI_yDPWeZCHrmKHXMBX6lqqmDFIr6CF7QaAgg0EALw_wcB"
+			(at 65.024 195.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NTC (Negative Temperature Coefficient) Thermistors 10Kohms 3% Radial 0.6 LEAD"
+			(at 65.024 195.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.45"
+			(at 65.024 195.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NTCLE100E3103HB0"
+			(at 65.024 195.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "17c94259-75e5-42d4-ab12-7019b1da3a2a")
+		)
+		(pin "1"
+			(uuid "21f7fffd-7aa7-48c0-9e55-0f4d9833daeb")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/cb04dfab-e035-4615-b482-7ed1936c63ff"
+					(reference "TH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NTCLE100E3103HB0:NTCLE100E3103HB0")
 		(at 22.098 194.818 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1433,7 +1631,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "NTCLE100E3103HB0"
+		(property "Value" "10K"
 			(at 28.956 175.7679 90)
 			(effects
 				(font
@@ -1452,7 +1650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "NTCLE100E3103HB0"
+		(property "Datasheet" "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/NTCLE100E3103HB0?qs=5%252BH5Zw0P0yW5JOWp96diiA%3D%3D&utm_id=9520607717&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gclid=Cj0KCQjw1um-BhDtARIsABjU5x5YCU0sR6JFxllQE0SxqyTI_yDPWeZCHrmKHXMBX6lqqmDFIr6CF7QaAgg0EALw_wcB"
 			(at 22.098 194.818 0)
 			(effects
 				(font
@@ -1462,8 +1660,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NTC (Negative Temperature Coefficient) Thermistors 10Kohms 3% Radial 0.6 LEAD"
 			(at 22.098 194.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.45"
+			(at 22.098 194.818 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NTCLE100E3103HB0"
+			(at 22.098 194.818 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1521,7 +1737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 93.98 118.11 0)
 			(effects
 				(font
@@ -1531,6 +1747,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 93.98 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "exposed pad"
+			(at 93.98 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0"
 			(at 93.98 123.19 0)
 			(effects
 				(font
@@ -1586,7 +1820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 132.08 120.65 0)
 			(effects
 				(font
@@ -1596,6 +1830,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 132.08 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "exposed pad"
+			(at 132.08 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0"
 			(at 132.08 115.57 0)
 			(effects
 				(font
@@ -1651,7 +1903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 132.08 118.11 0)
 			(effects
 				(font
@@ -1661,6 +1913,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 132.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "exposed pad"
+			(at 132.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0"
 			(at 132.08 123.19 0)
 			(effects
 				(font
@@ -1716,7 +1986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 93.98 120.65 0)
 			(effects
 				(font
@@ -1734,6 +2004,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "exposed pad"
+			(at 93.98 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0"
+			(at 93.98 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a98b79fd-6363-468c-93ed-5e299a275781")
 		)
@@ -1741,6 +2029,96 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/cb04dfab-e035-4615-b482-7ed1936c63ff"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NTCLE100E3103HB0:NTCLE100E3103HB0")
+		(at 107.95 195.834 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6eeafca2-bfc5-4c60-808f-b6322b31a6a4")
+		(property "Reference" "TH3"
+			(at 114.808 174.2439 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 114.808 176.7839 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RobotBMS:THERMISTORS_100E3103HB0_VIS"
+			(at 107.95 195.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/NTCLE100E3103HB0?qs=5%252BH5Zw0P0yW5JOWp96diiA%3D%3D&utm_id=9520607717&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gclid=Cj0KCQjw1um-BhDtARIsABjU5x5YCU0sR6JFxllQE0SxqyTI_yDPWeZCHrmKHXMBX6lqqmDFIr6CF7QaAgg0EALw_wcB"
+			(at 107.95 195.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NTC (Negative Temperature Coefficient) Thermistors 10Kohms 3% Radial 0.6 LEAD"
+			(at 107.95 195.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.45"
+			(at 107.95 195.834 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NTCLE100E3103HB0"
+			(at 107.95 195.834 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "323ebd0f-73b0-4f35-86ed-4d6bfc53e3a6")
+		)
+		(pin "1"
+			(uuid "f3d3a0ac-8fb2-45f3-b1f8-d0bfac359068")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/cb04dfab-e035-4615-b482-7ed1936c63ff"
+					(reference "TH3")
 					(unit 1)
 				)
 			)
@@ -1781,7 +2159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 166.37 118.11 0)
 			(effects
 				(font
@@ -1791,6 +2169,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 166.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "exposed pad"
+			(at 166.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0"
 			(at 166.37 123.19 0)
 			(effects
 				(font
@@ -1914,7 +2310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "RC0603FR-073K24L"
+		(property "Datasheet" "https://www.digikey.co.uk/en/products/detail/yageo/RC0603FR-073K24L/727125"
 			(at 93.98 104.648 0)
 			(effects
 				(font
@@ -1924,8 +2320,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC0603FR-073K24L"
+		(property "Description" "RES 3.24K OHM 1% 1/10W 0603"
 			(at 93.98 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.08"
+			(at 93.98 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-073K24L"
+			(at 93.98 104.648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1943,78 +2357,6 @@
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/cb04dfab-e035-4615-b482-7ed1936c63ff"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RC0603FR_073K24L:RC0603FR-073K24L")
-		(at 166.37 102.616 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0d6305b-c3d3-411d-9db2-3fcbe014521c")
-		(property "Reference" "R3"
-			(at 164.084 94.9959 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3k24"
-			(at 164.084 97.5359 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RobotBMS:RC0603N_YAG"
-			(at 166.37 102.616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "RC0603FR-073K24L"
-			(at 166.37 102.616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RC0603FR-073K24L"
-			(at 166.37 102.616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c6f2161-88a7-4108-aa60-63d2ded464e0")
-		)
-		(pin "2"
-			(uuid "ad3f5387-04d5-499a-8662-2dd384417299")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/cb04dfab-e035-4615-b482-7ed1936c63ff"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2087,16 +2429,16 @@
 	)
 	(symbol
 		(lib_id "RC0603FR_073K24L:RC0603FR-073K24L")
-		(at 132.08 104.14 270)
+		(at 166.37 102.616 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c36636d4-d794-464c-83c9-221a3552ee86")
-		(property "Reference" "R2"
-			(at 129.794 96.5199 90)
+		(uuid "c5ecae49-d896-49f0-858b-1888cc8ba5cb")
+		(property "Reference" "R3"
+			(at 164.084 94.9959 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2105,7 +2447,7 @@
 			)
 		)
 		(property "Value" "3k24"
-			(at 129.794 99.0599 90)
+			(at 164.084 97.5359 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2114,7 +2456,7 @@
 			)
 		)
 		(property "Footprint" "RobotBMS:RC0603N_YAG"
-			(at 132.08 104.14 0)
+			(at 166.37 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,8 +2465,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "RC0603FR-073K24L"
-			(at 132.08 104.14 0)
+		(property "Datasheet" "https://www.digikey.co.uk/en/products/detail/yageo/RC0603FR-073K24L/727125"
+			(at 166.37 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,8 +2475,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC0603FR-073K24L"
-			(at 132.08 104.14 0)
+		(property "Description" "RES 3.24K OHM 1% 1/10W 0603"
+			(at 166.37 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.08"
+			(at 166.37 102.616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-073K24L"
+			(at 166.37 102.616 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2143,15 +2503,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a112fb77-b07c-41a5-8a31-4decc565ce04")
+			(uuid "d1c0ec24-f57b-4c07-bdaf-c38d86604f3b")
 		)
 		(pin "2"
-			(uuid "0505c203-0e9b-4a80-ba99-f6299e35910a")
+			(uuid "f3b6121a-8ecd-4299-94fb-e30298b29f5b")
 		)
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/cb04dfab-e035-4615-b482-7ed1936c63ff"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2218,150 +2578,6 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/cb04dfab-e035-4615-b482-7ed1936c63ff"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NTCLE100E3103HB0:NTCLE100E3103HB0")
-		(at 107.95 195.834 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecf28fb0-31d1-470a-9546-9a0335be6208")
-		(property "Reference" "TH3"
-			(at 114.3 174.2439 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NTCLE100E3103HB0"
-			(at 114.3 176.7839 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RobotBMS:THERMISTORS_100E3103HB0_VIS"
-			(at 107.95 195.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NTCLE100E3103HB0"
-			(at 107.95 195.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 107.95 195.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e762fa43-bac5-4233-a586-131179f2967f")
-		)
-		(pin "1"
-			(uuid "5103a720-0721-4694-99db-cd4958173552")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/cb04dfab-e035-4615-b482-7ed1936c63ff"
-					(reference "TH3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NTCLE100E3103HB0:NTCLE100E3103HB0")
-		(at 65.024 195.072 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd2241c2-5c7c-40bb-9bf9-9787a2f4c7ee")
-		(property "Reference" "TH2"
-			(at 71.12 173.4819 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NTCLE100E3103HB0"
-			(at 71.12 176.0219 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RobotBMS:THERMISTORS_100E3103HB0_VIS"
-			(at 65.024 195.072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NTCLE100E3103HB0"
-			(at 65.024 195.072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 65.024 195.072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c17a4010-2d4d-40d8-9c93-5867e8636c07")
-		)
-		(pin "1"
-			(uuid "47736f02-f7ff-4bdb-b71e-4a396f4d0ea6")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/cb04dfab-e035-4615-b482-7ed1936c63ff"
-					(reference "TH2")
 					(unit 1)
 				)
 			)

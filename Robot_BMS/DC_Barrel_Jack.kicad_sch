@@ -490,7 +490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/6941xx301002.pdf"
+		(property "Datasheet" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/694108301002?qs=a9WhcLg8qCwpBR6w1flhOw%3D%3D&srsltid=AfmBOoprH2athC-B50XwA6svXtxN7ZZwMgzBne9QUqA8l4yvF5rTB4wq"
 			(at 151.13 298.044 0)
 			(effects
 				(font
@@ -556,6 +556,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.804"
+			(at 134.62 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

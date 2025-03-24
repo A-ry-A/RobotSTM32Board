@@ -3103,7 +3103,7 @@
 		)
 		(uuid "a9f864ed-20d8-4ee3-9ef5-00cfa1be8274")
 	)
-	(hierarchical_label "VBUS"
+	(hierarchical_label "USB_C"
 		(shape output)
 		(at 237.49 96.52 0)
 		(effects
@@ -3112,7 +3112,7 @@
 			)
 			(justify left)
 		)
-		(uuid "c6962825-3cbe-4729-b50b-d2c43fea64f4")
+		(uuid "ad8e19c5-bcd9-4040-9953-c359b5be4cbe")
 	)
 	(symbol
 		(lib_id "Regulator_Switching:TPS54308")

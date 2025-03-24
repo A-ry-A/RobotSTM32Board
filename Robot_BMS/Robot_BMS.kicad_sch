@@ -1109,7 +1109,7 @@
 			)
 			(uuid "18ab757c-99a9-434f-9780-a4e66c0492e2")
 		)
-		(pin "VBUS" output
+		(pin "USB_C" output
 			(at 230.124 134.112 180)
 			(effects
 				(font
@@ -1258,16 +1258,15 @@
 			)
 			(uuid "9cffc15c-84c8-4029-bf98-513500a0ca98")
 		)
-		(pin "VBUS" output
+		(pin "USB_C" output
 			(at 230.378 65.024 180)
 			(effects
 				(font
 					(size 1.905 1.905)
-					(color 255 255 255 1)
 				)
 				(justify left)
 			)
-			(uuid "dbbb6cb2-e16d-4960-9602-5513893087cd")
+			(uuid "8aa31c28-3f27-4f85-8878-da3d52615502")
 		)
 		(instances
 			(project "Robot_BMS"

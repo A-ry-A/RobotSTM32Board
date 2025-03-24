@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NCP03XH103F05RL
+D NTC Thermistors
+K
+F https://www.murata.com/~/media/webrenewal/support/library/catalog/products/thermistor/ntc/r44e.ashx?la=en-us
+$ENDCMP
+#
+#End Doc Library

@@ -167,6 +167,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.962 60.452) (xy 230.378 60.452)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9cdfbc-6121-4672-88de-7971906aa7c6")
+	)
+	(wire
+		(pts
 			(xy 92.202 113.03) (xy 128.27 113.03)
 		)
 		(stroke
@@ -227,7 +237,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.974 108.204) (xy 183.134 108.204)
+			(xy 172.974 109.728) (xy 183.134 109.728)
 		)
 		(stroke
 			(width 0)
@@ -277,7 +287,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.496 55.88) (xy 31.496 106.68)
+			(xy 31.496 51.562) (xy 31.496 106.68)
 		)
 		(stroke
 			(width 0)
@@ -314,6 +324,16 @@
 			(type default)
 		)
 		(uuid "5366e996-af8c-465e-8ac1-560914b5a563")
+	)
+	(wire
+		(pts
+			(xy 172.974 106.172) (xy 203.962 106.172)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae2e38a-1b63-4f2c-84ea-46b7f63bd5d6")
 	)
 	(wire
 		(pts
@@ -417,7 +437,7 @@
 	)
 	(wire
 		(pts
-			(xy 183.134 108.204) (xy 183.134 155.194)
+			(xy 183.134 109.728) (xy 183.134 155.194)
 		)
 		(stroke
 			(width 0)
@@ -437,7 +457,7 @@
 	)
 	(wire
 		(pts
-			(xy 230.378 53.086) (xy 28.194 53.086)
+			(xy 230.378 48.768) (xy 28.194 48.768)
 		)
 		(stroke
 			(width 0)
@@ -447,7 +467,7 @@
 	)
 	(wire
 		(pts
-			(xy 183.134 104.648) (xy 172.974 104.648)
+			(xy 183.134 102.362) (xy 172.974 102.362)
 		)
 		(stroke
 			(width 0)
@@ -507,7 +527,7 @@
 	)
 	(wire
 		(pts
-			(xy 230.378 59.944) (xy 183.134 59.944)
+			(xy 230.378 55.118) (xy 183.134 55.118)
 		)
 		(stroke
 			(width 0)
@@ -577,6 +597,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.962 106.172) (xy 203.962 60.452)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3be6aa3-4e3f-4f7e-ba6f-fe1f8c7f417f")
+	)
+	(wire
+		(pts
 			(xy 212.852 134.112) (xy 230.124 134.112)
 		)
 		(stroke
@@ -607,7 +637,7 @@
 	)
 	(wire
 		(pts
-			(xy 230.378 55.88) (xy 31.496 55.88)
+			(xy 230.378 51.562) (xy 31.496 51.562)
 		)
 		(stroke
 			(width 0)
@@ -647,7 +677,7 @@
 	)
 	(wire
 		(pts
-			(xy 28.194 53.086) (xy 28.194 109.474)
+			(xy 28.194 48.768) (xy 28.194 109.474)
 		)
 		(stroke
 			(width 0)
@@ -657,7 +687,7 @@
 	)
 	(wire
 		(pts
-			(xy 183.134 59.944) (xy 183.134 104.648)
+			(xy 183.134 55.118) (xy 183.134 102.362)
 		)
 		(stroke
 			(width 0)
@@ -715,7 +745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6967f16c-5374-4c78-a88c-35f1b00290dd")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 105.156 185.9279 0)
 			(effects
 				(font
@@ -763,7 +793,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -779,7 +809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c63ff37-c924-4e1d-9893-0ead4f683f8e")
-		(property "Reference" "H2"
+		(property "Reference" "H1"
 			(at 105.156 179.3239 0)
 			(effects
 				(font
@@ -827,7 +857,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
-					(reference "H2")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -843,7 +873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6b679f9-b25a-4be6-9660-e8edf6bf64c7")
-		(property "Reference" "H1"
+		(property "Reference" "H4"
 			(at 105.41 173.2279 0)
 			(effects
 				(font
@@ -891,7 +921,7 @@
 		(instances
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
-					(reference "H1")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -907,7 +937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe650aaa-4fac-4d1d-806d-e924e7e1033b")
-		(property "Reference" "H4"
+		(property "Reference" "H3"
 			(at 105.156 191.7699 0)
 			(effects
 				(font
@@ -955,7 +985,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec"
-					(reference "H4")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -1196,8 +1226,8 @@
 		)
 	)
 	(sheet
-		(at 230.378 49.53)
-		(size 28.448 19.05)
+		(at 230.378 45.974)
+		(size 28.448 22.606)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1208,7 +1238,7 @@
 		)
 		(uuid "c1bdabe1-a4b5-470d-80f8-90d5658c2a45")
 		(property "Sheetname" "USB-C"
-			(at 230.378 48.1834 0)
+			(at 230.378 44.6274 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -1226,7 +1256,7 @@
 			)
 		)
 		(pin "MCU_USB_DETECT" output
-			(at 230.378 59.944 180)
+			(at 230.378 55.118 180)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -1237,7 +1267,7 @@
 			(uuid "5f502688-87f6-4055-99b9-a146ee7d4666")
 		)
 		(pin "SDA" bidirectional
-			(at 230.378 53.086 180)
+			(at 230.378 48.768 180)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -1248,7 +1278,7 @@
 			(uuid "0d76dbbf-1457-4e8a-a467-a4520c101817")
 		)
 		(pin "SCL" bidirectional
-			(at 230.378 55.88 180)
+			(at 230.378 51.562 180)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -1267,6 +1297,16 @@
 				(justify left)
 			)
 			(uuid "8aa31c28-3f27-4f85-8878-da3d52615502")
+		)
+		(pin "USB_C_Interrupt" output
+			(at 230.378 60.452 180)
+			(effects
+				(font
+					(size 1.905 1.905)
+				)
+				(justify left)
+			)
+			(uuid "f77b311e-9a67-49d2-9065-b7cdd4fd8fb2")
 		)
 		(instances
 			(project "Robot_BMS"
@@ -1445,7 +1485,7 @@
 			(uuid "bc7acbb5-aceb-4e93-b425-de29aae97b3e")
 		)
 		(pin "MCU_CHARGE_EN" output
-			(at 172.974 108.204 0)
+			(at 172.974 109.728 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -1455,7 +1495,7 @@
 			(uuid "06598101-ec0f-4d07-8003-b824c884d6e9")
 		)
 		(pin "MCU_USB_DETECT" output
-			(at 172.974 104.648 0)
+			(at 172.974 102.362 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -1513,6 +1553,16 @@
 				(justify left)
 			)
 			(uuid "02df2951-49cd-4e23-9622-eee62844b257")
+		)
+		(pin "USB_C_Interrupt" output
+			(at 172.974 106.172 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+				)
+				(justify right)
+			)
+			(uuid "5522b74b-3733-475e-a06a-c147116b5644")
 		)
 		(instances
 			(project "Robot_BMS"

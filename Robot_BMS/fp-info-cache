@@ -1,4 +1,4 @@
-24712231292385183
+24724431061461010
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90902,6 +90902,13 @@ RobotBMS
 2
 2
 RobotBMS
+39-30-Y040
+39-30-Y040
+Connector
+0
+4
+4
+RobotBMS
 632723300011
 632723300011
 Connector
@@ -90915,6 +90922,13 @@ BH-18650-PC
 0
 2
 2
+RobotBMS
+BAT_BK-18650-CLIP
+
+
+0
+3
+3
 RobotBMS
 BSC120N03LSG
 PG-TDSON-8-5
@@ -91021,6 +91035,13 @@ Inductor
 4
 4
 RobotBMS
+ERA3AEB101V
+ERA3A
+Resistor
+0
+2
+2
+RobotBMS
 ETQP5M220YSC
 ETQP5MxxxYSC
 Inductor
@@ -91041,6 +91062,13 @@ GCT_DCJ200-10-A-XX-K_REVA
 0
 3
 3
+RobotBMS
+JST_S6B-PH-K-S_LF__SN_
+
+
+0
+6
+6
 RobotBMS
 KTEELP4112S2U1252X4X5R18
 0603 (1608 metric)_2024-5
@@ -91091,6 +91119,13 @@ Integrated Circuit
 33
 33
 RobotBMS
+QFN50P400X400X80-25N-D
+W-QFN4040-24
+Integrated Circuit
+0
+25
+25
+RobotBMS
 QFN50P400X400X100-25N-D
 QFN-24 EP (4x4)
 Integrated Circuit
@@ -91115,6 +91150,13 @@ RobotBMS
 RESC1608X55N
 
 
+0
+2
+2
+RobotBMS
+RESC1608X60N
+D1J
+Resistor
 0
 2
 2
@@ -91171,6 +91213,13 @@ RobotBMS
 THERMISTORS_100E3103HB0_VIS
 
 NTCLE100E3103HB0 
+0
+2
+2
+RobotBMS
+THRMC0603X33N
+NCP03XH103F05RL
+Thermistor
 0
 2
 2

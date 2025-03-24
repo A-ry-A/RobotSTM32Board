@@ -922,7 +922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bd5298d-f574-4d25-b44b-c0f23737551e")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR037"
 			(at 164.592 136.652 0)
 			(effects
 				(font
@@ -972,7 +972,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/7a60a594-7330-4ecb-a3c9-8c0f96aa21b4"
-					(reference "#PWR040")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -989,7 +989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "922b428a-f54f-4e17-9328-d6f46a6f810e")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR036"
 			(at 134.62 115.316 0)
 			(effects
 				(font
@@ -1039,7 +1039,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/7a60a594-7330-4ecb-a3c9-8c0f96aa21b4"
-					(reference "#PWR029")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -1054,7 +1054,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9423102c-cc50-4247-a514-3cd81acca988")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 144.78 93.472 0)
 			(effects
 				(font
@@ -1170,7 +1170,7 @@
 		(instances
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/7a60a594-7330-4ecb-a3c9-8c0f96aa21b4"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -1186,7 +1186,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca4153af-c1d0-4f18-ab6e-a60f66ef41b6")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 162.306 109.7279 90)
 			(effects
 				(font
@@ -1258,7 +1258,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/7a60a594-7330-4ecb-a3c9-8c0f96aa21b4"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -1274,7 +1274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da49ff6a-d5ce-4adc-b68e-3fc8c8d156f5")
-		(property "Reference" "R27"
+		(property "Reference" "R26"
 			(at 166.624 121.4119 90)
 			(effects
 				(font
@@ -1348,7 +1348,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/7a60a594-7330-4ecb-a3c9-8c0f96aa21b4"
-					(reference "R27")
+					(reference "R26")
 					(unit 1)
 				)
 			)

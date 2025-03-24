@@ -1,4 +1,4 @@
-24710488614913143
+24712231292385183
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91024,6 +91024,13 @@ RobotBMS
 ETQP5M220YSC
 ETQP5MxxxYSC
 Inductor
+0
+2
+2
+RobotBMS
+FUSE_MF-LSMF185&slash_33X_BRN
+
+MF-LSMF500/16X-2 
 0
 2
 2

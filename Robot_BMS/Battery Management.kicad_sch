@@ -4201,12 +4201,209 @@
 				)
 			)
 		)
-	)
-	(junction
-		(at 192.278 52.578)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12b5f68b-428a-4570-bf18-e175eaeee6aa")
+		(symbol "ul_MF-LSMF500-16X-2:MF-LSMF500_16X-2"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 5.08 3.175 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "MF-LSMF500/16X-2"
+				(at 5.08 -3.175 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "FUSE_MF-LSMF185/33X_BRN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "MF-LSMF500/16X-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "MF-LSMF500/16X-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "FUSE_MF-LSMF185/33X_BRN FUSE_MF-LSMF185/33X_BRN-M FUSE_MF-LSMF185/33X_BRN-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MF-LSMF500_16X-2_1_1"
+				(arc
+					(start 5.08 0)
+					(mid 3.81 1.2645)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 6.35 -1.2645)
+					(end 7.62 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MF-LSMF500_16X-2_1_2"
+				(arc
+					(start 0 5.08)
+					(mid -1.2645 3.81)
+					(end 0 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.08)
+					(mid 1.2645 6.35)
+					(end 0 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 115.316 177.038)
@@ -4357,6 +4554,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1bb5cb5-8d82-4173-a493-4695a8c0585c")
+	)
+	(junction
+		(at 192.278 52.324)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3337a9b-488a-4139-9b81-63224411cb03")
 	)
 	(junction
 		(at 42.418 110.998)
@@ -4807,7 +5010,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.182 52.578) (xy 192.278 52.578)
+			(xy 186.182 52.324) (xy 192.278 52.324)
 		)
 		(stroke
 			(width 0)
@@ -4844,6 +5047,16 @@
 			(type default)
 		)
 		(uuid "470abd8d-6fa0-4322-81b9-c99006cd054b")
+	)
+	(wire
+		(pts
+			(xy 219.202 52.324) (xy 229.87 52.324)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c383e92-cdaf-4d14-bb6e-1b945a60204e")
 	)
 	(wire
 		(pts
@@ -5199,6 +5412,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.042 52.324) (xy 192.278 52.324)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "884d06f5-53d8-4576-91f3-a7b50db6f0d1")
+	)
+	(wire
+		(pts
 			(xy 112.522 72.136) (xy 117.348 72.136)
 		)
 		(stroke
@@ -5349,7 +5572,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.182 48.514) (xy 186.182 52.578)
+			(xy 186.182 48.514) (xy 186.182 52.324)
 		)
 		(stroke
 			(width 0)
@@ -5486,6 +5709,16 @@
 			(type default)
 		)
 		(uuid "bc57a7cc-4697-41ef-ac5b-788c6edc7d5d")
+	)
+	(wire
+		(pts
+			(xy 192.278 52.324) (xy 192.278 52.578)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf07c450-e308-4bae-a3ad-acc34c3794be")
 	)
 	(wire
 		(pts
@@ -5668,16 +5901,6 @@
 			(type default)
 		)
 		(uuid "d90c1f9c-a0a5-4aa2-a973-a71957c68148")
-	)
-	(wire
-		(pts
-			(xy 192.278 52.578) (xy 207.01 52.578)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbc7c7ba-54f8-4885-a8c8-55d8b22e408f")
 	)
 	(wire
 		(pts
@@ -5964,6 +6187,16 @@
 		)
 		(uuid "84b948b5-2583-456d-af63-93dcdd20830f")
 	)
+	(text "10A Resettable fuse\n\n"
+		(exclude_from_sim no)
+		(at 213.868 56.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e1313055-6a32-40f5-a294-aa1d7e92d57a")
+	)
 	(hierarchical_label "GND"
 		(shape output)
 		(at 184.912 151.384 180)
@@ -5999,7 +6232,7 @@
 	)
 	(hierarchical_label "TO_LOAD"
 		(shape output)
-		(at 207.01 52.578 0)
+		(at 229.87 52.324 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6129,6 +6362,76 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ul_MF-LSMF500-16X-2:MF-LSMF500_16X-2")
+		(at 209.042 52.324 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00332ad2-745b-4363-afc8-9763a90925f6")
+		(property "Reference" "F1"
+			(at 214.122 45.974 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MF-LSMF500/16X-2"
+			(at 214.122 48.514 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "RobotBMS:FUSE_MF-LSMF185&slash_33X_BRN"
+			(at 209.042 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MF-LSMF500/16X-2"
+			(at 209.042 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.042 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "254537c3-fa25-4257-a9b4-851173010f2d")
+		)
+		(pin "2"
+			(uuid "5c56d012-71b9-456c-94d2-f90f346edcaa")
+		)
+		(instances
+			(project ""
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
+					(reference "F1")
 					(unit 1)
 				)
 			)

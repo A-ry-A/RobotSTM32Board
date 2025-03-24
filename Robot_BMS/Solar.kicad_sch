@@ -3105,6 +3105,150 @@
 				)
 			)
 		)
+		(symbol "Diode:1N47xxA"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N47xxA"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1300mW Silicon planar power Zener diodes, DO-41"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N47xxA_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N47xxA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ERJPA3F20R0V:ERJPA3F20R0V"
 			(pin_names
 				(offset 1.016)
@@ -3419,6 +3563,329 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESR03EZPF1003:ESR03EZPF1003"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 5.715 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "ESR03EZPF1003"
+				(at 6.35 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "RES_R0603_ROM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "ESR03EZPF1003"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ESR03EZPF1003"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RES_R0603_ROM RES_R0603_ROM-M RES_R0603_ROM-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESR03EZPF1003_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.175 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.27) (xy 4.445 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.27) (xy 5.715 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 1.27) (xy 6.985 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -1.27) (xy 8.255 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 1.27) (xy 9.525 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -1.27) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESR03EZPF1003_1_2"
+				(polyline
+					(pts
+						(xy -1.27 3.175) (xy 1.27 4.445)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.715) (xy 1.27 6.985)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 8.255) (xy 1.27 9.525)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.27 3.175)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 4.445) (xy -1.27 5.715)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.985) (xy -1.27 8.255)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 9.525) (xy 0 10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -4678,6 +5145,12 @@
 		(uuid "03e74afa-7b00-4a23-9658-ddd344136b0f")
 	)
 	(junction
+		(at 51.054 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "063af98e-3e37-4254-8d28-9cdaf95c2b8d")
+	)
+	(junction
 		(at 189.992 108.458)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4714,12 +5187,6 @@
 		(uuid "5287aad5-90d7-425a-b74e-5ed360d1d7be")
 	)
 	(junction
-		(at 44.45 64.008)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5743956c-eab5-477f-b354-4c2863836200")
-	)
-	(junction
 		(at 60.452 99.822)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4742,6 +5209,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a19182a9-1682-4b46-933e-2f3ae9087460")
+	)
+	(junction
+		(at 51.054 64.008)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a234dede-9082-4435-9567-1a366b24bfe0")
 	)
 	(junction
 		(at 187.452 67.818)
@@ -4786,12 +5259,6 @@
 		(uuid "e666dcab-f71c-476a-b2bf-0b66ad1e1556")
 	)
 	(junction
-		(at 44.45 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7c19570-4dfa-4285-a77c-1f85036ef54a")
-	)
-	(junction
 		(at 60.452 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4822,6 +5289,16 @@
 			(type default)
 		)
 		(uuid "0acd918f-bc06-4543-ae06-890174946229")
+	)
+	(wire
+		(pts
+			(xy 51.054 64.008) (xy 60.452 64.008)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec21961-e97d-42b1-8ce6-f481946ca2e7")
 	)
 	(wire
 		(pts
@@ -4905,7 +5382,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 64.008) (xy 30.734 64.008)
+			(xy 30.734 64.008) (xy 51.054 64.008)
 		)
 		(stroke
 			(width 0)
@@ -4925,7 +5402,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.734 110.49) (xy 44.45 110.49)
+			(xy 30.734 110.49) (xy 51.054 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4985,7 +5462,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 64.008) (xy 44.45 77.47)
+			(xy 51.054 64.008) (xy 51.054 77.724)
 		)
 		(stroke
 			(width 0)
@@ -5215,13 +5692,13 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 64.008) (xy 60.452 64.008)
+			(xy 49.276 148.336) (xy 49.276 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76def379-c3f5-4f7d-a93b-bf0ee6b05f1b")
+		(uuid "725c57d3-7b15-4fef-bb31-5049e8d7d351")
 	)
 	(wire
 		(pts
@@ -5345,6 +5822,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.276 140.716) (xy 28.956 140.716)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e6d35e4-78c7-44c6-afa0-b8d41aa3f972")
+	)
+	(wire
+		(pts
 			(xy 121.158 76.2) (xy 125.984 76.2)
 		)
 		(stroke
@@ -5385,7 +5872,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 85.09) (xy 44.45 110.49)
+			(xy 51.054 85.344) (xy 51.054 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5492,6 +5979,16 @@
 			(type default)
 		)
 		(uuid "bb57f8dc-2519-4f3f-a08b-427f00f5cf7d")
+	)
+	(wire
+		(pts
+			(xy 49.276 162.56) (xy 49.276 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c72e8f-7219-4b65-be10-8854310eac23")
 	)
 	(wire
 		(pts
@@ -5615,16 +6112,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 110.49) (xy 60.452 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e344f9ea-6f1d-4ad6-826e-24651bf010cf")
-	)
-	(wire
-		(pts
 			(xy 226.568 74.676) (xy 226.568 75.438)
 		)
 		(stroke
@@ -5632,6 +6119,16 @@
 			(type default)
 		)
 		(uuid "e5aeba7b-678b-4755-9665-f92d5cd6f357")
+	)
+	(wire
+		(pts
+			(xy 51.054 110.49) (xy 60.452 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7c1e93b-86f4-46c4-811a-be0f699f362e")
 	)
 	(wire
 		(pts
@@ -5713,6 +6210,16 @@
 		)
 		(uuid "276359d7-fcae-4c1a-a90a-72c56834abf2")
 	)
+	(text "OverVoltage\nprotection\nDC > Vz(27V)\n"
+		(exclude_from_sim no)
+		(at 37.338 150.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "296a594f-7c13-48f3-917c-f4ed44001882")
+	)
 	(text "Common Solar panels can produce anything\nfrom 28V to 4V. We want to feed a 15V output \nto our Li Ion chargers.\nUses a sepic dc/dc converter"
 		(exclude_from_sim no)
 		(at 237.49 23.114 0)
@@ -5783,6 +6290,16 @@
 			(justify left bottom)
 		)
 		(uuid "9a82d504-1a7c-427e-9dca-6eb4b83fd489")
+	)
+	(label "SOLAR_VIN"
+		(at 28.956 140.716 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e52987c-bdb7-4c3b-9752-aa71a8c6ff0e")
 	)
 	(label "Isense"
 		(at 94.234 117.094 0)
@@ -6017,6 +6534,96 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESR03EZPF1003:ESR03EZPF1003")
+		(at 49.276 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bfc8c72-3bd9-4976-a9f3-250f3cdc6e3e")
+		(property "Reference" "R28"
+			(at 51.308 154.9399 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 51.308 157.4799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RobotBMS:RES_R0603_ROM"
+			(at 49.276 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.co.uk/en/products/detail/rohm-semiconductor/ESR03EZPF1003/1983430"
+			(at 49.276 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100K OHM 1% 1/4W 0603"
+			(at 49.276 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.12"
+			(at 49.276 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESR03EZPF1003"
+			(at 49.276 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "616ded38-28a0-4369-a64f-c51f1603bdbc")
+		)
+		(pin "2"
+			(uuid "412dce9c-2fe7-4937-a225-6093eee8f9b2")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -6278,6 +6885,94 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N47xxA")
+		(at 49.276 144.526 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "185c868f-9910-4a61-bc69-47adcbd708ed")
+		(property "Reference" "D4"
+			(at 46.99 143.2559 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4750A"
+			(at 46.99 145.7959 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 53.721 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://uk.farnell.com/multicomp-pro/1n4750a/zener-diode-1w-27v-do-41/dp/2133953"
+			(at 49.276 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1W, 27V  9mA Silicon planar power Zener diodes, DO-41"
+			(at 49.276 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.205"
+			(at 49.276 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4750A"
+			(at 49.276 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3ad25885-2397-462a-b7d5-103458e25209")
+		)
+		(pin "1"
+			(uuid "44ca7c74-520e-4f27-9330-c54f6cc7dcc9")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -6742,7 +7437,7 @@
 	)
 	(symbol
 		(lib_id "ZRB18AR6YA475ME05L:ZRB18AR6YA475ME05L")
-		(at 44.45 82.55 90)
+		(at 51.054 82.804 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6750,7 +7445,7 @@
 		(dnp no)
 		(uuid "4844e50b-a9c9-4f32-b9d2-5b8fb8fab7d2")
 		(property "Reference" "C17"
-			(at 41.402 80.0099 90)
+			(at 48.006 80.2639 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6759,7 +7454,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 41.402 82.5499 90)
+			(at 48.006 82.8039 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6768,7 +7463,7 @@
 			)
 		)
 		(property "Footprint" "RobotBMS:CAPC1608X120N"
-			(at 44.45 82.55 0)
+			(at 51.054 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6778,7 +7473,7 @@
 			)
 		)
 		(property "Datasheet" "https://uk.farnell.com/murata/zrb18ar6ya475me05l/cap-4-7uf-35v-mlcc-0603/dp/2990844"
-			(at 44.45 82.55 0)
+			(at 51.054 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6787,7 +7482,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 4.7 µF, 35 V, 0603 [1608 Metric], ± 20%, X5R"
-			(at 44.45 82.55 0)
+			(at 51.054 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6796,7 +7491,7 @@
 			)
 		)
 		(property "MF" "Murata"
-			(at 44.45 82.55 0)
+			(at 51.054 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6806,7 +7501,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            SMD capacitor X5R(EIA) with capacitance 4.7uF Tol.20%. Rated voltage 35Vdc 85C\n                        \n"
-			(at 44.45 82.55 0)
+			(at 51.054 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6816,7 +7511,7 @@
 			)
 		)
 		(property "Package" "1608 Murata"
-			(at 44.45 82.55 0)
+			(at 51.054 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6826,7 +7521,7 @@
 			)
 		)
 		(property "Price" "0.198"
-			(at 44.45 82.55 0)
+			(at 51.054 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6836,7 +7531,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ZRB18AR6YA475ME05L/Murata/view-part/?ref=snap"
-			(at 44.45 82.55 0)
+			(at 51.054 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6846,7 +7541,7 @@
 			)
 		)
 		(property "MP" "ZRB18AR6YA475ME05L"
-			(at 44.45 82.55 0)
+			(at 51.054 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6856,7 +7551,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 44.45 82.55 0)
+			(at 51.054 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6866,7 +7561,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ZRB18AR6YA475ME05L/Murata/view-part/?ref=eda"
-			(at 44.45 82.55 0)
+			(at 51.054 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6876,7 +7571,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ZRB18AR6YA475ME05L"
-			(at 44.45 82.55 0)
+			(at 51.054 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6960,6 +7655,73 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.276 163.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f325871-2dc1-430a-8798-19211733ade6")
+		(property "Reference" "#PWR041"
+			(at 49.276 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.276 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.276 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.276 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.276 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f345793-dde2-48e6-ac21-1c6ebc149bf6")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/ff8c01d9-7d3c-4161-8f4f-7a8402a9daec"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)

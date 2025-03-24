@@ -282,15 +282,15 @@
 		(remove_unused_layers no)
 		(uuid "034be0b3-92b0-43d0-baeb-11d209884991")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/RobotBMS.3dshapes/694108301002.stp"
+	(model "${KIPRJMOD}/RobotBMS.3dshapes/DCJ200-10-A-XX-K_REVA.step"
 		(offset
-			(xyz -10.19999966 -0.04999999999 5.689999972)
+			(xyz -6.7 -0.05 0.19)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 90)
+			(xyz 90 180 -90)
 		)
 	)
 )

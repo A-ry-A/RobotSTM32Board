@@ -1,4 +1,4 @@
-24724431061461010
+24727916762581520
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90909,6 +90909,13 @@ Connector
 4
 4
 RobotBMS
+18650 Battery
+
+
+0
+0
+0
+RobotBMS
 632723300011
 632723300011
 Connector
@@ -91223,6 +91230,13 @@ Thermistor
 0
 2
 2
+RobotBMS
+velion_logo
+
+
+0
+0
+0
 Rotary_Encoder
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html

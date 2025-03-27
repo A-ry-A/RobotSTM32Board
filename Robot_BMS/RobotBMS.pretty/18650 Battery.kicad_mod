@@ -1,0 +1,173 @@
+(footprint "18650 Battery"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -10 -6.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c28d43e5-e420-4384-9102-29fd0d4e8b3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "18650 Battery"
+		(at 0 8.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "382809e9-924c-46fd-adba-a772eb916596")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95e30640-3b90-4d35-a194-7794c13305e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b54c2144-d656-44ce-95a1-4fa75a66f3bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "205e0464-97fc-4f90-afac-7430636dbadf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -7.5 -2)
+		(end -6.5 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "31307060-6666-4629-b169-ff97862aba44")
+	)
+	(fp_line
+		(start -7.5 1.5)
+		(end -7.5 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ceb8f97a-96ea-4eb6-925c-de1ae24dc991")
+	)
+	(fp_line
+		(start -6.5 -2)
+		(end 7.5 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9629a277-8d06-4f91-bc35-01f108b45a9b")
+	)
+	(fp_line
+		(start -6.5 0)
+		(end -5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fbce3300-dd43-457e-a0f5-544d04707387")
+	)
+	(fp_line
+		(start 4.75 0)
+		(end 6.25 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "907debcb-63f0-4576-9e51-c9f51307d038")
+	)
+	(fp_line
+		(start 5.5 -0.75)
+		(end 5.5 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9835db2b-87b7-4d0e-8e2a-2afbb2195695")
+	)
+	(fp_line
+		(start 7.5 -2)
+		(end 7.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2c4863e7-5d40-4b6c-aa32-35ed9289a524")
+	)
+	(fp_line
+		(start 7.5 1.5)
+		(end -7.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7d350fe4-9554-46a5-857e-c89e711c6dba")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "88bc135c-b083-412a-a32f-8ddc554dc81b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(model "${KIPRJMOD}/RobotBMS.3dshapes/18650-battery-01a-v1.step"
+		(offset
+			(xyz 37.5 1.5 10.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

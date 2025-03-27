@@ -2321,6 +2321,178 @@
 				)
 			)
 		)
+		(symbol "Device:Battery_Cell"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ERJPA3F20R0V:ERJPA3F20R0V"
 			(pin_names
 				(offset 1.016)
@@ -4794,12 +4966,36 @@
 		(uuid "4fc60223-f18e-4c09-b2a8-190229f57f7a")
 	)
 	(no_connect
+		(at 226.06 162.814)
+		(uuid "52373459-aa1a-4d5b-96e1-3a426cd38d09")
+	)
+	(no_connect
+		(at 265.43 155.702)
+		(uuid "52ee7da1-ca33-49d4-9f93-dd77b50571b1")
+	)
+	(no_connect
 		(at 130.048 122.936)
 		(uuid "58977b83-2425-4d06-8af7-2613d0d48e4c")
 	)
 	(no_connect
+		(at 265.43 163.322)
+		(uuid "623d58bd-faac-4289-a918-580a0f056083")
+	)
+	(no_connect
 		(at 127.508 122.936)
 		(uuid "8b09d58f-6b9f-4195-8435-1940c6b82b7b")
+	)
+	(no_connect
+		(at 244.856 162.814)
+		(uuid "c52a0176-3a63-4ec3-a0c6-bbaebed5455b")
+	)
+	(no_connect
+		(at 226.06 155.194)
+		(uuid "d359792f-e453-4a8f-b7b2-af5297746bf6")
+	)
+	(no_connect
+		(at 244.856 155.194)
+		(uuid "e29abf16-8ec1-4784-8b15-ece06eafb29c")
 	)
 	(no_connect
 		(at 145.288 94.996)
@@ -6465,6 +6661,18 @@
 		)
 		(uuid "ff0ec110-cf63-4f03-8a79-be1e9fca0b0f")
 	)
+	(rectangle
+		(start 216.154 145.542)
+		(end 284.226 165.862)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5d3a7ba1-adc7-4f5f-a70b-c7da35126ddd)
+	)
 	(text "Wires highlighted\nto avoid confusion\ndue to crossovers"
 		(exclude_from_sim no)
 		(at 111.506 54.356 0)
@@ -6546,6 +6754,16 @@
 			)
 		)
 		(uuid "84b948b5-2583-456d-af63-93dcdd20830f")
+	)
+	(text "18650 Cells for 3D Model\n"
+		(exclude_from_sim no)
+		(at 247.65 149.606 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "b9deb144-1290-4ddf-aed3-5ec07350a880")
 	)
 	(text "10A Resettable fuse\n\n"
 		(exclude_from_sim no)
@@ -8219,6 +8437,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 226.06 160.274 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "48f31054-9f81-46ac-8499-db3d6da52cfb")
+		(property "Reference" "BT7"
+			(at 229.87 157.1624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18650 Li+"
+			(at 229.87 159.7024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RobotBMS:18650 Battery"
+			(at 226.06 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 226.06 160.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46b78289-157a-402b-bb4e-0228b07fbb9f")
+		)
+		(pin "2"
+			(uuid "a1ffccbc-953b-41c4-a72c-cad913c28401")
+		)
+		(instances
+			(project ""
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
+					(reference "BT7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "BK-18650-CLIP_1")
 		(lib_id "BK-18650-Clip:BK-18650-CLIP")
 		(at 44.704 98.552 270)
@@ -9090,6 +9378,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 265.43 160.782 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "8384f47c-b67e-4636-a6f8-5e465be0a123")
+		(property "Reference" "BT9"
+			(at 269.24 157.6704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18650 Li+"
+			(at 269.24 160.2104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RobotBMS:18650 Battery"
+			(at 265.43 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 265.43 160.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1db3cf9-c8f7-46c2-8ad5-e4428d28a8b3")
+		)
+		(pin "2"
+			(uuid "d6a00b1b-2213-4fc8-b228-91af1662400e")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
+					(reference "BT9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "BK-18650-CLIP_1")
 		(lib_id "BK-18650-Clip:BK-18650-CLIP")
 		(at 39.624 95.758 90)
@@ -9533,6 +9891,76 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 244.856 160.274 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "989bf4a9-3532-48db-b464-7ff32a0e1db6")
+		(property "Reference" "BT8"
+			(at 248.666 157.1624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18650 Li+"
+			(at 248.666 159.7024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RobotBMS:18650 Battery"
+			(at 244.856 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 244.856 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 244.856 160.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd222a4c-68ab-41b1-a40a-8ab52cfcb7ad")
+		)
+		(pin "2"
+			(uuid "cfeddd45-52ff-4863-bf02-5fca32e4bc62")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
+					(reference "BT8")
 					(unit 1)
 				)
 			)

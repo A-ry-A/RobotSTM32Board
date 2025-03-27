@@ -300,4 +300,15 @@
 			(xyz -90 0 -90)
 		)
 	)
+	(model "${KIPRJMOD}/RobotBMS.3dshapes/18650-battery-01a-v1.step"
+		(offset
+			(xyz 4.5 0 10)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
+		)
+	)
 )

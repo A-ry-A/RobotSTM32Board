@@ -1,4 +1,4 @@
-24727916762581520
+24729659837621304
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91076,6 +91076,13 @@ JST_S6B-PH-K-S_LF__SN_
 0
 6
 6
+RobotBMS
+JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical
+JST SH series connector, BM04B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH vertical
+0
+6
+5
 RobotBMS
 KTEELP4112S2U1252X4X5R18
 0603 (1608 metric)_2024-5

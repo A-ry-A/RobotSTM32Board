@@ -5560,6 +5560,12 @@
 		(uuid "3b18fcd3-8a26-4714-bef1-c03b450661ce")
 	)
 	(junction
+		(at 396.24 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fed3125-082a-453c-a7f0-fab02ad6833c")
+	)
+	(junction
 		(at 283.21 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6523,6 +6529,16 @@
 	)
 	(wire
 		(pts
+			(xy 425.45 92.71) (xy 396.24 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3341c664-1f93-4a9b-99db-4fd17b1190dc")
+	)
+	(wire
+		(pts
 			(xy 25.4 21.59) (xy 25.4 25.4)
 		)
 		(stroke
@@ -6553,7 +6569,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 173.99) (xy 407.67 173.99)
+			(xy 381 173.99) (xy 396.24 173.99)
 		)
 		(stroke
 			(width 0)
@@ -8393,6 +8409,16 @@
 	)
 	(wire
 		(pts
+			(xy 396.24 92.71) (xy 396.24 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5b6a451-b2e6-4f0e-8649-52a52f2d32c3")
+	)
+	(wire
+		(pts
 			(xy 162.56 229.87) (xy 195.58 229.87)
 		)
 		(stroke
@@ -8740,6 +8766,16 @@
 			(type default)
 		)
 		(uuid "e12c7184-34e8-486d-8299-26311b745c1b")
+	)
+	(wire
+		(pts
+			(xy 396.24 173.99) (xy 407.67 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1ed2cec-a115-4d17-9acd-c084510c180a")
 	)
 	(wire
 		(pts
@@ -19373,6 +19409,76 @@
 			(project "RobotSTM32Board"
 				(path "/ac0c4a11-3af6-428a-b627-4ab879a3dd88"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 224.79 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2a06be5-a49d-4e51-96c3-ecdceb08f20a")
+		(property "Reference" "J15"
+			(at 226.06 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DCIn"
+			(at 226.06 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
+			(at 224.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 224.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "af8ed125-1531-41d7-bf3d-30f8209778c0")
+		)
+		(pin "1"
+			(uuid "cf1dce3b-6bd6-47b0-a7be-7f174667772d")
+		)
+		(instances
+			(project "RobotSTM32Board"
+				(path "/ac0c4a11-3af6-428a-b627-4ab879a3dd88"
+					(reference "J15")
 					(unit 1)
 				)
 			)

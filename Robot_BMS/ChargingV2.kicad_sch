@@ -2536,6 +2536,18 @@
 		(uuid "116baece-49c8-4873-ae38-5da52119d499")
 	)
 	(junction
+		(at 150.114 70.612)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ec5837a-a0e5-4c29-8b61-1d591efd609b")
+	)
+	(junction
+		(at 172.974 70.612)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47d734fd-61dd-4441-b57f-26d4e4f0f468")
+	)
+	(junction
 		(at 109.22 70.612)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2554,12 +2566,6 @@
 		(uuid "6c9df34a-2fda-4160-8e54-7965f18d4508")
 	)
 	(junction
-		(at 163.576 70.612)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f74c93f-a35b-475c-bcad-c5a099e99eab")
-	)
-	(junction
 		(at 32.766 61.214)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2576,12 +2582,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecc860bb-97f1-4cc8-a525-870673152b12")
-	)
-	(junction
-		(at 150.114 70.612)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f04a2dea-cb52-431d-aba9-ac6cf8f1e514")
 	)
 	(junction
 		(at 72.39 61.214)
@@ -2631,7 +2631,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.576 70.612) (xy 163.576 69.85)
+			(xy 172.974 68.834) (xy 172.974 70.612)
 		)
 		(stroke
 			(width 0)
@@ -2761,6 +2761,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.974 70.612) (xy 172.974 72.898)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65fa7519-a8ef-44e3-ba85-48f733fa46da")
+	)
+	(wire
+		(pts
 			(xy 98.806 73.152) (xy 98.806 90.17)
 		)
 		(stroke
@@ -2818,16 +2828,6 @@
 			(type default)
 		)
 		(uuid "8ee4f478-8fff-4a8c-95f1-355697571474")
-	)
-	(wire
-		(pts
-			(xy 150.114 70.612) (xy 163.576 70.612)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a496520d-e664-4f85-afdf-60ccc5d2fd09")
 	)
 	(wire
 		(pts
@@ -2921,6 +2921,16 @@
 	)
 	(wire
 		(pts
+			(xy 164.338 70.612) (xy 172.974 70.612)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dade2527-bcfc-48ac-8c55-9e4d3dc3059a")
+	)
+	(wire
+		(pts
 			(xy 206.502 82.804) (xy 206.502 96.52)
 		)
 		(stroke
@@ -2928,16 +2938,6 @@
 			(type default)
 		)
 		(uuid "dd2c3c05-ba8b-479e-821a-e92dffb8f130")
-	)
-	(wire
-		(pts
-			(xy 163.576 72.644) (xy 163.576 70.612)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddde3c52-c99d-4007-a556-02a40c95db1e")
 	)
 	(wire
 		(pts
@@ -2961,6 +2961,26 @@
 	)
 	(wire
 		(pts
+			(xy 137.414 70.612) (xy 150.114 70.612)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe44c06-455e-4118-98aa-54947edd6b5a")
+	)
+	(wire
+		(pts
+			(xy 150.114 70.612) (xy 154.178 70.612)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f048df45-4c93-45b2-8fb3-6da376768e2b")
+	)
+	(wire
+		(pts
 			(xy 32.766 61.214) (xy 72.39 61.214)
 		)
 		(stroke
@@ -2978,16 +2998,6 @@
 			(type default)
 		)
 		(uuid "fe378226-177c-49db-817d-7e82f89ae975")
-	)
-	(wire
-		(pts
-			(xy 137.414 70.612) (xy 150.114 70.612)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff280f47-61ef-47df-a54d-f711424362ef")
 	)
 	(text "helpful link"
 		(exclude_from_sim no)
@@ -3882,8 +3892,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Toshiba schottky diode:CMS05TE12L_Q_M")
+		(at 164.338 70.612 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55812e2c-4091-4855-895f-084bca75ccef")
+		(property "Reference" "CR4"
+			(at 159.258 64.008 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "CMS05TE12L_Q_M"
+			(at 159.258 66.548 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "RobotBMS:M-FLAT_TOS"
+			(at 164.338 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.uk/ProductDetail/Toshiba/CMS05TE12LQM?qs=JiHARDETuZDcvazKO1MDNQ%3D%3D&srsltid=AfmBOopWrxi0PKcgDv_hck6b5GzUq4xcRRzPONvEurGhtaMTFZsmDRz3"
+			(at 164.338 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky Diode 0.45V FWD Voltage"
+			(at 164.338 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.80"
+			(at 164.338 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CMS05TE12L_Q_M"
+			(at 164.338 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b635425f-907a-427c-a5b1-a04d97bdc94d")
+		)
+		(pin "1"
+			(uuid "83edeb25-40bc-4fed-a6d9-13db4b562832")
+		)
+		(instances
+			(project "Robot_BMS"
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
+					(reference "CR4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-BATT")
-		(at 163.576 69.85 0)
+		(at 172.974 68.834 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3892,7 +3990,7 @@
 		(fields_autoplaced yes)
 		(uuid "60fefef8-5173-4335-94ef-3847ba59ef7e")
 		(property "Reference" "#PWR07"
-			(at 163.576 73.66 0)
+			(at 172.974 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,7 +3999,7 @@
 			)
 		)
 		(property "Value" "BATT+"
-			(at 163.576 64.77 0)
+			(at 172.974 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,7 +4007,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.576 69.85 0)
+			(at 172.974 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,7 +4016,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.576 69.85 0)
+			(at 172.974 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,7 +4025,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 163.576 69.85 0)
+			(at 172.974 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4505,7 +4603,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 163.576 72.644 180)
+		(at 172.974 72.898 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4513,7 +4611,7 @@
 		(dnp no)
 		(uuid "dd2718ea-8e08-48d1-8af0-8a813bffa575")
 		(property "Reference" "#FLG04"
-			(at 163.576 74.549 0)
+			(at 172.974 74.803 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4522,7 +4620,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 163.576 77.724 0)
+			(at 172.974 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,7 +4628,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.576 72.644 0)
+			(at 172.974 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4539,7 +4637,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.576 72.644 0)
+			(at 172.974 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4548,7 +4646,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 163.576 72.644 0)
+			(at 172.974 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)

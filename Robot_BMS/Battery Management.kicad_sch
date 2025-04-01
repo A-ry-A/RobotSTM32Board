@@ -6485,6 +6485,16 @@
 		)
 		(uuid "120b3456-31d2-4c62-b9ee-96804b70d6e9")
 	)
+	(text "Reverse polarity \nprotection"
+		(exclude_from_sim no)
+		(at 159.766 23.114 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "274ce988-63a6-47f0-8421-361253596d9f")
+	)
 	(text "Technical Manual"
 		(exclude_from_sim no)
 		(at 57.15 189.992 0)

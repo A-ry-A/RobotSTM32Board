@@ -9,4 +9,5 @@
   (lib (name "TPS564252DRLR")(type "KiCad")(uri "${KIPRJMOD}/TPS564252DRLR")(options "")(descr ""))
   (lib (name "TPS51386RJNR")(type "KiCad")(uri "${KIPRJMOD}/TPS51386RJNR")(options "")(descr ""))
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/LM27403SQ_NOPB/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "ASPI-6045S-2R7N-T")(type "KiCad")(uri "${KIPRJMOD}/ASPI-6045S-2R7N-T")(options "")(descr ""))
 )

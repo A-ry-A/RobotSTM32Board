@@ -5080,16 +5080,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.912 151.384) (xy 191.008 151.384)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3143618b-b864-4898-8c4c-49f5b1ccef43")
-	)
-	(wire
-		(pts
 			(xy 44.958 148.59) (xy 84.328 148.59)
 		)
 		(stroke
@@ -5157,16 +5147,6 @@
 			(type default)
 		)
 		(uuid "3c20eef5-395a-4f9e-aab6-68633e5c1313")
-	)
-	(wire
-		(pts
-			(xy 191.008 151.384) (xy 191.008 154.432)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "426995ea-5e5e-420d-a4e5-8cc1d37498db")
 	)
 	(wire
 		(pts
@@ -6587,16 +6567,16 @@
 		)
 		(uuid "cfa7b539-0790-4bda-9f5d-0d0682eaa3f7")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "TO_LOAD_GND"
 		(shape output)
-		(at 184.912 151.384 180)
+		(at 134.62 177.038 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "0d418a58-34ed-4654-9fd3-539c74cdd724")
+		(uuid "3015adb6-7cbe-4b4b-9d5f-567848de1661")
 	)
 	(hierarchical_label "MCU_DISCHRG_CTRL"
 		(shape input)
@@ -6739,6 +6719,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 165.354 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 165.354 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e8c68192-985b-45c3-b137-a6aebfb6e1db")
 		)
@@ -6804,6 +6802,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 209.042 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Part Number" ""
+			(at 209.042 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
 			(at 209.042 52.324 0)
 			(effects
 				(font
@@ -6901,6 +6917,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 52.832 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 52.832 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "58217f6e-e896-449c-a346-94cb3cda2d42")
 		)
@@ -6926,7 +6960,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0eca7db8-9f5c-41ec-be43-99e7f0d471d7")
-		(property "Reference" "R21"
+		(property "Reference" "R22"
 			(at 127.254 164.3379 90)
 			(effects
 				(font
@@ -7101,6 +7135,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 130.556 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 130.556 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0db40f20-4fcd-49d9-8159-f8cc89b1b6fe")
 		)
@@ -7110,7 +7162,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "R21")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -7222,6 +7274,24 @@
 			)
 		)
 		(property "Price" "3.08"
+			(at 109.728 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Part Number" ""
+			(at 109.728 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
 			(at 109.728 87.376 0)
 			(effects
 				(font
@@ -7348,7 +7418,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c82a14c-161e-4d9b-aa9a-438ee7ec3489")
-		(property "Reference" "R24"
+		(property "Reference" "R25"
 			(at 164.592 67.3099 90)
 			(effects
 				(font
@@ -7523,6 +7593,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 167.894 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 167.894 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "27fbf8e7-6091-43d7-958a-d39fe0d638c5")
 		)
@@ -7532,7 +7620,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "R24")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -7548,7 +7636,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ec7eda3-8c7b-42b8-8141-24b402aedff2")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 40.894 83.566 0)
 			(effects
 				(font
@@ -7598,7 +7686,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7739,6 +7827,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 186.182 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 186.182 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "6a95f7f8-a9bc-4b99-9e65-1bed05ce0dac")
 		)
@@ -7782,7 +7888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24591b1b-3f59-4c72-8497-ec440ef33e15")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 77.47 76.962 0)
 			(effects
 				(font
@@ -7955,6 +8061,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 77.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 77.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f84a5d26-fbca-4762-9c43-e1f527356889")
 		)
@@ -7964,7 +8088,7 @@
 		(instances
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -8036,6 +8160,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACAUTO"
+			(at 94.488 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Part Number" ""
+			(at 94.488 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
 			(at 94.488 84.582 0)
 			(effects
 				(font
@@ -8195,6 +8337,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 126.746 48.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 126.746 48.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "f098be30-9f27-4b4e-9cb6-f6211d732a50")
 		)
@@ -8266,7 +8426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.co.uk/en/products/detail/mpd-memory-protection-devices/BK-18650-CLIP/22097175"
 			(at 44.704 98.552 0)
 			(effects
 				(font
@@ -8275,7 +8435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "18650 holder"
 			(at 44.704 98.552 0)
 			(effects
 				(font
@@ -8324,6 +8484,33 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 44.704 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 44.704 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BK-18650-CLIP"
+			(at 44.704 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1_3"
 			(uuid "c95c3bb3-b56e-4974-a87a-a26f22f82f41")
 		)
@@ -8352,7 +8539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e1539fb-5c01-4d9e-b99c-850ae55d07a6")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 76.2 87.122 0)
 			(effects
 				(font
@@ -8525,6 +8712,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f66423ff-f673-4800-8ef4-24e0b59e0897")
 		)
@@ -8534,7 +8739,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -8578,7 +8783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.co.uk/en/products/detail/mpd-memory-protection-devices/BK-18650-CLIP/22097175"
 			(at 39.878 115.824 0)
 			(effects
 				(font
@@ -8587,7 +8792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "18650 holder"
 			(at 39.878 115.824 0)
 			(effects
 				(font
@@ -8636,6 +8841,33 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 39.878 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 39.878 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BK-18650-CLIP"
+			(at 39.878 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1_3"
 			(uuid "38118ff8-482b-447d-b1a1-e770f07f73e9")
 		)
@@ -8664,7 +8896,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6000957f-7d79-423c-809f-d54862577d80")
-		(property "Reference" "R20"
+		(property "Reference" "R21"
 			(at 123.698 180.086 0)
 			(effects
 				(font
@@ -8727,6 +8959,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 116.84 177.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 116.84 177.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "48ab49a7-f143-4beb-bae4-f0a0795e7fde")
 		)
@@ -8736,7 +8986,7 @@
 		(instances
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "R20")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -8816,6 +9066,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 84.582 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 84.582 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3bac9b62-82e2-4327-8a21-2f8b5ea9f8f2")
 		)
@@ -8869,7 +9137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.co.uk/en/products/detail/mpd-memory-protection-devices/BK-18650-CLIP/22097175"
 			(at 44.704 118.11 0)
 			(effects
 				(font
@@ -8878,7 +9146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "18650 holder"
 			(at 44.704 118.11 0)
 			(effects
 				(font
@@ -8927,6 +9195,33 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 44.704 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 44.704 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BK-18650-CLIP"
+			(at 44.704 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1_3"
 			(uuid "79d8c41e-f197-4c5a-b61e-5c13a5c46e91")
 		)
@@ -8955,7 +9250,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72a1e90f-474e-4b7c-aa36-82fa49daffc8")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR035"
 			(at 139.192 166.37 0)
 			(effects
 				(font
@@ -9005,7 +9300,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "#PWR033")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9084,6 +9379,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 110.998 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 110.998 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02254406-7264-4614-9229-510ee2308f05")
 		)
@@ -9137,7 +9450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.co.uk/en/products/detail/mpd-memory-protection-devices/BK-18650-CLIP/22097175"
 			(at 39.624 95.758 0)
 			(effects
 				(font
@@ -9146,7 +9459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "18650 holder"
 			(at 39.624 95.758 0)
 			(effects
 				(font
@@ -9192,6 +9505,33 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Part Number" ""
+			(at 39.624 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 39.624 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BK-18650-CLIP"
+			(at 39.624 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9251,7 +9591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.co.uk/en/products/detail/mpd-memory-protection-devices/BK-18650-CLIP/22097175"
 			(at 44.958 140.97 0)
 			(effects
 				(font
@@ -9260,7 +9600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "18650 holder"
 			(at 44.958 140.97 0)
 			(effects
 				(font
@@ -9309,6 +9649,33 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 44.958 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 44.958 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BK-18650-CLIP"
+			(at 44.958 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1_3"
 			(uuid "c397dcbf-ec6e-4ed9-a1a7-a297f6114526")
 		)
@@ -9337,7 +9704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91e94f6f-d69d-46ea-818d-062287ea41a4")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR036"
 			(at 145.796 127.762 0)
 			(effects
 				(font
@@ -9387,7 +9754,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "#PWR034")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -9403,7 +9770,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97095517-3344-472e-bc49-c4bf61fb29a7")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR031"
 			(at 42.418 161.036 0)
 			(effects
 				(font
@@ -9453,7 +9820,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "#PWR029")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9525,6 +9892,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACAUTO"
+			(at 119.888 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Part Number" ""
+			(at 119.888 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
 			(at 119.888 153.67 0)
 			(effects
 				(font
@@ -9622,6 +10007,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 139.192 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 139.192 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56f19469-d7e7-41c2-bc83-c28f9db9ddc7")
 		)
@@ -9711,6 +10114,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 94.488 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 94.488 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cfde726a-beef-45ad-b39f-75250873af77")
 		)
@@ -9736,7 +10157,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af265eef-c974-41d3-8b84-4ae993508dd3")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 110.236 128.7779 90)
 			(effects
 				(font
@@ -9911,6 +10332,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 114.046 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 114.046 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5a7a96f0-ce16-470d-a712-44047d63f89c")
 		)
@@ -9920,7 +10359,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -10071,6 +10510,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 40.894 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 40.894 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18a5c8e2-d5bc-4efa-85f0-6b0324b399e8")
 		)
@@ -10097,7 +10554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b78fe1b5-c088-4a7c-aa97-0fec94f4415d")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR033"
 			(at 112.522 82.042 0)
 			(effects
 				(font
@@ -10147,7 +10604,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "#PWR031")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10163,7 +10620,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bec39211-b05b-49d2-8bd9-a0f47393f225")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR037"
 			(at 175.768 108.204 0)
 			(effects
 				(font
@@ -10213,7 +10670,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "#PWR035")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -10229,7 +10686,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0fecbe0-942f-44ba-a0eb-7b571607bdf1")
-		(property "Reference" "R22"
+		(property "Reference" "R23"
 			(at 145.288 126.746 90)
 			(effects
 				(font
@@ -10292,6 +10749,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 140.716 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 140.716 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b4dc367-70c9-4a8a-9a20-2382c9ad8cdb")
 		)
@@ -10301,7 +10776,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -10317,7 +10792,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8551b1e-6649-4915-b7c4-126412863389")
-		(property "Reference" "R19"
+		(property "Reference" "R20"
 			(at 112.014 163.8299 90)
 			(effects
 				(font
@@ -10492,6 +10967,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 115.316 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 115.316 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2e224bc6-37f4-46d5-9eaf-e2c8f5e1c556")
 		)
@@ -10501,7 +10994,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "R19")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -10517,7 +11010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9787bc2-b0a2-4c30-9915-c7121ef5a8f6")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR028"
 			(at 40.894 66.548 0)
 			(effects
 				(font
@@ -10567,73 +11060,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 191.008 154.432 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d2cb57c6-1a3e-4443-9635-15fff63526a4")
-		(property "Reference" "#PWR036"
-			(at 191.008 160.782 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.818 156.464 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.008 154.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.008 154.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.008 154.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46554683-ef20-4ea1-bf6f-f8d36fa70b46")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "#PWR036")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -10649,7 +11076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7652521-dc46-4dbb-bfae-093cd848ca3c")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 68.834 116.84 0)
 			(effects
 				(font
@@ -10822,6 +11249,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 68.834 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 68.834 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3935a5de-28b9-4a38-a724-993d45ea48e4")
 		)
@@ -10831,73 +11276,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 134.62 177.038 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "db1e4476-6969-4af6-8312-a3e691ab8362")
-		(property "Reference" "#PWR032"
-			(at 134.62 183.388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.43 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 177.038 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 177.038 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 177.038 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ffb2aef-7352-49b2-bf8b-12d2ef2c7678")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "#PWR032")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -10913,7 +11292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dbde3719-b2a7-4e80-b282-bf922f1108b4")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR032"
 			(at 52.832 83.82 0)
 			(effects
 				(font
@@ -10963,7 +11342,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -10979,7 +11358,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e13443d3-b261-4fdc-abc8-0ec6968f760d")
-		(property "Reference" "R25"
+		(property "Reference" "R26"
 			(at 206.248 62.23 90)
 			(effects
 				(font
@@ -11042,6 +11421,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 201.676 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 201.676 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1340a6f6-bd5d-4d89-a3be-1ac52e4b87d4")
 		)
@@ -11051,7 +11448,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "R25")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -11067,7 +11464,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5764ef2-c9ec-4e89-a910-094976b63a2f")
-		(property "Reference" "R23"
+		(property "Reference" "R24"
 			(at 147.32 64.008 0)
 			(effects
 				(font
@@ -11130,6 +11527,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 141.224 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 141.224 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2cfca6bc-ede1-4aba-945b-8ee0263c882b")
 		)
@@ -11139,7 +11554,7 @@
 		(instances
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "R23")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -11154,7 +11569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0d1688b-2136-4842-8b81-f9ec5fc7bdb7")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR030"
 			(at 42.164 90.17 0)
 			(effects
 				(font
@@ -11204,7 +11619,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "#PWR028")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -11355,6 +11770,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 122.428 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 122.428 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1d999455-a371-46ad-b7c8-8fbe170f576c")
 		)
@@ -11445,6 +11878,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 175.768 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 175.768 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "885e02f5-b2b7-42c8-8b12-dd27eb3c5a9d")
 		)
@@ -11470,7 +11921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa4b6a73-59d2-4dfd-a2f5-989e21895e28")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 69.596 104.14 0)
 			(effects
 				(font
@@ -11643,6 +12094,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 69.596 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 69.596 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e98dfd7a-5122-4865-b5d0-765d57a4aa6a")
 		)
@@ -11652,7 +12121,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/26a1c9c5-a214-45fb-a345-5a76cfe84f03"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -11696,7 +12165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.co.uk/en/products/detail/mpd-memory-protection-devices/BK-18650-CLIP/22097175"
 			(at 39.878 138.43 0)
 			(effects
 				(font
@@ -11705,7 +12174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "18650 holder"
 			(at 39.878 138.43 0)
 			(effects
 				(font
@@ -11751,6 +12220,33 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Part Number" ""
+			(at 39.878 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 39.878 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BK-18650-CLIP"
+			(at 39.878 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

@@ -2228,114 +2228,6 @@
 				)
 			)
 		)
-		(symbol "power:-BATT"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "-BATT"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"-BATT\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "-BATT_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "-BATT_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2542,12 +2434,6 @@
 		(uuid "3ec5837a-a0e5-4c29-8b61-1d591efd609b")
 	)
 	(junction
-		(at 172.974 70.612)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47d734fd-61dd-4441-b57f-26d4e4f0f468")
-	)
-	(junction
 		(at 109.22 70.612)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2628,16 +2514,6 @@
 			(type default)
 		)
 		(uuid "08809628-7f79-4715-81fd-a9d3b53a8c47")
-	)
-	(wire
-		(pts
-			(xy 172.974 68.834) (xy 172.974 70.612)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c9f78e0-c743-4760-8510-cb76f0a8cf99")
 	)
 	(wire
 		(pts
@@ -2758,16 +2634,6 @@
 			(type default)
 		)
 		(uuid "61b363b3-1c4d-4e52-8702-c4504f187942")
-	)
-	(wire
-		(pts
-			(xy 172.974 70.612) (xy 172.974 72.898)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65fa7519-a8ef-44e3-ba85-48f733fa46da")
 	)
 	(wire
 		(pts
@@ -3080,6 +2946,17 @@
 		)
 		(uuid "d2dd0abb-f983-4a64-987b-20a4e13e40cf")
 	)
+	(hierarchical_label "TO_LOAD"
+		(shape output)
+		(at 172.974 70.612 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e7ec2db-796f-4fa2-ace9-0d0fb69936ab")
+	)
 	(hierarchical_label "SOLAR_15V_OUT"
 		(shape output)
 		(at 238.252 108.204 0)
@@ -3196,6 +3073,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 88.646 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 88.646 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "6f900e24-3785-4cf0-a4b1-f41f239596f7")
 		)
@@ -3298,7 +3193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c369aac-2cf1-4fed-b062-a61748d9cd00")
-		(property "Reference" "CR2"
+		(property "Reference" "CR3"
 			(at 223.266 101.6 0)
 			(effects
 				(font
@@ -3361,6 +3256,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 218.186 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 218.186 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b0380f0e-ecfc-44a7-ab9d-f72b565a3927")
 		)
@@ -3370,7 +3283,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "CR2")
+					(reference "CR3")
 					(unit 1)
 				)
 			)
@@ -3492,6 +3405,24 @@
 			)
 		)
 		(property "Price" "1.20"
+			(at 111.252 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Part Number" ""
+			(at 111.252 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
 			(at 111.252 70.612 0)
 			(effects
 				(font
@@ -3656,6 +3587,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 137.414 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 137.414 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9e458f5-a76d-4d4c-9afd-6e98293438a9")
 		)
@@ -3681,7 +3630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "496c0703-b041-4952-8758-4c1d7611a4dc")
-		(property "Reference" "CR1"
+		(property "Reference" "CR2"
 			(at 223.266 89.916 0)
 			(effects
 				(font
@@ -3744,6 +3693,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 218.186 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 218.186 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e2ce8e1e-ee68-4c7c-a883-176f0996f34f")
 		)
@@ -3753,7 +3720,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "CR1")
+					(reference "CR2")
 					(unit 1)
 				)
 			)
@@ -3901,7 +3868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55812e2c-4091-4855-895f-084bca75ccef")
-		(property "Reference" "CR4"
+		(property "Reference" "CR1"
 			(at 159.258 64.008 0)
 			(effects
 				(font
@@ -3964,6 +3931,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 164.338 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 164.338 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b635425f-907a-427c-a5b1-a04d97bdc94d")
 		)
@@ -3973,73 +3958,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "CR4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-BATT")
-		(at 172.974 68.834 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60fefef8-5173-4335-94ef-3847ba59ef7e")
-		(property "Reference" "#PWR07"
-			(at 172.974 72.644 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "BATT+"
-			(at 172.974 63.754 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.974 68.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.974 68.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 172.974 68.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b47f5e6f-0652-46ef-a9a4-d26b7e4fc689")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "#PWR07")
+					(reference "CR1")
 					(unit 1)
 				)
 			)
@@ -4161,6 +4080,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 150.114 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 150.114 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a657d47c-a7c2-495f-bfd4-48f75572d271")
 		)
@@ -4242,6 +4179,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACAUTO"
+			(at 101.6 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Part Number" ""
+			(at 101.6 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
 			(at 101.6 64.008 0)
 			(effects
 				(font
@@ -4405,6 +4360,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 32.766 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 32.766 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ab48c62-ef92-4d5a-a0ff-cd98f5093971")
 		)
@@ -4430,7 +4403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d13657a3-ada2-4ec3-9918-27410e2ae255")
-		(property "Reference" "CR3"
+		(property "Reference" "CR4"
 			(at 223.52 76.2 0)
 			(effects
 				(font
@@ -4493,6 +4466,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 218.44 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 218.44 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "13911ea4-7481-40f1-8b73-62945264bab2")
 		)
@@ -4502,7 +4493,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "CR3")
+					(reference "CR4")
 					(unit 1)
 				)
 			)
@@ -4583,6 +4574,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 70.104 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 70.104 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6466c913-39fb-4555-85d5-0013b867eb31")
 		)
@@ -4596,71 +4605,6 @@
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 172.974 72.898 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd2718ea-8e08-48d1-8af0-8a813bffa575")
-		(property "Reference" "#FLG04"
-			(at 172.974 74.803 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 172.974 77.978 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.974 72.898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.974 72.898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 172.974 72.898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "911db2d6-df66-407b-9ebd-f3b0618da1ae")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/31837631-dd5f-49d4-a8ae-a36c80dc2ea1"
-					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -4733,6 +4677,24 @@
 		)
 		(property "Manufacturer_Part_Number" "RN73H1JTTD4811B25"
 			(at 137.414 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Part Number" ""
+			(at 137.414 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 137.414 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)

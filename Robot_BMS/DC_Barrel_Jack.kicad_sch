@@ -922,7 +922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bd5298d-f574-4d25-b44b-c0f23737551e")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR040"
 			(at 164.592 136.652 0)
 			(effects
 				(font
@@ -972,7 +972,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/7a60a594-7330-4ecb-a3c9-8c0f96aa21b4"
-					(reference "#PWR038")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -989,7 +989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "922b428a-f54f-4e17-9328-d6f46a6f810e")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR039"
 			(at 134.62 115.316 0)
 			(effects
 				(font
@@ -1039,7 +1039,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/7a60a594-7330-4ecb-a3c9-8c0f96aa21b4"
-					(reference "#PWR037")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -1054,7 +1054,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9423102c-cc50-4247-a514-3cd81acca988")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 144.78 93.472 0)
 			(effects
 				(font
@@ -1158,6 +1158,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 134.62 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 134.62 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "507fa08c-ad8f-44c1-a519-d93265844cf1")
 		)
@@ -1170,7 +1188,7 @@
 		(instances
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/7a60a594-7330-4ecb-a3c9-8c0f96aa21b4"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -1249,6 +1267,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 164.592 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 164.592 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f4ffc515-fc07-4df5-87f2-471a788bef95")
 		)
@@ -1274,7 +1310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da49ff6a-d5ce-4adc-b68e-3fc8c8d156f5")
-		(property "Reference" "R26"
+		(property "Reference" "R27"
 			(at 166.624 121.4119 90)
 			(effects
 				(font
@@ -1339,6 +1375,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 164.592 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 164.592 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "09429b3c-970d-4ce5-9118-f14c652f76f2")
 		)
@@ -1348,7 +1402,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/7a60a594-7330-4ecb-a3c9-8c0f96aa21b4"
-					(reference "R26")
+					(reference "R27")
 					(unit 1)
 				)
 			)

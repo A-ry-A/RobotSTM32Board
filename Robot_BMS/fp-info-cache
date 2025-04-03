@@ -1,4 +1,4 @@
-24729659837685631
+24733147031595290
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91126,6 +91126,13 @@ Inductor
 4
 4
 RobotBMS
+PRT13113
+PRT-13113-1
+Undefined or Miscellaneous
+0
+3
+3
+RobotBMS
 QFN40P400X400X80-33N-D
 RSN (S-PWQFN-N32)-1
 Integrated Circuit
@@ -91237,6 +91244,13 @@ Thermistor
 0
 2
 2
+RobotBMS
+UJCHGSMT2P6TR
+UJC-H-G-SMT-2-P6-TR-1
+Connector
+0
+10
+10
 RobotBMS
 velion_logo
 

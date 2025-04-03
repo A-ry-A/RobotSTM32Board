@@ -1233,6 +1233,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "da6058d9-c702-41db-a04c-f6122b385e81")
 		)
@@ -1388,6 +1406,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 132.08 160.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 132.08 160.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "17c94259-75e5-42d4-ab12-7019b1da3a2a")
 		)
@@ -1478,6 +1514,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 93.98 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 93.98 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "80f930be-cf62-466d-bfb2-dc5d6744dbaa")
 		)
@@ -1561,6 +1615,24 @@
 		)
 		(property "Manufacturer_Part_Number" "NTCLE100E3103HB0"
 			(at 166.37 160.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Part Number" ""
+			(at 166.37 160.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 166.37 160.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,6 +1795,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 93.98 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 93.98 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ad18e16-599e-4d33-af15-5d7a0e8bed24")
 		)
@@ -1871,6 +1961,24 @@
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-073K24L"
 			(at 166.37 102.616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Part Number" ""
+			(at 166.37 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 166.37 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)

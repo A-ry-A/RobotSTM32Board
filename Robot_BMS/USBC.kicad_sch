@@ -5240,7 +5240,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b456de5-3116-434e-b3e7-86db5b2da125")
-		(property "Reference" "R35"
+		(property "Reference" "R11"
 			(at 216.916 24.384 90)
 			(effects
 				(font
@@ -5303,6 +5303,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 212.344 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 212.344 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16d4e7b1-ae68-41fd-82fe-05b86c140287")
 		)
@@ -5312,7 +5330,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c1bdabe1-a4b5-470d-80f8-90d5658c2a45"
-					(reference "R35")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5385,6 +5403,24 @@
 		)
 		(property "Manufacturer_Part_Number" "NDT3055L"
 			(at 111.252 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Part Number" ""
+			(at 111.252 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 111.252 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,6 +5587,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 124.968 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 124.968 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b6fd159-9dfc-49a1-b39b-479f0ed3467c")
 		)
@@ -5705,6 +5759,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 50.292 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 50.292 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4aa92e52-b855-4760-8921-56286556a56a")
 		)
@@ -5834,6 +5906,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 56.896 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 56.896 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "17"
 			(uuid "4f7cdf87-69fd-4658-9d73-977fb217124f")
 		)
@@ -5928,7 +6018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b5e4095-175f-403e-b06c-3de521451655")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 214.63 42.9259 90)
 			(effects
 				(font
@@ -5993,6 +6083,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 212.344 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 212.344 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "69128722-e060-4a63-acd1-4d65b8498e00")
 		)
@@ -6002,7 +6110,7 @@
 		(instances
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c1bdabe1-a4b5-470d-80f8-90d5658c2a45"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6018,7 +6126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c1d2822-aceb-40c3-a2e7-a21ca0d2e23c")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 241.554 47.7519 90)
 			(effects
 				(font
@@ -6083,6 +6191,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 239.522 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 239.522 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a861f6b-ef07-4244-b8b7-ea020c5b626c")
 		)
@@ -6092,7 +6218,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c1bdabe1-a4b5-470d-80f8-90d5658c2a45"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6206,6 +6332,24 @@
 			)
 		)
 		(property "Price" "0.134"
+			(at 118.872 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Part Number" ""
+			(at 118.872 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
 			(at 118.872 98.552 0)
 			(effects
 				(font
@@ -6345,6 +6489,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 256.032 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 256.032 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6aeec25f-538e-4fb7-a8ae-a8d5d3b6c082")
 		)
@@ -6370,7 +6532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5de6f61c-16ac-4184-8498-d8b658103b96")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR024"
 			(at 270.51 117.856 0)
 			(effects
 				(font
@@ -6420,7 +6582,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c1bdabe1-a4b5-470d-80f8-90d5658c2a45"
-					(reference "#PWR051")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6533,6 +6695,24 @@
 			)
 		)
 		(property "Price" "0.134"
+			(at 109.474 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Part Number" ""
+			(at 109.474 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
 			(at 109.474 103.632 0)
 			(effects
 				(font
@@ -6763,7 +6943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8339d0cc-91e4-435a-8fa0-2129f46be344")
-		(property "Reference" "J9"
+		(property "Reference" "J1"
 			(at 245.364 89.662 0)
 			(effects
 				(font
@@ -6867,6 +7047,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 230.124 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 230.124 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c2621d0a-df91-4a26-82cc-604f27a80efb")
 		)
@@ -6900,7 +7098,7 @@
 		(instances
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c1bdabe1-a4b5-470d-80f8-90d5658c2a45"
-					(reference "J9")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7113,7 +7311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a15ae6a9-db8a-4d90-b4d5-de7e73fda89f")
-		(property "Reference" "R36"
+		(property "Reference" "R13"
 			(at 214.63 55.6259 90)
 			(effects
 				(font
@@ -7178,6 +7376,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 212.344 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 212.344 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "48fc7603-820e-4881-bab0-59ef7d23585f")
 		)
@@ -7187,7 +7403,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c1bdabe1-a4b5-470d-80f8-90d5658c2a45"
-					(reference "R36")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7309,6 +7525,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 54.356 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 54.356 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1dd86e1a-9d79-411b-a9e0-c164b5234eef")
 		)
@@ -7334,7 +7568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a55d64fd-92c3-4c29-be8c-cc23bf336ca6")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR023"
 			(at 260.604 117.094 0)
 			(effects
 				(font
@@ -7384,7 +7618,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c1bdabe1-a4b5-470d-80f8-90d5658c2a45"
-					(reference "#PWR050")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7496,6 +7730,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 50.292 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 50.292 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5e7e6c02-ad07-443d-ad1a-41073aa18835")
 		)
@@ -7577,6 +7829,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K5RACAUTO"
+			(at 99.822 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Part Number" ""
+			(at 99.822 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
 			(at 99.822 123.952 0)
 			(effects
 				(font
@@ -7805,6 +8075,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 77.216 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 77.216 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8ca7fe94-5e84-42ec-bb04-1636e19471dd")
 		)
@@ -7951,6 +8239,24 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1N4750A"
+			(at 239.522 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Part Number" ""
+			(at 239.522 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
 			(at 239.522 33.02 0)
 			(effects
 				(font
@@ -8154,6 +8460,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 69.088 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 69.088 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "887fb446-1806-4873-9563-275ac2475d7e")
 		)
@@ -8244,6 +8568,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 69.596 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 69.596 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9a793051-3fa1-4c43-90b4-6e3e3d8aaecc")
 		)
@@ -8269,7 +8611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c69f71db-6b78-4f9e-bba1-2460d96a148c")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR020"
 			(at 213.614 113.03 0)
 			(effects
 				(font
@@ -8319,7 +8661,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c1bdabe1-a4b5-470d-80f8-90d5658c2a45"
-					(reference "#PWR049")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8335,7 +8677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd4dc621-843e-4889-8d3f-520454f11d68")
-		(property "Reference" "RT1"
+		(property "Reference" "NTC1"
 			(at 92.71 120.6499 90)
 			(effects
 				(font
@@ -8344,7 +8686,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10000"
 			(at 92.71 123.1899 90)
 			(effects
 				(font
@@ -8441,6 +8783,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 88.9 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 88.9 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f9327f6b-7530-4ec8-baff-e6c234533802")
 		)
@@ -8450,7 +8810,7 @@
 		(instances
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/c1bdabe1-a4b5-470d-80f8-90d5658c2a45"
-					(reference "RT1")
+					(reference "NTC1")
 					(unit 1)
 				)
 			)
@@ -8588,6 +8948,24 @@
 		)
 		(property "Manufacturer_Part_Number" "NDT3055L"
 			(at 97.79 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Part Number" ""
+			(at 97.79 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 97.79 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8747,6 +9125,24 @@
 		)
 		(property "Manufacturer_Part_Number" "C1608X5R1H105K080AB"
 			(at 91.948 73.406 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Part Number" ""
+			(at 91.948 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 91.948 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)

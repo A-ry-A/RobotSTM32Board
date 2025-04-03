@@ -441,6 +441,117 @@
 				)
 			)
 		)
+		(symbol "Molex_4pin:Molex_Wire_4pin"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Molex_Wire_4pin_0_1"
+				(rectangle
+					(start -2.54 -1.27)
+					(end 2.032 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -4.572) (xy 5.588 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -2.794) (xy 5.588 -2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -2.032) (xy 5.588 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Molex_Wire_4pin_1_1"
+				(polyline
+					(pts
+						(xy 2.032 -3.81) (xy 5.588 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -538,12 +649,6 @@
 			)
 		)
 	)
-	(junction
-		(at 136.906 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8943630e-e866-44dc-aa18-ce828e96e299")
-	)
 	(no_connect
 		(at 146.05 100.838)
 		(uuid "0c56ad52-8a06-49f8-9311-ee63570b4c33")
@@ -598,16 +703,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 130.81) (xy 136.906 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "859e8093-5784-4be1-8819-52bf1874f7cf")
-	)
-	(wire
-		(pts
 			(xy 135.636 128.27) (xy 137.668 128.27)
 		)
 		(stroke
@@ -628,13 +723,23 @@
 	)
 	(wire
 		(pts
-			(xy 136.906 130.81) (xy 137.668 130.81)
+			(xy 135.89 130.81) (xy 137.668 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c8dde468-48ce-4461-91c4-fa903005ab47")
+	)
+	(wire
+		(pts
+			(xy 160.782 130.81) (xy 157.988 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf8f250d-c3d6-4551-9725-f2c6cc6b95d3")
 	)
 	(wire
 		(pts
@@ -645,26 +750,6 @@
 			(type default)
 		)
 		(uuid "d38d8915-0c5c-463c-8974-6bda4a37d0ba")
-	)
-	(wire
-		(pts
-			(xy 136.906 130.81) (xy 136.906 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3b688ab-755f-4c16-9d84-1748b2092fee")
-	)
-	(wire
-		(pts
-			(xy 157.988 130.81) (xy 157.988 133.604)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbfae151-3113-41c7-9301-87baa539a42c")
 	)
 	(text "All standard Passive\ncomponenets are 0603 imperial"
 		(exclude_from_sim no)
@@ -726,6 +811,17 @@
 			)
 		)
 		(uuid "f44fef44-d63e-4d98-b1c6-9f1a62940402")
+	)
+	(hierarchical_label "TO_LOAD_GND"
+		(shape output)
+		(at 135.89 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e9152bd-1bde-4459-b6cd-57cf8112db18")
 	)
 	(hierarchical_label "MCU_CHARGE_EN"
 		(shape output)
@@ -848,17 +944,6 @@
 		)
 		(uuid "ace7db00-ad97-4263-a034-570195629490")
 	)
-	(hierarchical_label "GND"
-		(shape output)
-		(at 135.89 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ae8e6605-32ce-41d6-9bb1-0937e1704a3c")
-	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 142.748 60.452 180)
@@ -881,6 +966,17 @@
 		)
 		(uuid "f27e6db1-44ee-4bfc-9b39-c262e69eee85")
 	)
+	(hierarchical_label "TO_LOAD_GND"
+		(shape output)
+		(at 160.782 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc0415d4-a1d1-4391-bc5e-8f250a47a7d1")
+	)
 	(hierarchical_label "MCU_DISCHRG_CTRL"
 		(shape input)
 		(at 146.05 88.138 180)
@@ -901,7 +997,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "016dc4ed-e435-479a-9f17-d595df8fb1ae")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 152.4 76.9619 0)
 			(effects
 				(font
@@ -964,6 +1060,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 151.13 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 151.13 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "efc8f2a0-a5d9-4f43-b358-13574bfaf7d4")
 		)
@@ -979,7 +1093,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/f21d0d80-f932-4fe7-82f0-3490cb74f2de"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -995,7 +1109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f5e7812-b13d-4042-8966-8de879073f42")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 147.828 121.158 0)
 			(effects
 				(font
@@ -1099,6 +1213,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 137.668 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 137.668 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "be4b1870-4e5d-48a1-ba0d-ef505e5e5b9c")
 		)
@@ -1114,7 +1246,7 @@
 		(instances
 			(project ""
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/f21d0d80-f932-4fe7-82f0-3490cb74f2de"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1129,7 +1261,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68e59dbc-e255-45a3-9b51-6159943878db")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 152.4 88.1379 0)
 			(effects
 				(font
@@ -1192,6 +1324,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 151.13 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 151.13 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "98730b28-2680-4676-b9dc-726698a3fdc6")
 		)
@@ -1207,73 +1357,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/f21d0d80-f932-4fe7-82f0-3490cb74f2de"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 136.906 133.35 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6fad116f-6b82-4402-81b4-a93f518ff7bc")
-		(property "Reference" "#PWR023"
-			(at 136.906 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 140.716 135.382 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 136.906 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 136.906 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 136.906 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fef78ab2-eedc-4073-9042-5b19720f9784")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/f21d0d80-f932-4fe7-82f0-3490cb74f2de"
-					(reference "#PWR023")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -1288,7 +1372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71bded26-17fe-4c84-84ba-bc7e673c886a")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 151.384 60.4519 0)
 			(effects
 				(font
@@ -1351,6 +1435,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 150.114 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 150.114 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "52a87ada-fb31-4cd1-8814-68ecba3d2a6d")
 		)
@@ -1366,7 +1468,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/f21d0d80-f932-4fe7-82f0-3490cb74f2de"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1382,7 +1484,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f53ec61-1cf4-4b50-a4f9-f5d99b6e9726")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 144.78 74.422 0)
 			(effects
 				(font
@@ -1432,73 +1534,7 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/f21d0d80-f932-4fe7-82f0-3490cb74f2de"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 157.988 133.604 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "afd0c02f-3e68-48ae-b2db-e33825214791")
-		(property "Reference" "#PWR025"
-			(at 157.988 139.954 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 161.798 135.636 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.988 133.604 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.988 133.604 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.988 133.604 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35d4fa63-6ee8-4e75-b08b-c3ba09552616")
-		)
-		(instances
-			(project "Robot_BMS"
-				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/f21d0d80-f932-4fe7-82f0-3490cb74f2de"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -1513,7 +1549,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df0220f5-da5b-49f6-8e67-9fb08c95b98a")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 152.4 100.8379 0)
 			(effects
 				(font
@@ -1576,6 +1612,24 @@
 				(hide yes)
 			)
 		)
+		(property "Chip1Stop Part Number" ""
+			(at 151.13 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Chip1Stop Price/Stock" ""
+			(at 151.13 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "aa136824-ecc8-4010-91f2-07a4d767347d")
 		)
@@ -1591,7 +1645,89 @@
 		(instances
 			(project "Robot_BMS"
 				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/f21d0d80-f932-4fe7-82f0-3490cb74f2de"
-					(reference "J6")
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Molex_4pin:Molex_Wire_4pin")
+		(at 135.128 162.814 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f960c49b-2db6-4fb4-aaa6-adde1994a0e2")
+		(property "Reference" "J2"
+			(at 142.24 165.3539 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PowerCable"
+			(at 142.24 167.259 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.128 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://uk.farnell.com/molex/45135-0401/cable-assy-4p-rcpt-rcpt-150mm/dp/3862453?MER=BR-MER-MA-RECO-PDP-STM72189"
+			(at 135.128 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Cable, 4 pin 8A per pin"
+			(at 135.128 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "3.13"
+			(at 135.128 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "45135-0401"
+			(at 135.128 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/72551b1c-3d40-4199-8911-e5b015f4abec/f21d0d80-f932-4fe7-82f0-3490cb74f2de"
+					(reference "J2")
 					(unit 1)
 				)
 			)

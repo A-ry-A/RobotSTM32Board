@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Molex_4pin")(type "KiCad")(uri "${KIPRJMOD}/Molex_4pin.kicad_sym")(options "")(descr ""))
+)

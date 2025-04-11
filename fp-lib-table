@@ -10,4 +10,6 @@
   (lib (name "TPS51386RJNR")(type "KiCad")(uri "${KIPRJMOD}/TPS51386RJNR")(options "")(descr ""))
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/LM27403SQ_NOPB/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "ASPI-6045S-2R7N-T")(type "KiCad")(uri "${KIPRJMOD}/ASPI-6045S-2R7N-T")(options "")(descr ""))
+  (lib (name "AAAA")(type "KiCad")(uri "${KIPRJMOD}/LIB_TB6612FNG,C,8,EL/TB6612FNG,C,8,EL/KiCad")(options "")(descr ""))
+  (lib (name "USBCC")(type "KiCad")(uri "${KIPRJMOD}/LIB_UJC-H-G-SMT-2-P6-TR/UJC-H-G-SMT-2-P6-TR/KiCad")(options "")(descr ""))
 )

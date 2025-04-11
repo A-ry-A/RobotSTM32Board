@@ -1,0 +1,9 @@
+Manufacturer=Same Sky
+PartNumber=UJC-H-G-SMT-2-P6-TR
+PartCategory=Connector
+PackageCategory=Other
+PinCount=10
+Version=3.5
+Released=2025-01-02 11:46:42
+Downloaded=2025-04-01 14:25:42
+3D=Y

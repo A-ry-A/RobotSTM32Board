@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "UJC-H-G-SMT-2-P6-TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-01-02-11:46:42)
+    (mountForm default
+        (footprintRef "UJCHGSMT2P6TR")
+        (spec "System")
+    )
+)

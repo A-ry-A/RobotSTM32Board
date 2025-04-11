@@ -1,0 +1,17 @@
+.UJC-H-G-SMT-2-P6-TR :1 ;Type C, Power Only, 30 Vac, 3 A, Horizontal, Gold plated 1u, Surface Mount,6 pin, USB Receptacle
+UJCHGSMT2P6TR
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=A5 6=A9 7=A12 8=B5 9=B9 10=B12
+*PLB 1="MH1" 2="MH2" 3="MH3" 4="MH4" 5="CC1" 6="VBUS_1" 7="GND_1" 8="CC2" 9="VBUS_2" 10="GND_2"
+*MXP 10
+*DFN UJC-H-G-SMT-2-P6-TR
+~!Mouser Part Number (179-UJCHGSMT2P6TR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Same-Sky/UJC-H-G-SMT-2-P6-TR?qs=IKkN%2F947nfApFV8T6rOqww%3D%3D)
+~!Manufacturer_Name (Same Sky)
+~!Manufacturer_Part_Number (UJC-H-G-SMT-2-P6-TR)
+~!Link Datasheet (https://www.sameskydevices.com/product/resource/ujc-h-g-smt-2-p6-tr.pdf)
+~!Height (3.36mm)
+~!3D_Model (UJC-H-G-SMT-2-P6-TR)
+UJC-H-G-SMT-2-P6-TR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 

@@ -18,4 +18,6 @@
   (lib (name "TPS51386RJNR")(type "KiCad")(uri "${KIPRJMOD}/TPS51386RJNR/TPS51386RJNR.kicad_sym")(options "")(descr ""))
   (lib (name "2025-03-13_17-27-54")(type "KiCad")(uri "${KIPRJMOD}/LM27403SQ_NOPB/KiCADv6/2025-03-13_17-27-54.kicad_sym")(options "")(descr ""))
   (lib (name "ASPI-6045S-2R7N-T")(type "KiCad")(uri "${KIPRJMOD}/ASPI-6045S-2R7N-T/ASPI-6045S-2R7N-T.kicad_sym")(options "")(descr ""))
+  (lib (name "TB6612FNG_C_8_EL")(type "KiCad")(uri "${KIPRJMOD}/LIB_TB6612FNG,C,8,EL/TB6612FNG,C,8,EL/KiCad/TB6612FNG_C_8_EL.kicad_sym")(options "")(descr ""))
+  (lib (name "UJC-H-G-SMT-2-P6-TR")(type "KiCad")(uri "${KIPRJMOD}/LIB_UJC-H-G-SMT-2-P6-TR/UJC-H-G-SMT-2-P6-TR/KiCad/UJC-H-G-SMT-2-P6-TR.kicad_sym")(options "")(descr ""))
 )

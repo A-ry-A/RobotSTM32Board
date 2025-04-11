@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'UJC_H_G_SMT_2_P6_TR'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Same Sky", "UJC-H-G-SMT-2-P6-TR" (!) = "", "UJCHGSMT2P6TR", "Other", "179-UJCHGSMT2P6TR", "https://www.mouser.co.uk/ProductDetail/Same-Sky/UJC-H-G-SMT-2-P6-TR?qs=IKkN%2F947nfApFV8T6rOqww%3D%3D", "Type C, Power Only, 30 Vac, 3 A, Horizontal, Gold plated 1u, Surface Mount,6 pin, USB Receptacle", "https://www.sameskydevices.com/product/resource/ujc-h-g-smt-2-p6-tr.pdf", "3.36 mm"
+END_PART
+
+END.

@@ -20,4 +20,6 @@
   (lib (name "ASPI-6045S-2R7N-T")(type "KiCad")(uri "${KIPRJMOD}/ASPI-6045S-2R7N-T/ASPI-6045S-2R7N-T.kicad_sym")(options "")(descr ""))
   (lib (name "TB6612FNG_C_8_EL")(type "KiCad")(uri "${KIPRJMOD}/LIB_TB6612FNG,C,8,EL/TB6612FNG,C,8,EL/KiCad/TB6612FNG_C_8_EL.kicad_sym")(options "")(descr ""))
   (lib (name "UJC-H-G-SMT-2-P6-TR")(type "KiCad")(uri "${KIPRJMOD}/LIB_UJC-H-G-SMT-2-P6-TR/UJC-H-G-SMT-2-P6-TR/KiCad/UJC-H-G-SMT-2-P6-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "691137710002")(type "KiCad")(uri "${KIPRJMOD}/691137710002/691137710002.kicad_sym")(options "")(descr ""))
+  (lib (name "Molex_4pin")(type "KiCad")(uri "${KIPRJMOD}/691137710002/Molex_4pin.kicad_sym")(options "")(descr ""))
 )

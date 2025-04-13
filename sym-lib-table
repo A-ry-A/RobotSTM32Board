@@ -22,4 +22,5 @@
   (lib (name "UJC-H-G-SMT-2-P6-TR")(type "KiCad")(uri "${KIPRJMOD}/LIB_UJC-H-G-SMT-2-P6-TR/UJC-H-G-SMT-2-P6-TR/KiCad/UJC-H-G-SMT-2-P6-TR.kicad_sym")(options "")(descr ""))
   (lib (name "691137710002")(type "KiCad")(uri "${KIPRJMOD}/691137710002/691137710002.kicad_sym")(options "")(descr ""))
   (lib (name "Molex_4pin")(type "KiCad")(uri "${KIPRJMOD}/691137710002/Molex_4pin.kicad_sym")(options "")(descr ""))
+  (lib (name "39-30-0040")(type "KiCad")(uri "${KIPRJMOD}/39-30-0040/KiCad/39-30-0040.kicad_sym")(options "")(descr ""))
 )

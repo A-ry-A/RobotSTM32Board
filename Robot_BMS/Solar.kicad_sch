@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "2bb1a0f9-d487-44dd-8a13-bc53a7454893")
 	(paper "A4")
 	(lib_symbols
@@ -81,17 +81,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 -1.27)
-					(radius 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -2.54 -1.778) (xy -2.54 -2.54)
@@ -110,6 +99,17 @@
 					)
 					(stroke
 						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.27)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -177,6 +177,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "AT0603DRE07100RL:AT0603DRE07100RL"
 			(pin_names
@@ -497,9 +498,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "B370-13-F:B370-13-F"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -627,18 +631,6 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -2.54) (xy 6.604 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 7.62 2.54) (xy 7.62 -2.54)
 					)
 					(stroke
@@ -652,6 +644,30 @@
 				(polyline
 					(pts
 						(xy 7.62 2.54) (xy 8.636 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 12.7 2.54) (xy 12.7 -2.54) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 6.604 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -683,18 +699,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 12.7 2.54) (xy 12.7 -2.54) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(pin passive line
@@ -734,6 +738,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "C0603C104K5RACAUTO:C0603C104K5RACAUTO"
 			(pin_names
@@ -840,7 +845,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.1148 -1.905) (xy 4.1148 1.905)
+						(xy 4.1148 0) (xy 5.08 0)
 					)
 					(stroke
 						(width 0.2032)
@@ -852,7 +857,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.1148 0) (xy 5.08 0)
+						(xy 4.1148 -1.905) (xy 4.1148 1.905)
 					)
 					(stroke
 						(width 0.2032)
@@ -902,18 +907,6 @@
 			(symbol "C0603C104K5RACAUTO_1_2"
 				(polyline
 					(pts
-						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
 					)
 					(stroke
@@ -926,7 +919,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -4.1148) (xy 0 -5.08)
+						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
 					)
 					(stroke
 						(width 0.2032)
@@ -939,6 +932,18 @@
 				(polyline
 					(pts
 						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
 					)
 					(stroke
 						(width 0.2032)
@@ -985,6 +990,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "C0603X821K5RACTU:C0603X821K5RACTU"
 			(pin_names
@@ -1091,7 +1097,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.1148 -1.905) (xy 4.1148 1.905)
+						(xy 4.1148 0) (xy 5.08 0)
 					)
 					(stroke
 						(width 0.2032)
@@ -1103,7 +1109,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.1148 0) (xy 5.08 0)
+						(xy 4.1148 -1.905) (xy 4.1148 1.905)
 					)
 					(stroke
 						(width 0.2032)
@@ -1153,18 +1159,6 @@
 			(symbol "C0603X821K5RACTU_1_2"
 				(polyline
 					(pts
-						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
 					)
 					(stroke
@@ -1177,7 +1171,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -4.1148) (xy 0 -5.08)
+						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
 					)
 					(stroke
 						(width 0.2032)
@@ -1190,6 +1184,18 @@
 				(polyline
 					(pts
 						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
 					)
 					(stroke
 						(width 0.2032)
@@ -1236,6 +1242,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "C1608X5R1H105K080AB:C1608X5R1H105K080AB"
 			(pin_names
@@ -1342,7 +1349,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.1148 -1.905) (xy 4.1148 1.905)
+						(xy 4.1148 0) (xy 5.08 0)
 					)
 					(stroke
 						(width 0.2032)
@@ -1354,7 +1361,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.1148 0) (xy 5.08 0)
+						(xy 4.1148 -1.905) (xy 4.1148 1.905)
 					)
 					(stroke
 						(width 0.2032)
@@ -1404,18 +1411,6 @@
 			(symbol "C1608X5R1H105K080AB_1_2"
 				(polyline
 					(pts
-						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
 					)
 					(stroke
@@ -1428,7 +1423,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -4.1148) (xy 0 -5.08)
+						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
 					)
 					(stroke
 						(width 0.2032)
@@ -1441,6 +1436,18 @@
 				(polyline
 					(pts
 						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
 					)
 					(stroke
 						(width 0.2032)
@@ -1487,6 +1494,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "CC0603KRX7R6BB184:CC0603KRX7R6BB184"
 			(pin_names
@@ -1645,24 +1653,6 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -2.54 0 0)
 					(length 2.54)
 					(name "~"
@@ -1680,10 +1670,31 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "CL10A106MA8NRNC:CL10A106MA8NRNC"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1811,7 +1822,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.112 0) (xy 7.62 0)
+						(xy 7.112 2.54) (xy 7.112 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -1823,7 +1834,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.112 2.54) (xy 7.112 -2.54)
+						(xy 7.112 0) (xy 7.62 0)
 					)
 					(stroke
 						(width 0.254)
@@ -1870,6 +1881,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "CRCW0603110KFKEAC:CRCW0603110KFKEAC"
 			(pin_names
@@ -2150,6 +2162,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "CRCW060340K2FKEAHP:CRCW060340K2FKEAHP"
 			(pin_names
@@ -2430,6 +2443,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "CRCW0603604RFKEA:CRCW0603604RFKEA"
 			(pin_names
@@ -2710,6 +2724,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "CSD18563Q5A:CSD18563Q5A"
 			(pin_names
@@ -2792,18 +2807,6 @@
 			(symbol "CSD18563Q5A_0_1"
 				(polyline
 					(pts
-						(xy 7.62 -12.7) (xy 33.02 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 7.62 5.08) (xy 7.62 -12.7)
 					)
 					(stroke
@@ -2816,7 +2819,7 @@
 				)
 				(polyline
 					(pts
-						(xy 33.02 -12.7) (xy 33.02 5.08)
+						(xy 7.62 -12.7) (xy 33.02 -12.7)
 					)
 					(stroke
 						(width 0.127)
@@ -2829,6 +2832,18 @@
 				(polyline
 					(pts
 						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -12.7) (xy 33.02 5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -2911,7 +2926,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 40.64 -7.62 180)
+					(at 40.64 0 180)
 					(length 7.62)
 					(name "D"
 						(effects
@@ -2920,25 +2935,7 @@
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 40.64 -5.08 180)
-					(length 7.62)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2965,7 +2962,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 40.64 0 180)
+					(at 40.64 -5.08 180)
 					(length 7.62)
 					(name "D"
 						(effects
@@ -2974,7 +2971,25 @@
 							)
 						)
 					)
-					(number "8"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -7.62 180)
+					(length 7.62)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2983,9 +2998,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -3104,10 +3122,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Diode:1N47xxA"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3175,10 +3198,10 @@
 			(symbol "1N47xxA_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -3187,10 +3210,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -3248,6 +3271,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ERJPA3F20R0V:ERJPA3F20R0V"
 			(pin_names
@@ -3568,6 +3592,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ESR03EZPF1003:ESR03EZPF1003"
 			(pin_names
@@ -3772,7 +3797,7 @@
 			(symbol "ESR03EZPF1003_1_2"
 				(polyline
 					(pts
-						(xy -1.27 3.175) (xy 1.27 4.445)
+						(xy -1.27 8.255) (xy 1.27 9.525)
 					)
 					(stroke
 						(width 0.2032)
@@ -3796,7 +3821,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 8.255) (xy 1.27 9.525)
+						(xy -1.27 3.175) (xy 1.27 4.445)
 					)
 					(stroke
 						(width 0.2032)
@@ -3820,7 +3845,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 4.445) (xy -1.27 5.715)
+						(xy 1.27 9.525) (xy 0 10.16)
 					)
 					(stroke
 						(width 0.2032)
@@ -3844,7 +3869,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 9.525) (xy 0 10.16)
+						(xy 1.27 4.445) (xy -1.27 5.715)
 					)
 					(stroke
 						(width 0.2032)
@@ -3891,6 +3916,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Flyback dc dc converter:LM3488MM"
 			(pin_names
@@ -3958,24 +3984,6 @@
 					)
 				)
 				(pin input line
-					(at -17.78 2.54 0)
-					(length 5.08)
-					(name "ISEN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -17.78 10.16 0)
 					(length 5.08)
 					(name "COMP"
@@ -3994,6 +4002,24 @@
 					)
 				)
 				(pin input line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "FA/SYNC/SD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -17.78 5.08 0)
 					(length 5.08)
 					(name "FB"
@@ -4004,6 +4030,60 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "ISEN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 10.16 180)
+					(length 5.08)
+					(name "DR"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -4047,61 +4127,8 @@
 						)
 					)
 				)
-				(pin output line
-					(at 17.78 10.16 180)
-					(length 5.08)
-					(name "DR"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 7.62 0)
-					(length 5.08)
-					(name "FA/SYNC/SD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 0 0)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "MSD1583-223MEB:MSD1583-223MEB"
 			(exclude_from_sim no)
@@ -4217,24 +4244,6 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
 					(name "2"
@@ -4271,6 +4280,24 @@
 					)
 				)
 				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 20.32 -2.54 180)
 					(length 5.08)
 					(name "4"
@@ -4289,6 +4316,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "RC0603FR-0710KL:RC0603FR-0710KL"
 			(pin_names
@@ -4493,7 +4521,7 @@
 			(symbol "RC0603FR-0710KL_1_2"
 				(polyline
 					(pts
-						(xy -1.27 3.175) (xy 1.27 4.445)
+						(xy -1.27 8.255) (xy 1.27 9.525)
 					)
 					(stroke
 						(width 0.2032)
@@ -4517,7 +4545,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 8.255) (xy 1.27 9.525)
+						(xy -1.27 3.175) (xy 1.27 4.445)
 					)
 					(stroke
 						(width 0.2032)
@@ -4541,7 +4569,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 4.445) (xy -1.27 5.715)
+						(xy 1.27 9.525) (xy 0 10.16)
 					)
 					(stroke
 						(width 0.2032)
@@ -4565,7 +4593,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 9.525) (xy 0 10.16)
+						(xy 1.27 4.445) (xy -1.27 5.715)
 					)
 					(stroke
 						(width 0.2032)
@@ -4612,6 +4640,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SR201A102JARTR1:SR201A102JARTR1"
 			(pin_names
@@ -4846,6 +4875,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ZRB18AR6YA475ME05L:ZRB18AR6YA475ME05L"
 			(pin_names
@@ -5040,12 +5070,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5136,7 +5171,69 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Uses screw terminals to connect\nSolar panels to the system"
+		(exclude_from_sim no)
+		(at 44.958 122.174 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "276359d7-fcae-4c1a-a90a-72c56834abf2")
+	)
+	(text "OverVoltage\nprotection\nDC > Vz(27V)\n"
+		(exclude_from_sim no)
+		(at 37.338 150.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "296a594f-7c13-48f3-917c-f4ed44001882")
+	)
+	(text "Common Solar panels can produce anything\nfrom 28V to 4V. We want to feed a 15V output \nto our Li Ion chargers.\nUses a sepic dc/dc converter"
+		(exclude_from_sim no)
+		(at 237.49 23.114 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "3a144dd7-60bd-478c-a4c9-c5cd269640ba")
+	)
+	(text "Solar Power"
+		(exclude_from_sim no)
+		(at 55.372 24.638 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+		)
+		(uuid "60294fab-e4fa-4582-977d-fa998590b6e3")
+	)
+	(text "All standard Passive\ncomponenets are 0603 imperial"
+		(exclude_from_sim no)
+		(at 223.012 173.482 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "70912faf-3e61-414c-8c4a-af7646e796a7")
+	)
+	(text "webench"
+		(exclude_from_sim no)
+		(at 163.322 194.564 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://webench.ti.com/power-designer/switching-regulator/customize/10?noparams=0")
+		)
+		(uuid "cc98b56c-10c5-4167-8feb-686591720b18")
 	)
 	(junction
 		(at 161.544 91.44)
@@ -6199,67 +6296,6 @@
 			(type default)
 		)
 		(uuid "fc346202-90c1-4cd2-a165-ccd3235155e8")
-	)
-	(text "Uses screw terminals to connect\nSolar panels to the system"
-		(exclude_from_sim no)
-		(at 44.958 122.174 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "276359d7-fcae-4c1a-a90a-72c56834abf2")
-	)
-	(text "OverVoltage\nprotection\nDC > Vz(27V)\n"
-		(exclude_from_sim no)
-		(at 37.338 150.876 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "296a594f-7c13-48f3-917c-f4ed44001882")
-	)
-	(text "Common Solar panels can produce anything\nfrom 28V to 4V. We want to feed a 15V output \nto our Li Ion chargers.\nUses a sepic dc/dc converter"
-		(exclude_from_sim no)
-		(at 237.49 23.114 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "3a144dd7-60bd-478c-a4c9-c5cd269640ba")
-	)
-	(text "Solar Power"
-		(exclude_from_sim no)
-		(at 55.372 24.638 0)
-		(effects
-			(font
-				(size 7.62 7.62)
-			)
-		)
-		(uuid "60294fab-e4fa-4582-977d-fa998590b6e3")
-	)
-	(text "All standard Passive\ncomponenets are 0603 imperial"
-		(exclude_from_sim no)
-		(at 223.012 173.482 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "70912faf-3e61-414c-8c4a-af7646e796a7")
-	)
-	(text "webench"
-		(exclude_from_sim no)
-		(at 163.322 194.564 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(href "https://webench.ti.com/power-designer/switching-regulator/customize/10?noparams=0")
-		)
-		(uuid "cc98b56c-10c5-4167-8feb-686591720b18")
 	)
 	(label "SOLAR_VIN"
 		(at 30.734 64.008 0)

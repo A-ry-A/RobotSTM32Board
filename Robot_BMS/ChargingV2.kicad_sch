@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ca724e12-bafd-4425-a59e-0b72605c0514")
 	(paper "A4")
 	(lib_symbols
@@ -110,7 +110,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.1148 -1.905) (xy 4.1148 1.905)
+						(xy 4.1148 0) (xy 5.08 0)
 					)
 					(stroke
 						(width 0.2032)
@@ -122,7 +122,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.1148 0) (xy 5.08 0)
+						(xy 4.1148 -1.905) (xy 4.1148 1.905)
 					)
 					(stroke
 						(width 0.2032)
@@ -172,18 +172,6 @@
 			(symbol "C0603C104K5RACAUTO_1_2"
 				(polyline
 					(pts
-						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
 					)
 					(stroke
@@ -196,7 +184,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -4.1148) (xy 0 -5.08)
+						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
 					)
 					(stroke
 						(width 0.2032)
@@ -209,6 +197,18 @@
 				(polyline
 					(pts
 						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
 					)
 					(stroke
 						(width 0.2032)
@@ -255,9 +255,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "CL10A106MA8NRNC:CL10A106MA8NRNC"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -385,7 +388,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.112 0) (xy 7.62 0)
+						(xy 7.112 2.54) (xy 7.112 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -397,7 +400,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.112 2.54) (xy 7.112 -2.54)
+						(xy 7.112 0) (xy 7.62 0)
 					)
 					(stroke
 						(width 0.254)
@@ -444,6 +447,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ESR03EZPF1003:ESR03EZPF1003"
 			(pin_names
@@ -648,7 +652,7 @@
 			(symbol "ESR03EZPF1003_1_2"
 				(polyline
 					(pts
-						(xy -1.27 3.175) (xy 1.27 4.445)
+						(xy -1.27 8.255) (xy 1.27 9.525)
 					)
 					(stroke
 						(width 0.2032)
@@ -672,7 +676,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 8.255) (xy 1.27 9.525)
+						(xy -1.27 3.175) (xy 1.27 4.445)
 					)
 					(stroke
 						(width 0.2032)
@@ -696,7 +700,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 4.445) (xy -1.27 5.715)
+						(xy 1.27 9.525) (xy 0 10.16)
 					)
 					(stroke
 						(width 0.2032)
@@ -720,7 +724,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 9.525) (xy 0 10.16)
+						(xy 1.27 4.445) (xy -1.27 5.715)
 					)
 					(stroke
 						(width 0.2032)
@@ -767,9 +771,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ETQ-P5M220YSC:ETQ-P5M220YSC"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -882,20 +889,8 @@
 			)
 			(symbol "ETQ-P5M220YSC_1_1"
 				(arc
-					(start 7.62 0)
+					(start 5.08 0)
 					(mid 6.35 1.219)
-					(end 5.08 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 10.16 0)
-					(mid 8.89 1.219)
 					(end 7.62 0)
 					(stroke
 						(width 0.254)
@@ -906,8 +901,8 @@
 					)
 				)
 				(arc
-					(start 12.7 0)
-					(mid 11.43 1.219)
+					(start 7.62 0)
+					(mid 8.89 1.219)
 					(end 10.16 0)
 					(stroke
 						(width 0.254)
@@ -918,9 +913,21 @@
 					)
 				)
 				(arc
-					(start 15.24 0)
-					(mid 13.97 1.219)
+					(start 10.16 0)
+					(mid 11.43 1.219)
 					(end 12.7 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 12.7 0)
+					(mid 13.97 1.219)
+					(end 15.24 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -966,6 +973,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GRM188R61H225KE11D:GRM188R61H225KE11D"
 			(pin_names
@@ -1072,7 +1080,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.1148 -1.905) (xy 4.1148 1.905)
+						(xy 4.1148 0) (xy 5.08 0)
 					)
 					(stroke
 						(width 0.2032)
@@ -1084,7 +1092,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.1148 0) (xy 5.08 0)
+						(xy 4.1148 -1.905) (xy 4.1148 1.905)
 					)
 					(stroke
 						(width 0.2032)
@@ -1134,18 +1142,6 @@
 			(symbol "GRM188R61H225KE11D_1_2"
 				(polyline
 					(pts
-						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
 					)
 					(stroke
@@ -1158,7 +1154,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -4.1148) (xy 0 -5.08)
+						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
 					)
 					(stroke
 						(width 0.2032)
@@ -1171,6 +1167,18 @@
 				(polyline
 					(pts
 						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
 					)
 					(stroke
 						(width 0.2032)
@@ -1217,6 +1225,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "RN73H1JTTD4811B25:RN73H1JTTD4811B25"
 			(pin_names
@@ -1417,6 +1426,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Regulator_Switching:TPS54308"
 			(exclude_from_sim no)
@@ -1501,42 +1511,6 @@
 			)
 			(symbol "TPS54308_1_1"
 				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -10.16 2.54 0)
 					(length 2.54)
 					(name "VIN"
@@ -1547,24 +1521,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1590,6 +1546,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 10.16 2.54 180)
 					(length 2.54)
@@ -1608,7 +1582,44 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Toshiba schottky diode:CMS05TE12L_Q_M"
 			(pin_names
@@ -1715,18 +1726,6 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 0) (xy 6.35 -1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 3.81 1.905) (xy 3.81 -1.905)
 					)
 					(stroke
@@ -1739,7 +1738,19 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 -1.905) (xy 6.35 1.905)
+						(xy 3.81 0) (xy 6.35 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 1.905) (xy 3.81 0)
 					)
 					(stroke
 						(width 0.2032)
@@ -1763,7 +1774,7 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 1.905) (xy 3.81 0)
+						(xy 6.35 -1.905) (xy 6.35 1.905)
 					)
 					(stroke
 						(width 0.2032)
@@ -1771,24 +1782,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin unspecified line
@@ -1809,20 +1802,26 @@
 						)
 					)
 				)
-			)
-			(symbol "CMS05TE12L_Q_M_1_2"
-				(polyline
-					(pts
-						(xy -1.905 3.81) (xy 1.905 3.81)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
+			)
+			(symbol "CMS05TE12L_Q_M_1_2"
 				(polyline
 					(pts
 						(xy -1.905 6.35) (xy 0 3.81)
@@ -1837,7 +1836,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 3.4798)
+						(xy -1.905 3.81) (xy 1.905 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 0 7.62)
 					)
 					(stroke
 						(width 0.2032)
@@ -1861,7 +1872,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 6.35) (xy 0 7.62)
+						(xy 0 2.54) (xy 0 3.4798)
 					)
 					(stroke
 						(width 0.2032)
@@ -1932,9 +1943,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Transistor_FET:2N7002"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2007,18 +2021,6 @@
 			(symbol "2N7002_0_1"
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
 					(stroke
@@ -2031,7 +2033,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -2055,34 +2069,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
 					)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -2113,6 +2103,63 @@
 						(type outline)
 					)
 				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
@@ -2137,39 +2184,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
 			(symbol "2N7002_1_1"
 				(pin input line
@@ -2183,24 +2197,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2226,13 +2222,36 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2323,12 +2342,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2419,7 +2443,69 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "helpful link"
+		(exclude_from_sim no)
+		(at 260.096 149.098 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(href "https://webench.ti.com/power-designer/switching-regulator/customize/12?noparams=0")
+		)
+		(uuid "3ee186fb-d4d5-45a4-a2ea-3ebca2737fe5")
+	)
+	(text "Charges @ 13V 1A and is fed either by \nthe USB-C or DC Barrel Jack supply\nor Solar Power"
+		(exclude_from_sim no)
+		(at 82.042 39.624 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "5506494d-fa48-4300-9a16-29e8a2fff275")
+	)
+	(text "USed a schottky diode with max fw volt drop of 0.45V\nto prevent voltages from going upstream"
+		(exclude_from_sim no)
+		(at 226.568 66.802 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "5a3f5dfc-a71c-49b3-a1d9-a43f21aeea8c")
+	)
+	(text "15V to 28V DC In\n13V @ 1A OUT"
+		(exclude_from_sim no)
+		(at 72.39 118.618 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "a34c7b26-6767-45c4-a041-733e4a32cec8")
+	)
+	(text "3S Li+ Ion Charger"
+		(exclude_from_sim no)
+		(at 82.55 22.606 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+		)
+		(uuid "b09d4e5e-f21d-4945-ab3b-2980452aa3af")
+	)
+	(text "All standard Passive\ncomponenets are 0603 imperial"
+		(exclude_from_sim no)
+		(at 208.28 173.736 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "c147c4bd-c335-4d4e-952e-f60fbcd6fa8e")
 	)
 	(junction
 		(at 137.414 116.586)
@@ -2864,67 +2950,6 @@
 			(type default)
 		)
 		(uuid "fe378226-177c-49db-817d-7e82f89ae975")
-	)
-	(text "helpful link"
-		(exclude_from_sim no)
-		(at 260.096 149.098 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-			(href "https://webench.ti.com/power-designer/switching-regulator/customize/12?noparams=0")
-		)
-		(uuid "3ee186fb-d4d5-45a4-a2ea-3ebca2737fe5")
-	)
-	(text "Charges @ 13V 1A and is fed either by \nthe USB-C or DC Barrel Jack supply\nor Solar Power"
-		(exclude_from_sim no)
-		(at 82.042 39.624 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "5506494d-fa48-4300-9a16-29e8a2fff275")
-	)
-	(text "USed a schottky diode with max fw volt drop of 0.45V\nto prevent voltages from going upstream"
-		(exclude_from_sim no)
-		(at 226.568 66.802 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "5a3f5dfc-a71c-49b3-a1d9-a43f21aeea8c")
-	)
-	(text "15V to 28V DC In\n13V @ 1A OUT"
-		(exclude_from_sim no)
-		(at 72.39 118.618 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "a34c7b26-6767-45c4-a041-733e4a32cec8")
-	)
-	(text "3S Li+ Ion Charger"
-		(exclude_from_sim no)
-		(at 82.55 22.606 0)
-		(effects
-			(font
-				(size 7.62 7.62)
-			)
-		)
-		(uuid "b09d4e5e-f21d-4945-ab3b-2980452aa3af")
-	)
-	(text "All standard Passive\ncomponenets are 0603 imperial"
-		(exclude_from_sim no)
-		(at 208.28 173.736 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "c147c4bd-c335-4d4e-952e-f60fbcd6fa8e")
 	)
 	(label "CHARGE_IN"
 		(at 177.292 108.204 0)

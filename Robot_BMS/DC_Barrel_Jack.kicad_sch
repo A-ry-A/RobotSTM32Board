@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "26f26682-76cd-44c6-8890-b224ecad7997")
 	(paper "A4")
 	(lib_symbols
@@ -119,16 +119,16 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -2.54 180)
+					(at 0 0 0)
 					(length 5.08)
-					(name "1"
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -155,16 +155,16 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
+					(at 20.32 -2.54 180)
 					(length 5.08)
-					(name "3"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -173,10 +173,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Diode:1N47xxA"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -244,10 +249,10 @@
 			(symbol "1N47xxA_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -256,10 +261,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -317,6 +322,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ESR03EZPF1003:ESR03EZPF1003"
 			(pin_names
@@ -521,7 +527,7 @@
 			(symbol "ESR03EZPF1003_1_2"
 				(polyline
 					(pts
-						(xy -1.27 3.175) (xy 1.27 4.445)
+						(xy -1.27 8.255) (xy 1.27 9.525)
 					)
 					(stroke
 						(width 0.2032)
@@ -545,7 +551,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 8.255) (xy 1.27 9.525)
+						(xy -1.27 3.175) (xy 1.27 4.445)
 					)
 					(stroke
 						(width 0.2032)
@@ -569,7 +575,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 4.445) (xy -1.27 5.715)
+						(xy 1.27 9.525) (xy 0 10.16)
 					)
 					(stroke
 						(width 0.2032)
@@ -593,7 +599,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 9.525) (xy 0 10.16)
+						(xy 1.27 4.445) (xy -1.27 5.715)
 					)
 					(stroke
 						(width 0.2032)
@@ -640,12 +646,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -736,7 +747,68 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "All standard Passive\ncomponenets are 0603 imperial"
+		(exclude_from_sim no)
+		(at 228.6 173.736 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "68ea215e-0176-4745-b25d-a6b46b5e155e")
+	)
+	(text "OverVoltage\nprotection\nDC > Vz(27V)\n"
+		(exclude_from_sim no)
+		(at 152.654 117.348 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6fed91f1-476d-44fa-a3db-c5b922f9f595")
+	)
+	(text "This gets fed directly into the 13V charging IC"
+		(exclude_from_sim no)
+		(at 108.966 39.624 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "948f3aec-11a6-4254-aeaa-3c113b575353")
+	)
+	(text "30V 5A MAX\n2.5mm inner diameter"
+		(exclude_from_sim no)
+		(at 149.606 80.518 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "a744a0e5-3a6e-4db1-9da3-5dc005e43774")
+	)
+	(text "DC Barrel Jack connector\n"
+		(exclude_from_sim no)
+		(at 148.336 89.916 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "b49ee64d-e7b2-4d89-9828-355034ec41cd")
+	)
+	(text "DC BARREL JACK Connector\n"
+		(exclude_from_sim no)
+		(at 93.98 23.622 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+		)
+		(uuid "dd02e049-41ae-449e-a4c4-d79846f16e2b")
 	)
 	(junction
 		(at 164.592 105.664)
@@ -839,66 +911,6 @@
 			(type default)
 		)
 		(uuid "f8e2da41-dee7-45fd-b6d3-908f9557da5f")
-	)
-	(text "All standard Passive\ncomponenets are 0603 imperial"
-		(exclude_from_sim no)
-		(at 228.6 173.736 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "68ea215e-0176-4745-b25d-a6b46b5e155e")
-	)
-	(text "OverVoltage\nprotection\nDC > Vz(27V)\n"
-		(exclude_from_sim no)
-		(at 152.654 117.348 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6fed91f1-476d-44fa-a3db-c5b922f9f595")
-	)
-	(text "This gets fed directly into the 13V charging IC"
-		(exclude_from_sim no)
-		(at 108.966 39.624 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-			)
-		)
-		(uuid "948f3aec-11a6-4254-aeaa-3c113b575353")
-	)
-	(text "30V 5A MAX\n2.5mm inner diameter"
-		(exclude_from_sim no)
-		(at 149.606 80.518 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "a744a0e5-3a6e-4db1-9da3-5dc005e43774")
-	)
-	(text "DC Barrel Jack connector\n"
-		(exclude_from_sim no)
-		(at 148.336 89.916 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "b49ee64d-e7b2-4d89-9828-355034ec41cd")
-	)
-	(text "DC BARREL JACK Connector\n"
-		(exclude_from_sim no)
-		(at 93.98 23.622 0)
-		(effects
-			(font
-				(size 7.62 7.62)
-			)
-		)
-		(uuid "dd02e049-41ae-449e-a4c4-d79846f16e2b")
 	)
 	(hierarchical_label "DC_BARREL_JACK"
 		(shape output)

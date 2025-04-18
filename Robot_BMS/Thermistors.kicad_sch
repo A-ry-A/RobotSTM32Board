@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "2a2ac853-71ab-4f03-a43b-d803fad12eb0")
 	(paper "A4")
 	(lib_symbols
@@ -86,18 +86,6 @@
 			(symbol "NTCLE100E3103HB0_0_1"
 				(polyline
 					(pts
-						(xy 7.62 -5.08) (xy 33.02 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 7.62 5.08) (xy 7.62 -5.08)
 					)
 					(stroke
@@ -110,7 +98,7 @@
 				)
 				(polyline
 					(pts
-						(xy 33.02 -5.08) (xy 33.02 5.08)
+						(xy 7.62 -5.08) (xy 33.02 -5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -123,6 +111,18 @@
 				(polyline
 					(pts
 						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -5.08) (xy 33.02 5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -169,6 +169,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "RC0603FR_073K24L:RC0603FR-073K24L"
 			(pin_names
@@ -334,24 +335,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at 0 0 0)
 					(length 2.54)
 					(name ""
@@ -369,11 +352,29 @@
 						)
 					)
 				)
+				(pin unspecified line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "RC0603FR-073K24L_1_2"
 				(polyline
 					(pts
-						(xy -1.27 3.175) (xy 1.27 4.445)
+						(xy -1.27 8.255) (xy 1.27 9.525)
 					)
 					(stroke
 						(width 0.2032)
@@ -397,7 +398,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 8.255) (xy 1.27 9.525)
+						(xy -1.27 3.175) (xy 1.27 4.445)
 					)
 					(stroke
 						(width 0.2032)
@@ -421,7 +422,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 4.445) (xy -1.27 5.715)
+						(xy 1.27 9.525) (xy 0 10.16)
 					)
 					(stroke
 						(width 0.2032)
@@ -445,7 +446,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 9.525) (xy 0 10.16)
+						(xy 1.27 4.445) (xy -1.27 5.715)
 					)
 					(stroke
 						(width 0.2032)
@@ -492,12 +493,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -569,7 +575,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -581,7 +587,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -612,12 +618,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -708,12 +719,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -804,7 +820,38 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Thermistors - Potential Divider\nWill be physically placed next\nto the cell\n0*C 32.5k Ohm -- 3V\n25*C 10k Ohm  -- 2.5V\n60*C 2.49k Ohm -- 1.45V"
+		(exclude_from_sim no)
+		(at 128.778 61.214 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "4d21ab46-7593-4184-a720-86f798561331")
+	)
+	(text "The NTC will be soldered onto the PCB\nUnderneath the Batteries\n"
+		(exclude_from_sim no)
+		(at 50.292 171.704 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "57941a33-1371-4ea7-a405-2f655b628fce")
+	)
+	(text "All standard Passive\ncomponenets are 0603 imperial"
+		(exclude_from_sim no)
+		(at 213.868 175.768 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "ce81021a-c2be-4043-a7e0-10372a4b85ae")
 	)
 	(junction
 		(at 166.37 111.76)
@@ -1083,36 +1130,6 @@
 			(type default)
 		)
 		(uuid "f29da31d-bd27-4631-8152-7e2e013ae8d0")
-	)
-	(text "Thermistors - Potential Divider\nWill be physically placed next\nto the cell\n0*C 32.5k Ohm -- 3V\n25*C 10k Ohm  -- 2.5V\n60*C 2.49k Ohm -- 1.45V"
-		(exclude_from_sim no)
-		(at 128.778 61.214 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "4d21ab46-7593-4184-a720-86f798561331")
-	)
-	(text "The NTC will be soldered onto the PCB\nUnderneath the Batteries\n"
-		(exclude_from_sim no)
-		(at 50.292 171.704 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "57941a33-1371-4ea7-a405-2f655b628fce")
-	)
-	(text "All standard Passive\ncomponenets are 0603 imperial"
-		(exclude_from_sim no)
-		(at 213.868 175.768 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "ce81021a-c2be-4043-a7e0-10372a4b85ae")
 	)
 	(hierarchical_label "3V3"
 		(shape input)

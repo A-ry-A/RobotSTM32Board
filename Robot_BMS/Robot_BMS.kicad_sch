@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "72551b1c-3d40-4199-8911-e5b015f4abec")
 	(paper "A4")
 	(title_block
@@ -91,7 +91,28 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "POWER"
+		(exclude_from_sim no)
+		(at 241.808 37.592 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "5a9e2942-5d51-441c-9f45-f0f7731d1813")
+	)
+	(text "Battery Management System"
+		(exclude_from_sim no)
+		(at 98.806 21.59 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+		)
+		(uuid "7459fd28-a51f-4c5b-8b8d-d4f4642b341b")
 	)
 	(junction
 		(at 82.042 106.68)
@@ -715,26 +736,6 @@
 		)
 		(uuid "fa88d0e2-8b3e-4f8c-9ab0-9b1a3e54627a")
 	)
-	(text "POWER"
-		(exclude_from_sim no)
-		(at 241.808 37.592 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "5a9e2942-5d51-441c-9f45-f0f7731d1813")
-	)
-	(text "Battery Management System"
-		(exclude_from_sim no)
-		(at 98.806 21.59 0)
-		(effects
-			(font
-				(size 7.62 7.62)
-			)
-		)
-		(uuid "7459fd28-a51f-4c5b-8b8d-d4f4642b341b")
-	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 101.092 181.61 0)
@@ -1066,6 +1067,10 @@
 	(sheet
 		(at 40.132 128.778)
 		(size 33.274 25.654)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1095,73 +1100,73 @@
 		)
 		(pin "SDA" bidirectional
 			(at 73.406 135.382 0)
+			(uuid "ff9e7ca4-d621-467c-bb95-64d8d6a3451d")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify right)
 			)
-			(uuid "ff9e7ca4-d621-467c-bb95-64d8d6a3451d")
 		)
 		(pin "MCU_CHRG_CTRL" input
 			(at 73.406 139.446 0)
+			(uuid "2705b7d8-aaac-4939-a2a3-ed879bc0bd36")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify right)
 			)
-			(uuid "2705b7d8-aaac-4939-a2a3-ed879bc0bd36")
 		)
 		(pin "SCL" bidirectional
 			(at 73.406 133.096 0)
+			(uuid "f35d1ea3-3f23-4707-935c-f3793ccaa69a")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify right)
 			)
-			(uuid "f35d1ea3-3f23-4707-935c-f3793ccaa69a")
 		)
 		(pin "TO_LOAD" output
 			(at 73.406 149.098 0)
+			(uuid "ec6660aa-8318-455f-97ee-7dc26bdf0b5a")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify right)
 			)
-			(uuid "ec6660aa-8318-455f-97ee-7dc26bdf0b5a")
 		)
 		(pin "MCU_DISCHRG_CTRL" input
 			(at 73.406 141.986 0)
+			(uuid "d4327e46-21d7-4091-83f0-d1b53d86965c")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify right)
 			)
-			(uuid "d4327e46-21d7-4091-83f0-d1b53d86965c")
 		)
 		(pin "ALERT" output
 			(at 73.406 145.796 0)
+			(uuid "96f42b0c-5c67-4846-8e97-922eb14bb00d")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify right)
 			)
-			(uuid "96f42b0c-5c67-4846-8e97-922eb14bb00d")
 		)
 		(pin "TO_LOAD_GND" output
 			(at 73.406 151.892 0)
+			(uuid "a53189e4-7dcb-4ffe-972e-fef234ff5e89")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify right)
 			)
-			(uuid "a53189e4-7dcb-4ffe-972e-fef234ff5e89")
 		)
 		(instances
 			(project "Robot_BMS"
@@ -1174,6 +1179,10 @@
 	(sheet
 		(at 230.124 116.586)
 		(size 28.702 19.812)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1203,43 +1212,43 @@
 		)
 		(pin "DC_BARREL_JACK" output
 			(at 230.124 129.54 180)
+			(uuid "18ab757c-99a9-434f-9780-a4e66c0492e2")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify left)
 			)
-			(uuid "18ab757c-99a9-434f-9780-a4e66c0492e2")
 		)
 		(pin "USB_C" output
 			(at 230.124 134.112 180)
+			(uuid "91219797-954f-461f-8b59-c6e432e4ef69")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify left)
 			)
-			(uuid "91219797-954f-461f-8b59-c6e432e4ef69")
 		)
 		(pin "MCU_CHARGE_EN" output
 			(at 230.124 119.888 180)
+			(uuid "a1888e29-7ad0-42d6-bdab-682c262422df")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify left)
 			)
-			(uuid "a1888e29-7ad0-42d6-bdab-682c262422df")
 		)
 		(pin "SOLAR_15V_OUT" output
 			(at 230.124 124.46 180)
+			(uuid "5cbfd651-d8f5-4d66-868e-8b8057307c5b")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify left)
 			)
-			(uuid "5cbfd651-d8f5-4d66-868e-8b8057307c5b")
 		)
 		(instances
 			(project "Robot_BMS"
@@ -1252,6 +1261,10 @@
 	(sheet
 		(at 230.378 77.978)
 		(size 29.718 4.826)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1281,13 +1294,13 @@
 		)
 		(pin "DC_BARREL_JACK" output
 			(at 230.378 80.518 180)
+			(uuid "2c5c4c45-de71-48e0-863f-2614ba63a53e")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify left)
 			)
-			(uuid "2c5c4c45-de71-48e0-863f-2614ba63a53e")
 		)
 		(instances
 			(project "Robot_BMS"
@@ -1300,6 +1313,10 @@
 	(sheet
 		(at 230.378 45.974)
 		(size 28.448 22.606)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1329,6 +1346,7 @@
 		)
 		(pin "MCU_USB_DETECT" output
 			(at 230.378 55.118 180)
+			(uuid "5f502688-87f6-4055-99b9-a146ee7d4666")
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -1336,10 +1354,10 @@
 				)
 				(justify left)
 			)
-			(uuid "5f502688-87f6-4055-99b9-a146ee7d4666")
 		)
 		(pin "SDA" bidirectional
 			(at 230.378 48.768 180)
+			(uuid "0d76dbbf-1457-4e8a-a467-a4520c101817")
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -1347,10 +1365,10 @@
 				)
 				(justify left)
 			)
-			(uuid "0d76dbbf-1457-4e8a-a467-a4520c101817")
 		)
 		(pin "SCL" bidirectional
 			(at 230.378 51.562 180)
+			(uuid "9cffc15c-84c8-4029-bf98-513500a0ca98")
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -1358,27 +1376,26 @@
 				)
 				(justify left)
 			)
-			(uuid "9cffc15c-84c8-4029-bf98-513500a0ca98")
 		)
 		(pin "USB_C" output
 			(at 230.378 65.024 180)
+			(uuid "8aa31c28-3f27-4f85-8878-da3d52615502")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify left)
 			)
-			(uuid "8aa31c28-3f27-4f85-8878-da3d52615502")
 		)
 		(pin "USB_C_Interrupt" output
 			(at 230.378 60.452 180)
+			(uuid "f77b311e-9a67-49d2-9065-b7cdd4fd8fb2")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify left)
 			)
-			(uuid "f77b311e-9a67-49d2-9065-b7cdd4fd8fb2")
 		)
 		(instances
 			(project "Robot_BMS"
@@ -1391,6 +1408,10 @@
 	(sheet
 		(at 51.181 72.39)
 		(size 23.495 22.606)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1420,43 +1441,43 @@
 		)
 		(pin "ADC2_MCU" output
 			(at 74.676 84.709 0)
+			(uuid "30a44831-47bc-49c0-951b-f080f55b4329")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify right)
 			)
-			(uuid "30a44831-47bc-49c0-951b-f080f55b4329")
 		)
 		(pin "ADC3_MCU" output
 			(at 74.676 79.375 0)
+			(uuid "6ccf37fe-0c1e-42f7-b601-04f326c82f09")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify right)
 			)
-			(uuid "6ccf37fe-0c1e-42f7-b601-04f326c82f09")
 		)
 		(pin "ADC1_MCU" output
 			(at 74.676 90.297 0)
+			(uuid "4f78f0e6-ae65-4c4b-aca6-73e64d3ec9d4")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify right)
 			)
-			(uuid "4f78f0e6-ae65-4c4b-aca6-73e64d3ec9d4")
 		)
 		(pin "3V3" input
 			(at 74.676 74.422 0)
+			(uuid "28fa7ed4-5353-4239-bb6b-279d552a7b2d")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify right)
 			)
-			(uuid "28fa7ed4-5353-4239-bb6b-279d552a7b2d")
 		)
 		(instances
 			(project "Robot_BMS"
@@ -1469,6 +1490,10 @@
 	(sheet
 		(at 128.27 87.884)
 		(size 44.704 40.132)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1498,143 +1523,143 @@
 		)
 		(pin "SCL" bidirectional
 			(at 128.27 106.68 180)
+			(uuid "0c844b21-2838-454e-adec-f10322e40712")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify left)
 			)
-			(uuid "0c844b21-2838-454e-adec-f10322e40712")
 		)
 		(pin "SDA" bidirectional
 			(at 128.27 109.474 180)
+			(uuid "d7d0e9d3-3d72-4a20-95d8-148ae5bf9f1f")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify left)
 			)
-			(uuid "d7d0e9d3-3d72-4a20-95d8-148ae5bf9f1f")
 		)
 		(pin "ADC1_MCU" output
 			(at 128.27 101.6 180)
+			(uuid "a073eaba-6af0-43f6-874a-4a251ff8fa26")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify left)
 			)
-			(uuid "a073eaba-6af0-43f6-874a-4a251ff8fa26")
 		)
 		(pin "ADC2_MCU" output
 			(at 128.27 98.298 180)
+			(uuid "94f5afeb-21c2-4b68-9889-320b2df4ec18")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify left)
 			)
-			(uuid "94f5afeb-21c2-4b68-9889-320b2df4ec18")
 		)
 		(pin "ADC3_MCU" output
 			(at 128.27 94.742 180)
+			(uuid "1cb3045d-05a1-492a-8205-3192e1c62135")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify left)
 			)
-			(uuid "1cb3045d-05a1-492a-8205-3192e1c62135")
 		)
 		(pin "TO_LOAD" output
 			(at 128.27 122.936 180)
+			(uuid "bc7acbb5-aceb-4e93-b425-de29aae97b3e")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify left)
 			)
-			(uuid "bc7acbb5-aceb-4e93-b425-de29aae97b3e")
 		)
 		(pin "MCU_CHARGE_EN" output
 			(at 172.974 109.728 0)
+			(uuid "06598101-ec0f-4d07-8003-b824c884d6e9")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify right)
 			)
-			(uuid "06598101-ec0f-4d07-8003-b824c884d6e9")
 		)
 		(pin "MCU_USB_DETECT" output
 			(at 172.974 102.362 0)
+			(uuid "a42cbca3-2dbe-4ae7-97c9-458e5b5210ad")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify right)
 			)
-			(uuid "a42cbca3-2dbe-4ae7-97c9-458e5b5210ad")
 		)
 		(pin "ALERT" output
 			(at 128.27 119.888 180)
+			(uuid "aacd5ed0-1d59-43e1-8b9b-933027e69e2f")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify left)
 			)
-			(uuid "aacd5ed0-1d59-43e1-8b9b-933027e69e2f")
 		)
 		(pin "MCU_DISCHRG_CTRL" input
 			(at 128.27 115.824 180)
+			(uuid "48fecb1a-7e27-40c8-8d8b-c0b91458a78a")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify left)
 			)
-			(uuid "48fecb1a-7e27-40c8-8d8b-c0b91458a78a")
 		)
 		(pin "MCU_CHRG_CTRL" input
 			(at 128.27 113.03 180)
+			(uuid "7713e359-8c3d-4f1a-a795-99f82e98c9ee")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify left)
 			)
-			(uuid "7713e359-8c3d-4f1a-a795-99f82e98c9ee")
 		)
 		(pin "3V3" input
 			(at 128.27 90.678 180)
+			(uuid "02df2951-49cd-4e23-9622-eee62844b257")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify left)
 			)
-			(uuid "02df2951-49cd-4e23-9622-eee62844b257")
 		)
 		(pin "USB_C_Interrupt" output
 			(at 172.974 106.172 0)
+			(uuid "5522b74b-3733-475e-a06a-c147116b5644")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify right)
 			)
-			(uuid "5522b74b-3733-475e-a06a-c147116b5644")
 		)
 		(pin "TO_LOAD_GND" output
 			(at 128.27 125.984 180)
+			(uuid "0a81b41b-4777-4746-ad52-5658f0a3ad79")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify left)
 			)
-			(uuid "0a81b41b-4777-4746-ad52-5658f0a3ad79")
 		)
 		(instances
 			(project "Robot_BMS"
@@ -1647,6 +1672,10 @@
 	(sheet
 		(at 229.87 93.98)
 		(size 29.464 6.858)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1676,13 +1705,13 @@
 		)
 		(pin "SOLAR_15V_OUT" output
 			(at 229.87 97.79 180)
+			(uuid "272c2e7e-8a30-431f-b1a7-fb17d11f8373")
 			(effects
 				(font
 					(size 1.905 1.905)
 				)
 				(justify left)
 			)
-			(uuid "272c2e7e-8a30-431f-b1a7-fb17d11f8373")
 		)
 		(instances
 			(project "Robot_BMS"
@@ -1697,4 +1726,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

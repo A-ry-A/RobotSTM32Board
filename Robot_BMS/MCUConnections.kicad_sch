@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "2cf1e7b4-7b71-4419-9b8b-f707031f7270")
 	(paper "A4")
 	(title_block
@@ -122,16 +122,16 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -2.54 180)
+					(at 0 0 0)
 					(length 5.08)
-					(name "1"
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -176,16 +176,16 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
+					(at 20.32 -2.54 180)
 					(length 5.08)
-					(name "4"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -194,10 +194,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -271,45 +274,9 @@
 				)
 			)
 			(symbol "Conn_01x04_Socket_1_1"
-				(arc
-					(start 0 -4.572)
-					(mid -0.5058 -5.08)
-					(end 0 -5.588)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -2.032)
-					(mid -0.5058 -2.54)
-					(end 0 -3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
+						(xy -1.27 2.54) (xy -0.508 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -333,7 +300,19 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -344,21 +323,45 @@
 					)
 				)
 				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.048)
+					(start 0 2.032)
 					(mid -0.5058 2.54)
-					(end 0 2.032)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -440,6 +443,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Molex_4pin:Molex_Wire_4pin"
 			(exclude_from_sim no)
@@ -502,7 +506,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.032 -4.572) (xy 5.588 -4.572)
+						(xy 2.032 -2.032) (xy 5.588 -2.032)
 					)
 					(stroke
 						(width 0)
@@ -526,7 +530,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.032 -2.032) (xy 5.588 -2.032)
+						(xy 2.032 -4.572) (xy 5.588 -4.572)
 					)
 					(stroke
 						(width 0)
@@ -551,12 +555,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -647,7 +656,69 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "All standard Passive\ncomponenets are 0603 imperial"
+		(exclude_from_sim no)
+		(at 214.884 172.72 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "09e83fd4-a654-4b04-bc73-836ebd66c8a9")
+	)
+	(text "POWER - 10A MAX"
+		(exclude_from_sim no)
+		(at 146.558 115.062 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "0a26492c-7d1b-4cdd-96f2-643cdf32f6ac")
+	)
+	(text "Basic, logic level Hi/Lo Signals"
+		(exclude_from_sim no)
+		(at 143.764 51.562 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "0bd66ff7-8538-491b-9c71-6c1f1dbc27b2")
+	)
+	(text "link to cable"
+		(exclude_from_sim no)
+		(at 148.59 153.162 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(href "https://uk.farnell.com/molex/45135-0401/cable-assy-4p-rcpt-rcpt-150mm/dp/3862453?MER=BR-MER-MA-RECO-PDP-STM72189")
+		)
+		(uuid "5baea0e3-fbf7-4e26-8bba-6ab92e199553")
+	)
+	(text "Used a molex connector\nhigh current capacity"
+		(exclude_from_sim no)
+		(at 149.86 144.272 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "83df54df-92cc-4c26-85d7-34f47f34de35")
+	)
+	(text "Connectors to Interface with other PCB"
+		(exclude_from_sim no)
+		(at 131.826 22.86 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+		)
+		(uuid "f44fef44-d63e-4d98-b1c6-9f1a62940402")
 	)
 	(no_connect
 		(at 146.05 100.838)
@@ -750,67 +821,6 @@
 			(type default)
 		)
 		(uuid "d38d8915-0c5c-463c-8974-6bda4a37d0ba")
-	)
-	(text "All standard Passive\ncomponenets are 0603 imperial"
-		(exclude_from_sim no)
-		(at 214.884 172.72 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "09e83fd4-a654-4b04-bc73-836ebd66c8a9")
-	)
-	(text "POWER - 10A MAX"
-		(exclude_from_sim no)
-		(at 146.558 115.062 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "0a26492c-7d1b-4cdd-96f2-643cdf32f6ac")
-	)
-	(text "Basic, logic level Hi/Lo Signals"
-		(exclude_from_sim no)
-		(at 143.764 51.562 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "0bd66ff7-8538-491b-9c71-6c1f1dbc27b2")
-	)
-	(text "link to cable"
-		(exclude_from_sim no)
-		(at 148.59 153.162 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(href "https://uk.farnell.com/molex/45135-0401/cable-assy-4p-rcpt-rcpt-150mm/dp/3862453?MER=BR-MER-MA-RECO-PDP-STM72189")
-		)
-		(uuid "5baea0e3-fbf7-4e26-8bba-6ab92e199553")
-	)
-	(text "Used a molex connector\nhigh current capacity"
-		(exclude_from_sim no)
-		(at 149.86 144.272 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "83df54df-92cc-4c26-85d7-34f47f34de35")
-	)
-	(text "Connectors to Interface with other PCB"
-		(exclude_from_sim no)
-		(at 131.826 22.86 0)
-		(effects
-			(font
-				(size 7.62 7.62)
-			)
-		)
-		(uuid "f44fef44-d63e-4d98-b1c6-9f1a62940402")
 	)
 	(hierarchical_label "TO_LOAD_GND"
 		(shape output)
